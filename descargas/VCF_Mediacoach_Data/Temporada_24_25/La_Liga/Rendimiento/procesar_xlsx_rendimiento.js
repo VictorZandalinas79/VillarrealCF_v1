@@ -3,20 +3,46 @@ const fs = require('fs');
 const path = require('path');
 const parquet = require('parquetjs');
 
+// Nombre fijo para el archivo parquet
+const NOMBRE_PARQUET = 'datos_combinados.parquet';
+
+async function leerDatosParquetExistentes() {
+    try {
+        if (fs.existsSync(NOMBRE_PARQUET)) {
+            console.log('📖 Cargando datos existentes del parquet...');
+            const reader = await parquet.ParquetReader.openFile(NOMBRE_PARQUET);
+            const cursor = reader.getCursor();
+            const datos = [];
+            
+            let record = null;
+            while (record = await cursor.next()) {
+                datos.push(record);
+            }
+            
+            await reader.close();
+            console.log(`✅ Cargadas ${datos.length} filas existentes`);
+            return datos;
+        } else {
+            console.log('🆕 No existe archivo parquet previo, creando nuevo...');
+            return [];
+        }
+    } catch (error) {
+        console.log(`⚠️ Error leyendo parquet existente: ${error.message}`);
+        console.log('🆕 Iniciando con datos vacíos...');
+        return [];
+    }
+}
+
 function extraerInfoPartido(texto) {
     try {
-        // Dividir por |
         const partes = texto.split('|').map(parte => parte.trim());
         
         if (partes.length >= 4) {
             const liga = partes[0];
             const temporada = partes[1].replace('Temporada ', '');
             const jornada = partes[2];
-            
-            // Para el partido y fecha
             const partidoYFecha = partes[3];
             
-            // Buscar fecha entre paréntesis
             const matchFecha = partidoYFecha.match(/\((\d{4}-\d{2}-\d{2})\)$/);
             let fecha = null;
             let partido = partidoYFecha;
@@ -26,13 +52,7 @@ function extraerInfoPartido(texto) {
                 partido = partidoYFecha.substring(0, matchFecha.index).trim();
             }
             
-            return {
-                liga,
-                temporada,
-                jornada,
-                partido,
-                fecha
-            };
+            return { liga, temporada, jornada, partido, fecha };
         }
         return null;
     } catch (error) {
@@ -64,15 +84,12 @@ function extraerEquipo(sheet) {
             }
         }
     }
-
     return null;
 }
-
 
 function encontrarInfoPartido(sheet) {
     const range = XLSX.utils.decode_range(sheet['!ref']);
     
-    // Buscar en las primeras 15 filas
     for (let row = 0; row <= Math.min(15, range.e.r); row++) {
         for (let col = 0; col <= Math.min(15, range.e.c); col++) {
             const cellAddress = XLSX.utils.encode_cell({r: row, c: col});
@@ -90,7 +107,6 @@ function encontrarInfoPartido(sheet) {
 function encontrarFilaHeaders(sheet) {
     const range = XLSX.utils.decode_range(sheet['!ref']);
     
-    // Buscar "Id Jugador" en las primeras 20 filas
     for (let row = 0; row <= Math.min(20, range.e.r); row++) {
         for (let col = 0; col <= Math.min(10, range.e.c); col++) {
             const cellAddress = XLSX.utils.encode_cell({r: row, c: col});
@@ -105,23 +121,21 @@ function encontrarFilaHeaders(sheet) {
 }
 
 function procesarArchivoXlsx(archivoPath) {
-    console.log(`Procesando: ${path.basename(archivoPath)}`);
+    const nombreArchivo = path.basename(archivoPath);
+    console.log(`📄 Procesando: ${nombreArchivo}`);
     
     try {
-        // Leer archivo
         const workbook = XLSX.readFile(archivoPath, {
-            cellStyles: false,    // Ignorar estilos que pueden estar corruptos
+            cellStyles: false,
             cellFormulas: true,   
             cellDates: true,     
-            cellNF: false,        // Ignorar formato de números
+            cellNF: false,
             sheetStubs: true     
         });
         
-        // Obtener primera hoja
         const sheetName = workbook.SheetNames[0];
         const sheet = workbook.Sheets[sheetName];
         
-        // Encontrar información del partido
         const infoPartido = encontrarInfoPartido(sheet);
         if (!infoPartido) {
             console.log(`  ❌ No se encontró información del partido`);
@@ -130,11 +144,10 @@ function procesarArchivoXlsx(archivoPath) {
         
         const equipo = extraerEquipo(sheet);
         if (!equipo) {
-            console.log(`  ❌ No se encontró el equipo`);
+            console.log(`  ❌ No se encontró el equipo (Informe de Rendimiento Físico)`);
             return null;
         }
 
-        // Encontrar fila de headers
         const filaHeaders = encontrarFilaHeaders(sheet);
         if (filaHeaders === null) {
             console.log(`  ❌ No se encontró fila con 'Id Jugador'`);
@@ -143,10 +156,10 @@ function procesarArchivoXlsx(archivoPath) {
         
         console.log(`  📍 Headers en fila: ${filaHeaders + 1}`);
         console.log(`  ⚽ ${infoPartido.jornada} | ${infoPartido.partido}`);
+        console.log(`  🏃 Equipo: ${equipo}`);
         
-        // Convertir a JSON desde la fila de headers
         const jsonData = XLSX.utils.sheet_to_json(sheet, {
-            range: filaHeaders, // Empezar desde la fila de headers
+            range: filaHeaders,
             header: 1
         });
         
@@ -155,32 +168,27 @@ function procesarArchivoXlsx(archivoPath) {
             return null;
         }
         
-        // Obtener headers y filtrar desde columna 2
         const headers = jsonData[0];
         const headersFiltered = headers.slice(1); // Desde columna 2
         
-        // Procesar datos
         const datosProcessed = jsonData.slice(1).map(row => {
             const rowFiltered = row.slice(1); // Desde columna 2
             const obj = {};
             
-            // Crear objeto con headers
             headersFiltered.forEach((header, index) => {
                 obj[header || `columna_${index + 2}`] = rowFiltered[index];
             });
             
-            // Agregar información del partido
             obj.equipo = equipo;
             obj.liga = infoPartido.liga;
             obj.temporada = infoPartido.temporada;
             obj.jornada = infoPartido.jornada;
             obj.partido = infoPartido.partido;
             obj.fecha = infoPartido.fecha;
-            obj.archivo_origen = path.basename(archivoPath);
+            obj.archivo_origen = nombreArchivo;
             
             return obj;
         }).filter(row => {
-            // Filtrar filas vacías
             return Object.values(row).some(val => val !== null && val !== undefined && val !== '');
         });
         
@@ -195,13 +203,17 @@ function procesarArchivoXlsx(archivoPath) {
 
 async function escribirParquet(datos, nombreArchivo) {
     try {
-        // Definir esquema dinámico basado en los datos
+        if (datos.length === 0) {
+            console.log('⚠️ No hay datos para escribir');
+            return false;
+        }
+
         const primerFilaDatos = datos[0];
         const schemaDef = {};
 
         Object.keys(primerFilaDatos).forEach(campo => {
             const valorEjemplo = primerFilaDatos[campo];
-            let tipo = { type: 'UTF8' }; // Por defecto string
+            let tipo = { type: 'UTF8' };
 
             if (typeof valorEjemplo === 'number') {
                 if (Number.isInteger(valorEjemplo)) {
@@ -217,11 +229,8 @@ async function escribirParquet(datos, nombreArchivo) {
         });
 
         const schema = new parquet.ParquetSchema(schemaDef);
-
-        // Crear writer
         const writer = await parquet.ParquetWriter.openFile(schema, nombreArchivo);
 
-        // Escribir datos
         for (const fila of datos) {
             await writer.appendRow(fila);
         }
@@ -229,82 +238,123 @@ async function escribirParquet(datos, nombreArchivo) {
         await writer.close();
         return true;
     } catch (error) {
-        console.log(`Error escribiendo parquet: ${error.message}`);
+        console.log(`❌ Error escribiendo parquet: ${error.message}`);
         return false;
     }
 }
 
+function borrarArchivo(archivoPath) {
+    try {
+        fs.unlinkSync(archivoPath);
+        console.log(`  🗑️ Archivo borrado: ${path.basename(archivoPath)}`);
+        return true;
+    } catch (error) {
+        console.log(`  ⚠️ Error borrando archivo: ${error.message}`);
+        return false;
+    }
+}
 
 async function main() {
-    console.log('🔍 Buscando archivos xlsx...');
+    console.log('🚀 Iniciando procesamiento incremental de Informes de Rendimiento Físico...');
+    console.log('='.repeat(65));
     
     // Buscar archivos xlsx en directorio actual
-    const archivos = fs.readdirSync('.')
+    const archivosXlsx = fs.readdirSync('.')
         .filter(file => file.endsWith('.xlsx'))
         .map(file => path.resolve(file));
     
-    if (archivos.length === 0) {
-        console.log('❌ No se encontraron archivos xlsx');
+    console.log(`📁 Archivos .xlsx encontrados: ${archivosXlsx.length}`);
+    
+    if (archivosXlsx.length === 0) {
+        console.log('✅ No hay archivos xlsx nuevos que procesar');
         return;
     }
     
-    console.log(`📁 Encontrados ${archivos.length} archivos xlsx`);
-    console.log('='.repeat(50));
+    // Cargar datos existentes del parquet
+    const datosExistentes = await leerDatosParquetExistentes();
     
-    const todosLosDatos = [];
+    console.log('-'.repeat(65));
+    
+    // Procesar archivos xlsx
+    const datosNuevos = [];
+    const archivosExitosos = [];
     let procesados = 0;
     let errores = 0;
     
-    // Procesar cada archivo
-    archivos.forEach(archivo => {
+    for (const archivo of archivosXlsx) {
         const datos = procesarArchivoXlsx(archivo);
         if (datos && datos.length > 0) {
-            todosLosDatos.push(...datos);
+            datosNuevos.push(...datos);
+            archivosExitosos.push(archivo);
             procesados++;
         } else {
             errores++;
         }
-        console.log('-'.repeat(50));
-    });
+        console.log('-'.repeat(45));
+    }
     
-    console.log(`\n📊 Resumen:`);
-    console.log(`  ✅ Archivos procesados: ${procesados}`);
+    console.log(`\n📊 Resumen del procesamiento:`);
+    console.log(`  ✅ Archivos procesados exitosamente: ${procesados}`);
     console.log(`  ❌ Archivos con errores: ${errores}`);
+    console.log(`  📈 Nuevas filas obtenidas: ${datosNuevos.length}`);
+    console.log(`  📚 Filas existentes en parquet: ${datosExistentes.length}`);
     
-    if (todosLosDatos.length === 0) {
-        console.log('❌ No se obtuvieron datos');
+    if (datosNuevos.length === 0) {
+        console.log('\n⚠️ No se obtuvieron datos nuevos. No se actualiza el parquet.');
         return;
     }
     
-    // Guardar como parquet
-    const timestamp = new Date().toISOString().split('T')[0].replace(/-/g, '');
-    const nombreParquet = `datos_combinados_${timestamp}.parquet`;
+    // Combinar datos existentes + nuevos
+    const todosCombinados = [...datosExistentes, ...datosNuevos];
     
-    console.log(`\n🔄 Guardando ${todosLosDatos.length} filas en parquet...`);
-    const exito = await escribirParquet(todosLosDatos, nombreParquet);
+    console.log(`\n💾 Guardando ${todosCombinados.length} filas totales en: ${NOMBRE_PARQUET}`);
     
-    if (exito) {
-        console.log(`\n✅ Proceso completado!`);
-        console.log(`📊 Total de filas: ${todosLosDatos.length}`);
-        console.log(`📁 Archivo guardado: ${nombreParquet}`);
+    const exitoEscritura = await escribirParquet(todosCombinados, NOMBRE_PARQUET);
+    
+    if (exitoEscritura) {
+        console.log(`✅ Parquet actualizado exitosamente!`);
+        
+        // Borrar archivos xlsx procesados exitosamente
+        console.log(`\n🗑️ Borrando archivos xlsx procesados...`);
+        let archivosBorrados = 0;
+        
+        archivosExitosos.forEach(archivo => {
+            if (borrarArchivo(archivo)) {
+                archivosBorrados++;
+            }
+        });
+        
+        console.log(`\n🎉 Proceso completado exitosamente!`);
+        console.log(`📊 Estadísticas finales:`);
+        console.log(`  📈 Total filas en parquet: ${todosCombinados.length}`);
+        console.log(`  🆕 Filas nuevas agregadas: ${datosNuevos.length}`);
+        console.log(`  📄 Archivos xlsx procesados: ${procesados}`);
+        console.log(`  🗑️ Archivos xlsx borrados: ${archivosBorrados}`);
+        console.log(`  💾 Archivo parquet: ${NOMBRE_PARQUET}`);
+        
+        // Mostrar resumen por partido de los datos nuevos
+        if (datosNuevos.length > 0) {
+            console.log(`\n📈 Resumen de datos nuevos agregados:`);
+            const resumenNuevos = {};
+            datosNuevos.forEach(row => {
+                const key = `${row.jornada} | ${row.partido} | ${row.equipo}`;
+                resumenNuevos[key] = (resumenNuevos[key] || 0) + 1;
+            });
+            
+            Object.entries(resumenNuevos).forEach(([partidoEquipo, count]) => {
+                console.log(`  🏃 ${partidoEquipo}: ${count} filas`);
+            });
+        }
+        
     } else {
-        // Fallback a JSON si parquet falla
-        const nombreJson = `datos_combinados_${timestamp}.json`;
-        fs.writeFileSync(nombreJson, JSON.stringify(todosLosDatos, null, 2));
-        console.log(`\n⚠️ Parquet falló, guardado como JSON: ${nombreJson}`);
+        console.log(`\n❌ Error al escribir el parquet. Los archivos xlsx NO han sido borrados.`);
+        
+        // Fallback a JSON
+        const timestamp = new Date().toISOString().split('T')[0].replace(/-/g, '');
+        const nombreJson = `datos_fallback_${timestamp}.json`;
+        fs.writeFileSync(nombreJson, JSON.stringify(todosCombinados, null, 2));
+        console.log(`💾 Datos guardados como fallback en: ${nombreJson}`);
     }
-    
-    // Resumen por partido
-    const resumen = {};
-    todosLosDatos.forEach(row => {
-        const key = `${row.jornada} | ${row.partido}`;
-        resumen[key] = (resumen[key] || 0) + 1;
-    });
-    
-    console.log(`\n📈 Resumen por partido:`);
-    Object.entries(resumen).forEach(([partido, count]) => {
-        console.log(`  ⚽ ${partido}: ${count} filas`);
-    });
 }
 
 // Verificar si es el archivo principal
@@ -312,4 +362,4 @@ if (require.main === module) {
     main().catch(console.error);
 }
 
-module.exports = { procesarArchivoXlsx, extraerInfoPartido, escribirParquet };
+module.exports = { procesarArchivoXlsx, extraerInfoPartido, escribirParquet, leerDatosParquetExistentes };
