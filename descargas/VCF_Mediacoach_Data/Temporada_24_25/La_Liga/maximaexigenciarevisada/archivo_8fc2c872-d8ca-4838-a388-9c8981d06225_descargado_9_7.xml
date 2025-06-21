@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+<ALL_INSTANCES>
+<instance>
+	<ID>1</ID>
+	<start>0.0</start>
+	<end>3025.04</end>
+	<code>Inicio</code>
+	<label><text>P1</text></label>
+</instance>
+<instance>
+	<ID>2</ID>
+	<start>3954.96</start>
+	<end>6952.96</end>
+	<code>Inicio</code>
+	<label><text>P2</text></label>
+</instance>
+<instance>
+	<ID>6</ID>
+	<start>95.0</start>
+	<end>155.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Raúl Albiol</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>7</ID>
+	<start>147.0</start>
+	<end>207.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Raúl Albiol</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>8</ID>
+	<start>147.0</start>
+	<end>207.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Raúl Albiol</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>9</ID>
+	<start>42.0</start>
+	<end>222.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Raúl Albiol</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>10</ID>
+	<start>91.0</start>
+	<end>271.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Raúl Albiol</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>11</ID>
+	<start>1306.0</start>
+	<end>1486.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Raúl Albiol</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>12</ID>
+	<start>0.0</start>
+	<end>300.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Raúl Albiol</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>13</ID>
+	<start>-29.0</start>
+	<end>271.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Raúl Albiol</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>14</ID>
+	<start>1186.0</start>
+	<end>1486.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Raúl Albiol</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>15</ID>
+	<start>262.0</start>
+	<end>322.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Axel Witsel</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>16</ID>
+	<start>412.0</start>
+	<end>472.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Axel Witsel</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>17</ID>
+	<start>1005.0</start>
+	<end>1065.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Axel Witsel</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>18</ID>
+	<start>41.0</start>
+	<end>221.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Axel Witsel</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>19</ID>
+	<start>377.0</start>
+	<end>557.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Axel Witsel</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>20</ID>
+	<start>885.0</start>
+	<end>1065.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Axel Witsel</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>21</ID>
+	<start>21.0</start>
+	<end>321.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Axel Witsel</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>22</ID>
+	<start>172.0</start>
+	<end>472.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Axel Witsel</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>23</ID>
+	<start>955.0</start>
+	<end>1255.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Axel Witsel</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>24</ID>
+	<start>4751.0</start>
+	<end>4811.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>César Azpilicueta</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>25</ID>
+	<start>225.0</start>
+	<end>285.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>César Azpilicueta</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>26</ID>
+	<start>2059.0</start>
+	<end>2119.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>César Azpilicueta</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>27</ID>
+	<start>108.0</start>
+	<end>288.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>César Azpilicueta</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>28</ID>
+	<start>105.0</start>
+	<end>285.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>César Azpilicueta</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>29</ID>
+	<start>103.0</start>
+	<end>283.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>César Azpilicueta</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>30</ID>
+	<start>18.0</start>
+	<end>318.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>César Azpilicueta</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>31</ID>
+	<start>-15.0</start>
+	<end>285.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>César Azpilicueta</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>32</ID>
+	<start>2052.0</start>
+	<end>2352.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>César Azpilicueta</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>33</ID>
+	<start>261.0</start>
+	<end>321.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Dani Parejo</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>34</ID>
+	<start>2011.0</start>
+	<end>2071.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Dani Parejo</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>35</ID>
+	<start>2010.0</start>
+	<end>2070.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Dani Parejo</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>36</ID>
+	<start>41.0</start>
+	<end>221.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Dani Parejo</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>37</ID>
+	<start>1891.0</start>
+	<end>2071.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Dani Parejo</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>38</ID>
+	<start>1890.0</start>
+	<end>2070.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Dani Parejo</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>39</ID>
+	<start>14.0</start>
+	<end>314.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Dani Parejo</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>40</ID>
+	<start>1442.0</start>
+	<end>1742.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Dani Parejo</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>41</ID>
+	<start>1770.0</start>
+	<end>2070.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Dani Parejo</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>42</ID>
+	<start>2029.0</start>
+	<end>2089.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Kiko Femenía</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>43</ID>
+	<start>2015.0</start>
+	<end>2075.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Kiko Femenía</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>44</ID>
+	<start>2011.0</start>
+	<end>2071.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Kiko Femenía</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>45</ID>
+	<start>91.0</start>
+	<end>271.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Kiko Femenía</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>46</ID>
+	<start>1306.0</start>
+	<end>1486.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Kiko Femenía</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>47</ID>
+	<start>1306.0</start>
+	<end>1486.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Kiko Femenía</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>48</ID>
+	<start>22.0</start>
+	<end>322.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Kiko Femenía</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>49</ID>
+	<start>1354.0</start>
+	<end>1654.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Kiko Femenía</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>50</ID>
+	<start>1354.0</start>
+	<end>1654.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Kiko Femenía</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>51</ID>
+	<start>255.0</start>
+	<end>315.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Antoine Griezmann</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>52</ID>
+	<start>1531.0</start>
+	<end>1591.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Antoine Griezmann</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>53</ID>
+	<start>5394.0</start>
+	<end>5454.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Antoine Griezmann</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>54</ID>
+	<start>4632.0</start>
+	<end>4812.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Antoine Griezmann</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>55</ID>
+	<start>1411.0</start>
+	<end>1591.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Antoine Griezmann</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>56</ID>
+	<start>747.0</start>
+	<end>927.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Antoine Griezmann</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>57</ID>
+	<start>1.0</start>
+	<end>301.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Antoine Griezmann</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>58</ID>
+	<start>1291.0</start>
+	<end>1591.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Antoine Griezmann</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>59</ID>
+	<start>1439.0</start>
+	<end>1739.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Antoine Griezmann</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>60</ID>
+	<start>92.0</start>
+	<end>152.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jorge Resurrección Merodio</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>61</ID>
+	<start>2060.0</start>
+	<end>2120.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jorge Resurrección Merodio</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>62</ID>
+	<start>2060.0</start>
+	<end>2120.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jorge Resurrección Merodio</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>63</ID>
+	<start>92.0</start>
+	<end>272.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jorge Resurrección Merodio</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>64</ID>
+	<start>1940.0</start>
+	<end>2120.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jorge Resurrección Merodio</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>65</ID>
+	<start>1940.0</start>
+	<end>2120.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jorge Resurrección Merodio</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>66</ID>
+	<start>22.0</start>
+	<end>322.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jorge Resurrección Merodio</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>67</ID>
+	<start>2049.0</start>
+	<end>2349.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jorge Resurrección Merodio</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>68</ID>
+	<start>1820.0</start>
+	<end>2120.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jorge Resurrección Merodio</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>69</ID>
+	<start>5031.0</start>
+	<end>5091.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jan Oblak</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>70</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jan Oblak</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>71</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jan Oblak</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>72</ID>
+	<start>4983.0</start>
+	<end>5163.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jan Oblak</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>73</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jan Oblak</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>74</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jan Oblak</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>75</ID>
+	<start>39.0</start>
+	<end>339.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jan Oblak</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>76</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jan Oblak</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>77</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jan Oblak</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>78</ID>
+	<start>91.0</start>
+	<end>151.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Gerard Moreno</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>79</ID>
+	<start>2057.0</start>
+	<end>2117.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Gerard Moreno</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>80</ID>
+	<start>2056.0</start>
+	<end>2116.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Gerard Moreno</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>81</ID>
+	<start>40.0</start>
+	<end>220.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Gerard Moreno</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>82</ID>
+	<start>1937.0</start>
+	<end>2117.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Gerard Moreno</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>83</ID>
+	<start>1936.0</start>
+	<end>2116.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Gerard Moreno</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>84</ID>
+	<start>0.0</start>
+	<end>300.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Gerard Moreno</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>85</ID>
+	<start>2049.0</start>
+	<end>2349.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Gerard Moreno</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>86</ID>
+	<start>2048.0</start>
+	<end>2348.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Gerard Moreno</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>87</ID>
+	<start>5330.0</start>
+	<end>5390.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Rodrigo De Paul</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>88</ID>
+	<start>6030.0</start>
+	<end>6090.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Rodrigo De Paul</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>89</ID>
+	<start>6029.0</start>
+	<end>6089.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Rodrigo De Paul</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>90</ID>
+	<start>5210.0</start>
+	<end>5390.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Rodrigo De Paul</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>91</ID>
+	<start>5910.0</start>
+	<end>6090.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Rodrigo De Paul</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>92</ID>
+	<start>5909.0</start>
+	<end>6089.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Rodrigo De Paul</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>93</ID>
+	<start>6334.0</start>
+	<end>6634.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Rodrigo De Paul</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>94</ID>
+	<start>6531.0</start>
+	<end>6831.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Rodrigo De Paul</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>95</ID>
+	<start>6000.0</start>
+	<end>6300.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Rodrigo De Paul</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>96</ID>
+	<start>262.0</start>
+	<end>322.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Alexander Sørloth</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>97</ID>
+	<start>2011.0</start>
+	<end>2071.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Alexander Sørloth</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>98</ID>
+	<start>2011.0</start>
+	<end>2071.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Alexander Sørloth</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>99</ID>
+	<start>134.0</start>
+	<end>314.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Alexander Sørloth</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>100</ID>
+	<start>163.0</start>
+	<end>343.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Alexander Sørloth</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>101</ID>
+	<start>1891.0</start>
+	<end>2071.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Alexander Sørloth</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>102</ID>
+	<start>0.0</start>
+	<end>300.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Alexander Sørloth</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>103</ID>
+	<start>1442.0</start>
+	<end>1742.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Alexander Sørloth</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>104</ID>
+	<start>2014.0</start>
+	<end>2314.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Alexander Sørloth</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>105</ID>
+	<start>4746.0</start>
+	<end>4806.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>José Giménez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>106</ID>
+	<start>6028.0</start>
+	<end>6088.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>José Giménez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>107</ID>
+	<start>6027.0</start>
+	<end>6087.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>José Giménez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>108</ID>
+	<start>6411.0</start>
+	<end>6591.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>José Giménez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>109</ID>
+	<start>5908.0</start>
+	<end>6088.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>José Giménez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>110</ID>
+	<start>5907.0</start>
+	<end>6087.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>José Giménez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>111</ID>
+	<start>4000.0</start>
+	<end>4300.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>José Giménez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>112</ID>
+	<start>5788.0</start>
+	<end>6088.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>José Giménez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>113</ID>
+	<start>5787.0</start>
+	<end>6087.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>José Giménez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>114</ID>
+	<start>4604.0</start>
+	<end>4664.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Ángel Correa</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>115</ID>
+	<start>3940.0</start>
+	<end>4000.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Ángel Correa</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>116</ID>
+	<start>6523.0</start>
+	<end>6583.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Ángel Correa</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>117</ID>
+	<start>3958.0</start>
+	<end>4138.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Ángel Correa</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>118</ID>
+	<start>6404.0</start>
+	<end>6584.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Ángel Correa</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>119</ID>
+	<start>6403.0</start>
+	<end>6583.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Ángel Correa</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>120</ID>
+	<start>3954.0</start>
+	<end>4254.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Ángel Correa</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>121</ID>
+	<start>3906.0</start>
+	<end>4206.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Ángel Correa</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>122</ID>
+	<start>6283.0</start>
+	<end>6583.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Ángel Correa</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>123</ID>
+	<start>6530.0</start>
+	<end>6590.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Ayoze Pérez</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>124</ID>
+	<start>5900.0</start>
+	<end>5960.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Ayoze Pérez</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>125</ID>
+	<start>5899.0</start>
+	<end>5959.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Ayoze Pérez</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>126</ID>
+	<start>6410.0</start>
+	<end>6590.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Ayoze Pérez</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>127</ID>
+	<start>5905.0</start>
+	<end>6085.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Ayoze Pérez</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>128</ID>
+	<start>5905.0</start>
+	<end>6085.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Ayoze Pérez</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>129</ID>
+	<start>6335.0</start>
+	<end>6635.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Ayoze Pérez</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>130</ID>
+	<start>5941.0</start>
+	<end>6241.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Ayoze Pérez</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>131</ID>
+	<start>5941.0</start>
+	<end>6241.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Ayoze Pérez</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>132</ID>
+	<start>4883.0</start>
+	<end>4943.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Marcos Llorente</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>133</ID>
+	<start>1234.0</start>
+	<end>1294.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Marcos Llorente</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>134</ID>
+	<start>1233.0</start>
+	<end>1293.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Marcos Llorente</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>135</ID>
+	<start>50.0</start>
+	<end>230.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Marcos Llorente</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>136</ID>
+	<start>1114.0</start>
+	<end>1294.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Marcos Llorente</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>137</ID>
+	<start>1113.0</start>
+	<end>1293.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Marcos Llorente</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>138</ID>
+	<start>33.0</start>
+	<end>333.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Marcos Llorente</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>139</ID>
+	<start>1156.0</start>
+	<end>1456.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Marcos Llorente</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>140</ID>
+	<start>993.0</start>
+	<end>1293.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Marcos Llorente</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>141</ID>
+	<start>5551.0</start>
+	<end>5611.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Nicolas Pépé</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>142</ID>
+	<start>5898.0</start>
+	<end>5958.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Nicolas Pépé</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>143</ID>
+	<start>5897.0</start>
+	<end>5957.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Nicolas Pépé</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>144</ID>
+	<start>5549.0</start>
+	<end>5729.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Nicolas Pépé</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>145</ID>
+	<start>5906.0</start>
+	<end>6086.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Nicolas Pépé</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>146</ID>
+	<start>5777.0</start>
+	<end>5957.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Nicolas Pépé</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>147</ID>
+	<start>5525.0</start>
+	<end>5825.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Nicolas Pépé</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>148</ID>
+	<start>5897.0</start>
+	<end>6197.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Nicolas Pépé</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>149</ID>
+	<start>5897.0</start>
+	<end>6197.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Nicolas Pépé</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>150</ID>
+	<start>870.0</start>
+	<end>930.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Eric Bailly</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>151</ID>
+	<start>1332.0</start>
+	<end>1392.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Eric Bailly</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>152</ID>
+	<start>2011.0</start>
+	<end>2071.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Eric Bailly</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>153</ID>
+	<start>42.0</start>
+	<end>222.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Eric Bailly</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>154</ID>
+	<start>1891.0</start>
+	<end>2071.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Eric Bailly</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>155</ID>
+	<start>1891.0</start>
+	<end>2071.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Eric Bailly</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>156</ID>
+	<start>0.0</start>
+	<end>300.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Eric Bailly</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>157</ID>
+	<start>1092.0</start>
+	<end>1392.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Eric Bailly</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>158</ID>
+	<start>1091.0</start>
+	<end>1391.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Eric Bailly</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>159</ID>
+	<start>4753.0</start>
+	<end>4813.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Arnaut Danjuma</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>160</ID>
+	<start>2058.0</start>
+	<end>2118.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Arnaut Danjuma</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>161</ID>
+	<start>1005.0</start>
+	<end>1065.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Arnaut Danjuma</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>162</ID>
+	<start>3993.0</start>
+	<end>4173.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Arnaut Danjuma</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>163</ID>
+	<start>983.0</start>
+	<end>1163.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Arnaut Danjuma</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>164</ID>
+	<start>982.0</start>
+	<end>1162.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Arnaut Danjuma</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>165</ID>
+	<start>5094.0</start>
+	<end>5394.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Arnaut Danjuma</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>166</ID>
+	<start>960.0</start>
+	<end>1260.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Arnaut Danjuma</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>167</ID>
+	<start>959.0</start>
+	<end>1259.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Arnaut Danjuma</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>168</ID>
+	<start>4455.0</start>
+	<end>4515.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Nahuel Molina</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>169</ID>
+	<start>4447.0</start>
+	<end>4507.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Nahuel Molina</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>170</ID>
+	<start>5169.0</start>
+	<end>5229.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Nahuel Molina</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>171</ID>
+	<start>4604.0</start>
+	<end>4784.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Nahuel Molina</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>172</ID>
+	<start>5159.0</start>
+	<end>5339.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Nahuel Molina</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>173</ID>
+	<start>5466.0</start>
+	<end>5646.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Nahuel Molina</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>174</ID>
+	<start>4630.0</start>
+	<end>4930.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Nahuel Molina</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>175</ID>
+	<start>6294.0</start>
+	<end>6594.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Nahuel Molina</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>176</ID>
+	<start>5346.0</start>
+	<end>5646.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Nahuel Molina</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>177</ID>
+	<start>4759.0</start>
+	<end>4819.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Robin Le Normand</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>178</ID>
+	<start>2059.0</start>
+	<end>2119.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Robin Le Normand</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>179</ID>
+	<start>2059.0</start>
+	<end>2119.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Robin Le Normand</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>180</ID>
+	<start>4758.0</start>
+	<end>4938.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Robin Le Normand</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>181</ID>
+	<start>1939.0</start>
+	<end>2119.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Robin Le Normand</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>182</ID>
+	<start>1939.0</start>
+	<end>2119.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Robin Le Normand</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>183</ID>
+	<start>34.0</start>
+	<end>334.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Robin Le Normand</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>184</ID>
+	<start>1819.0</start>
+	<end>2119.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Robin Le Normand</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>185</ID>
+	<start>1819.0</start>
+	<end>2119.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Robin Le Normand</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>186</ID>
+	<start>257.0</start>
+	<end>317.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Santi Comesaña</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>187</ID>
+	<start>4849.0</start>
+	<end>4909.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Santi Comesaña</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>188</ID>
+	<start>2011.0</start>
+	<end>2071.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Santi Comesaña</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>189</ID>
+	<start>52.0</start>
+	<end>232.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Santi Comesaña</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>190</ID>
+	<start>1358.0</start>
+	<end>1538.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Santi Comesaña</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>191</ID>
+	<start>1292.0</start>
+	<end>1472.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Santi Comesaña</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>192</ID>
+	<start>53.0</start>
+	<end>353.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Santi Comesaña</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>193</ID>
+	<start>1290.0</start>
+	<end>1590.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Santi Comesaña</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>194</ID>
+	<start>1172.0</start>
+	<end>1472.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Santi Comesaña</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>195</ID>
+	<start>2741.0</start>
+	<end>2801.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Álex Baena</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>196</ID>
+	<start>2058.0</start>
+	<end>2118.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Álex Baena</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>197</ID>
+	<start>2057.0</start>
+	<end>2117.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Álex Baena</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>198</ID>
+	<start>115.0</start>
+	<end>295.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Álex Baena</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>199</ID>
+	<start>4751.0</start>
+	<end>4931.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Álex Baena</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>200</ID>
+	<start>1292.0</start>
+	<end>1472.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Álex Baena</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>201</ID>
+	<start>0.0</start>
+	<end>300.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Álex Baena</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>202</ID>
+	<start>172.0</start>
+	<end>472.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Álex Baena</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>203</ID>
+	<start>1039.0</start>
+	<end>1339.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Álex Baena</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>204</ID>
+	<start>5304.0</start>
+	<end>5364.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Samuel Dias Lino</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>205</ID>
+	<start>5301.0</start>
+	<end>5361.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Samuel Dias Lino</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>206</ID>
+	<start>5301.0</start>
+	<end>5361.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Samuel Dias Lino</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>207</ID>
+	<start>108.0</start>
+	<end>288.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Samuel Dias Lino</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>208</ID>
+	<start>498.0</start>
+	<end>678.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Samuel Dias Lino</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>209</ID>
+	<start>5181.0</start>
+	<end>5361.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Samuel Dias Lino</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>210</ID>
+	<start>18.0</start>
+	<end>318.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Samuel Dias Lino</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>211</ID>
+	<start>4637.0</start>
+	<end>4937.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Samuel Dias Lino</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>212</ID>
+	<start>5061.0</start>
+	<end>5361.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Samuel Dias Lino</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>213</ID>
+	<start>5530.0</start>
+	<end>5590.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Pape Gueye</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>214</ID>
+	<start>5585.0</start>
+	<end>5645.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Pape Gueye</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>215</ID>
+	<start>5584.0</start>
+	<end>5644.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Pape Gueye</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>216</ID>
+	<start>5551.0</start>
+	<end>5731.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Pape Gueye</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>217</ID>
+	<start>5574.0</start>
+	<end>5754.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Pape Gueye</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>218</ID>
+	<start>5574.0</start>
+	<end>5754.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Pape Gueye</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>219</ID>
+	<start>5503.0</start>
+	<end>5803.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Pape Gueye</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>220</ID>
+	<start>5454.0</start>
+	<end>5754.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Pape Gueye</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>221</ID>
+	<start>5454.0</start>
+	<end>5754.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Pape Gueye</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>222</ID>
+	<start>164.0</start>
+	<end>224.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Reinildo Isnard Mandava</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>223</ID>
+	<start>2058.0</start>
+	<end>2118.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Reinildo Isnard Mandava</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>224</ID>
+	<start>2057.0</start>
+	<end>2117.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Reinildo Isnard Mandava</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>225</ID>
+	<start>41.0</start>
+	<end>221.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Reinildo Isnard Mandava</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>226</ID>
+	<start>2011.0</start>
+	<end>2191.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Reinildo Isnard Mandava</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>227</ID>
+	<start>1937.0</start>
+	<end>2117.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Reinildo Isnard Mandava</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>228</ID>
+	<start>23.0</start>
+	<end>323.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Reinildo Isnard Mandava</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>229</ID>
+	<start>2050.0</start>
+	<end>2350.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Reinildo Isnard Mandava</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>230</ID>
+	<start>1996.0</start>
+	<end>2296.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Reinildo Isnard Mandava</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>231</ID>
+	<start>6030.0</start>
+	<end>6090.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Diego Conde</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>232</ID>
+	<start>2285.0</start>
+	<end>2345.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Diego Conde</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>233</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Diego Conde</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>234</ID>
+	<start>909.0</start>
+	<end>1089.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Diego Conde</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>235</ID>
+	<start>2165.0</start>
+	<end>2345.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Diego Conde</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>236</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Diego Conde</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>237</ID>
+	<start>3960.0</start>
+	<end>4260.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Diego Conde</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>238</ID>
+	<start>2045.0</start>
+	<end>2345.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Diego Conde</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>239</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Diego Conde</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>240</ID>
+	<start>6041.0</start>
+	<end>6101.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Julián Álvarez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>241</ID>
+	<start>6144.0</start>
+	<end>6204.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Julián Álvarez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>242</ID>
+	<start>6141.0</start>
+	<end>6201.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Julián Álvarez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>243</ID>
+	<start>6410.0</start>
+	<end>6590.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Julián Álvarez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>244</ID>
+	<start>6024.0</start>
+	<end>6204.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Julián Álvarez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>245</ID>
+	<start>6021.0</start>
+	<end>6201.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Julián Álvarez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>246</ID>
+	<start>6335.0</start>
+	<end>6635.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Julián Álvarez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>247</ID>
+	<start>5904.0</start>
+	<end>6204.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Julián Álvarez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>248</ID>
+	<start>5901.0</start>
+	<end>6201.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Julián Álvarez</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>249</ID>
+	<start>2732.0</start>
+	<end>2792.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Sergi Cardona</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>250</ID>
+	<start>2731.0</start>
+	<end>2791.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Sergi Cardona</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>251</ID>
+	<start>1425.0</start>
+	<end>1485.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Sergi Cardona</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>252</ID>
+	<start>49.0</start>
+	<end>229.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Sergi Cardona</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>253</ID>
+	<start>152.0</start>
+	<end>332.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Sergi Cardona</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>254</ID>
+	<start>1290.0</start>
+	<end>1470.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Sergi Cardona</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>255</ID>
+	<start>0.0</start>
+	<end>300.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Sergi Cardona</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>256</ID>
+	<start>-16.0</start>
+	<end>284.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Sergi Cardona</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>257</ID>
+	<start>1185.0</start>
+	<end>1485.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Sergi Cardona</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>258</ID>
+	<start>2059.0</start>
+	<end>2119.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Yeremy Pino</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>259</ID>
+	<start>2059.0</start>
+	<end>2119.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Yeremy Pino</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>260</ID>
+	<start>2059.0</start>
+	<end>2119.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Yeremy Pino</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>261</ID>
+	<start>52.0</start>
+	<end>232.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Yeremy Pino</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>262</ID>
+	<start>40.0</start>
+	<end>220.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Yeremy Pino</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>263</ID>
+	<start>1939.0</start>
+	<end>2119.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Yeremy Pino</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>264</ID>
+	<start>-1.0</start>
+	<end>299.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Yeremy Pino</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>265</ID>
+	<start>2052.0</start>
+	<end>2352.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Yeremy Pino</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>266</ID>
+	<start>2052.0</start>
+	<end>2352.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Yeremy Pino</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>267</ID>
+	<start>5553.0</start>
+	<end>5613.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Ilias Akhomach</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>268</ID>
+	<start>6523.0</start>
+	<end>6583.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Ilias Akhomach</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>269</ID>
+	<start>6523.0</start>
+	<end>6583.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Ilias Akhomach</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>270</ID>
+	<start>5549.0</start>
+	<end>5729.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Ilias Akhomach</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>271</ID>
+	<start>6576.0</start>
+	<end>6756.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Ilias Akhomach</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>272</ID>
+	<start>6576.0</start>
+	<end>6756.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Ilias Akhomach</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>273</ID>
+	<start>5515.0</start>
+	<end>5815.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Ilias Akhomach</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>274</ID>
+	<start>6456.0</start>
+	<end>6756.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Ilias Akhomach</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>275</ID>
+	<start>6456.0</start>
+	<end>6756.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Ilias Akhomach</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>276</ID>
+	<start>2061.0</start>
+	<end>2121.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Pablo Barrios</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>277</ID>
+	<start>2059.0</start>
+	<end>2119.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Pablo Barrios</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>278</ID>
+	<start>2058.0</start>
+	<end>2118.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Pablo Barrios</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>279</ID>
+	<start>134.0</start>
+	<end>314.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Pablo Barrios</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>280</ID>
+	<start>1939.0</start>
+	<end>2119.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Pablo Barrios</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>281</ID>
+	<start>1938.0</start>
+	<end>2118.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Pablo Barrios</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>282</ID>
+	<start>34.0</start>
+	<end>334.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Pablo Barrios</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>283</ID>
+	<start>1443.0</start>
+	<end>1743.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Pablo Barrios</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>284</ID>
+	<start>2103.0</start>
+	<end>2403.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Pablo Barrios</text></label>
+	<label><group>Equipo</group><text>Atlético de Madrid</text></label>
+</instance>
+<instance>
+	<ID>285</ID>
+	<start>6785.0</start>
+	<end>6845.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Ramon Terrats</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>286</ID>
+	<start>6817.0</start>
+	<end>6877.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Ramon Terrats</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>287</ID>
+	<start>6697.0</start>
+	<end>6757.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Ramon Terrats</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>288</ID>
+	<start>6770.0</start>
+	<end>6950.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Ramon Terrats</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>289</ID>
+	<start>6756.0</start>
+	<end>6936.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Ramon Terrats</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>290</ID>
+	<start>6577.0</start>
+	<end>6757.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Ramon Terrats</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>291</ID>
+	<start>6650.0</start>
+	<end>6950.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Ramon Terrats</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>292</ID>
+	<start>6636.0</start>
+	<end>6936.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Ramon Terrats</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+<instance>
+	<ID>293</ID>
+	<start>6457.0</start>
+	<end>6757.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Ramon Terrats</text></label>
+	<label><group>Equipo</group><text>Villarreal</text></label>
+</instance>
+</ALL_INSTANCES>
+</file>

@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+<ALL_INSTANCES>
+<instance>
+	<ID>1</ID>
+	<start>0.0</start>
+	<end>3062.4</end>
+	<code>Inicio</code>
+	<label><text>P1</text></label>
+</instance>
+<instance>
+	<ID>2</ID>
+	<start>4070.4</start>
+	<end>7226.56</end>
+	<code>Inicio</code>
+	<label><text>P2</text></label>
+</instance>
+<instance>
+	<ID>6</ID>
+	<start>4759.0</start>
+	<end>4819.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Robert Lewandowski</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>7</ID>
+	<start>6283.0</start>
+	<end>6343.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Robert Lewandowski</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>8</ID>
+	<start>4722.0</start>
+	<end>4782.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Robert Lewandowski</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>9</ID>
+	<start>218.0</start>
+	<end>398.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Robert Lewandowski</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>10</ID>
+	<start>6244.0</start>
+	<end>6424.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Robert Lewandowski</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>11</ID>
+	<start>6786.0</start>
+	<end>6966.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Robert Lewandowski</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>12</ID>
+	<start>217.0</start>
+	<end>517.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Robert Lewandowski</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>13</ID>
+	<start>6124.0</start>
+	<end>6424.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Robert Lewandowski</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>14</ID>
+	<start>6666.0</start>
+	<end>6966.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Robert Lewandowski</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>15</ID>
+	<start>4360.0</start>
+	<end>4420.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Marc-André ter Stegen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>16</ID>
+	<start>6725.0</start>
+	<end>6785.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Marc-André ter Stegen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>17</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Marc-André ter Stegen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>18</ID>
+	<start>5989.0</start>
+	<end>6169.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Marc-André ter Stegen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>19</ID>
+	<start>6605.0</start>
+	<end>6785.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Marc-André ter Stegen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>20</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Marc-André ter Stegen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>21</ID>
+	<start>2317.0</start>
+	<end>2617.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Marc-André ter Stegen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>22</ID>
+	<start>6485.0</start>
+	<end>6785.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Marc-André ter Stegen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>23</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Marc-André ter Stegen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>24</ID>
+	<start>4812.0</start>
+	<end>4872.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Íñigo Martínez</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>25</ID>
+	<start>4444.0</start>
+	<end>4504.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Íñigo Martínez</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>26</ID>
+	<start>4406.0</start>
+	<end>4466.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Íñigo Martínez</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>27</ID>
+	<start>305.0</start>
+	<end>485.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Íñigo Martínez</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>28</ID>
+	<start>4398.0</start>
+	<end>4578.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Íñigo Martínez</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>29</ID>
+	<start>4397.0</start>
+	<end>4577.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Íñigo Martínez</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>30</ID>
+	<start>212.0</start>
+	<end>512.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Íñigo Martínez</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>31</ID>
+	<start>660.0</start>
+	<end>960.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Íñigo Martínez</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>32</ID>
+	<start>4277.0</start>
+	<end>4577.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Íñigo Martínez</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>33</ID>
+	<start>6029.0</start>
+	<end>6089.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Dimitri Foulquier</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>34</ID>
+	<start>6009.0</start>
+	<end>6069.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Dimitri Foulquier</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>35</ID>
+	<start>6009.0</start>
+	<end>6069.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Dimitri Foulquier</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>36</ID>
+	<start>6256.0</start>
+	<end>6436.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Dimitri Foulquier</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>37</ID>
+	<start>5889.0</start>
+	<end>6069.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Dimitri Foulquier</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>38</ID>
+	<start>5889.0</start>
+	<end>6069.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Dimitri Foulquier</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>39</ID>
+	<start>6575.0</start>
+	<end>6875.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Dimitri Foulquier</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>40</ID>
+	<start>5769.0</start>
+	<end>6069.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Dimitri Foulquier</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>41</ID>
+	<start>5769.0</start>
+	<end>6069.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Dimitri Foulquier</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>42</ID>
+	<start>5359.0</start>
+	<end>5419.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Andreas Christensen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>43</ID>
+	<start>7034.0</start>
+	<end>7094.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Andreas Christensen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>44</ID>
+	<start>7034.0</start>
+	<end>7094.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Andreas Christensen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>45</ID>
+	<start>5685.0</start>
+	<end>5865.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Andreas Christensen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>46</ID>
+	<start>6914.0</start>
+	<end>7094.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Andreas Christensen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>47</ID>
+	<start>6914.0</start>
+	<end>7094.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Andreas Christensen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>48</ID>
+	<start>5624.0</start>
+	<end>5924.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Andreas Christensen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>49</ID>
+	<start>6794.0</start>
+	<end>7094.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Andreas Christensen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>50</ID>
+	<start>6794.0</start>
+	<end>7094.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Andreas Christensen</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>51</ID>
+	<start>446.0</start>
+	<end>506.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Rafa Mir</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>52</ID>
+	<start>623.0</start>
+	<end>683.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Rafa Mir</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>53</ID>
+	<start>620.0</start>
+	<end>680.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Rafa Mir</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>54</ID>
+	<start>359.0</start>
+	<end>539.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Rafa Mir</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>55</ID>
+	<start>4397.0</start>
+	<end>4577.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Rafa Mir</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>56</ID>
+	<start>4397.0</start>
+	<end>4577.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Rafa Mir</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>57</ID>
+	<start>217.0</start>
+	<end>517.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Rafa Mir</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>58</ID>
+	<start>660.0</start>
+	<end>960.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Rafa Mir</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>59</ID>
+	<start>458.0</start>
+	<end>758.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Rafa Mir</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>60</ID>
+	<start>1515.0</start>
+	<end>1575.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Raphael Dias Belloli</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>61</ID>
+	<start>1515.0</start>
+	<end>1575.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Raphael Dias Belloli</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>62</ID>
+	<start>1513.0</start>
+	<end>1573.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Raphael Dias Belloli</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>63</ID>
+	<start>6751.0</start>
+	<end>6931.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Raphael Dias Belloli</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>64</ID>
+	<start>6044.0</start>
+	<end>6224.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Raphael Dias Belloli</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>65</ID>
+	<start>1393.0</start>
+	<end>1573.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Raphael Dias Belloli</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>66</ID>
+	<start>4574.0</start>
+	<end>4874.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Raphael Dias Belloli</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>67</ID>
+	<start>6504.0</start>
+	<end>6804.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Raphael Dias Belloli</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>68</ID>
+	<start>6782.0</start>
+	<end>7082.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Raphael Dias Belloli</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>69</ID>
+	<start>351.0</start>
+	<end>411.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>José Luis García Vayá</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>70</ID>
+	<start>1492.0</start>
+	<end>1552.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>José Luis García Vayá</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>71</ID>
+	<start>1491.0</start>
+	<end>1551.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>José Luis García Vayá</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>72</ID>
+	<start>303.0</start>
+	<end>483.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>José Luis García Vayá</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>73</ID>
+	<start>1490.0</start>
+	<end>1670.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>José Luis García Vayá</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>74</ID>
+	<start>1371.0</start>
+	<end>1551.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>José Luis García Vayá</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>75</ID>
+	<start>210.0</start>
+	<end>510.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>José Luis García Vayá</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>76</ID>
+	<start>1370.0</start>
+	<end>1670.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>José Luis García Vayá</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>77</ID>
+	<start>1251.0</start>
+	<end>1551.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>José Luis García Vayá</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>78</ID>
+	<start>2478.0</start>
+	<end>2538.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jules Koundé</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>79</ID>
+	<start>5631.0</start>
+	<end>5691.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jules Koundé</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>80</ID>
+	<start>1495.0</start>
+	<end>1555.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jules Koundé</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>81</ID>
+	<start>4753.0</start>
+	<end>4933.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jules Koundé</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>82</ID>
+	<start>498.0</start>
+	<end>678.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jules Koundé</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>83</ID>
+	<start>2353.0</start>
+	<end>2533.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jules Koundé</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>84</ID>
+	<start>465.0</start>
+	<end>765.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jules Koundé</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>85</ID>
+	<start>493.0</start>
+	<end>793.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jules Koundé</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>86</ID>
+	<start>1202.0</start>
+	<end>1502.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jules Koundé</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>87</ID>
+	<start>4360.0</start>
+	<end>4420.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Thierry Rendall Correia</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>88</ID>
+	<start>710.0</start>
+	<end>770.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Thierry Rendall Correia</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>89</ID>
+	<start>710.0</start>
+	<end>770.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Thierry Rendall Correia</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>90</ID>
+	<start>307.0</start>
+	<end>487.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Thierry Rendall Correia</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>91</ID>
+	<start>4602.0</start>
+	<end>4782.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Thierry Rendall Correia</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>92</ID>
+	<start>4602.0</start>
+	<end>4782.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Thierry Rendall Correia</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>93</ID>
+	<start>217.0</start>
+	<end>517.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Thierry Rendall Correia</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>94</ID>
+	<start>4482.0</start>
+	<end>4782.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Thierry Rendall Correia</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>95</ID>
+	<start>4482.0</start>
+	<end>4782.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Thierry Rendall Correia</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>96</ID>
+	<start>5315.0</start>
+	<end>5375.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Dani Gómez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>97</ID>
+	<start>6049.0</start>
+	<end>6109.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Dani Gómez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>98</ID>
+	<start>6048.0</start>
+	<end>6108.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Dani Gómez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>99</ID>
+	<start>5315.0</start>
+	<end>5495.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Dani Gómez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>100</ID>
+	<start>6914.0</start>
+	<end>7094.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Dani Gómez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>101</ID>
+	<start>6914.0</start>
+	<end>7094.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Dani Gómez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>102</ID>
+	<start>6705.0</start>
+	<end>7005.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Dani Gómez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>103</ID>
+	<start>5809.0</start>
+	<end>6109.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Dani Gómez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>104</ID>
+	<start>6039.0</start>
+	<end>6339.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Dani Gómez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>105</ID>
+	<start>216.0</start>
+	<end>276.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Ferran Torres</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>106</ID>
+	<start>4722.0</start>
+	<end>4782.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Ferran Torres</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>107</ID>
+	<start>1896.0</start>
+	<end>1956.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Ferran Torres</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>108</ID>
+	<start>642.0</start>
+	<end>822.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Ferran Torres</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>109</ID>
+	<start>1912.0</start>
+	<end>2092.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Ferran Torres</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>110</ID>
+	<start>1912.0</start>
+	<end>2092.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Ferran Torres</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>111</ID>
+	<start>215.0</start>
+	<end>515.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Ferran Torres</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>112</ID>
+	<start>-46.0</start>
+	<end>254.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Ferran Torres</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>113</ID>
+	<start>-46.0</start>
+	<end>254.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Ferran Torres</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>114</ID>
+	<start>351.0</start>
+	<end>411.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Domingos André Ribeiro Almeida</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>115</ID>
+	<start>2526.0</start>
+	<end>2586.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Domingos André Ribeiro Almeida</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>116</ID>
+	<start>622.0</start>
+	<end>682.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Domingos André Ribeiro Almeida</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>117</ID>
+	<start>339.0</start>
+	<end>519.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Domingos André Ribeiro Almeida</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>118</ID>
+	<start>622.0</start>
+	<end>802.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Domingos André Ribeiro Almeida</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>119</ID>
+	<start>622.0</start>
+	<end>802.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Domingos André Ribeiro Almeida</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>120</ID>
+	<start>216.0</start>
+	<end>516.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Domingos André Ribeiro Almeida</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>121</ID>
+	<start>606.0</start>
+	<end>906.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Domingos André Ribeiro Almeida</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>122</ID>
+	<start>502.0</start>
+	<end>802.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Domingos André Ribeiro Almeida</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>123</ID>
+	<start>6029.0</start>
+	<end>6089.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Eric García</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>124</ID>
+	<start>7034.0</start>
+	<end>7094.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Eric García</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>125</ID>
+	<start>7034.0</start>
+	<end>7094.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Eric García</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>126</ID>
+	<start>6244.0</start>
+	<end>6424.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Eric García</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>127</ID>
+	<start>6914.0</start>
+	<end>7094.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Eric García</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>128</ID>
+	<start>6170.0</start>
+	<end>6350.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Eric García</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>129</ID>
+	<start>6053.0</start>
+	<end>6353.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Eric García</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>130</ID>
+	<start>6050.0</start>
+	<end>6350.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Eric García</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>131</ID>
+	<start>6050.0</start>
+	<end>6350.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Eric García</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>132</ID>
+	<start>6792.0</start>
+	<end>6852.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Hugo Guillamón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>133</ID>
+	<start>6766.0</start>
+	<end>6826.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Hugo Guillamón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>134</ID>
+	<start>6630.0</start>
+	<end>6690.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Hugo Guillamón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>135</ID>
+	<start>6685.0</start>
+	<end>6865.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Hugo Guillamón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>136</ID>
+	<start>6646.0</start>
+	<end>6826.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Hugo Guillamón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>137</ID>
+	<start>6510.0</start>
+	<end>6690.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Hugo Guillamón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>138</ID>
+	<start>6704.0</start>
+	<end>7004.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Hugo Guillamón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>139</ID>
+	<start>6666.0</start>
+	<end>6966.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Hugo Guillamón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>140</ID>
+	<start>6666.0</start>
+	<end>6966.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Hugo Guillamón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>141</ID>
+	<start>644.0</start>
+	<end>704.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Hugo Duro</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>142</ID>
+	<start>220.0</start>
+	<end>280.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Hugo Duro</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>143</ID>
+	<start>620.0</start>
+	<end>680.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Hugo Duro</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>144</ID>
+	<start>622.0</start>
+	<end>802.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Hugo Duro</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>145</ID>
+	<start>100.0</start>
+	<end>280.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Hugo Duro</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>146</ID>
+	<start>621.0</start>
+	<end>801.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Hugo Duro</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>147</ID>
+	<start>207.0</start>
+	<end>507.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Hugo Duro</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>148</ID>
+	<start>205.0</start>
+	<end>505.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Hugo Duro</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>149</ID>
+	<start>663.0</start>
+	<end>963.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Hugo Duro</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>150</ID>
+	<start>4359.0</start>
+	<end>4419.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Giorgi Mamardashvili</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>151</ID>
+	<start>5650.0</start>
+	<end>5710.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Giorgi Mamardashvili</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>152</ID>
+	<start>5650.0</start>
+	<end>5710.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Giorgi Mamardashvili</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>153</ID>
+	<start>212.0</start>
+	<end>392.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Giorgi Mamardashvili</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>154</ID>
+	<start>5530.0</start>
+	<end>5710.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Giorgi Mamardashvili</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>155</ID>
+	<start>5530.0</start>
+	<end>5710.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Giorgi Mamardashvili</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>156</ID>
+	<start>214.0</start>
+	<end>514.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Giorgi Mamardashvili</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>157</ID>
+	<start>5410.0</start>
+	<end>5710.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Giorgi Mamardashvili</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>158</ID>
+	<start>5410.0</start>
+	<end>5710.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Giorgi Mamardashvili</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>159</ID>
+	<start>4829.0</start>
+	<end>4889.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jesús Vázquez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>160</ID>
+	<start>2143.0</start>
+	<end>2203.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jesús Vázquez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>161</ID>
+	<start>5631.0</start>
+	<end>5691.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jesús Vázquez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>162</ID>
+	<start>916.0</start>
+	<end>1096.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jesús Vázquez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>163</ID>
+	<start>2477.0</start>
+	<end>2657.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jesús Vázquez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>164</ID>
+	<start>2474.0</start>
+	<end>2654.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jesús Vázquez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>165</ID>
+	<start>916.0</start>
+	<end>1216.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jesús Vázquez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>166</ID>
+	<start>2460.0</start>
+	<end>2760.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jesús Vázquez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>167</ID>
+	<start>2354.0</start>
+	<end>2654.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jesús Vázquez</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>168</ID>
+	<start>6028.0</start>
+	<end>6088.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Pedro González López</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>169</ID>
+	<start>6009.0</start>
+	<end>6069.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Pedro González López</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>170</ID>
+	<start>7137.0</start>
+	<end>7197.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Pedro González López</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>171</ID>
+	<start>6207.0</start>
+	<end>6387.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Pedro González López</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>172</ID>
+	<start>6249.0</start>
+	<end>6429.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Pedro González López</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>173</ID>
+	<start>7017.0</start>
+	<end>7197.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Pedro González López</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>174</ID>
+	<start>6044.0</start>
+	<end>6344.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Pedro González López</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>175</ID>
+	<start>6044.0</start>
+	<end>6344.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Pedro González López</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>176</ID>
+	<start>6388.0</start>
+	<end>6688.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Pedro González López</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>177</ID>
+	<start>743.0</start>
+	<end>803.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Alejandro Balde</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>178</ID>
+	<start>627.0</start>
+	<end>687.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Alejandro Balde</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>179</ID>
+	<start>-13.0</start>
+	<end>47.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Alejandro Balde</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>180</ID>
+	<start>623.0</start>
+	<end>803.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Alejandro Balde</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>181</ID>
+	<start>590.0</start>
+	<end>770.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Alejandro Balde</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>182</ID>
+	<start>-133.0</start>
+	<end>47.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Alejandro Balde</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>183</ID>
+	<start>473.0</start>
+	<end>773.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Alejandro Balde</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>184</ID>
+	<start>470.0</start>
+	<end>770.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Alejandro Balde</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>185</ID>
+	<start>458.0</start>
+	<end>758.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Alejandro Balde</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>186</ID>
+	<start>1198.0</start>
+	<end>1258.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Diego López</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>187</ID>
+	<start>2820.0</start>
+	<end>2880.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Diego López</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>188</ID>
+	<start>1494.0</start>
+	<end>1554.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Diego López</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>189</ID>
+	<start>923.0</start>
+	<end>1103.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Diego López</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>190</ID>
+	<start>2474.0</start>
+	<end>2654.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Diego López</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>191</ID>
+	<start>4399.0</start>
+	<end>4579.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Diego López</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>192</ID>
+	<start>958.0</start>
+	<end>1258.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Diego López</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>193</ID>
+	<start>2580.0</start>
+	<end>2880.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Diego López</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>194</ID>
+	<start>2580.0</start>
+	<end>2880.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Diego López</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>195</ID>
+	<start>744.0</start>
+	<end>804.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Marc Casadó</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>196</ID>
+	<start>2379.0</start>
+	<end>2439.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Marc Casadó</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>197</ID>
+	<start>2379.0</start>
+	<end>2439.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Marc Casadó</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>198</ID>
+	<start>624.0</start>
+	<end>804.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Marc Casadó</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>199</ID>
+	<start>622.0</start>
+	<end>802.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Marc Casadó</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>200</ID>
+	<start>2259.0</start>
+	<end>2439.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Marc Casadó</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>201</ID>
+	<start>216.0</start>
+	<end>516.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Marc Casadó</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>202</ID>
+	<start>502.0</start>
+	<end>802.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Marc Casadó</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>203</ID>
+	<start>5335.0</start>
+	<end>5635.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Marc Casadó</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>204</ID>
+	<start>4828.0</start>
+	<end>4888.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Cristhian Mosquera</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>205</ID>
+	<start>4805.0</start>
+	<end>4865.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Cristhian Mosquera</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>206</ID>
+	<start>4723.0</start>
+	<end>4783.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Cristhian Mosquera</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>207</ID>
+	<start>4755.0</start>
+	<end>4935.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Cristhian Mosquera</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>208</ID>
+	<start>72.0</start>
+	<end>252.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Cristhian Mosquera</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>209</ID>
+	<start>4683.0</start>
+	<end>4863.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Cristhian Mosquera</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>210</ID>
+	<start>380.0</start>
+	<end>680.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Cristhian Mosquera</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>211</ID>
+	<start>19.0</start>
+	<end>319.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Cristhian Mosquera</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>212</ID>
+	<start>4563.0</start>
+	<end>4863.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Cristhian Mosquera</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>213</ID>
+	<start>6491.0</start>
+	<end>6551.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Pau Víctor</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>214</ID>
+	<start>6494.0</start>
+	<end>6554.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Pau Víctor</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>215</ID>
+	<start>6904.0</start>
+	<end>6964.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Pau Víctor</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>216</ID>
+	<start>6490.0</start>
+	<end>6670.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Pau Víctor</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>217</ID>
+	<start>6378.0</start>
+	<end>6558.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Pau Víctor</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>218</ID>
+	<start>6784.0</start>
+	<end>6964.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Pau Víctor</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>219</ID>
+	<start>6491.0</start>
+	<end>6791.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Pau Víctor</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>220</ID>
+	<start>6418.0</start>
+	<end>6718.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Pau Víctor</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>221</ID>
+	<start>6896.0</start>
+	<end>7196.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Pau Víctor</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>222</ID>
+	<start>6293.0</start>
+	<end>6353.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Gerard Martín</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>223</ID>
+	<start>6292.0</start>
+	<end>6352.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Gerard Martín</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>224</ID>
+	<start>6754.0</start>
+	<end>6814.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Gerard Martín</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>225</ID>
+	<start>6219.0</start>
+	<end>6399.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Gerard Martín</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>226</ID>
+	<start>6172.0</start>
+	<end>6352.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Gerard Martín</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>227</ID>
+	<start>6634.0</start>
+	<end>6814.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Gerard Martín</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>228</ID>
+	<start>6052.0</start>
+	<end>6352.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Gerard Martín</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>229</ID>
+	<start>6296.0</start>
+	<end>6596.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Gerard Martín</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>230</ID>
+	<start>6514.0</start>
+	<end>6814.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Gerard Martín</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>231</ID>
+	<start>29.0</start>
+	<end>89.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Javi Guerra</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>232</ID>
+	<start>1194.0</start>
+	<end>1254.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Javi Guerra</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>233</ID>
+	<start>4823.0</start>
+	<end>4883.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Javi Guerra</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>234</ID>
+	<start>890.0</start>
+	<end>1070.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Javi Guerra</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>235</ID>
+	<start>4703.0</start>
+	<end>4883.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Javi Guerra</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>236</ID>
+	<start>4703.0</start>
+	<end>4883.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Javi Guerra</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>237</ID>
+	<start>953.0</start>
+	<end>1253.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Javi Guerra</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>238</ID>
+	<start>4583.0</start>
+	<end>4883.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Javi Guerra</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>239</ID>
+	<start>4583.0</start>
+	<end>4883.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Javi Guerra</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>240</ID>
+	<start>901.0</start>
+	<end>961.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Yarek Gasiorowski</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>241</ID>
+	<start>4776.0</start>
+	<end>4836.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Yarek Gasiorowski</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>242</ID>
+	<start>4722.0</start>
+	<end>4782.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Yarek Gasiorowski</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>243</ID>
+	<start>903.0</start>
+	<end>1083.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Yarek Gasiorowski</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>244</ID>
+	<start>4656.0</start>
+	<end>4836.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Yarek Gasiorowski</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>245</ID>
+	<start>4602.0</start>
+	<end>4782.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Yarek Gasiorowski</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>246</ID>
+	<start>380.0</start>
+	<end>680.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Yarek Gasiorowski</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>247</ID>
+	<start>142.0</start>
+	<end>442.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Yarek Gasiorowski</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>248</ID>
+	<start>4482.0</start>
+	<end>4782.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Yarek Gasiorowski</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>249</ID>
+	<start>6315.0</start>
+	<end>6375.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Martín Tejón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>250</ID>
+	<start>6284.0</start>
+	<end>6344.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Martín Tejón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>251</ID>
+	<start>6284.0</start>
+	<end>6344.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Martín Tejón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>252</ID>
+	<start>6219.0</start>
+	<end>6399.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Martín Tejón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>253</ID>
+	<start>6256.0</start>
+	<end>6436.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Martín Tejón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>254</ID>
+	<start>6164.0</start>
+	<end>6344.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Martín Tejón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>255</ID>
+	<start>6144.0</start>
+	<end>6444.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Martín Tejón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>256</ID>
+	<start>6044.0</start>
+	<end>6344.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Martín Tejón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>257</ID>
+	<start>6044.0</start>
+	<end>6344.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Martín Tejón</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>258</ID>
+	<start>6290.0</start>
+	<end>6350.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>David Otorbi</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>259</ID>
+	<start>6007.0</start>
+	<end>6067.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>David Otorbi</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>260</ID>
+	<start>6283.0</start>
+	<end>6343.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>David Otorbi</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>261</ID>
+	<start>6220.0</start>
+	<end>6400.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>David Otorbi</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>262</ID>
+	<start>6170.0</start>
+	<end>6350.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>David Otorbi</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>263</ID>
+	<start>6163.0</start>
+	<end>6343.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>David Otorbi</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>264</ID>
+	<start>6130.0</start>
+	<end>6430.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>David Otorbi</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>265</ID>
+	<start>6043.0</start>
+	<end>6343.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>David Otorbi</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>266</ID>
+	<start>6043.0</start>
+	<end>6343.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>David Otorbi</text></label>
+	<label><group>Equipo</group><text>Valencia CF</text></label>
+</instance>
+<instance>
+	<ID>267</ID>
+	<start>2529.0</start>
+	<end>2589.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Lamine Yamal Nasraoui Ebana</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>268</ID>
+	<start>4822.0</start>
+	<end>4882.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Lamine Yamal Nasraoui Ebana</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>269</ID>
+	<start>4822.0</start>
+	<end>4882.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Lamine Yamal Nasraoui Ebana</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>270</ID>
+	<start>4756.0</start>
+	<end>4936.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Lamine Yamal Nasraoui Ebana</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>271</ID>
+	<start>4702.0</start>
+	<end>4882.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Lamine Yamal Nasraoui Ebana</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>272</ID>
+	<start>4702.0</start>
+	<end>4882.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Lamine Yamal Nasraoui Ebana</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>273</ID>
+	<start>216.0</start>
+	<end>516.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Lamine Yamal Nasraoui Ebana</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>274</ID>
+	<start>4582.0</start>
+	<end>4882.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Lamine Yamal Nasraoui Ebana</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>275</ID>
+	<start>4582.0</start>
+	<end>4882.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Lamine Yamal Nasraoui Ebana</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>276</ID>
+	<start>2854.0</start>
+	<end>2914.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Pau Cubarsí</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>277</ID>
+	<start>621.0</start>
+	<end>681.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Pau Cubarsí</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>278</ID>
+	<start>4518.0</start>
+	<end>4578.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Pau Cubarsí</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>279</ID>
+	<start>218.0</start>
+	<end>398.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Pau Cubarsí</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>280</ID>
+	<start>501.0</start>
+	<end>681.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Pau Cubarsí</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>281</ID>
+	<start>4398.0</start>
+	<end>4578.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Pau Cubarsí</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>282</ID>
+	<start>210.0</start>
+	<end>510.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Pau Cubarsí</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>283</ID>
+	<start>501.0</start>
+	<end>801.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Pau Cubarsí</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>284</ID>
+	<start>4518.0</start>
+	<end>4818.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Pau Cubarsí</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>285</ID>
+	<start>2481.0</start>
+	<end>2541.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Marc Bernal</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>286</ID>
+	<start>445.0</start>
+	<end>505.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Marc Bernal</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>287</ID>
+	<start>445.0</start>
+	<end>505.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Marc Bernal</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>288</ID>
+	<start>353.0</start>
+	<end>533.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Marc Bernal</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>289</ID>
+	<start>325.0</start>
+	<end>505.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Marc Bernal</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>290</ID>
+	<start>325.0</start>
+	<end>505.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Marc Bernal</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>291</ID>
+	<start>218.0</start>
+	<end>518.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Marc Bernal</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>292</ID>
+	<start>458.0</start>
+	<end>758.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Marc Bernal</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+<instance>
+	<ID>293</ID>
+	<start>457.0</start>
+	<end>757.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Marc Bernal</text></label>
+	<label><group>Equipo</group><text>Barcelona</text></label>
+</instance>
+</ALL_INSTANCES>
+</file>

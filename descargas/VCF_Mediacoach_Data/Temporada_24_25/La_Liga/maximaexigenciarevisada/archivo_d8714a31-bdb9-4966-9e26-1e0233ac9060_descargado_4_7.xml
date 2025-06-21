@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+<ALL_INSTANCES>
+<instance>
+	<ID>1</ID>
+	<start>0.0</start>
+	<end>2999.44</end>
+	<code>Inicio</code>
+	<label><text>P1</text></label>
+</instance>
+<instance>
+	<ID>2</ID>
+	<start>3932.36</start>
+	<end>6907.92</end>
+	<code>Inicio</code>
+	<label><text>P2</text></label>
+</instance>
+<instance>
+	<ID>6</ID>
+	<start>3933.0</start>
+	<end>3993.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Darko Brasanac</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>7</ID>
+	<start>6101.0</start>
+	<end>6161.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Darko Brasanac</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>8</ID>
+	<start>6101.0</start>
+	<end>6161.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Darko Brasanac</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>9</ID>
+	<start>3942.0</start>
+	<end>4122.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Darko Brasanac</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>10</ID>
+	<start>6058.0</start>
+	<end>6238.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Darko Brasanac</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>11</ID>
+	<start>5981.0</start>
+	<end>6161.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Darko Brasanac</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>12</ID>
+	<start>1670.0</start>
+	<end>1970.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Darko Brasanac</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>13</ID>
+	<start>6111.0</start>
+	<end>6411.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Darko Brasanac</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>14</ID>
+	<start>6110.0</start>
+	<end>6410.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Darko Brasanac</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>15</ID>
+	<start>5191.0</start>
+	<end>5251.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Juan Cruz Álvaro Armada</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>16</ID>
+	<start>5190.0</start>
+	<end>5250.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Juan Cruz Álvaro Armada</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>17</ID>
+	<start>5189.0</start>
+	<end>5249.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Juan Cruz Álvaro Armada</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>18</ID>
+	<start>5192.0</start>
+	<end>5372.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Juan Cruz Álvaro Armada</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>19</ID>
+	<start>5189.0</start>
+	<end>5369.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Juan Cruz Álvaro Armada</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>20</ID>
+	<start>5069.0</start>
+	<end>5249.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Juan Cruz Álvaro Armada</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>21</ID>
+	<start>5075.0</start>
+	<end>5375.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Juan Cruz Álvaro Armada</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>22</ID>
+	<start>5069.0</start>
+	<end>5369.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Juan Cruz Álvaro Armada</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>23</ID>
+	<start>4949.0</start>
+	<end>5249.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Juan Cruz Álvaro Armada</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>24</ID>
+	<start>3933.0</start>
+	<end>3993.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Ante Budimir</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>25</ID>
+	<start>6112.0</start>
+	<end>6172.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Ante Budimir</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>26</ID>
+	<start>6100.0</start>
+	<end>6160.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Ante Budimir</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>27</ID>
+	<start>3931.0</start>
+	<end>4111.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Ante Budimir</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>28</ID>
+	<start>3943.0</start>
+	<end>4123.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Ante Budimir</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>29</ID>
+	<start>5980.0</start>
+	<end>6160.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Ante Budimir</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>30</ID>
+	<start>2592.0</start>
+	<end>2892.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Ante Budimir</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>31</ID>
+	<start>3915.0</start>
+	<end>4215.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Ante Budimir</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>32</ID>
+	<start>5860.0</start>
+	<end>6160.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Ante Budimir</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>33</ID>
+	<start>0.0</start>
+	<end>60.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Moi Gómez</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>34</ID>
+	<start>964.0</start>
+	<end>1024.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Moi Gómez</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>35</ID>
+	<start>1009.0</start>
+	<end>1069.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Moi Gómez</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>36</ID>
+	<start>3951.0</start>
+	<end>4131.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Moi Gómez</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>37</ID>
+	<start>889.0</start>
+	<end>1069.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Moi Gómez</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>38</ID>
+	<start>889.0</start>
+	<end>1069.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Moi Gómez</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>39</ID>
+	<start>1663.0</start>
+	<end>1963.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Moi Gómez</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>40</ID>
+	<start>769.0</start>
+	<end>1069.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Moi Gómez</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>41</ID>
+	<start>769.0</start>
+	<end>1069.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Moi Gómez</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>42</ID>
+	<start>-1.0</start>
+	<end>59.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Lucas Torró</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>43</ID>
+	<start>-6.0</start>
+	<end>54.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Lucas Torró</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>44</ID>
+	<start>-6.0</start>
+	<end>54.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Lucas Torró</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>45</ID>
+	<start>3933.0</start>
+	<end>4113.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Lucas Torró</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>46</ID>
+	<start>-126.0</start>
+	<end>54.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Lucas Torró</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>47</ID>
+	<start>-126.0</start>
+	<end>54.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Lucas Torró</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>48</ID>
+	<start>1693.0</start>
+	<end>1993.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Lucas Torró</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>49</ID>
+	<start>-246.0</start>
+	<end>54.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Lucas Torró</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>50</ID>
+	<start>-246.0</start>
+	<end>54.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Lucas Torró</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>51</ID>
+	<start>6144.0</start>
+	<end>6204.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Rubén Peña</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>52</ID>
+	<start>6115.0</start>
+	<end>6175.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Rubén Peña</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>53</ID>
+	<start>6099.0</start>
+	<end>6159.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Rubén Peña</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>54</ID>
+	<start>6080.0</start>
+	<end>6260.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Rubén Peña</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>55</ID>
+	<start>5995.0</start>
+	<end>6175.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Rubén Peña</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>56</ID>
+	<start>5979.0</start>
+	<end>6159.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Rubén Peña</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>57</ID>
+	<start>6138.0</start>
+	<end>6438.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Rubén Peña</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>58</ID>
+	<start>6120.0</start>
+	<end>6420.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Rubén Peña</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>59</ID>
+	<start>6113.0</start>
+	<end>6413.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Rubén Peña</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>60</ID>
+	<start>-1.0</start>
+	<end>59.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Rubén García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>61</ID>
+	<start>5783.0</start>
+	<end>5843.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Rubén García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>62</ID>
+	<start>5746.0</start>
+	<end>5806.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Rubén García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>63</ID>
+	<start>3944.0</start>
+	<end>4124.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Rubén García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>64</ID>
+	<start>5663.0</start>
+	<end>5843.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Rubén García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>65</ID>
+	<start>3843.0</start>
+	<end>4023.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Rubén García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>66</ID>
+	<start>2698.0</start>
+	<end>2998.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Rubén García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>67</ID>
+	<start>5543.0</start>
+	<end>5843.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Rubén García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>68</ID>
+	<start>3868.0</start>
+	<end>4168.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Rubén García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>69</ID>
+	<start>5490.0</start>
+	<end>5550.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Sergio Herrera</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>70</ID>
+	<start>5474.0</start>
+	<end>5534.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Sergio Herrera</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>71</ID>
+	<start>6843.0</start>
+	<end>6903.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Sergio Herrera</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>72</ID>
+	<start>5926.0</start>
+	<end>6106.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Sergio Herrera</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>73</ID>
+	<start>6723.0</start>
+	<end>6903.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Sergio Herrera</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>74</ID>
+	<start>6723.0</start>
+	<end>6903.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Sergio Herrera</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>75</ID>
+	<start>5761.0</start>
+	<end>6061.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Sergio Herrera</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>76</ID>
+	<start>6603.0</start>
+	<end>6903.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Sergio Herrera</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>77</ID>
+	<start>6603.0</start>
+	<end>6903.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Sergio Herrera</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>78</ID>
+	<start>6469.0</start>
+	<end>6529.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Renato Tapia</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>79</ID>
+	<start>-68379.52</start>
+	<end>-68319.52</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Renato Tapia</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>80</ID>
+	<start>-68379.52</start>
+	<end>-68319.52</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Renato Tapia</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>81</ID>
+	<start>6469.0</start>
+	<end>6649.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Renato Tapia</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>82</ID>
+	<start>-68379.52</start>
+	<end>-68199.52</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Renato Tapia</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>83</ID>
+	<start>-68379.52</start>
+	<end>-68199.52</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Renato Tapia</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>84</ID>
+	<start>6469.0</start>
+	<end>6769.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Renato Tapia</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>85</ID>
+	<start>-68379.52</start>
+	<end>-68079.52</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Renato Tapia</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>86</ID>
+	<start>-68379.52</start>
+	<end>-68079.52</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Renato Tapia</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>87</ID>
+	<start>6104.0</start>
+	<end>6164.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Sergio González</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>88</ID>
+	<start>6102.0</start>
+	<end>6162.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Sergio González</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>89</ID>
+	<start>6101.0</start>
+	<end>6161.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Sergio González</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>90</ID>
+	<start>3953.0</start>
+	<end>4133.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Sergio González</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>91</ID>
+	<start>5982.0</start>
+	<end>6162.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Sergio González</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>92</ID>
+	<start>5981.0</start>
+	<end>6161.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Sergio González</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>93</ID>
+	<start>1831.0</start>
+	<end>2131.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Sergio González</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>94</ID>
+	<start>5862.0</start>
+	<end>6162.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Sergio González</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>95</ID>
+	<start>5861.0</start>
+	<end>6161.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Sergio González</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>96</ID>
+	<start>2140.0</start>
+	<end>2200.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Juan Soriano</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>97</ID>
+	<start>1009.0</start>
+	<end>1069.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Juan Soriano</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>98</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Juan Soriano</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>99</ID>
+	<start>2133.0</start>
+	<end>2313.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Juan Soriano</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>100</ID>
+	<start>889.0</start>
+	<end>1069.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Juan Soriano</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>101</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Juan Soriano</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>102</ID>
+	<start>965.0</start>
+	<end>1265.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Juan Soriano</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>103</ID>
+	<start>769.0</start>
+	<end>1069.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Juan Soriano</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>104</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Juan Soriano</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>105</ID>
+	<start>5795.0</start>
+	<end>5855.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Julián Chicco</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>106</ID>
+	<start>6101.0</start>
+	<end>6161.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Julián Chicco</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>107</ID>
+	<start>6100.0</start>
+	<end>6160.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Julián Chicco</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>108</ID>
+	<start>5669.0</start>
+	<end>5849.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Julián Chicco</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>109</ID>
+	<start>5664.0</start>
+	<end>5844.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Julián Chicco</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>110</ID>
+	<start>5980.0</start>
+	<end>6160.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Julián Chicco</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>111</ID>
+	<start>6124.0</start>
+	<end>6424.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Julián Chicco</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>112</ID>
+	<start>5629.0</start>
+	<end>5929.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Julián Chicco</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>113</ID>
+	<start>6054.0</start>
+	<end>6354.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Julián Chicco</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>114</ID>
+	<start>4634.0</start>
+	<end>4694.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Valentin Rosier</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>115</ID>
+	<start>3902.0</start>
+	<end>3962.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Valentin Rosier</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>116</ID>
+	<start>5746.0</start>
+	<end>5806.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Valentin Rosier</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>117</ID>
+	<start>4508.0</start>
+	<end>4688.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Valentin Rosier</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>118</ID>
+	<start>3782.0</start>
+	<end>3962.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Valentin Rosier</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>119</ID>
+	<start>5626.0</start>
+	<end>5806.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Valentin Rosier</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>120</ID>
+	<start>4388.0</start>
+	<end>4688.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Valentin Rosier</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>121</ID>
+	<start>4480.0</start>
+	<end>4780.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Valentin Rosier</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>122</ID>
+	<start>5506.0</start>
+	<end>5806.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Valentin Rosier</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>123</ID>
+	<start>5190.0</start>
+	<end>5250.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Dani Raba</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>124</ID>
+	<start>6101.0</start>
+	<end>6161.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Dani Raba</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>125</ID>
+	<start>6100.0</start>
+	<end>6160.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Dani Raba</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>126</ID>
+	<start>5191.0</start>
+	<end>5371.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Dani Raba</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>127</ID>
+	<start>5981.0</start>
+	<end>6161.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Dani Raba</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>128</ID>
+	<start>5980.0</start>
+	<end>6160.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Dani Raba</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>129</ID>
+	<start>5073.0</start>
+	<end>5373.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Dani Raba</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>130</ID>
+	<start>6043.0</start>
+	<end>6343.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Dani Raba</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>131</ID>
+	<start>5860.0</start>
+	<end>6160.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Dani Raba</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>132</ID>
+	<start>4462.0</start>
+	<end>4522.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Alejandro Catena</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>133</ID>
+	<start>-6.0</start>
+	<end>54.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Alejandro Catena</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>134</ID>
+	<start>1698.0</start>
+	<end>1758.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Alejandro Catena</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>135</ID>
+	<start>1594.0</start>
+	<end>1774.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Alejandro Catena</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>136</ID>
+	<start>4467.0</start>
+	<end>4647.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Alejandro Catena</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>137</ID>
+	<start>1015.0</start>
+	<end>1195.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Alejandro Catena</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>138</ID>
+	<start>4454.0</start>
+	<end>4754.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Alejandro Catena</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>139</ID>
+	<start>791.0</start>
+	<end>1091.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Alejandro Catena</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>140</ID>
+	<start>895.0</start>
+	<end>1195.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Alejandro Catena</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>141</ID>
+	<start>2074.0</start>
+	<end>2134.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Yvan Neyou</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>142</ID>
+	<start>3902.0</start>
+	<end>3962.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Yvan Neyou</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>143</ID>
+	<start>5744.0</start>
+	<end>5804.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Yvan Neyou</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>144</ID>
+	<start>3952.0</start>
+	<end>4132.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Yvan Neyou</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>145</ID>
+	<start>3941.0</start>
+	<end>4121.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Yvan Neyou</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>146</ID>
+	<start>5624.0</start>
+	<end>5804.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Yvan Neyou</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>147</ID>
+	<start>5012.0</start>
+	<end>5312.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Yvan Neyou</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>148</ID>
+	<start>6124.0</start>
+	<end>6424.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Yvan Neyou</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>149</ID>
+	<start>5504.0</start>
+	<end>5804.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Yvan Neyou</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>150</ID>
+	<start>2.0</start>
+	<end>62.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Enric Franquesa</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>151</ID>
+	<start>6102.0</start>
+	<end>6162.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Enric Franquesa</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>152</ID>
+	<start>6101.0</start>
+	<end>6161.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Enric Franquesa</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>153</ID>
+	<start>4572.0</start>
+	<end>4752.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Enric Franquesa</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>154</ID>
+	<start>5663.0</start>
+	<end>5843.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Enric Franquesa</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>155</ID>
+	<start>1683.0</start>
+	<end>1863.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Enric Franquesa</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>156</ID>
+	<start>4481.0</start>
+	<end>4781.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Enric Franquesa</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>157</ID>
+	<start>5644.0</start>
+	<end>5944.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Enric Franquesa</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>158</ID>
+	<start>1639.0</start>
+	<end>1939.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Enric Franquesa</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>159</ID>
+	<start>1.0</start>
+	<end>61.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jesús Areso</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>160</ID>
+	<start>6101.0</start>
+	<end>6161.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jesús Areso</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>161</ID>
+	<start>6100.0</start>
+	<end>6160.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jesús Areso</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>162</ID>
+	<start>4572.0</start>
+	<end>4752.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jesús Areso</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>163</ID>
+	<start>1683.0</start>
+	<end>1863.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jesús Areso</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>164</ID>
+	<start>1682.0</start>
+	<end>1862.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jesús Areso</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>165</ID>
+	<start>5015.0</start>
+	<end>5315.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jesús Areso</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>166</ID>
+	<start>5012.0</start>
+	<end>5312.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jesús Areso</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>167</ID>
+	<start>5860.0</start>
+	<end>6160.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jesús Areso</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>168</ID>
+	<start>3934.0</start>
+	<end>3994.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Seydouba Cissé</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>169</ID>
+	<start>4587.0</start>
+	<end>4647.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Seydouba Cissé</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>170</ID>
+	<start>2557.0</start>
+	<end>2617.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Seydouba Cissé</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>171</ID>
+	<start>3944.0</start>
+	<end>4124.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Seydouba Cissé</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>172</ID>
+	<start>4586.0</start>
+	<end>4766.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Seydouba Cissé</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>173</ID>
+	<start>2437.0</start>
+	<end>2617.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Seydouba Cissé</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>174</ID>
+	<start>4388.0</start>
+	<end>4688.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Seydouba Cissé</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>175</ID>
+	<start>4466.0</start>
+	<end>4766.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Seydouba Cissé</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>176</ID>
+	<start>2317.0</start>
+	<end>2617.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Seydouba Cissé</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>177</ID>
+	<start>6326.0</start>
+	<end>6386.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Miguel de la Fuente</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>178</ID>
+	<start>2483.0</start>
+	<end>2543.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Miguel de la Fuente</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>179</ID>
+	<start>2483.0</start>
+	<end>2543.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Miguel de la Fuente</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>180</ID>
+	<start>5675.0</start>
+	<end>5855.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Miguel de la Fuente</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>181</ID>
+	<start>2530.0</start>
+	<end>2710.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Miguel de la Fuente</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>182</ID>
+	<start>2530.0</start>
+	<end>2710.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Miguel de la Fuente</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>183</ID>
+	<start>4361.0</start>
+	<end>4661.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Miguel de la Fuente</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>184</ID>
+	<start>2410.0</start>
+	<end>2710.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Miguel de la Fuente</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>185</ID>
+	<start>2360.0</start>
+	<end>2660.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Miguel de la Fuente</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>186</ID>
+	<start>3932.0</start>
+	<end>3992.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Juan Cruz</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>187</ID>
+	<start>-5.0</start>
+	<end>55.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Juan Cruz</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>188</ID>
+	<start>1711.0</start>
+	<end>1771.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Juan Cruz</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>189</ID>
+	<start>3931.0</start>
+	<end>4111.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Juan Cruz</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>190</ID>
+	<start>1591.0</start>
+	<end>1771.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Juan Cruz</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>191</ID>
+	<start>1591.0</start>
+	<end>1771.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Juan Cruz</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>192</ID>
+	<start>2318.0</start>
+	<end>2618.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Juan Cruz</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>193</ID>
+	<start>1590.0</start>
+	<end>1890.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Juan Cruz</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>194</ID>
+	<start>1471.0</start>
+	<end>1771.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Juan Cruz</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>195</ID>
+	<start>2078.0</start>
+	<end>2138.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Javi Hernández</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>196</ID>
+	<start>6101.0</start>
+	<end>6161.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Javi Hernández</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>197</ID>
+	<start>6100.0</start>
+	<end>6160.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Javi Hernández</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>198</ID>
+	<start>3953.0</start>
+	<end>4133.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Javi Hernández</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>199</ID>
+	<start>5664.0</start>
+	<end>5844.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Javi Hernández</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>200</ID>
+	<start>5663.0</start>
+	<end>5843.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Javi Hernández</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>201</ID>
+	<start>2697.0</start>
+	<end>2997.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Javi Hernández</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>202</ID>
+	<start>5629.0</start>
+	<end>5929.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Javi Hernández</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>203</ID>
+	<start>5543.0</start>
+	<end>5843.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Javi Hernández</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>204</ID>
+	<start>5074.0</start>
+	<end>5134.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jorge Herrando</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>205</ID>
+	<start>2826.0</start>
+	<end>2886.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jorge Herrando</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>206</ID>
+	<start>2826.0</start>
+	<end>2886.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jorge Herrando</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>207</ID>
+	<start>3933.0</start>
+	<end>4113.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jorge Herrando</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>208</ID>
+	<start>2706.0</start>
+	<end>2886.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jorge Herrando</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>209</ID>
+	<start>2706.0</start>
+	<end>2886.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jorge Herrando</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>210</ID>
+	<start>4384.0</start>
+	<end>4684.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jorge Herrando</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>211</ID>
+	<start>2586.0</start>
+	<end>2886.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jorge Herrando</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>212</ID>
+	<start>2586.0</start>
+	<end>2886.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jorge Herrando</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>213</ID>
+	<start>6472.0</start>
+	<end>6532.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Roberto López</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>214</ID>
+	<start>6459.0</start>
+	<end>6519.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Roberto López</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>215</ID>
+	<start>6458.0</start>
+	<end>6518.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Roberto López</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>216</ID>
+	<start>6509.0</start>
+	<end>6689.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Roberto López</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>217</ID>
+	<start>6424.0</start>
+	<end>6604.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Roberto López</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>218</ID>
+	<start>6338.0</start>
+	<end>6518.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Roberto López</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>219</ID>
+	<start>6472.0</start>
+	<end>6772.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Roberto López</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>220</ID>
+	<start>6462.0</start>
+	<end>6762.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Roberto López</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>221</ID>
+	<start>6431.0</start>
+	<end>6731.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Roberto López</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>222</ID>
+	<start>3934.0</start>
+	<end>3994.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jon Moncayola</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>223</ID>
+	<start>5644.0</start>
+	<end>5704.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jon Moncayola</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>224</ID>
+	<start>5643.0</start>
+	<end>5703.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jon Moncayola</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>225</ID>
+	<start>3943.0</start>
+	<end>4123.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jon Moncayola</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>226</ID>
+	<start>5628.0</start>
+	<end>5808.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jon Moncayola</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>227</ID>
+	<start>5627.0</start>
+	<end>5807.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jon Moncayola</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>228</ID>
+	<start>4490.0</start>
+	<end>4790.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jon Moncayola</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>229</ID>
+	<start>5644.0</start>
+	<end>5944.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jon Moncayola</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>230</ID>
+	<start>5507.0</start>
+	<end>5807.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jon Moncayola</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>231</ID>
+	<start>3933.0</start>
+	<end>3993.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Aimar Oroz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>232</ID>
+	<start>3903.0</start>
+	<end>3963.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Aimar Oroz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>233</ID>
+	<start>6100.0</start>
+	<end>6160.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Aimar Oroz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>234</ID>
+	<start>3944.0</start>
+	<end>4124.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Aimar Oroz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>235</ID>
+	<start>1682.0</start>
+	<end>1862.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Aimar Oroz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>236</ID>
+	<start>5980.0</start>
+	<end>6160.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Aimar Oroz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>237</ID>
+	<start>2598.0</start>
+	<end>2898.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Aimar Oroz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>238</ID>
+	<start>1562.0</start>
+	<end>1862.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Aimar Oroz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>239</ID>
+	<start>6110.0</start>
+	<end>6410.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Aimar Oroz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>240</ID>
+	<start>2792.0</start>
+	<end>2852.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Aritz Arambarri</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>241</ID>
+	<start>6102.0</start>
+	<end>6162.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Aritz Arambarri</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>242</ID>
+	<start>6101.0</start>
+	<end>6161.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Aritz Arambarri</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>243</ID>
+	<start>3941.0</start>
+	<end>4121.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Aritz Arambarri</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>244</ID>
+	<start>6107.0</start>
+	<end>6287.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Aritz Arambarri</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>245</ID>
+	<start>6107.0</start>
+	<end>6287.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Aritz Arambarri</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>246</ID>
+	<start>3934.0</start>
+	<end>4234.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Aritz Arambarri</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>247</ID>
+	<start>6113.0</start>
+	<end>6413.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Aritz Arambarri</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>248</ID>
+	<start>5987.0</start>
+	<end>6287.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Aritz Arambarri</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>249</ID>
+	<start>6709.0</start>
+	<end>6769.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Raúl García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>250</ID>
+	<start>6700.0</start>
+	<end>6760.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Raúl García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>251</ID>
+	<start>-68379.52</start>
+	<end>-68319.52</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Raúl García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>252</ID>
+	<start>6709.0</start>
+	<end>6889.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Raúl García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>253</ID>
+	<start>6636.0</start>
+	<end>6816.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Raúl García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>254</ID>
+	<start>-68379.52</start>
+	<end>-68199.52</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Raúl García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>255</ID>
+	<start>6603.0</start>
+	<end>6903.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Raúl García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>256</ID>
+	<start>6516.0</start>
+	<end>6816.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Raúl García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>257</ID>
+	<start>-68379.52</start>
+	<end>-68079.52</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Raúl García</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>258</ID>
+	<start>3935.0</start>
+	<end>3995.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Abel Bretones</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>259</ID>
+	<start>2324.0</start>
+	<end>2384.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Abel Bretones</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>260</ID>
+	<start>1711.0</start>
+	<end>1771.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Abel Bretones</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>261</ID>
+	<start>3954.0</start>
+	<end>4134.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Abel Bretones</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>262</ID>
+	<start>2204.0</start>
+	<end>2384.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Abel Bretones</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>263</ID>
+	<start>2204.0</start>
+	<end>2384.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Abel Bretones</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>264</ID>
+	<start>4493.0</start>
+	<end>4793.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Abel Bretones</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>265</ID>
+	<start>2248.0</start>
+	<end>2548.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Abel Bretones</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>266</ID>
+	<start>2248.0</start>
+	<end>2548.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Abel Bretones</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>267</ID>
+	<start>6149.0</start>
+	<end>6209.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Bryan Zaragoza</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>268</ID>
+	<start>6101.0</start>
+	<end>6161.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Bryan Zaragoza</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>269</ID>
+	<start>6101.0</start>
+	<end>6161.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Bryan Zaragoza</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>270</ID>
+	<start>6111.0</start>
+	<end>6291.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Bryan Zaragoza</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>271</ID>
+	<start>6110.0</start>
+	<end>6290.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Bryan Zaragoza</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>272</ID>
+	<start>6110.0</start>
+	<end>6290.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Bryan Zaragoza</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>273</ID>
+	<start>6080.0</start>
+	<end>6380.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Bryan Zaragoza</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>274</ID>
+	<start>6043.0</start>
+	<end>6343.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Bryan Zaragoza</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>275</ID>
+	<start>5990.0</start>
+	<end>6290.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Bryan Zaragoza</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>276</ID>
+	<start>6763.0</start>
+	<end>6823.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Diego García</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>277</ID>
+	<start>6460.0</start>
+	<end>6520.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Diego García</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>278</ID>
+	<start>6541.0</start>
+	<end>6601.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Diego García</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>279</ID>
+	<start>6640.0</start>
+	<end>6820.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Diego García</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>280</ID>
+	<start>6421.0</start>
+	<end>6601.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Diego García</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>281</ID>
+	<start>6421.0</start>
+	<end>6601.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Diego García</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>282</ID>
+	<start>6571.0</start>
+	<end>6871.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Diego García</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>283</ID>
+	<start>6474.0</start>
+	<end>6774.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Diego García</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>284</ID>
+	<start>6301.0</start>
+	<end>6601.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Diego García</text></label>
+	<label><group>Equipo</group><text>Leganés</text></label>
+</instance>
+<instance>
+	<ID>285</ID>
+	<start>0.0</start>
+	<end>60.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Iker Muñoz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>286</ID>
+	<start>-6.0</start>
+	<end>54.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Iker Muñoz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>287</ID>
+	<start>-6.0</start>
+	<end>54.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Iker Muñoz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>288</ID>
+	<start>283.0</start>
+	<end>463.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Iker Muñoz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>289</ID>
+	<start>-126.0</start>
+	<end>54.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Iker Muñoz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>290</ID>
+	<start>-126.0</start>
+	<end>54.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Iker Muñoz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>291</ID>
+	<start>1667.0</start>
+	<end>1967.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Iker Muñoz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>292</ID>
+	<start>-246.0</start>
+	<end>54.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Iker Muñoz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+<instance>
+	<ID>293</ID>
+	<start>-246.0</start>
+	<end>54.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Iker Muñoz</text></label>
+	<label><group>Equipo</group><text>Osasuna</text></label>
+</instance>
+</ALL_INSTANCES>
+</file>

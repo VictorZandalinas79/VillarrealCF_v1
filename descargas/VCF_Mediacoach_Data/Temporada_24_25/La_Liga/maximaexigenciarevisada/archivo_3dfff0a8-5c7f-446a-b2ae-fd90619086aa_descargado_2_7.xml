@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+<ALL_INSTANCES>
+<instance>
+	<ID>1</ID>
+	<start>0.0</start>
+	<end>3182.96</end>
+	<code>Inicio</code>
+	<label><text>P1</text></label>
+</instance>
+<instance>
+	<ID>2</ID>
+	<start>4242.44</start>
+	<end>7370.72</end>
+	<code>Inicio</code>
+	<label><text>P2</text></label>
+</instance>
+<instance>
+	<ID>6</ID>
+	<start>59.0</start>
+	<end>119.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Iago Aspas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>7</ID>
+	<start>6840.0</start>
+	<end>6900.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Iago Aspas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>8</ID>
+	<start>6839.0</start>
+	<end>6899.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Iago Aspas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>9</ID>
+	<start>8.0</start>
+	<end>188.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Iago Aspas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>10</ID>
+	<start>5390.0</start>
+	<end>5570.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Iago Aspas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>11</ID>
+	<start>6719.0</start>
+	<end>6899.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Iago Aspas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>12</ID>
+	<start>-1.0</start>
+	<end>299.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Iago Aspas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>13</ID>
+	<start>5378.0</start>
+	<end>5678.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Iago Aspas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>14</ID>
+	<start>6876.0</start>
+	<end>7176.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Iago Aspas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>15</ID>
+	<start>2738.0</start>
+	<end>2798.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Kike García</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>16</ID>
+	<start>2828.0</start>
+	<end>2888.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Kike García</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>17</ID>
+	<start>2828.0</start>
+	<end>2888.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Kike García</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>18</ID>
+	<start>32.0</start>
+	<end>212.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Kike García</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>19</ID>
+	<start>2843.0</start>
+	<end>3023.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Kike García</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>20</ID>
+	<start>2708.0</start>
+	<end>2888.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Kike García</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>21</ID>
+	<start>-1.0</start>
+	<end>299.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Kike García</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>22</ID>
+	<start>4931.0</start>
+	<end>5231.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Kike García</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>23</ID>
+	<start>2588.0</start>
+	<end>2888.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Kike García</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>24</ID>
+	<start>2481.0</start>
+	<end>2541.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Javier Manquillo</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>25</ID>
+	<start>891.0</start>
+	<end>951.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Javier Manquillo</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>26</ID>
+	<start>890.0</start>
+	<end>950.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Javier Manquillo</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>27</ID>
+	<start>3.0</start>
+	<end>183.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Javier Manquillo</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>28</ID>
+	<start>771.0</start>
+	<end>951.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Javier Manquillo</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>29</ID>
+	<start>770.0</start>
+	<end>950.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Javier Manquillo</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>30</ID>
+	<start>0.0</start>
+	<end>300.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Javier Manquillo</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>31</ID>
+	<start>651.0</start>
+	<end>951.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Javier Manquillo</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>32</ID>
+	<start>650.0</start>
+	<end>950.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Javier Manquillo</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>33</ID>
+	<start>2744.0</start>
+	<end>2804.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Carl Starfelt</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>34</ID>
+	<start>2822.0</start>
+	<end>2882.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Carl Starfelt</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>35</ID>
+	<start>723.0</start>
+	<end>783.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Carl Starfelt</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>36</ID>
+	<start>2.0</start>
+	<end>182.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Carl Starfelt</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>37</ID>
+	<start>2845.0</start>
+	<end>3025.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Carl Starfelt</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>38</ID>
+	<start>603.0</start>
+	<end>783.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Carl Starfelt</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>39</ID>
+	<start>569.0</start>
+	<end>869.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Carl Starfelt</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>40</ID>
+	<start>2725.0</start>
+	<end>3025.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Carl Starfelt</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>41</ID>
+	<start>483.0</start>
+	<end>783.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Carl Starfelt</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>42</ID>
+	<start>624.0</start>
+	<end>684.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Antonio Sivera</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>43</ID>
+	<start>575.0</start>
+	<end>635.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Antonio Sivera</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>44</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Antonio Sivera</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>45</ID>
+	<start>154.0</start>
+	<end>334.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Antonio Sivera</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>46</ID>
+	<start>455.0</start>
+	<end>635.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Antonio Sivera</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>47</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Antonio Sivera</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>48</ID>
+	<start>2868.0</start>
+	<end>3168.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Antonio Sivera</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>49</ID>
+	<start>335.0</start>
+	<end>635.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Antonio Sivera</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>50</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Antonio Sivera</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>51</ID>
+	<start>842.0</start>
+	<end>902.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jonathan Bamba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>52</ID>
+	<start>289.0</start>
+	<end>349.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jonathan Bamba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>53</ID>
+	<start>790.0</start>
+	<end>850.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jonathan Bamba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>54</ID>
+	<start>718.0</start>
+	<end>898.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jonathan Bamba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>55</ID>
+	<start>169.0</start>
+	<end>349.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jonathan Bamba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>56</ID>
+	<start>670.0</start>
+	<end>850.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jonathan Bamba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>57</ID>
+	<start>591.0</start>
+	<end>891.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jonathan Bamba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>58</ID>
+	<start>-1.0</start>
+	<end>299.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jonathan Bamba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>59</ID>
+	<start>2727.0</start>
+	<end>3027.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jonathan Bamba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>60</ID>
+	<start>6343.0</start>
+	<end>6403.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Juan Diego Molina Martínez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>61</ID>
+	<start>6384.0</start>
+	<end>6444.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Juan Diego Molina Martínez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>62</ID>
+	<start>6342.0</start>
+	<end>6402.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Juan Diego Molina Martínez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>63</ID>
+	<start>6336.0</start>
+	<end>6516.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Juan Diego Molina Martínez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>64</ID>
+	<start>6223.0</start>
+	<end>6403.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Juan Diego Molina Martínez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>65</ID>
+	<start>6222.0</start>
+	<end>6402.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Juan Diego Molina Martínez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>66</ID>
+	<start>6208.0</start>
+	<end>6508.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Juan Diego Molina Martínez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>67</ID>
+	<start>6144.0</start>
+	<end>6444.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Juan Diego Molina Martínez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>68</ID>
+	<start>6102.0</start>
+	<end>6402.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Juan Diego Molina Martínez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>69</ID>
+	<start>5045.0</start>
+	<end>5105.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jon Guridi</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>70</ID>
+	<start>1291.0</start>
+	<end>1351.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jon Guridi</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>71</ID>
+	<start>4641.0</start>
+	<end>4701.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jon Guridi</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>72</ID>
+	<start>779.0</start>
+	<end>959.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jon Guridi</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>73</ID>
+	<start>4900.0</start>
+	<end>5080.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jon Guridi</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>74</ID>
+	<start>5034.0</start>
+	<end>5214.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jon Guridi</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>75</ID>
+	<start>657.0</start>
+	<end>957.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jon Guridi</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>76</ID>
+	<start>4402.0</start>
+	<end>4702.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jon Guridi</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>77</ID>
+	<start>4401.0</start>
+	<end>4701.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jon Guridi</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>78</ID>
+	<start>6430.0</start>
+	<end>6490.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Borja Iglesias</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>79</ID>
+	<start>7115.0</start>
+	<end>7175.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Borja Iglesias</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>80</ID>
+	<start>7114.0</start>
+	<end>7174.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Borja Iglesias</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>81</ID>
+	<start>6377.0</start>
+	<end>6557.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Borja Iglesias</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>82</ID>
+	<start>6600.0</start>
+	<end>6780.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Borja Iglesias</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>83</ID>
+	<start>6994.0</start>
+	<end>7174.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Borja Iglesias</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>84</ID>
+	<start>6214.0</start>
+	<end>6514.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Borja Iglesias</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>85</ID>
+	<start>6875.0</start>
+	<end>7175.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Borja Iglesias</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>86</ID>
+	<start>6874.0</start>
+	<end>7174.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Borja Iglesias</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>87</ID>
+	<start>6856.0</start>
+	<end>6916.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jailson Marques Siqueira</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>88</ID>
+	<start>6387.0</start>
+	<end>6447.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jailson Marques Siqueira</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>89</ID>
+	<start>6387.0</start>
+	<end>6447.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jailson Marques Siqueira</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>90</ID>
+	<start>4978.0</start>
+	<end>5158.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jailson Marques Siqueira</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>91</ID>
+	<start>4902.0</start>
+	<end>5082.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jailson Marques Siqueira</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>92</ID>
+	<start>6267.0</start>
+	<end>6447.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jailson Marques Siqueira</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>93</ID>
+	<start>4977.0</start>
+	<end>5277.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jailson Marques Siqueira</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>94</ID>
+	<start>4782.0</start>
+	<end>5082.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jailson Marques Siqueira</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>95</ID>
+	<start>6147.0</start>
+	<end>6447.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jailson Marques Siqueira</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>96</ID>
+	<start>6857.0</start>
+	<end>6917.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Asier Villalibre</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>97</ID>
+	<start>6649.0</start>
+	<end>6709.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Asier Villalibre</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>98</ID>
+	<start>6649.0</start>
+	<end>6709.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Asier Villalibre</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>99</ID>
+	<start>6333.0</start>
+	<end>6513.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Asier Villalibre</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>100</ID>
+	<start>6288.0</start>
+	<end>6468.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Asier Villalibre</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>101</ID>
+	<start>6288.0</start>
+	<end>6468.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Asier Villalibre</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>102</ID>
+	<start>6893.0</start>
+	<end>7193.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Asier Villalibre</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>103</ID>
+	<start>6168.0</start>
+	<end>6468.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Asier Villalibre</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>104</ID>
+	<start>6409.0</start>
+	<end>6709.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Asier Villalibre</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>105</ID>
+	<start>4400.0</start>
+	<end>4460.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Tomás Conechny</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>106</ID>
+	<start>2745.0</start>
+	<end>2805.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Tomás Conechny</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>107</ID>
+	<start>5022.0</start>
+	<end>5082.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Tomás Conechny</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>108</ID>
+	<start>4282.0</start>
+	<end>4462.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Tomás Conechny</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>109</ID>
+	<start>4902.0</start>
+	<end>5082.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Tomás Conechny</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>110</ID>
+	<start>4902.0</start>
+	<end>5082.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Tomás Conechny</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>111</ID>
+	<start>4798.0</start>
+	<end>5098.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Tomás Conechny</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>112</ID>
+	<start>4840.0</start>
+	<end>5140.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Tomás Conechny</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>113</ID>
+	<start>4840.0</start>
+	<end>5140.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Tomás Conechny</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>114</ID>
+	<start>4398.0</start>
+	<end>4458.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Fran Beltrán</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>115</ID>
+	<start>1290.0</start>
+	<end>1350.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Fran Beltrán</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>116</ID>
+	<start>1288.0</start>
+	<end>1348.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Fran Beltrán</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>117</ID>
+	<start>782.0</start>
+	<end>962.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Fran Beltrán</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>118</ID>
+	<start>4903.0</start>
+	<end>5083.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Fran Beltrán</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>119</ID>
+	<start>1168.0</start>
+	<end>1348.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Fran Beltrán</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>120</ID>
+	<start>583.0</start>
+	<end>883.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Fran Beltrán</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>121</ID>
+	<start>1265.0</start>
+	<end>1565.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Fran Beltrán</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>122</ID>
+	<start>1048.0</start>
+	<end>1348.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Fran Beltrán</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>123</ID>
+	<start>5963.0</start>
+	<end>6023.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Iván Villar</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>124</ID>
+	<start>2194.0</start>
+	<end>2254.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Iván Villar</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>125</ID>
+	<start>2193.0</start>
+	<end>2253.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Iván Villar</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>126</ID>
+	<start>1521.0</start>
+	<end>1701.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Iván Villar</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>127</ID>
+	<start>2074.0</start>
+	<end>2254.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Iván Villar</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>128</ID>
+	<start>2073.0</start>
+	<end>2253.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Iván Villar</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>129</ID>
+	<start>1496.0</start>
+	<end>1796.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Iván Villar</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>130</ID>
+	<start>1954.0</start>
+	<end>2254.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Iván Villar</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>131</ID>
+	<start>1953.0</start>
+	<end>2253.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Iván Villar</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>132</ID>
+	<start>2724.0</start>
+	<end>2784.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Óscar Mingueza</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>133</ID>
+	<start>2705.0</start>
+	<end>2765.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Óscar Mingueza</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>134</ID>
+	<start>2696.0</start>
+	<end>2756.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Óscar Mingueza</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>135</ID>
+	<start>4291.0</start>
+	<end>4471.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Óscar Mingueza</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>136</ID>
+	<start>2700.0</start>
+	<end>2880.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Óscar Mingueza</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>137</ID>
+	<start>2576.0</start>
+	<end>2756.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Óscar Mingueza</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>138</ID>
+	<start>51.0</start>
+	<end>351.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Óscar Mingueza</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>139</ID>
+	<start>2725.0</start>
+	<end>3025.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Óscar Mingueza</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>140</ID>
+	<start>2692.0</start>
+	<end>2992.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Óscar Mingueza</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>141</ID>
+	<start>6859.0</start>
+	<end>6919.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Carlos Benavídez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>142</ID>
+	<start>6845.0</start>
+	<end>6905.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Carlos Benavídez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>143</ID>
+	<start>7114.0</start>
+	<end>7174.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Carlos Benavídez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>144</ID>
+	<start>6320.0</start>
+	<end>6500.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Carlos Benavídez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>145</ID>
+	<start>6725.0</start>
+	<end>6905.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Carlos Benavídez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>146</ID>
+	<start>6717.0</start>
+	<end>6897.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Carlos Benavídez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>147</ID>
+	<start>6317.0</start>
+	<end>6617.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Carlos Benavídez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>148</ID>
+	<start>6605.0</start>
+	<end>6905.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Carlos Benavídez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>149</ID>
+	<start>6874.0</start>
+	<end>7174.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Carlos Benavídez</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>150</ID>
+	<start>2741.0</start>
+	<end>2801.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Ander Guevara</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>151</ID>
+	<start>5082.0</start>
+	<end>5142.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Ander Guevara</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>152</ID>
+	<start>5039.0</start>
+	<end>5099.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Ander Guevara</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>153</ID>
+	<start>9.0</start>
+	<end>189.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Ander Guevara</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>154</ID>
+	<start>5389.0</start>
+	<end>5569.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Ander Guevara</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>155</ID>
+	<start>4919.0</start>
+	<end>5099.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Ander Guevara</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>156</ID>
+	<start>583.0</start>
+	<end>883.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Ander Guevara</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>157</ID>
+	<start>5430.0</start>
+	<end>5730.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Ander Guevara</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>158</ID>
+	<start>4799.0</start>
+	<end>5099.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Ander Guevara</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>159</ID>
+	<start>4642.0</start>
+	<end>4702.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Nahuel Tenaglia</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>160</ID>
+	<start>947.0</start>
+	<end>1007.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Nahuel Tenaglia</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>161</ID>
+	<start>5039.0</start>
+	<end>5099.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Nahuel Tenaglia</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>162</ID>
+	<start>9.0</start>
+	<end>189.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Nahuel Tenaglia</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>163</ID>
+	<start>670.0</start>
+	<end>850.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Nahuel Tenaglia</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>164</ID>
+	<start>4919.0</start>
+	<end>5099.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Nahuel Tenaglia</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>165</ID>
+	<start>1.0</start>
+	<end>301.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Nahuel Tenaglia</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>166</ID>
+	<start>707.0</start>
+	<end>1007.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Nahuel Tenaglia</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>167</ID>
+	<start>6860.0</start>
+	<end>7160.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Nahuel Tenaglia</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>168</ID>
+	<start>4242.0</start>
+	<end>4302.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Tasos Douvikas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>169</ID>
+	<start>5040.0</start>
+	<end>5100.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Tasos Douvikas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>170</ID>
+	<start>4646.0</start>
+	<end>4706.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Tasos Douvikas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>171</ID>
+	<start>692.0</start>
+	<end>872.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Tasos Douvikas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>172</ID>
+	<start>668.0</start>
+	<end>848.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Tasos Douvikas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>173</ID>
+	<start>4919.0</start>
+	<end>5099.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Tasos Douvikas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>174</ID>
+	<start>582.0</start>
+	<end>882.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Tasos Douvikas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>175</ID>
+	<start>548.0</start>
+	<end>848.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Tasos Douvikas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>176</ID>
+	<start>4406.0</start>
+	<end>4706.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Tasos Douvikas</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>177</ID>
+	<start>6230.0</start>
+	<end>6290.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Luis Rioja</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>178</ID>
+	<start>6225.0</start>
+	<end>6285.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Luis Rioja</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>179</ID>
+	<start>6198.0</start>
+	<end>6258.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Luis Rioja</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>180</ID>
+	<start>6231.0</start>
+	<end>6411.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Luis Rioja</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>181</ID>
+	<start>6222.0</start>
+	<end>6402.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Luis Rioja</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>182</ID>
+	<start>6686.0</start>
+	<end>6866.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Luis Rioja</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>183</ID>
+	<start>6206.0</start>
+	<end>6506.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Luis Rioja</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>184</ID>
+	<start>6149.0</start>
+	<end>6449.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Luis Rioja</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>185</ID>
+	<start>6149.0</start>
+	<end>6449.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Luis Rioja</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>186</ID>
+	<start>49.0</start>
+	<end>109.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Antonio Blanco</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>187</ID>
+	<start>6839.0</start>
+	<end>6899.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Antonio Blanco</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>188</ID>
+	<start>6839.0</start>
+	<end>6899.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Antonio Blanco</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>189</ID>
+	<start>8.0</start>
+	<end>188.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Antonio Blanco</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>190</ID>
+	<start>6719.0</start>
+	<end>6899.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Antonio Blanco</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>191</ID>
+	<start>6719.0</start>
+	<end>6899.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Antonio Blanco</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>192</ID>
+	<start>586.0</start>
+	<end>886.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Antonio Blanco</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>193</ID>
+	<start>6747.0</start>
+	<end>7047.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Antonio Blanco</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>194</ID>
+	<start>6746.0</start>
+	<end>7046.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Antonio Blanco</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>195</ID>
+	<start>12.0</start>
+	<end>72.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Abdel Abqar</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>196</ID>
+	<start>4646.0</start>
+	<end>4706.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Abdel Abqar</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>197</ID>
+	<start>4646.0</start>
+	<end>4706.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Abdel Abqar</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>198</ID>
+	<start>10.0</start>
+	<end>190.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Abdel Abqar</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>199</ID>
+	<start>4695.0</start>
+	<end>4875.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Abdel Abqar</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>200</ID>
+	<start>4695.0</start>
+	<end>4875.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Abdel Abqar</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>201</ID>
+	<start>0.0</start>
+	<end>300.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Abdel Abqar</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>202</ID>
+	<start>4613.0</start>
+	<end>4913.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Abdel Abqar</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>203</ID>
+	<start>4406.0</start>
+	<end>4706.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Abdel Abqar</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>204</ID>
+	<start>5415.0</start>
+	<end>5475.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Ilaix Moriba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>205</ID>
+	<start>5508.0</start>
+	<end>5568.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Ilaix Moriba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>206</ID>
+	<start>7178.0</start>
+	<end>7238.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Ilaix Moriba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>207</ID>
+	<start>6334.0</start>
+	<end>6514.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Ilaix Moriba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>208</ID>
+	<start>5388.0</start>
+	<end>5568.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Ilaix Moriba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>209</ID>
+	<start>6717.0</start>
+	<end>6897.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Ilaix Moriba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>210</ID>
+	<start>6206.0</start>
+	<end>6506.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Ilaix Moriba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>211</ID>
+	<start>5427.0</start>
+	<end>5727.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Ilaix Moriba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>212</ID>
+	<start>6747.0</start>
+	<end>7047.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Ilaix Moriba</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>213</ID>
+	<start>4404.0</start>
+	<end>4464.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Carlos Vicente</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>214</ID>
+	<start>6225.0</start>
+	<end>6285.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Carlos Vicente</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>215</ID>
+	<start>7118.0</start>
+	<end>7178.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Carlos Vicente</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>216</ID>
+	<start>529.0</start>
+	<end>709.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Carlos Vicente</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>217</ID>
+	<start>6252.0</start>
+	<end>6432.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Carlos Vicente</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>218</ID>
+	<start>6251.0</start>
+	<end>6431.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Carlos Vicente</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>219</ID>
+	<start>599.0</start>
+	<end>899.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Carlos Vicente</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>220</ID>
+	<start>598.0</start>
+	<end>898.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Carlos Vicente</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>221</ID>
+	<start>6878.0</start>
+	<end>7178.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Carlos Vicente</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>222</ID>
+	<start>938.0</start>
+	<end>998.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Moussa Diarra</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>223</ID>
+	<start>929.0</start>
+	<end>989.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Moussa Diarra</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>224</ID>
+	<start>929.0</start>
+	<end>989.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Moussa Diarra</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>225</ID>
+	<start>833.0</start>
+	<end>1013.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Moussa Diarra</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>226</ID>
+	<start>979.0</start>
+	<end>1159.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Moussa Diarra</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>227</ID>
+	<start>1483.0</start>
+	<end>1663.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Moussa Diarra</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>228</ID>
+	<start>621.0</start>
+	<end>921.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Moussa Diarra</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>229</ID>
+	<start>1271.0</start>
+	<end>1571.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Moussa Diarra</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>230</ID>
+	<start>1271.0</start>
+	<end>1571.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Moussa Diarra</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>231</ID>
+	<start>5039.0</start>
+	<end>5099.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Hugo Novoa</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>232</ID>
+	<start>6226.0</start>
+	<end>6286.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Hugo Novoa</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>233</ID>
+	<start>7124.0</start>
+	<end>7184.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Hugo Novoa</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>234</ID>
+	<start>7017.0</start>
+	<end>7197.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Hugo Novoa</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>235</ID>
+	<start>6206.0</start>
+	<end>6386.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Hugo Novoa</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>236</ID>
+	<start>7004.0</start>
+	<end>7184.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Hugo Novoa</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>237</ID>
+	<start>6211.0</start>
+	<end>6511.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Hugo Novoa</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>238</ID>
+	<start>6170.0</start>
+	<end>6470.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Hugo Novoa</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>239</ID>
+	<start>5986.0</start>
+	<end>6286.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Hugo Novoa</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>240</ID>
+	<start>2725.0</start>
+	<end>2785.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Luka Romero</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>241</ID>
+	<start>2692.0</start>
+	<end>2752.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Luka Romero</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>242</ID>
+	<start>2691.0</start>
+	<end>2751.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Luka Romero</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>243</ID>
+	<start>2716.0</start>
+	<end>2896.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Luka Romero</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>244</ID>
+	<start>2701.0</start>
+	<end>2881.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Luka Romero</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>245</ID>
+	<start>2701.0</start>
+	<end>2881.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Luka Romero</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>246</ID>
+	<start>0.0</start>
+	<end>300.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Luka Romero</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>247</ID>
+	<start>2725.0</start>
+	<end>3025.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Luka Romero</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>248</ID>
+	<start>2581.0</start>
+	<end>2881.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Luka Romero</text></label>
+	<label><group>Equipo</group><text>Alavés</text></label>
+</instance>
+<instance>
+	<ID>249</ID>
+	<start>5038.0</start>
+	<end>5098.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Carlos Domínguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>250</ID>
+	<start>6343.0</start>
+	<end>6403.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Carlos Domínguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>251</ID>
+	<start>6343.0</start>
+	<end>6403.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Carlos Domínguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>252</ID>
+	<start>4977.0</start>
+	<end>5157.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Carlos Domínguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>253</ID>
+	<start>5067.0</start>
+	<end>5247.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Carlos Domínguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>254</ID>
+	<start>6364.0</start>
+	<end>6544.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Carlos Domínguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>255</ID>
+	<start>587.0</start>
+	<end>887.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Carlos Domínguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>256</ID>
+	<start>4947.0</start>
+	<end>5247.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Carlos Domínguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>257</ID>
+	<start>6244.0</start>
+	<end>6544.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Carlos Domínguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>258</ID>
+	<start>5043.0</start>
+	<end>5103.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Williot Swedberg</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>259</ID>
+	<start>4229.0</start>
+	<end>4289.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Williot Swedberg</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>260</ID>
+	<start>5038.0</start>
+	<end>5098.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Williot Swedberg</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>261</ID>
+	<start>4283.0</start>
+	<end>4463.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Williot Swedberg</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>262</ID>
+	<start>5091.0</start>
+	<end>5271.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Williot Swedberg</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>263</ID>
+	<start>5089.0</start>
+	<end>5269.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Williot Swedberg</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>264</ID>
+	<start>4244.0</start>
+	<end>4544.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Williot Swedberg</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>265</ID>
+	<start>4175.0</start>
+	<end>4475.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Williot Swedberg</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>266</ID>
+	<start>4969.0</start>
+	<end>5269.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Williot Swedberg</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>267</ID>
+	<start>4407.0</start>
+	<end>4467.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Hugo Álvarez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>268</ID>
+	<start>5035.0</start>
+	<end>5095.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Hugo Álvarez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>269</ID>
+	<start>5035.0</start>
+	<end>5095.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Hugo Álvarez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>270</ID>
+	<start>4285.0</start>
+	<end>4465.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Hugo Álvarez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>271</ID>
+	<start>4915.0</start>
+	<end>5095.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Hugo Álvarez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>272</ID>
+	<start>4915.0</start>
+	<end>5095.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Hugo Álvarez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>273</ID>
+	<start>6207.0</start>
+	<end>6507.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Hugo Álvarez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>274</ID>
+	<start>4795.0</start>
+	<end>5095.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Hugo Álvarez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>275</ID>
+	<start>4920.0</start>
+	<end>5220.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Hugo Álvarez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>276</ID>
+	<start>5052.0</start>
+	<end>5112.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Damián Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>277</ID>
+	<start>6724.0</start>
+	<end>6784.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Damián Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>278</ID>
+	<start>5418.0</start>
+	<end>5478.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Damián Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>279</ID>
+	<start>9.0</start>
+	<end>189.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Damián Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>280</ID>
+	<start>6688.0</start>
+	<end>6868.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Damián Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>281</ID>
+	<start>6602.0</start>
+	<end>6782.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Damián Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>282</ID>
+	<start>1.0</start>
+	<end>301.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Damián Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>283</ID>
+	<start>6568.0</start>
+	<end>6868.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Damián Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>284</ID>
+	<start>6482.0</start>
+	<end>6782.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Damián Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>285</ID>
+	<start>4895.0</start>
+	<end>4955.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Javier Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>286</ID>
+	<start>6227.0</start>
+	<end>6287.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Javier Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>287</ID>
+	<start>6226.0</start>
+	<end>6286.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Javier Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>288</ID>
+	<start>4285.0</start>
+	<end>4465.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Javier Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>289</ID>
+	<start>6223.0</start>
+	<end>6403.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Javier Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>290</ID>
+	<start>6223.0</start>
+	<end>6403.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Javier Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>291</ID>
+	<start>4799.0</start>
+	<end>5099.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Javier Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>292</ID>
+	<start>6194.0</start>
+	<end>6494.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Javier Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+<instance>
+	<ID>293</ID>
+	<start>6194.0</start>
+	<end>6494.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Javier Rodríguez</text></label>
+	<label><group>Equipo</group><text>Celta de Vigo</text></label>
+</instance>
+</ALL_INSTANCES>
+</file>

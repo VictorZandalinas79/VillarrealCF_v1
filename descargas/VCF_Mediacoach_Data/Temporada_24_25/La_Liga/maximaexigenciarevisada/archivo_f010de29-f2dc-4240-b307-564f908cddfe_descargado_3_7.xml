@@ -1,0 +1,2251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+<ALL_INSTANCES>
+<instance>
+	<ID>1</ID>
+	<start>0.0</start>
+	<end>2817.48</end>
+	<code>Inicio</code>
+	<label><text>P1</text></label>
+</instance>
+<instance>
+	<ID>2</ID>
+	<start>3834.0</start>
+	<end>6970.4</end>
+	<code>Inicio</code>
+	<label><text>P2</text></label>
+</instance>
+<instance>
+	<ID>6</ID>
+	<start>6152.0</start>
+	<end>6212.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jesús Navas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>7</ID>
+	<start>6132.0</start>
+	<end>6192.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jesús Navas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>8</ID>
+	<start>6131.0</start>
+	<end>6191.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jesús Navas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>9</ID>
+	<start>5680.0</start>
+	<end>5860.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jesús Navas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>10</ID>
+	<start>6012.0</start>
+	<end>6192.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jesús Navas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>11</ID>
+	<start>6011.0</start>
+	<end>6191.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jesús Navas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>12</ID>
+	<start>5566.0</start>
+	<end>5866.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jesús Navas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>13</ID>
+	<start>6066.0</start>
+	<end>6366.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jesús Navas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>14</ID>
+	<start>6066.0</start>
+	<end>6366.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jesús Navas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>15</ID>
+	<start>1523.0</start>
+	<end>1583.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Nemanja Gudelj</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>16</ID>
+	<start>1521.0</start>
+	<end>1581.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Nemanja Gudelj</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>17</ID>
+	<start>6894.0</start>
+	<end>6954.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Nemanja Gudelj</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>18</ID>
+	<start>5680.0</start>
+	<end>5860.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Nemanja Gudelj</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>19</ID>
+	<start>4147.0</start>
+	<end>4327.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Nemanja Gudelj</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>20</ID>
+	<start>6774.0</start>
+	<end>6954.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Nemanja Gudelj</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>21</ID>
+	<start>4193.0</start>
+	<end>4493.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Nemanja Gudelj</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>22</ID>
+	<start>4050.0</start>
+	<end>4350.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Nemanja Gudelj</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>23</ID>
+	<start>6654.0</start>
+	<end>6954.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Nemanja Gudelj</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>24</ID>
+	<start>6259.0</start>
+	<end>6319.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jasper Cillessen</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>25</ID>
+	<start>2574.0</start>
+	<end>2634.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jasper Cillessen</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>26</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jasper Cillessen</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>27</ID>
+	<start>2540.0</start>
+	<end>2720.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jasper Cillessen</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>28</ID>
+	<start>2454.0</start>
+	<end>2634.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jasper Cillessen</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>29</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jasper Cillessen</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>30</ID>
+	<start>1889.0</start>
+	<end>2189.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jasper Cillessen</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>31</ID>
+	<start>2334.0</start>
+	<end>2634.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jasper Cillessen</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>32</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jasper Cillessen</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>33</ID>
+	<start>1496.0</start>
+	<end>1556.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Ørjan Nyland</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>34</ID>
+	<start>711.0</start>
+	<end>771.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Ørjan Nyland</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>35</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Ørjan Nyland</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>36</ID>
+	<start>688.0</start>
+	<end>868.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Ørjan Nyland</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>37</ID>
+	<start>591.0</start>
+	<end>771.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Ørjan Nyland</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>38</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Ørjan Nyland</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>39</ID>
+	<start>575.0</start>
+	<end>875.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Ørjan Nyland</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>40</ID>
+	<start>471.0</start>
+	<end>771.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Ørjan Nyland</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>41</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Ørjan Nyland</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>42</ID>
+	<start>5679.0</start>
+	<end>5739.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Sandro Ramírez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>43</ID>
+	<start>5644.0</start>
+	<end>5704.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Sandro Ramírez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>44</ID>
+	<start>6246.0</start>
+	<end>6306.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Sandro Ramírez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>45</ID>
+	<start>5680.0</start>
+	<end>5860.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Sandro Ramírez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>46</ID>
+	<start>6126.0</start>
+	<end>6306.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Sandro Ramírez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>47</ID>
+	<start>6126.0</start>
+	<end>6306.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Sandro Ramírez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>48</ID>
+	<start>5679.0</start>
+	<end>5979.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Sandro Ramírez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>49</ID>
+	<start>6006.0</start>
+	<end>6306.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Sandro Ramírez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>50</ID>
+	<start>5404.0</start>
+	<end>5704.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Sandro Ramírez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>51</ID>
+	<start>353.0</start>
+	<end>413.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jaime Mata</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>52</ID>
+	<start>1387.0</start>
+	<end>1447.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jaime Mata</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>53</ID>
+	<start>418.0</start>
+	<end>478.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jaime Mata</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>54</ID>
+	<start>343.0</start>
+	<end>523.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jaime Mata</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>55</ID>
+	<start>1357.0</start>
+	<end>1537.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jaime Mata</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>56</ID>
+	<start>1995.0</start>
+	<end>2175.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jaime Mata</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>57</ID>
+	<start>627.0</start>
+	<end>927.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jaime Mata</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>58</ID>
+	<start>1875.0</start>
+	<end>2175.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jaime Mata</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>59</ID>
+	<start>1875.0</start>
+	<end>2175.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jaime Mata</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>60</ID>
+	<start>2108.0</start>
+	<end>2168.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Lucas Ocampos</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>61</ID>
+	<start>1863.0</start>
+	<end>1923.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Lucas Ocampos</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>62</ID>
+	<start>1862.0</start>
+	<end>1922.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Lucas Ocampos</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>63</ID>
+	<start>6127.0</start>
+	<end>6307.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Lucas Ocampos</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>64</ID>
+	<start>6022.0</start>
+	<end>6202.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Lucas Ocampos</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>65</ID>
+	<start>1742.0</start>
+	<end>1922.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Lucas Ocampos</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>66</ID>
+	<start>179.0</start>
+	<end>479.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Lucas Ocampos</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>67</ID>
+	<start>1867.0</start>
+	<end>2167.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Lucas Ocampos</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>68</ID>
+	<start>1839.0</start>
+	<end>2139.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Lucas Ocampos</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>69</ID>
+	<start>918.0</start>
+	<end>978.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Álex Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>70</ID>
+	<start>1863.0</start>
+	<end>1923.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Álex Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>71</ID>
+	<start>1863.0</start>
+	<end>1923.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Álex Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>72</ID>
+	<start>4166.0</start>
+	<end>4346.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Álex Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>73</ID>
+	<start>1828.0</start>
+	<end>2008.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Álex Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>74</ID>
+	<start>1828.0</start>
+	<end>2008.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Álex Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>75</ID>
+	<start>4175.0</start>
+	<end>4475.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Álex Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>76</ID>
+	<start>1708.0</start>
+	<end>2008.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Álex Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>77</ID>
+	<start>1708.0</start>
+	<end>2008.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Álex Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>78</ID>
+	<start>6433.0</start>
+	<end>6493.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Scott McKenna</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>79</ID>
+	<start>5798.0</start>
+	<end>5858.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Scott McKenna</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>80</ID>
+	<start>5574.0</start>
+	<end>5634.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Scott McKenna</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>81</ID>
+	<start>5735.0</start>
+	<end>5915.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Scott McKenna</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>82</ID>
+	<start>6301.0</start>
+	<end>6481.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Scott McKenna</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>83</ID>
+	<start>5454.0</start>
+	<end>5634.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Scott McKenna</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>84</ID>
+	<start>5677.0</start>
+	<end>5977.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Scott McKenna</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>85</ID>
+	<start>5558.0</start>
+	<end>5858.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Scott McKenna</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>86</ID>
+	<start>6063.0</start>
+	<end>6363.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Scott McKenna</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>87</ID>
+	<start>1521.0</start>
+	<end>1581.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Oliver McBurnie</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>88</ID>
+	<start>1521.0</start>
+	<end>1581.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Oliver McBurnie</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>89</ID>
+	<start>1344.0</start>
+	<end>1404.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Oliver McBurnie</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>90</ID>
+	<start>5683.0</start>
+	<end>5863.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Oliver McBurnie</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>91</ID>
+	<start>1400.0</start>
+	<end>1580.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Oliver McBurnie</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>92</ID>
+	<start>1400.0</start>
+	<end>1580.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Oliver McBurnie</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>93</ID>
+	<start>570.0</start>
+	<end>870.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Oliver McBurnie</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>94</ID>
+	<start>1281.0</start>
+	<end>1581.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Oliver McBurnie</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>95</ID>
+	<start>1280.0</start>
+	<end>1580.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Oliver McBurnie</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>96</ID>
+	<start>345.0</start>
+	<end>405.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Djibril Sow</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>97</ID>
+	<start>345.0</start>
+	<end>405.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Djibril Sow</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>98</ID>
+	<start>4722.0</start>
+	<end>4782.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Djibril Sow</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>99</ID>
+	<start>5680.0</start>
+	<end>5860.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Djibril Sow</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>100</ID>
+	<start>298.0</start>
+	<end>478.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Djibril Sow</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>101</ID>
+	<start>4602.0</start>
+	<end>4782.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Djibril Sow</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>102</ID>
+	<start>5580.0</start>
+	<end>5880.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Djibril Sow</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>103</ID>
+	<start>178.0</start>
+	<end>478.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Djibril Sow</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>104</ID>
+	<start>1874.0</start>
+	<end>2174.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Djibril Sow</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>105</ID>
+	<start>1523.0</start>
+	<end>1583.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Javi Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>106</ID>
+	<start>2093.0</start>
+	<end>2153.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Javi Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>107</ID>
+	<start>6108.0</start>
+	<end>6168.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Javi Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>108</ID>
+	<start>4.0</start>
+	<end>184.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Javi Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>109</ID>
+	<start>1744.0</start>
+	<end>1924.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Javi Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>110</ID>
+	<start>6086.0</start>
+	<end>6266.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Javi Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>111</ID>
+	<start>576.0</start>
+	<end>876.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Javi Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>112</ID>
+	<start>1814.0</start>
+	<end>2114.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Javi Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>113</ID>
+	<start>5868.0</start>
+	<end>6168.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Javi Muñoz</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>114</ID>
+	<start>349.0</start>
+	<end>409.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Dodi Lukébakio</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>115</ID>
+	<start>4721.0</start>
+	<end>4781.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Dodi Lukébakio</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>116</ID>
+	<start>4721.0</start>
+	<end>4781.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Dodi Lukébakio</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>117</ID>
+	<start>4162.0</start>
+	<end>4342.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Dodi Lukébakio</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>118</ID>
+	<start>342.0</start>
+	<end>522.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Dodi Lukébakio</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>119</ID>
+	<start>4147.0</start>
+	<end>4327.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Dodi Lukébakio</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>120</ID>
+	<start>314.0</start>
+	<end>614.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Dodi Lukébakio</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>121</ID>
+	<start>173.0</start>
+	<end>473.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Dodi Lukébakio</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>122</ID>
+	<start>4481.0</start>
+	<end>4781.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Dodi Lukébakio</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>123</ID>
+	<start>6159.0</start>
+	<end>6219.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Viti Rozada</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>124</ID>
+	<start>6144.0</start>
+	<end>6204.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Viti Rozada</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>125</ID>
+	<start>5800.0</start>
+	<end>5860.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Viti Rozada</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>126</ID>
+	<start>5696.0</start>
+	<end>5876.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Viti Rozada</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>127</ID>
+	<start>5680.0</start>
+	<end>5860.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Viti Rozada</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>128</ID>
+	<start>5680.0</start>
+	<end>5860.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Viti Rozada</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>129</ID>
+	<start>5665.0</start>
+	<end>5965.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Viti Rozada</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>130</ID>
+	<start>5560.0</start>
+	<end>5860.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Viti Rozada</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>131</ID>
+	<start>5560.0</start>
+	<end>5860.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Viti Rozada</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>132</ID>
+	<start>6359.0</start>
+	<end>6419.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Marc Cardona</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>133</ID>
+	<start>6569.0</start>
+	<end>6629.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Marc Cardona</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>134</ID>
+	<start>6391.0</start>
+	<end>6451.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Marc Cardona</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>135</ID>
+	<start>6354.0</start>
+	<end>6534.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Marc Cardona</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>136</ID>
+	<start>6449.0</start>
+	<end>6629.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Marc Cardona</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>137</ID>
+	<start>6449.0</start>
+	<end>6629.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Marc Cardona</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>138</ID>
+	<start>6358.0</start>
+	<end>6658.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Marc Cardona</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>139</ID>
+	<start>6329.0</start>
+	<end>6629.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Marc Cardona</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>140</ID>
+	<start>6329.0</start>
+	<end>6629.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Marc Cardona</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>141</ID>
+	<start>5679.0</start>
+	<end>5739.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Manu Fuster</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>142</ID>
+	<start>5679.0</start>
+	<end>5739.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Manu Fuster</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>143</ID>
+	<start>5678.0</start>
+	<end>5738.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Manu Fuster</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>144</ID>
+	<start>5680.0</start>
+	<end>5860.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Manu Fuster</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>145</ID>
+	<start>5640.0</start>
+	<end>5820.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Manu Fuster</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>146</ID>
+	<start>5558.0</start>
+	<end>5738.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Manu Fuster</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>147</ID>
+	<start>5680.0</start>
+	<end>5980.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Manu Fuster</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>148</ID>
+	<start>5439.0</start>
+	<end>5739.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Manu Fuster</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>149</ID>
+	<start>5438.0</start>
+	<end>5738.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Manu Fuster</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>150</ID>
+	<start>5680.0</start>
+	<end>5740.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Adrià Pedrosa</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>151</ID>
+	<start>1389.0</start>
+	<end>1449.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Adrià Pedrosa</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>152</ID>
+	<start>1388.0</start>
+	<end>1448.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Adrià Pedrosa</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>153</ID>
+	<start>5680.0</start>
+	<end>5860.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Adrià Pedrosa</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>154</ID>
+	<start>1400.0</start>
+	<end>1580.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Adrià Pedrosa</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>155</ID>
+	<start>1400.0</start>
+	<end>1580.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Adrià Pedrosa</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>156</ID>
+	<start>634.0</start>
+	<end>934.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Adrià Pedrosa</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>157</ID>
+	<start>1280.0</start>
+	<end>1580.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Adrià Pedrosa</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>158</ID>
+	<start>1280.0</start>
+	<end>1580.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Adrià Pedrosa</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>159</ID>
+	<start>133.0</start>
+	<end>193.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Enzo Loiodice</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>160</ID>
+	<start>4150.0</start>
+	<end>4210.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Enzo Loiodice</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>161</ID>
+	<start>4721.0</start>
+	<end>4781.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Enzo Loiodice</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>162</ID>
+	<start>10.0</start>
+	<end>190.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Enzo Loiodice</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>163</ID>
+	<start>4147.0</start>
+	<end>4327.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Enzo Loiodice</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>164</ID>
+	<start>4601.0</start>
+	<end>4781.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Enzo Loiodice</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>165</ID>
+	<start>4118.0</start>
+	<end>4418.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Enzo Loiodice</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>166</ID>
+	<start>4085.0</start>
+	<end>4385.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Enzo Loiodice</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>167</ID>
+	<start>4481.0</start>
+	<end>4781.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Enzo Loiodice</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>168</ID>
+	<start>5809.0</start>
+	<end>5869.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Mika Mármol</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>169</ID>
+	<start>6110.0</start>
+	<end>6170.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Mika Mármol</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>170</ID>
+	<start>6109.0</start>
+	<end>6169.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Mika Mármol</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>171</ID>
+	<start>5680.0</start>
+	<end>5860.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Mika Mármol</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>172</ID>
+	<start>6088.0</start>
+	<end>6268.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Mika Mármol</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>173</ID>
+	<start>5989.0</start>
+	<end>6169.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Mika Mármol</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>174</ID>
+	<start>5582.0</start>
+	<end>5882.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Mika Mármol</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>175</ID>
+	<start>6074.0</start>
+	<end>6374.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Mika Mármol</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>176</ID>
+	<start>5869.0</start>
+	<end>6169.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Mika Mármol</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>177</ID>
+	<start>1521.0</start>
+	<end>1581.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Tanguy Nianzou</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>178</ID>
+	<start>1521.0</start>
+	<end>1581.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Tanguy Nianzou</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>179</ID>
+	<start>1521.0</start>
+	<end>1581.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Tanguy Nianzou</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>180</ID>
+	<start>634.0</start>
+	<end>814.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Tanguy Nianzou</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>181</ID>
+	<start>1400.0</start>
+	<end>1580.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Tanguy Nianzou</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>182</ID>
+	<start>1401.0</start>
+	<end>1581.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Tanguy Nianzou</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>183</ID>
+	<start>635.0</start>
+	<end>935.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Tanguy Nianzou</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>184</ID>
+	<start>1281.0</start>
+	<end>1581.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Tanguy Nianzou</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>185</ID>
+	<start>1281.0</start>
+	<end>1581.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Tanguy Nianzou</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>186</ID>
+	<start>356.0</start>
+	<end>416.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Marvin Park</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>187</ID>
+	<start>1389.0</start>
+	<end>1449.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Marvin Park</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>188</ID>
+	<start>1389.0</start>
+	<end>1449.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Marvin Park</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>189</ID>
+	<start>342.0</start>
+	<end>522.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Marvin Park</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>190</ID>
+	<start>1400.0</start>
+	<end>1580.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Marvin Park</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>191</ID>
+	<start>1399.0</start>
+	<end>1579.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Marvin Park</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>192</ID>
+	<start>2331.0</start>
+	<end>2631.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Marvin Park</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>193</ID>
+	<start>1280.0</start>
+	<end>1580.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Marvin Park</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>194</ID>
+	<start>1279.0</start>
+	<end>1579.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Marvin Park</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>195</ID>
+	<start>5680.0</start>
+	<end>5740.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Lucien Agoumé</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>196</ID>
+	<start>2001.0</start>
+	<end>2061.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Lucien Agoumé</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>197</ID>
+	<start>4953.0</start>
+	<end>5013.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Lucien Agoumé</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>198</ID>
+	<start>22.0</start>
+	<end>202.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Lucien Agoumé</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>199</ID>
+	<start>1987.0</start>
+	<end>2167.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Lucien Agoumé</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>200</ID>
+	<start>4833.0</start>
+	<end>5013.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Lucien Agoumé</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>201</ID>
+	<start>711.0</start>
+	<end>1011.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Lucien Agoumé</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>202</ID>
+	<start>1867.0</start>
+	<end>2167.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Lucien Agoumé</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>203</ID>
+	<start>4713.0</start>
+	<end>5013.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Lucien Agoumé</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>204</ID>
+	<start>6433.0</start>
+	<end>6493.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Kirian Rodríguez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>205</ID>
+	<start>1388.0</start>
+	<end>1448.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Kirian Rodríguez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>206</ID>
+	<start>1387.0</start>
+	<end>1447.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Kirian Rodríguez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>207</ID>
+	<start>23.0</start>
+	<end>203.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Kirian Rodríguez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>208</ID>
+	<start>1268.0</start>
+	<end>1448.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Kirian Rodríguez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>209</ID>
+	<start>4763.0</start>
+	<end>4943.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Kirian Rodríguez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>210</ID>
+	<start>4168.0</start>
+	<end>4468.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Kirian Rodríguez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>211</ID>
+	<start>177.0</start>
+	<end>477.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Kirian Rodríguez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>212</ID>
+	<start>4643.0</start>
+	<end>4943.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Kirian Rodríguez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>213</ID>
+	<start>356.0</start>
+	<end>416.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Álex Suárez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>214</ID>
+	<start>418.0</start>
+	<end>478.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Álex Suárez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>215</ID>
+	<start>418.0</start>
+	<end>478.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Álex Suárez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>216</ID>
+	<start>350.0</start>
+	<end>530.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Álex Suárez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>217</ID>
+	<start>298.0</start>
+	<end>478.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Álex Suárez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>218</ID>
+	<start>298.0</start>
+	<end>478.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Álex Suárez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>219</ID>
+	<start>5678.0</start>
+	<end>5978.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Álex Suárez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>220</ID>
+	<start>441.0</start>
+	<end>741.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Álex Suárez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>221</ID>
+	<start>440.0</start>
+	<end>740.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Álex Suárez</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>222</ID>
+	<start>6253.0</start>
+	<end>6313.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Gerard Fernández Castellano</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>223</ID>
+	<start>6213.0</start>
+	<end>6273.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Gerard Fernández Castellano</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>224</ID>
+	<start>6211.0</start>
+	<end>6271.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Gerard Fernández Castellano</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>225</ID>
+	<start>6123.0</start>
+	<end>6303.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Gerard Fernández Castellano</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>226</ID>
+	<start>6093.0</start>
+	<end>6273.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Gerard Fernández Castellano</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>227</ID>
+	<start>6091.0</start>
+	<end>6271.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Gerard Fernández Castellano</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>228</ID>
+	<start>6156.0</start>
+	<end>6456.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Gerard Fernández Castellano</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>229</ID>
+	<start>6148.0</start>
+	<end>6448.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Gerard Fernández Castellano</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>230</ID>
+	<start>6136.0</start>
+	<end>6436.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Gerard Fernández Castellano</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>231</ID>
+	<start>345.0</start>
+	<end>405.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Juanlu Sánchez</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>232</ID>
+	<start>4730.0</start>
+	<end>4790.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Juanlu Sánchez</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>233</ID>
+	<start>4723.0</start>
+	<end>4783.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Juanlu Sánchez</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>234</ID>
+	<start>1280.0</start>
+	<end>1460.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Juanlu Sánchez</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>235</ID>
+	<start>1271.0</start>
+	<end>1451.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Juanlu Sánchez</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>236</ID>
+	<start>4767.0</start>
+	<end>4947.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Juanlu Sánchez</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>237</ID>
+	<start>1283.0</start>
+	<end>1583.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Juanlu Sánchez</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>238</ID>
+	<start>1280.0</start>
+	<end>1580.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Juanlu Sánchez</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>239</ID>
+	<start>4483.0</start>
+	<end>4783.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Juanlu Sánchez</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>240</ID>
+	<start>5680.0</start>
+	<end>5740.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Alberto Moleiro</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>241</ID>
+	<start>5679.0</start>
+	<end>5739.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Alberto Moleiro</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>242</ID>
+	<start>5275.0</start>
+	<end>5335.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Alberto Moleiro</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>243</ID>
+	<start>5680.0</start>
+	<end>5860.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Alberto Moleiro</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>244</ID>
+	<start>5638.0</start>
+	<end>5818.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Alberto Moleiro</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>245</ID>
+	<start>1400.0</start>
+	<end>1580.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Alberto Moleiro</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>246</ID>
+	<start>4173.0</start>
+	<end>4473.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Alberto Moleiro</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>247</ID>
+	<start>5665.0</start>
+	<end>5965.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Alberto Moleiro</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>248</ID>
+	<start>1281.0</start>
+	<end>1581.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Alberto Moleiro</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>249</ID>
+	<start>726.0</start>
+	<end>786.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>José Ángel Carmona</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>250</ID>
+	<start>6075.0</start>
+	<end>6135.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>José Ángel Carmona</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>251</ID>
+	<start>6833.0</start>
+	<end>6893.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>José Ángel Carmona</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>252</ID>
+	<start>4295.0</start>
+	<end>4475.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>José Ángel Carmona</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>253</ID>
+	<start>596.0</start>
+	<end>776.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>José Ángel Carmona</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>254</ID>
+	<start>6713.0</start>
+	<end>6893.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>José Ángel Carmona</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>255</ID>
+	<start>4188.0</start>
+	<end>4488.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>José Ángel Carmona</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>256</ID>
+	<start>571.0</start>
+	<end>871.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>José Ángel Carmona</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>257</ID>
+	<start>6593.0</start>
+	<end>6893.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>José Ángel Carmona</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>258</ID>
+	<start>6471.0</start>
+	<end>6531.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Kike Salas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>259</ID>
+	<start>6569.0</start>
+	<end>6629.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Kike Salas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>260</ID>
+	<start>6245.0</start>
+	<end>6305.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Kike Salas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>261</ID>
+	<start>6352.0</start>
+	<end>6532.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Kike Salas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>262</ID>
+	<start>6567.0</start>
+	<end>6747.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Kike Salas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>263</ID>
+	<start>6125.0</start>
+	<end>6305.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Kike Salas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>264</ID>
+	<start>6355.0</start>
+	<end>6655.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Kike Salas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>265</ID>
+	<start>6282.0</start>
+	<end>6582.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Kike Salas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>266</ID>
+	<start>6282.0</start>
+	<end>6582.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Kike Salas</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>267</ID>
+	<start>352.0</start>
+	<end>412.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Isaac Romero</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>268</ID>
+	<start>1841.0</start>
+	<end>1901.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Isaac Romero</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>269</ID>
+	<start>1836.0</start>
+	<end>1896.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Isaac Romero</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>270</ID>
+	<start>343.0</start>
+	<end>523.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Isaac Romero</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>271</ID>
+	<start>271.0</start>
+	<end>451.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Isaac Romero</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>272</ID>
+	<start>1716.0</start>
+	<end>1896.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Isaac Romero</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>273</ID>
+	<start>4124.0</start>
+	<end>4424.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Isaac Romero</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>274</ID>
+	<start>1875.0</start>
+	<end>2175.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Isaac Romero</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>275</ID>
+	<start>1875.0</start>
+	<end>2175.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Isaac Romero</text></label>
+	<label><group>Equipo</group><text>Sevilla</text></label>
+</instance>
+<instance>
+	<ID>276</ID>
+	<start>6434.0</start>
+	<end>6494.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Aboubacar Bassinga</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>277</ID>
+	<start>6393.0</start>
+	<end>6453.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Aboubacar Bassinga</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>278</ID>
+	<start>6393.0</start>
+	<end>6453.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Aboubacar Bassinga</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>279</ID>
+	<start>6346.0</start>
+	<end>6526.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Aboubacar Bassinga</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>280</ID>
+	<start>6344.0</start>
+	<end>6524.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Aboubacar Bassinga</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>281</ID>
+	<start>6344.0</start>
+	<end>6524.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Aboubacar Bassinga</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>282</ID>
+	<start>6355.0</start>
+	<end>6655.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Aboubacar Bassinga</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>283</ID>
+	<start>6374.0</start>
+	<end>6674.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Aboubacar Bassinga</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+<instance>
+	<ID>284</ID>
+	<start>6224.0</start>
+	<end>6524.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Aboubacar Bassinga</text></label>
+	<label><group>Equipo</group><text>Las Palmas</text></label>
+</instance>
+</ALL_INSTANCES>
+</file>

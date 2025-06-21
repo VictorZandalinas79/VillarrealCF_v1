@@ -1,0 +1,2179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+<ALL_INSTANCES>
+<instance>
+	<ID>1</ID>
+	<start>0.0</start>
+	<end>3139.44</end>
+	<code>Inicio</code>
+	<label><text>P1</text></label>
+</instance>
+<instance>
+	<ID>2</ID>
+	<start>4111.72</start>
+	<end>7119.6</end>
+	<code>Inicio</code>
+	<label><text>P2</text></label>
+</instance>
+<instance>
+	<ID>6</ID>
+	<start>303.0</start>
+	<end>363.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Yuri Berchiche</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>7</ID>
+	<start>278.0</start>
+	<end>338.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Yuri Berchiche</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>8</ID>
+	<start>276.0</start>
+	<end>336.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Yuri Berchiche</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>9</ID>
+	<start>167.0</start>
+	<end>347.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Yuri Berchiche</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>10</ID>
+	<start>166.0</start>
+	<end>346.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Yuri Berchiche</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>11</ID>
+	<start>5415.0</start>
+	<end>5595.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Yuri Berchiche</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>12</ID>
+	<start>6750.0</start>
+	<end>7050.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Yuri Berchiche</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>13</ID>
+	<start>242.0</start>
+	<end>542.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Yuri Berchiche</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>14</ID>
+	<start>242.0</start>
+	<end>542.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Yuri Berchiche</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>15</ID>
+	<start>5652.0</start>
+	<end>5712.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Ander Herrera</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>16</ID>
+	<start>5535.0</start>
+	<end>5595.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Ander Herrera</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>17</ID>
+	<start>5535.0</start>
+	<end>5595.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Ander Herrera</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>18</ID>
+	<start>5357.0</start>
+	<end>5537.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Ander Herrera</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>19</ID>
+	<start>5503.0</start>
+	<end>5683.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Ander Herrera</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>20</ID>
+	<start>5503.0</start>
+	<end>5683.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Ander Herrera</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>21</ID>
+	<start>6817.0</start>
+	<end>7117.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Ander Herrera</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>22</ID>
+	<start>5383.0</start>
+	<end>5683.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Ander Herrera</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>23</ID>
+	<start>5383.0</start>
+	<end>5683.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Ander Herrera</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>24</ID>
+	<start>5630.0</start>
+	<end>5690.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Djené Dakonam</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>25</ID>
+	<start>5607.0</start>
+	<end>5667.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Djené Dakonam</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>26</ID>
+	<start>5606.0</start>
+	<end>5666.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Djené Dakonam</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>27</ID>
+	<start>285.0</start>
+	<end>465.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Djené Dakonam</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>28</ID>
+	<start>5487.0</start>
+	<end>5667.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Djené Dakonam</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>29</ID>
+	<start>5486.0</start>
+	<end>5666.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Djené Dakonam</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>30</ID>
+	<start>2448.0</start>
+	<end>2748.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Djené Dakonam</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>31</ID>
+	<start>5610.0</start>
+	<end>5910.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Djené Dakonam</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>32</ID>
+	<start>5610.0</start>
+	<end>5910.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Djené Dakonam</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>33</ID>
+	<start>2508.0</start>
+	<end>2568.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Luis Milla</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>34</ID>
+	<start>4547.0</start>
+	<end>4607.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Luis Milla</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>35</ID>
+	<start>4545.0</start>
+	<end>4605.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Luis Milla</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>36</ID>
+	<start>2501.0</start>
+	<end>2681.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Luis Milla</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>37</ID>
+	<start>164.0</start>
+	<end>344.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Luis Milla</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>38</ID>
+	<start>164.0</start>
+	<end>344.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Luis Milla</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>39</ID>
+	<start>2448.0</start>
+	<end>2748.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Luis Milla</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>40</ID>
+	<start>44.0</start>
+	<end>344.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Luis Milla</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>41</ID>
+	<start>44.0</start>
+	<end>344.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Luis Milla</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>42</ID>
+	<start>2512.0</start>
+	<end>2572.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Diego Rico</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>43</ID>
+	<start>5851.0</start>
+	<end>5911.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Diego Rico</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>44</ID>
+	<start>275.0</start>
+	<end>335.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Diego Rico</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>45</ID>
+	<start>2507.0</start>
+	<end>2687.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Diego Rico</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>46</ID>
+	<start>5573.0</start>
+	<end>5753.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Diego Rico</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>47</ID>
+	<start>5486.0</start>
+	<end>5666.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Diego Rico</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>48</ID>
+	<start>2488.0</start>
+	<end>2788.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Diego Rico</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>49</ID>
+	<start>5366.0</start>
+	<end>5666.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Diego Rico</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>50</ID>
+	<start>5610.0</start>
+	<end>5910.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Diego Rico</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>51</ID>
+	<start>1497.0</start>
+	<end>1557.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Mauro Arambarri</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>52</ID>
+	<start>284.0</start>
+	<end>344.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Mauro Arambarri</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>53</ID>
+	<start>1893.0</start>
+	<end>1953.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Mauro Arambarri</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>54</ID>
+	<start>183.0</start>
+	<end>363.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Mauro Arambarri</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>55</ID>
+	<start>164.0</start>
+	<end>344.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Mauro Arambarri</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>56</ID>
+	<start>1773.0</start>
+	<end>1953.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Mauro Arambarri</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>57</ID>
+	<start>56.0</start>
+	<end>356.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Mauro Arambarri</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>58</ID>
+	<start>247.0</start>
+	<end>547.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Mauro Arambarri</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>59</ID>
+	<start>1653.0</start>
+	<end>1953.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Mauro Arambarri</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>60</ID>
+	<start>2714.0</start>
+	<end>2774.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>David Soria</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>61</ID>
+	<start>2259.0</start>
+	<end>2319.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>David Soria</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>62</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>David Soria</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>63</ID>
+	<start>876.0</start>
+	<end>1056.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>David Soria</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>64</ID>
+	<start>2139.0</start>
+	<end>2319.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>David Soria</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>65</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>David Soria</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>66</ID>
+	<start>2526.0</start>
+	<end>2826.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>David Soria</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>67</ID>
+	<start>2019.0</start>
+	<end>2319.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>David Soria</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>68</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>David Soria</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>69</ID>
+	<start>6984.0</start>
+	<end>7044.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Carles Aleñá</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>70</ID>
+	<start>6985.0</start>
+	<end>7045.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Carles Aleñá</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>71</ID>
+	<start>4423.0</start>
+	<end>4483.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Carles Aleñá</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>72</ID>
+	<start>2384.0</start>
+	<end>2564.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Carles Aleñá</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>73</ID>
+	<start>5793.0</start>
+	<end>5973.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Carles Aleñá</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>74</ID>
+	<start>4424.0</start>
+	<end>4604.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Carles Aleñá</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>75</ID>
+	<start>2478.0</start>
+	<end>2778.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Carles Aleñá</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>76</ID>
+	<start>6745.0</start>
+	<end>7045.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Carles Aleñá</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>77</ID>
+	<start>6745.0</start>
+	<end>7045.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Carles Aleñá</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>78</ID>
+	<start>280.0</start>
+	<end>340.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Carles Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>79</ID>
+	<start>280.0</start>
+	<end>340.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Carles Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>80</ID>
+	<start>1328.0</start>
+	<end>1388.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Carles Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>81</ID>
+	<start>180.0</start>
+	<end>360.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Carles Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>82</ID>
+	<start>160.0</start>
+	<end>340.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Carles Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>83</ID>
+	<start>1526.0</start>
+	<end>1706.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Carles Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>84</ID>
+	<start>47.0</start>
+	<end>347.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Carles Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>85</ID>
+	<start>40.0</start>
+	<end>340.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Carles Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>86</ID>
+	<start>1296.0</start>
+	<end>1596.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Carles Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>87</ID>
+	<start>5653.0</start>
+	<end>5713.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Alex Berenguer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>88</ID>
+	<start>279.0</start>
+	<end>339.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Alex Berenguer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>89</ID>
+	<start>249.0</start>
+	<end>309.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Alex Berenguer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>90</ID>
+	<start>183.0</start>
+	<end>363.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Alex Berenguer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>91</ID>
+	<start>242.0</start>
+	<end>422.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Alex Berenguer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>92</ID>
+	<start>242.0</start>
+	<end>422.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Alex Berenguer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>93</ID>
+	<start>152.0</start>
+	<end>452.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Alex Berenguer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>94</ID>
+	<start>246.0</start>
+	<end>546.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Alex Berenguer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>95</ID>
+	<start>122.0</start>
+	<end>422.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Alex Berenguer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>96</ID>
+	<start>6985.0</start>
+	<end>7045.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Íñigo Lekue</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>97</ID>
+	<start>6985.0</start>
+	<end>7045.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Íñigo Lekue</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>98</ID>
+	<start>6985.0</start>
+	<end>7045.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Íñigo Lekue</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>99</ID>
+	<start>6866.0</start>
+	<end>7046.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Íñigo Lekue</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>100</ID>
+	<start>6937.0</start>
+	<end>7117.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Íñigo Lekue</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>101</ID>
+	<start>6935.0</start>
+	<end>7115.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Íñigo Lekue</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>102</ID>
+	<start>6746.0</start>
+	<end>7046.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Íñigo Lekue</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>103</ID>
+	<start>6817.0</start>
+	<end>7117.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Íñigo Lekue</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>104</ID>
+	<start>6815.0</start>
+	<end>7115.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Íñigo Lekue</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>105</ID>
+	<start>1365.0</start>
+	<end>1425.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Yeray Álvarez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>106</ID>
+	<start>721.0</start>
+	<end>781.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Yeray Álvarez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>107</ID>
+	<start>1480.0</start>
+	<end>1540.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Yeray Álvarez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>108</ID>
+	<start>2868.0</start>
+	<end>3048.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Yeray Álvarez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>109</ID>
+	<start>1360.0</start>
+	<end>1540.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Yeray Álvarez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>110</ID>
+	<start>1360.0</start>
+	<end>1540.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Yeray Álvarez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>111</ID>
+	<start>41.0</start>
+	<end>341.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Yeray Álvarez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>112</ID>
+	<start>4858.0</start>
+	<end>5158.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Yeray Álvarez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>113</ID>
+	<start>4858.0</start>
+	<end>5158.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Yeray Álvarez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>114</ID>
+	<start>2503.0</start>
+	<end>2563.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Mikel Vesga</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>115</ID>
+	<start>280.0</start>
+	<end>340.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Mikel Vesga</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>116</ID>
+	<start>4544.0</start>
+	<end>4604.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Mikel Vesga</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>117</ID>
+	<start>183.0</start>
+	<end>363.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Mikel Vesga</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>118</ID>
+	<start>160.0</start>
+	<end>340.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Mikel Vesga</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>119</ID>
+	<start>4510.0</start>
+	<end>4690.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Mikel Vesga</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>120</ID>
+	<start>2437.0</start>
+	<end>2737.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Mikel Vesga</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>121</ID>
+	<start>313.0</start>
+	<end>613.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Mikel Vesga</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>122</ID>
+	<start>4390.0</start>
+	<end>4690.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Mikel Vesga</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>123</ID>
+	<start>2523.0</start>
+	<end>2583.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Iñaki Williams</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>124</ID>
+	<start>2510.0</start>
+	<end>2570.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Iñaki Williams</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>125</ID>
+	<start>1318.0</start>
+	<end>1378.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Iñaki Williams</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>126</ID>
+	<start>1548.0</start>
+	<end>1728.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Iñaki Williams</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>127</ID>
+	<start>2492.0</start>
+	<end>2672.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Iñaki Williams</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>128</ID>
+	<start>5815.0</start>
+	<end>5995.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Iñaki Williams</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>129</ID>
+	<start>1322.0</start>
+	<end>1622.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Iñaki Williams</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>130</ID>
+	<start>1293.0</start>
+	<end>1593.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Iñaki Williams</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>131</ID>
+	<start>1292.0</start>
+	<end>1592.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Iñaki Williams</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>132</ID>
+	<start>999.0</start>
+	<end>1059.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Omar Alderete</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>133</ID>
+	<start>5851.0</start>
+	<end>5911.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Omar Alderete</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>134</ID>
+	<start>5850.0</start>
+	<end>5910.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Omar Alderete</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>135</ID>
+	<start>2506.0</start>
+	<end>2686.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Omar Alderete</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>136</ID>
+	<start>5815.0</start>
+	<end>5995.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Omar Alderete</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>137</ID>
+	<start>5814.0</start>
+	<end>5994.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Omar Alderete</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>138</ID>
+	<start>2511.0</start>
+	<end>2811.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Omar Alderete</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>139</ID>
+	<start>5870.0</start>
+	<end>6170.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Omar Alderete</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>140</ID>
+	<start>5694.0</start>
+	<end>5994.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Omar Alderete</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>141</ID>
+	<start>1323.0</start>
+	<end>1383.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Gorka Guruzeta</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>142</ID>
+	<start>5611.0</start>
+	<end>5671.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Gorka Guruzeta</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>143</ID>
+	<start>2905.0</start>
+	<end>2965.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Gorka Guruzeta</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>144</ID>
+	<start>2448.0</start>
+	<end>2628.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Gorka Guruzeta</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>145</ID>
+	<start>2560.0</start>
+	<end>2740.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Gorka Guruzeta</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>146</ID>
+	<start>2785.0</start>
+	<end>2965.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Gorka Guruzeta</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>147</ID>
+	<start>1321.0</start>
+	<end>1621.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Gorka Guruzeta</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>148</ID>
+	<start>2440.0</start>
+	<end>2740.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Gorka Guruzeta</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>149</ID>
+	<start>2665.0</start>
+	<end>2965.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Gorka Guruzeta</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>150</ID>
+	<start>1369.0</start>
+	<end>1429.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Andoni Gorosabel</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>151</ID>
+	<start>1357.0</start>
+	<end>1417.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Andoni Gorosabel</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>152</ID>
+	<start>1357.0</start>
+	<end>1417.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Andoni Gorosabel</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>153</ID>
+	<start>163.0</start>
+	<end>343.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Andoni Gorosabel</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>154</ID>
+	<start>1237.0</start>
+	<end>1417.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Andoni Gorosabel</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>155</ID>
+	<start>1237.0</start>
+	<end>1417.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Andoni Gorosabel</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>156</ID>
+	<start>43.0</start>
+	<end>343.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Andoni Gorosabel</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>157</ID>
+	<start>1295.0</start>
+	<end>1595.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Andoni Gorosabel</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>158</ID>
+	<start>35.0</start>
+	<end>335.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Andoni Gorosabel</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>159</ID>
+	<start>6977.0</start>
+	<end>7037.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Dani Vivian</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>160</ID>
+	<start>6973.0</start>
+	<end>7033.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Dani Vivian</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>161</ID>
+	<start>6973.0</start>
+	<end>7033.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Dani Vivian</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>162</ID>
+	<start>6864.0</start>
+	<end>7044.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Dani Vivian</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>163</ID>
+	<start>6938.0</start>
+	<end>7118.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Dani Vivian</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>164</ID>
+	<start>6853.0</start>
+	<end>7033.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Dani Vivian</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>165</ID>
+	<start>6818.0</start>
+	<end>7118.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Dani Vivian</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>166</ID>
+	<start>6818.0</start>
+	<end>7118.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Dani Vivian</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>167</ID>
+	<start>6733.0</start>
+	<end>7033.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Dani Vivian</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>168</ID>
+	<start>283.0</start>
+	<end>343.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Oihan Sancet</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>169</ID>
+	<start>328.0</start>
+	<end>388.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Oihan Sancet</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>170</ID>
+	<start>328.0</start>
+	<end>388.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Oihan Sancet</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>171</ID>
+	<start>184.0</start>
+	<end>364.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Oihan Sancet</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>172</ID>
+	<start>236.0</start>
+	<end>416.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Oihan Sancet</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>173</ID>
+	<start>208.0</start>
+	<end>388.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Oihan Sancet</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>174</ID>
+	<start>183.0</start>
+	<end>483.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Oihan Sancet</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>175</ID>
+	<start>5608.0</start>
+	<end>5908.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Oihan Sancet</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>176</ID>
+	<start>312.0</start>
+	<end>612.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Oihan Sancet</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>177</ID>
+	<start>1376.0</start>
+	<end>1436.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Aitor Paredes</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>178</ID>
+	<start>5765.0</start>
+	<end>5825.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Aitor Paredes</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>179</ID>
+	<start>5765.0</start>
+	<end>5825.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Aitor Paredes</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>180</ID>
+	<start>883.0</start>
+	<end>1063.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Aitor Paredes</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>181</ID>
+	<start>5645.0</start>
+	<end>5825.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Aitor Paredes</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>182</ID>
+	<start>5645.0</start>
+	<end>5825.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Aitor Paredes</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>183</ID>
+	<start>2503.0</start>
+	<end>2803.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Aitor Paredes</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>184</ID>
+	<start>5525.0</start>
+	<end>5825.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Aitor Paredes</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>185</ID>
+	<start>5525.0</start>
+	<end>5825.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Aitor Paredes</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>186</ID>
+	<start>1381.0</start>
+	<end>1441.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Juan Iglesias</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>187</ID>
+	<start>249.0</start>
+	<end>309.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Juan Iglesias</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>188</ID>
+	<start>249.0</start>
+	<end>309.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Juan Iglesias</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>189</ID>
+	<start>183.0</start>
+	<end>363.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Juan Iglesias</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>190</ID>
+	<start>129.0</start>
+	<end>309.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Juan Iglesias</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>191</ID>
+	<start>129.0</start>
+	<end>309.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Juan Iglesias</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>192</ID>
+	<start>2423.0</start>
+	<end>2723.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Juan Iglesias</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>193</ID>
+	<start>2388.0</start>
+	<end>2688.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Juan Iglesias</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>194</ID>
+	<start>2382.0</start>
+	<end>2682.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Juan Iglesias</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>195</ID>
+	<start>2493.0</start>
+	<end>2553.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Beñat Prados</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>196</ID>
+	<start>1493.0</start>
+	<end>1553.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Beñat Prados</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>197</ID>
+	<start>1783.0</start>
+	<end>1843.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Beñat Prados</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>198</ID>
+	<start>2503.0</start>
+	<end>2683.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Beñat Prados</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>199</ID>
+	<start>1535.0</start>
+	<end>1715.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Beñat Prados</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>200</ID>
+	<start>1663.0</start>
+	<end>1843.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Beñat Prados</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>201</ID>
+	<start>2479.0</start>
+	<end>2779.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Beñat Prados</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>202</ID>
+	<start>1543.0</start>
+	<end>1843.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Beñat Prados</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>203</ID>
+	<start>1543.0</start>
+	<end>1843.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Beñat Prados</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>204</ID>
+	<start>2513.0</start>
+	<end>2573.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Álex Sola</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>205</ID>
+	<start>1366.0</start>
+	<end>1426.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Álex Sola</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>206</ID>
+	<start>5606.0</start>
+	<end>5666.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Álex Sola</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>207</ID>
+	<start>2506.0</start>
+	<end>2686.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Álex Sola</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>208</ID>
+	<start>5891.0</start>
+	<end>6071.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Álex Sola</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>209</ID>
+	<start>5486.0</start>
+	<end>5666.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Álex Sola</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>210</ID>
+	<start>2477.0</start>
+	<end>2777.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Álex Sola</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>211</ID>
+	<start>5610.0</start>
+	<end>5910.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Álex Sola</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>212</ID>
+	<start>5366.0</start>
+	<end>5666.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Álex Sola</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>213</ID>
+	<start>5643.0</start>
+	<end>5703.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Peter Federico González Carmona</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>214</ID>
+	<start>5621.0</start>
+	<end>5681.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Peter Federico González Carmona</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>215</ID>
+	<start>5607.0</start>
+	<end>5667.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Peter Federico González Carmona</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>216</ID>
+	<start>6865.0</start>
+	<end>7045.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Peter Federico González Carmona</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>217</ID>
+	<start>5566.0</start>
+	<end>5746.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Peter Federico González Carmona</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>218</ID>
+	<start>5487.0</start>
+	<end>5667.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Peter Federico González Carmona</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>219</ID>
+	<start>6750.0</start>
+	<end>7050.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Peter Federico González Carmona</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>220</ID>
+	<start>5618.0</start>
+	<end>5918.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Peter Federico González Carmona</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>221</ID>
+	<start>5610.0</start>
+	<end>5910.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Peter Federico González Carmona</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>222</ID>
+	<start>5981.0</start>
+	<end>6041.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Nicholas Williams Arthuer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>223</ID>
+	<start>5856.0</start>
+	<end>5916.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Nicholas Williams Arthuer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>224</ID>
+	<start>5856.0</start>
+	<end>5916.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Nicholas Williams Arthuer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>225</ID>
+	<start>5893.0</start>
+	<end>6073.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Nicholas Williams Arthuer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>226</ID>
+	<start>5891.0</start>
+	<end>6071.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Nicholas Williams Arthuer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>227</ID>
+	<start>5736.0</start>
+	<end>5916.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Nicholas Williams Arthuer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>228</ID>
+	<start>5716.0</start>
+	<end>6016.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Nicholas Williams Arthuer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>229</ID>
+	<start>5771.0</start>
+	<end>6071.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Nicholas Williams Arthuer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>230</ID>
+	<start>5771.0</start>
+	<end>6071.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Nicholas Williams Arthuer</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>231</ID>
+	<start>189.0</start>
+	<end>249.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Nabil Aberdin</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>232</ID>
+	<start>5612.0</start>
+	<end>5672.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Nabil Aberdin</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>233</ID>
+	<start>5607.0</start>
+	<end>5667.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Nabil Aberdin</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>234</ID>
+	<start>183.0</start>
+	<end>363.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Nabil Aberdin</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>235</ID>
+	<start>5634.0</start>
+	<end>5814.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Nabil Aberdin</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>236</ID>
+	<start>5487.0</start>
+	<end>5667.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Nabil Aberdin</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>237</ID>
+	<start>1322.0</start>
+	<end>1622.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Nabil Aberdin</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>238</ID>
+	<start>5612.0</start>
+	<end>5912.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Nabil Aberdin</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>239</ID>
+	<start>5367.0</start>
+	<end>5667.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Nabil Aberdin</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>240</ID>
+	<start>1373.0</start>
+	<end>1433.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Álex Padilla</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>241</ID>
+	<start>1328.0</start>
+	<end>1388.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Álex Padilla</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>242</ID>
+	<start>1327.0</start>
+	<end>1387.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Álex Padilla</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>243</ID>
+	<start>159.0</start>
+	<end>339.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Álex Padilla</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>244</ID>
+	<start>1208.0</start>
+	<end>1388.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Álex Padilla</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>245</ID>
+	<start>1207.0</start>
+	<end>1387.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Álex Padilla</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>246</ID>
+	<start>1312.0</start>
+	<end>1612.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Álex Padilla</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>247</ID>
+	<start>1088.0</start>
+	<end>1388.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Álex Padilla</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>248</ID>
+	<start>1087.0</start>
+	<end>1387.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Álex Padilla</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>249</ID>
+	<start>6244.0</start>
+	<end>6304.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jesús Santiago Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>250</ID>
+	<start>6537.0</start>
+	<end>6597.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jesús Santiago Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>251</ID>
+	<start>6537.0</start>
+	<end>6597.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jesús Santiago Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>252</ID>
+	<start>6244.0</start>
+	<end>6424.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jesús Santiago Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>253</ID>
+	<start>6590.0</start>
+	<end>6770.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jesús Santiago Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>254</ID>
+	<start>6417.0</start>
+	<end>6597.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jesús Santiago Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>255</ID>
+	<start>6748.0</start>
+	<end>7048.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jesús Santiago Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>256</ID>
+	<start>6470.0</start>
+	<end>6770.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jesús Santiago Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>257</ID>
+	<start>6297.0</start>
+	<end>6597.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jesús Santiago Pérez</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>258</ID>
+	<start>5392.0</start>
+	<end>5452.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Unai Gómez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>259</ID>
+	<start>5617.0</start>
+	<end>5677.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Unai Gómez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>260</ID>
+	<start>5604.0</start>
+	<end>5664.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Unai Gómez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>261</ID>
+	<start>5333.0</start>
+	<end>5513.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Unai Gómez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>262</ID>
+	<start>5497.0</start>
+	<end>5677.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Unai Gómez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>263</ID>
+	<start>5484.0</start>
+	<end>5664.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Unai Gómez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>264</ID>
+	<start>5390.0</start>
+	<end>5690.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Unai Gómez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>265</ID>
+	<start>5377.0</start>
+	<end>5677.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Unai Gómez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>266</ID>
+	<start>5364.0</start>
+	<end>5664.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Unai Gómez</text></label>
+	<label><group>Equipo</group><text>Athletic Club</text></label>
+</instance>
+<instance>
+	<ID>267</ID>
+	<start>1509.0</start>
+	<end>1569.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Christantus Uche</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>268</ID>
+	<start>2661.0</start>
+	<end>2721.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Christantus Uche</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>269</ID>
+	<start>2661.0</start>
+	<end>2721.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Christantus Uche</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>270</ID>
+	<start>884.0</start>
+	<end>1064.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Christantus Uche</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>271</ID>
+	<start>2541.0</start>
+	<end>2721.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Christantus Uche</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>272</ID>
+	<start>2541.0</start>
+	<end>2721.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Christantus Uche</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>273</ID>
+	<start>42.0</start>
+	<end>342.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Christantus Uche</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>274</ID>
+	<start>2421.0</start>
+	<end>2721.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Christantus Uche</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+<instance>
+	<ID>275</ID>
+	<start>2421.0</start>
+	<end>2721.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Christantus Uche</text></label>
+	<label><group>Equipo</group><text>Getafe</text></label>
+</instance>
+</ALL_INSTANCES>
+</file>

@@ -1,0 +1,2179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+<ALL_INSTANCES>
+<instance>
+	<ID>1</ID>
+	<start>0.0</start>
+	<end>2945.16</end>
+	<code>Inicio</code>
+	<label><text>P1</text></label>
+</instance>
+<instance>
+	<ID>2</ID>
+	<start>3915.68</start>
+	<end>7037.24</end>
+	<code>Inicio</code>
+	<label><text>P2</text></label>
+</instance>
+<instance>
+	<ID>6</ID>
+	<start>5112.0</start>
+	<end>5172.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Luka Modric</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>7</ID>
+	<start>5094.0</start>
+	<end>5154.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Luka Modric</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>8</ID>
+	<start>5036.0</start>
+	<end>5096.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Luka Modric</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>9</ID>
+	<start>4991.0</start>
+	<end>5171.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Luka Modric</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>10</ID>
+	<start>5086.0</start>
+	<end>5266.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Luka Modric</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>11</ID>
+	<start>5085.0</start>
+	<end>5265.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Luka Modric</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>12</ID>
+	<start>5109.0</start>
+	<end>5409.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Luka Modric</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>13</ID>
+	<start>4966.0</start>
+	<end>5266.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Luka Modric</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>14</ID>
+	<start>5908.0</start>
+	<end>6208.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Luka Modric</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>15</ID>
+	<start>1487.0</start>
+	<end>1547.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Thibaut Courtois</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>16</ID>
+	<start>1457.0</start>
+	<end>1517.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Thibaut Courtois</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>17</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Thibaut Courtois</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>18</ID>
+	<start>1406.0</start>
+	<end>1586.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Thibaut Courtois</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>19</ID>
+	<start>1337.0</start>
+	<end>1517.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Thibaut Courtois</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>20</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Thibaut Courtois</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>21</ID>
+	<start>1478.0</start>
+	<end>1778.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Thibaut Courtois</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>22</ID>
+	<start>1217.0</start>
+	<end>1517.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Thibaut Courtois</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>23</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Thibaut Courtois</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>24</ID>
+	<start>3945.0</start>
+	<end>4005.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Dani Rodríguez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>25</ID>
+	<start>281.0</start>
+	<end>341.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Dani Rodríguez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>26</ID>
+	<start>280.0</start>
+	<end>340.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Dani Rodríguez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>27</ID>
+	<start>4486.0</start>
+	<end>4666.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Dani Rodríguez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>28</ID>
+	<start>161.0</start>
+	<end>341.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Dani Rodríguez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>29</ID>
+	<start>160.0</start>
+	<end>340.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Dani Rodríguez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>30</ID>
+	<start>4485.0</start>
+	<end>4785.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Dani Rodríguez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>31</ID>
+	<start>196.0</start>
+	<end>496.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Dani Rodríguez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>32</ID>
+	<start>196.0</start>
+	<end>496.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Dani Rodríguez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>33</ID>
+	<start>6323.0</start>
+	<end>6383.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Dani Carvajal</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>34</ID>
+	<start>2233.0</start>
+	<end>2293.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Dani Carvajal</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>35</ID>
+	<start>2233.0</start>
+	<end>2293.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Dani Carvajal</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>36</ID>
+	<start>4564.0</start>
+	<end>4744.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Dani Carvajal</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>37</ID>
+	<start>2237.0</start>
+	<end>2417.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Dani Carvajal</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>38</ID>
+	<start>2113.0</start>
+	<end>2293.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Dani Carvajal</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>39</ID>
+	<start>4560.0</start>
+	<end>4860.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Dani Carvajal</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>40</ID>
+	<start>3987.0</start>
+	<end>4287.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Dani Carvajal</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>41</ID>
+	<start>1993.0</start>
+	<end>2293.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Dani Carvajal</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>42</ID>
+	<start>6902.0</start>
+	<end>6962.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Antonio Rüdiger</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>43</ID>
+	<start>5763.0</start>
+	<end>5823.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Antonio Rüdiger</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>44</ID>
+	<start>5761.0</start>
+	<end>5821.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Antonio Rüdiger</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>45</ID>
+	<start>4615.0</start>
+	<end>4795.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Antonio Rüdiger</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>46</ID>
+	<start>4578.0</start>
+	<end>4758.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Antonio Rüdiger</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>47</ID>
+	<start>4642.0</start>
+	<end>4822.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Antonio Rüdiger</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>48</ID>
+	<start>4480.0</start>
+	<end>4780.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Antonio Rüdiger</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>49</ID>
+	<start>4427.0</start>
+	<end>4727.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Antonio Rüdiger</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>50</ID>
+	<start>4522.0</start>
+	<end>4822.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Antonio Rüdiger</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>51</ID>
+	<start>4803.0</start>
+	<end>4863.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Antonio Raíllo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>52</ID>
+	<start>4787.0</start>
+	<end>4847.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Antonio Raíllo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>53</ID>
+	<start>4786.0</start>
+	<end>4846.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Antonio Raíllo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>54</ID>
+	<start>2479.0</start>
+	<end>2659.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Antonio Raíllo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>55</ID>
+	<start>4737.0</start>
+	<end>4917.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Antonio Raíllo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>56</ID>
+	<start>4737.0</start>
+	<end>4917.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Antonio Raíllo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>57</ID>
+	<start>4561.0</start>
+	<end>4861.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Antonio Raíllo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>58</ID>
+	<start>4617.0</start>
+	<end>4917.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Antonio Raíllo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>59</ID>
+	<start>4617.0</start>
+	<end>4917.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Antonio Raíllo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>60</ID>
+	<start>6628.0</start>
+	<end>6688.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Lucas Vázquez</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>61</ID>
+	<start>6587.0</start>
+	<end>6647.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Lucas Vázquez</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>62</ID>
+	<start>6463.0</start>
+	<end>6523.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Lucas Vázquez</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>63</ID>
+	<start>6569.0</start>
+	<end>6749.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Lucas Vázquez</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>64</ID>
+	<start>6467.0</start>
+	<end>6647.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Lucas Vázquez</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>65</ID>
+	<start>6466.0</start>
+	<end>6646.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Lucas Vázquez</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>66</ID>
+	<start>6467.0</start>
+	<end>6767.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Lucas Vázquez</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>67</ID>
+	<start>6431.0</start>
+	<end>6731.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Lucas Vázquez</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>68</ID>
+	<start>6414.0</start>
+	<end>6714.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Lucas Vázquez</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>69</ID>
+	<start>1015.0</start>
+	<end>1075.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Omar Mascarell</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>70</ID>
+	<start>282.0</start>
+	<end>342.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Omar Mascarell</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>71</ID>
+	<start>282.0</start>
+	<end>342.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Omar Mascarell</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>72</ID>
+	<start>1961.0</start>
+	<end>2141.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Omar Mascarell</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>73</ID>
+	<start>318.0</start>
+	<end>498.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Omar Mascarell</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>74</ID>
+	<start>317.0</start>
+	<end>497.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Omar Mascarell</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>75</ID>
+	<start>1878.0</start>
+	<end>2178.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Omar Mascarell</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>76</ID>
+	<start>219.0</start>
+	<end>519.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Omar Mascarell</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>77</ID>
+	<start>197.0</start>
+	<end>497.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Omar Mascarell</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>78</ID>
+	<start>4238.0</start>
+	<end>4298.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Johan Mojica</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>79</ID>
+	<start>282.0</start>
+	<end>342.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Johan Mojica</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>80</ID>
+	<start>282.0</start>
+	<end>342.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Johan Mojica</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>81</ID>
+	<start>892.0</start>
+	<end>1072.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Johan Mojica</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>82</ID>
+	<start>890.0</start>
+	<end>1070.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Johan Mojica</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>83</ID>
+	<start>162.0</start>
+	<end>342.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Johan Mojica</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>84</ID>
+	<start>3993.0</start>
+	<end>4293.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Johan Mojica</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>85</ID>
+	<start>3993.0</start>
+	<end>4293.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Johan Mojica</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>86</ID>
+	<start>200.0</start>
+	<end>500.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Johan Mojica</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>87</ID>
+	<start>899.0</start>
+	<end>959.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Takuma Asano</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>88</ID>
+	<start>1380.0</start>
+	<end>1440.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Takuma Asano</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>89</ID>
+	<start>1377.0</start>
+	<end>1437.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Takuma Asano</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>90</ID>
+	<start>893.0</start>
+	<end>1073.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Takuma Asano</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>91</ID>
+	<start>855.0</start>
+	<end>1035.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Takuma Asano</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>92</ID>
+	<start>4414.0</start>
+	<end>4594.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Takuma Asano</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>93</ID>
+	<start>873.0</start>
+	<end>1173.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Takuma Asano</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>94</ID>
+	<start>4427.0</start>
+	<end>4727.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Takuma Asano</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>95</ID>
+	<start>4427.0</start>
+	<end>4727.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Takuma Asano</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>96</ID>
+	<start>880.0</start>
+	<end>940.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Vedat Muriqi</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>97</ID>
+	<start>880.0</start>
+	<end>940.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Vedat Muriqi</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>98</ID>
+	<start>6463.0</start>
+	<end>6523.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Vedat Muriqi</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>99</ID>
+	<start>800.0</start>
+	<end>980.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Vedat Muriqi</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>100</ID>
+	<start>850.0</start>
+	<end>1030.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Vedat Muriqi</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>101</ID>
+	<start>850.0</start>
+	<end>1030.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Vedat Muriqi</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>102</ID>
+	<start>880.0</start>
+	<end>1180.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Vedat Muriqi</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>103</ID>
+	<start>879.0</start>
+	<end>1179.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Vedat Muriqi</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>104</ID>
+	<start>878.0</start>
+	<end>1178.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Vedat Muriqi</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>105</ID>
+	<start>2285.0</start>
+	<end>2345.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Sergi Darder</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>106</ID>
+	<start>2263.0</start>
+	<end>2323.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Sergi Darder</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>107</ID>
+	<start>4097.0</start>
+	<end>4157.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Sergi Darder</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>108</ID>
+	<start>4566.0</start>
+	<end>4746.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Sergi Darder</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>109</ID>
+	<start>2307.0</start>
+	<end>2487.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Sergi Darder</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>110</ID>
+	<start>849.0</start>
+	<end>1029.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Sergi Darder</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>111</ID>
+	<start>4429.0</start>
+	<end>4729.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Sergi Darder</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>112</ID>
+	<start>2232.0</start>
+	<end>2532.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Sergi Darder</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>113</ID>
+	<start>2232.0</start>
+	<end>2532.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Sergi Darder</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>114</ID>
+	<start>329.0</start>
+	<end>389.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Martin Valjent</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>115</ID>
+	<start>282.0</start>
+	<end>342.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Martin Valjent</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>116</ID>
+	<start>282.0</start>
+	<end>342.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Martin Valjent</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>117</ID>
+	<start>2450.0</start>
+	<end>2630.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Martin Valjent</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>118</ID>
+	<start>2448.0</start>
+	<end>2628.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Martin Valjent</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>119</ID>
+	<start>2447.0</start>
+	<end>2627.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Martin Valjent</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>120</ID>
+	<start>4548.0</start>
+	<end>4848.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Martin Valjent</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>121</ID>
+	<start>2328.0</start>
+	<end>2628.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Martin Valjent</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>122</ID>
+	<start>2327.0</start>
+	<end>2627.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Martin Valjent</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>123</ID>
+	<start>2283.0</start>
+	<end>2343.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Pablo Maffeo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>124</ID>
+	<start>6010.0</start>
+	<end>6070.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Pablo Maffeo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>125</ID>
+	<start>6010.0</start>
+	<end>6070.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Pablo Maffeo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>126</ID>
+	<start>4495.0</start>
+	<end>4675.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Pablo Maffeo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>127</ID>
+	<start>162.0</start>
+	<end>342.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Pablo Maffeo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>128</ID>
+	<start>161.0</start>
+	<end>341.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Pablo Maffeo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>129</ID>
+	<start>2041.0</start>
+	<end>2341.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Pablo Maffeo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>130</ID>
+	<start>219.0</start>
+	<end>519.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Pablo Maffeo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>131</ID>
+	<start>219.0</start>
+	<end>519.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Pablo Maffeo</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>132</ID>
+	<start>5798.0</start>
+	<end>5858.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Cyle Larin</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>133</ID>
+	<start>6301.0</start>
+	<end>6361.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Cyle Larin</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>134</ID>
+	<start>5764.0</start>
+	<end>5824.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Cyle Larin</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>135</ID>
+	<start>6235.0</start>
+	<end>6415.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Cyle Larin</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>136</ID>
+	<start>6218.0</start>
+	<end>6398.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Cyle Larin</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>137</ID>
+	<start>6216.0</start>
+	<end>6396.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Cyle Larin</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>138</ID>
+	<start>6110.0</start>
+	<end>6410.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Cyle Larin</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>139</ID>
+	<start>6222.0</start>
+	<end>6522.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Cyle Larin</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>140</ID>
+	<start>6222.0</start>
+	<end>6522.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Cyle Larin</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>141</ID>
+	<start>4500.0</start>
+	<end>4560.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Ferland Mendy</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>142</ID>
+	<start>2426.0</start>
+	<end>2486.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Ferland Mendy</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>143</ID>
+	<start>2423.0</start>
+	<end>2483.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Ferland Mendy</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>144</ID>
+	<start>4480.0</start>
+	<end>4660.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Ferland Mendy</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>145</ID>
+	<start>2394.0</start>
+	<end>2574.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Ferland Mendy</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>146</ID>
+	<start>2303.0</start>
+	<end>2483.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Ferland Mendy</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>147</ID>
+	<start>4498.0</start>
+	<end>4798.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Ferland Mendy</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>148</ID>
+	<start>2408.0</start>
+	<end>2708.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Ferland Mendy</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>149</ID>
+	<start>2408.0</start>
+	<end>2708.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Ferland Mendy</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>150</ID>
+	<start>1016.0</start>
+	<end>1076.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Dominik Greif</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>151</ID>
+	<start>3967.0</start>
+	<end>4027.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Dominik Greif</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>152</ID>
+	<start>3966.0</start>
+	<end>4026.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Dominik Greif</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>153</ID>
+	<start>894.0</start>
+	<end>1074.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Dominik Greif</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>154</ID>
+	<start>3981.0</start>
+	<end>4161.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Dominik Greif</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>155</ID>
+	<start>3846.0</start>
+	<end>4026.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Dominik Greif</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>156</ID>
+	<start>4014.0</start>
+	<end>4314.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Dominik Greif</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>157</ID>
+	<start>3861.0</start>
+	<end>4161.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Dominik Greif</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>158</ID>
+	<start>3726.0</start>
+	<end>4026.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Dominik Greif</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>159</ID>
+	<start>6911.0</start>
+	<end>6971.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Brahim Díaz</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>160</ID>
+	<start>6584.0</start>
+	<end>6644.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Brahim Díaz</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>161</ID>
+	<start>6583.0</start>
+	<end>6643.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Brahim Díaz</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>162</ID>
+	<start>6792.0</start>
+	<end>6972.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Brahim Díaz</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>163</ID>
+	<start>6623.0</start>
+	<end>6803.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Brahim Díaz</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>164</ID>
+	<start>6463.0</start>
+	<end>6643.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Brahim Díaz</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>165</ID>
+	<start>6444.0</start>
+	<end>6744.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Brahim Díaz</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>166</ID>
+	<start>6573.0</start>
+	<end>6873.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Brahim Díaz</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>167</ID>
+	<start>6572.0</start>
+	<end>6872.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Brahim Díaz</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>168</ID>
+	<start>5550.0</start>
+	<end>5610.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Éder Gabriel Militão</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>169</ID>
+	<start>970.0</start>
+	<end>1030.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Éder Gabriel Militão</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>170</ID>
+	<start>970.0</start>
+	<end>1030.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Éder Gabriel Militão</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>171</ID>
+	<start>4485.0</start>
+	<end>4665.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Éder Gabriel Militão</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>172</ID>
+	<start>850.0</start>
+	<end>1030.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Éder Gabriel Militão</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>173</ID>
+	<start>850.0</start>
+	<end>1030.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Éder Gabriel Militão</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>174</ID>
+	<start>4433.0</start>
+	<end>4733.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Éder Gabriel Militão</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>175</ID>
+	<start>6222.0</start>
+	<end>6522.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Éder Gabriel Militão</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>176</ID>
+	<start>730.0</start>
+	<end>1030.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Éder Gabriel Militão</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>177</ID>
+	<start>1014.0</start>
+	<end>1074.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Aurélien Tchouaméni</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>178</ID>
+	<start>1013.0</start>
+	<end>1073.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Aurélien Tchouaméni</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>179</ID>
+	<start>1012.0</start>
+	<end>1072.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Aurélien Tchouaméni</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>180</ID>
+	<start>893.0</start>
+	<end>1073.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Aurélien Tchouaméni</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>181</ID>
+	<start>998.0</start>
+	<end>1178.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Aurélien Tchouaméni</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>182</ID>
+	<start>892.0</start>
+	<end>1072.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Aurélien Tchouaméni</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>183</ID>
+	<start>775.0</start>
+	<end>1075.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Aurélien Tchouaméni</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>184</ID>
+	<start>995.0</start>
+	<end>1295.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Aurélien Tchouaméni</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>185</ID>
+	<start>772.0</start>
+	<end>1072.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Aurélien Tchouaméni</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>186</ID>
+	<start>4716.0</start>
+	<end>4776.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Kylian Mbappé</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>187</ID>
+	<start>282.0</start>
+	<end>342.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Kylian Mbappé</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>188</ID>
+	<start>282.0</start>
+	<end>342.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Kylian Mbappé</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>189</ID>
+	<start>4684.0</start>
+	<end>4864.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Kylian Mbappé</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>190</ID>
+	<start>248.0</start>
+	<end>428.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Kylian Mbappé</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>191</ID>
+	<start>247.0</start>
+	<end>427.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Kylian Mbappé</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>192</ID>
+	<start>4562.0</start>
+	<end>4862.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Kylian Mbappé</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>193</ID>
+	<start>219.0</start>
+	<end>519.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Kylian Mbappé</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>194</ID>
+	<start>219.0</start>
+	<end>519.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Kylian Mbappé</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>195</ID>
+	<start>5551.0</start>
+	<end>5611.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Federico Valverde</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>196</ID>
+	<start>1374.0</start>
+	<end>1434.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Federico Valverde</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>197</ID>
+	<start>6464.0</start>
+	<end>6524.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Federico Valverde</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>198</ID>
+	<start>859.0</start>
+	<end>1039.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Federico Valverde</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>199</ID>
+	<start>1320.0</start>
+	<end>1500.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Federico Valverde</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>200</ID>
+	<start>1315.0</start>
+	<end>1495.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Federico Valverde</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>201</ID>
+	<start>4564.0</start>
+	<end>4864.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Federico Valverde</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>202</ID>
+	<start>1200.0</start>
+	<end>1500.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Federico Valverde</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>203</ID>
+	<start>1195.0</start>
+	<end>1495.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Federico Valverde</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>204</ID>
+	<start>5550.0</start>
+	<end>5610.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Manu Morlanes</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>205</ID>
+	<start>5781.0</start>
+	<end>5841.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Manu Morlanes</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>206</ID>
+	<start>6463.0</start>
+	<end>6523.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Manu Morlanes</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>207</ID>
+	<start>5506.0</start>
+	<end>5686.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Manu Morlanes</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>208</ID>
+	<start>5803.0</start>
+	<end>5983.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Manu Morlanes</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>209</ID>
+	<start>6343.0</start>
+	<end>6523.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Manu Morlanes</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>210</ID>
+	<start>5783.0</start>
+	<end>6083.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Manu Morlanes</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>211</ID>
+	<start>5762.0</start>
+	<end>6062.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Manu Morlanes</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>212</ID>
+	<start>6223.0</start>
+	<end>6523.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Manu Morlanes</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>213</ID>
+	<start>4790.0</start>
+	<end>4850.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jude Bellingham</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>214</ID>
+	<start>289.0</start>
+	<end>349.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jude Bellingham</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>215</ID>
+	<start>2279.0</start>
+	<end>2339.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jude Bellingham</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>216</ID>
+	<start>185.0</start>
+	<end>365.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jude Bellingham</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>217</ID>
+	<start>2160.0</start>
+	<end>2340.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jude Bellingham</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>218</ID>
+	<start>2159.0</start>
+	<end>2339.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jude Bellingham</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>219</ID>
+	<start>90.0</start>
+	<end>390.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jude Bellingham</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>220</ID>
+	<start>2040.0</start>
+	<end>2340.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jude Bellingham</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>221</ID>
+	<start>2039.0</start>
+	<end>2339.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jude Bellingham</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>222</ID>
+	<start>328.0</start>
+	<end>388.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Vinícius José Paixão de Oliveira Júnior</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>223</ID>
+	<start>294.0</start>
+	<end>354.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Vinícius José Paixão de Oliveira Júnior</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>224</ID>
+	<start>286.0</start>
+	<end>346.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Vinícius José Paixão de Oliveira Júnior</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>225</ID>
+	<start>4476.0</start>
+	<end>4656.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Vinícius José Paixão de Oliveira Júnior</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>226</ID>
+	<start>4741.0</start>
+	<end>4921.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Vinícius José Paixão de Oliveira Júnior</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>227</ID>
+	<start>166.0</start>
+	<end>346.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Vinícius José Paixão de Oliveira Júnior</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>228</ID>
+	<start>4476.0</start>
+	<end>4776.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Vinícius José Paixão de Oliveira Júnior</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>229</ID>
+	<start>319.0</start>
+	<end>619.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Vinícius José Paixão de Oliveira Júnior</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>230</ID>
+	<start>252.0</start>
+	<end>552.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Vinícius José Paixão de Oliveira Júnior</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>231</ID>
+	<start>1388.0</start>
+	<end>1448.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Rodrygo Silva de Goes</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>232</ID>
+	<start>281.0</start>
+	<end>341.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Rodrygo Silva de Goes</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>233</ID>
+	<start>4517.0</start>
+	<end>4577.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Rodrygo Silva de Goes</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>234</ID>
+	<start>797.0</start>
+	<end>977.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Rodrygo Silva de Goes</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>235</ID>
+	<start>2095.0</start>
+	<end>2275.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Rodrygo Silva de Goes</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>236</ID>
+	<start>2092.0</start>
+	<end>2272.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Rodrygo Silva de Goes</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>237</ID>
+	<start>2264.0</start>
+	<end>2564.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Rodrygo Silva de Goes</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>238</ID>
+	<start>1971.0</start>
+	<end>2271.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Rodrygo Silva de Goes</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>239</ID>
+	<start>1972.0</start>
+	<end>2272.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Rodrygo Silva de Goes</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>240</ID>
+	<start>6323.0</start>
+	<end>6383.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Antonio Sánchez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>241</ID>
+	<start>6511.0</start>
+	<end>6571.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Antonio Sánchez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>242</ID>
+	<start>6462.0</start>
+	<end>6522.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Antonio Sánchez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>243</ID>
+	<start>6166.0</start>
+	<end>6346.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Antonio Sánchez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>244</ID>
+	<start>6457.0</start>
+	<end>6637.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Antonio Sánchez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>245</ID>
+	<start>6456.0</start>
+	<end>6636.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Antonio Sánchez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>246</ID>
+	<start>6106.0</start>
+	<end>6406.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Antonio Sánchez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>247</ID>
+	<start>6505.0</start>
+	<end>6805.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Antonio Sánchez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>248</ID>
+	<start>6336.0</start>
+	<end>6636.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Antonio Sánchez</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>249</ID>
+	<start>4789.0</start>
+	<end>4849.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Samuel de Almeida Costa</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>250</ID>
+	<start>1010.0</start>
+	<end>1070.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Samuel de Almeida Costa</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>251</ID>
+	<start>1005.0</start>
+	<end>1065.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Samuel de Almeida Costa</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>252</ID>
+	<start>4669.0</start>
+	<end>4849.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Samuel de Almeida Costa</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>253</ID>
+	<start>2235.0</start>
+	<end>2415.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Samuel de Almeida Costa</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>254</ID>
+	<start>2206.0</start>
+	<end>2386.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Samuel de Almeida Costa</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>255</ID>
+	<start>4549.0</start>
+	<end>4849.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Samuel de Almeida Costa</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>256</ID>
+	<start>4549.0</start>
+	<end>4849.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Samuel de Almeida Costa</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>257</ID>
+	<start>765.0</start>
+	<end>1065.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Samuel de Almeida Costa</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>258</ID>
+	<start>6926.0</start>
+	<end>6986.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>José Manuel Arias Copete</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>259</ID>
+	<start>6911.0</start>
+	<end>6971.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>José Manuel Arias Copete</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>260</ID>
+	<start>6911.0</start>
+	<end>6971.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>José Manuel Arias Copete</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>261</ID>
+	<start>6800.0</start>
+	<end>6980.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>José Manuel Arias Copete</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>262</ID>
+	<start>6791.0</start>
+	<end>6971.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>José Manuel Arias Copete</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>263</ID>
+	<start>6791.0</start>
+	<end>6971.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>José Manuel Arias Copete</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>264</ID>
+	<start>6734.0</start>
+	<end>7034.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>José Manuel Arias Copete</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>265</ID>
+	<start>6671.0</start>
+	<end>6971.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>José Manuel Arias Copete</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>266</ID>
+	<start>6671.0</start>
+	<end>6971.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>José Manuel Arias Copete</text></label>
+	<label><group>Equipo</group><text>Mallorca</text></label>
+</instance>
+<instance>
+	<ID>267</ID>
+	<start>6477.0</start>
+	<end>6537.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Arda Güler</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>268</ID>
+	<start>6515.0</start>
+	<end>6575.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Arda Güler</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>269</ID>
+	<start>6463.0</start>
+	<end>6523.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Arda Güler</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>270</ID>
+	<start>6632.0</start>
+	<end>6812.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Arda Güler</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>271</ID>
+	<start>6465.0</start>
+	<end>6645.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Arda Güler</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>272</ID>
+	<start>6343.0</start>
+	<end>6523.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Arda Güler</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>273</ID>
+	<start>6476.0</start>
+	<end>6776.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Arda Güler</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>274</ID>
+	<start>6410.0</start>
+	<end>6710.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Arda Güler</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+<instance>
+	<ID>275</ID>
+	<start>6410.0</start>
+	<end>6710.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Arda Güler</text></label>
+	<label><group>Equipo</group><text>Real Madrid</text></label>
+</instance>
+</ALL_INSTANCES>
+</file>

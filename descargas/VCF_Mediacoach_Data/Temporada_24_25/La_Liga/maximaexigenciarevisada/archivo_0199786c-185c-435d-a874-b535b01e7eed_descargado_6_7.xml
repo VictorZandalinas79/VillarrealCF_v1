@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+<ALL_INSTANCES>
+<instance>
+	<ID>1</ID>
+	<start>0.0</start>
+	<end>2770.72</end>
+	<code>Inicio</code>
+	<label><text>P1</text></label>
+</instance>
+<instance>
+	<ID>2</ID>
+	<start>3861.12</start>
+	<end>7112.32</end>
+	<code>Inicio</code>
+	<label><text>P2</text></label>
+</instance>
+<instance>
+	<ID>6</ID>
+	<start>4323.0</start>
+	<end>4383.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Florian Lejeune</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>7</ID>
+	<start>4320.0</start>
+	<end>4380.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Florian Lejeune</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>8</ID>
+	<start>4319.0</start>
+	<end>4379.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Florian Lejeune</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>9</ID>
+	<start>325.0</start>
+	<end>505.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Florian Lejeune</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>10</ID>
+	<start>4200.0</start>
+	<end>4380.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Florian Lejeune</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>11</ID>
+	<start>4199.0</start>
+	<end>4379.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Florian Lejeune</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>12</ID>
+	<start>173.0</start>
+	<end>473.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Florian Lejeune</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>13</ID>
+	<start>4251.0</start>
+	<end>4551.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Florian Lejeune</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>14</ID>
+	<start>4079.0</start>
+	<end>4379.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Florian Lejeune</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>15</ID>
+	<start>6364.0</start>
+	<end>6424.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Iván Balliu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>16</ID>
+	<start>6355.0</start>
+	<end>6415.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Iván Balliu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>17</ID>
+	<start>6355.0</start>
+	<end>6415.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Iván Balliu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>18</ID>
+	<start>6781.0</start>
+	<end>6961.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Iván Balliu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>19</ID>
+	<start>6347.0</start>
+	<end>6527.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Iván Balliu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>20</ID>
+	<start>6347.0</start>
+	<end>6527.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Iván Balliu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>21</ID>
+	<start>6143.0</start>
+	<end>6443.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Iván Balliu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>22</ID>
+	<start>6304.0</start>
+	<end>6604.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Iván Balliu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>23</ID>
+	<start>6227.0</start>
+	<end>6527.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Iván Balliu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>24</ID>
+	<start>1420.0</start>
+	<end>1480.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Adri Embarba</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>25</ID>
+	<start>1930.0</start>
+	<end>1990.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Adri Embarba</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>26</ID>
+	<start>1929.0</start>
+	<end>1989.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Adri Embarba</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>27</ID>
+	<start>1309.0</start>
+	<end>1489.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Adri Embarba</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>28</ID>
+	<start>1810.0</start>
+	<end>1990.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Adri Embarba</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>29</ID>
+	<start>1809.0</start>
+	<end>1989.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Adri Embarba</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>30</ID>
+	<start>1247.0</start>
+	<end>1547.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Adri Embarba</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>31</ID>
+	<start>1153.0</start>
+	<end>1453.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Adri Embarba</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>32</ID>
+	<start>1152.0</start>
+	<end>1452.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Adri Embarba</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>33</ID>
+	<start>4119.0</start>
+	<end>4179.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Gerard Gumbau</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>34</ID>
+	<start>4990.0</start>
+	<end>5050.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Gerard Gumbau</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>35</ID>
+	<start>4319.0</start>
+	<end>4379.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Gerard Gumbau</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>36</ID>
+	<start>4111.0</start>
+	<end>4291.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Gerard Gumbau</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>37</ID>
+	<start>5408.0</start>
+	<end>5588.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Gerard Gumbau</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>38</ID>
+	<start>4199.0</start>
+	<end>4379.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Gerard Gumbau</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>39</ID>
+	<start>6221.0</start>
+	<end>6521.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Gerard Gumbau</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>40</ID>
+	<start>5235.0</start>
+	<end>5535.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Gerard Gumbau</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>41</ID>
+	<start>4079.0</start>
+	<end>4379.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Gerard Gumbau</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>42</ID>
+	<start>1422.0</start>
+	<end>1482.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Sheraldo Becker</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>43</ID>
+	<start>1394.0</start>
+	<end>1454.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Sheraldo Becker</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>44</ID>
+	<start>4318.0</start>
+	<end>4378.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Sheraldo Becker</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>45</ID>
+	<start>303.0</start>
+	<end>483.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Sheraldo Becker</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>46</ID>
+	<start>4360.0</start>
+	<end>4540.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Sheraldo Becker</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>47</ID>
+	<start>4359.0</start>
+	<end>4539.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Sheraldo Becker</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>48</ID>
+	<start>1155.0</start>
+	<end>1455.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Sheraldo Becker</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>49</ID>
+	<start>1154.0</start>
+	<end>1454.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Sheraldo Becker</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>50</ID>
+	<start>4239.0</start>
+	<end>4539.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Sheraldo Becker</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>51</ID>
+	<start>2262.0</start>
+	<end>2322.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Hamari Traoré</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>52</ID>
+	<start>1281.0</start>
+	<end>1341.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Hamari Traoré</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>53</ID>
+	<start>1281.0</start>
+	<end>1341.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Hamari Traoré</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>54</ID>
+	<start>1310.0</start>
+	<end>1490.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Hamari Traoré</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>55</ID>
+	<start>1161.0</start>
+	<end>1341.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Hamari Traoré</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>56</ID>
+	<start>1161.0</start>
+	<end>1341.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Hamari Traoré</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>57</ID>
+	<start>1154.0</start>
+	<end>1454.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Hamari Traoré</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>58</ID>
+	<start>1115.0</start>
+	<end>1415.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Hamari Traoré</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>59</ID>
+	<start>1041.0</start>
+	<end>1341.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Hamari Traoré</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>60</ID>
+	<start>387.0</start>
+	<end>447.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Alfonso Espino</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>61</ID>
+	<start>376.0</start>
+	<end>436.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Alfonso Espino</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>62</ID>
+	<start>375.0</start>
+	<end>435.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Alfonso Espino</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>63</ID>
+	<start>257.0</start>
+	<end>437.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Alfonso Espino</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>64</ID>
+	<start>256.0</start>
+	<end>436.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Alfonso Espino</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>65</ID>
+	<start>255.0</start>
+	<end>435.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Alfonso Espino</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>66</ID>
+	<start>139.0</start>
+	<end>439.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Alfonso Espino</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>67</ID>
+	<start>1428.0</start>
+	<end>1728.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Alfonso Espino</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>68</ID>
+	<start>4078.0</start>
+	<end>4378.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Alfonso Espino</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>69</ID>
+	<start>4115.0</start>
+	<end>4175.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Brais Méndez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>70</ID>
+	<start>4266.0</start>
+	<end>4326.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Brais Méndez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>71</ID>
+	<start>4265.0</start>
+	<end>4325.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Brais Méndez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>72</ID>
+	<start>222.0</start>
+	<end>402.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Brais Méndez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>73</ID>
+	<start>4146.0</start>
+	<end>4326.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Brais Méndez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>74</ID>
+	<start>4145.0</start>
+	<end>4325.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Brais Méndez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>75</ID>
+	<start>4116.0</start>
+	<end>4416.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Brais Méndez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>76</ID>
+	<start>4026.0</start>
+	<end>4326.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Brais Méndez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>77</ID>
+	<start>4025.0</start>
+	<end>4325.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Brais Méndez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>78</ID>
+	<start>343.0</start>
+	<end>403.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Unai López</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>79</ID>
+	<start>336.0</start>
+	<end>396.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Unai López</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>80</ID>
+	<start>336.0</start>
+	<end>396.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Unai López</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>81</ID>
+	<start>295.0</start>
+	<end>475.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Unai López</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>82</ID>
+	<start>281.0</start>
+	<end>461.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Unai López</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>83</ID>
+	<start>216.0</start>
+	<end>396.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Unai López</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>84</ID>
+	<start>189.0</start>
+	<end>489.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Unai López</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>85</ID>
+	<start>1426.0</start>
+	<end>1726.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Unai López</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>86</ID>
+	<start>96.0</start>
+	<end>396.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Unai López</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>87</ID>
+	<start>318.0</start>
+	<end>378.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Álex Remiro</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>88</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Álex Remiro</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>89</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Álex Remiro</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>90</ID>
+	<start>214.0</start>
+	<end>394.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Álex Remiro</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>91</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Álex Remiro</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>92</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Álex Remiro</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>93</ID>
+	<start>184.0</start>
+	<end>484.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Álex Remiro</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>94</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Álex Remiro</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>95</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Álex Remiro</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>96</ID>
+	<start>335.0</start>
+	<end>395.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Aritz Elustondo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>97</ID>
+	<start>4107.0</start>
+	<end>4167.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Aritz Elustondo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>98</ID>
+	<start>4273.0</start>
+	<end>4333.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Aritz Elustondo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>99</ID>
+	<start>256.0</start>
+	<end>436.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Aritz Elustondo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>100</ID>
+	<start>4154.0</start>
+	<end>4334.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Aritz Elustondo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>101</ID>
+	<start>4153.0</start>
+	<end>4333.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Aritz Elustondo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>102</ID>
+	<start>1410.0</start>
+	<end>1710.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Aritz Elustondo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>103</ID>
+	<start>3867.0</start>
+	<end>4167.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Aritz Elustondo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>104</ID>
+	<start>4133.0</start>
+	<end>4433.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Aritz Elustondo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>105</ID>
+	<start>1421.0</start>
+	<end>1481.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Mikel Oyarzabal</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>106</ID>
+	<start>1394.0</start>
+	<end>1454.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Mikel Oyarzabal</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>107</ID>
+	<start>1393.0</start>
+	<end>1453.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Mikel Oyarzabal</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>108</ID>
+	<start>322.0</start>
+	<end>502.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Mikel Oyarzabal</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>109</ID>
+	<start>1274.0</start>
+	<end>1454.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Mikel Oyarzabal</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>110</ID>
+	<start>1273.0</start>
+	<end>1453.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Mikel Oyarzabal</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>111</ID>
+	<start>1155.0</start>
+	<end>1455.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Mikel Oyarzabal</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>112</ID>
+	<start>1154.0</start>
+	<end>1454.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Mikel Oyarzabal</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>113</ID>
+	<start>1153.0</start>
+	<end>1453.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Mikel Oyarzabal</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>114</ID>
+	<start>4321.0</start>
+	<end>4381.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Takefusa Kubo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>115</ID>
+	<start>4319.0</start>
+	<end>4379.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Takefusa Kubo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>116</ID>
+	<start>1394.0</start>
+	<end>1454.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Takefusa Kubo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>117</ID>
+	<start>1309.0</start>
+	<end>1489.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Takefusa Kubo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>118</ID>
+	<start>1274.0</start>
+	<end>1454.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Takefusa Kubo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>119</ID>
+	<start>1274.0</start>
+	<end>1454.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Takefusa Kubo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>120</ID>
+	<start>1248.0</start>
+	<end>1548.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Takefusa Kubo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>121</ID>
+	<start>4079.0</start>
+	<end>4379.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Takefusa Kubo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>122</ID>
+	<start>4079.0</start>
+	<end>4379.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Takefusa Kubo</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>123</ID>
+	<start>4324.0</start>
+	<end>4384.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Abdul Mumin</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>124</ID>
+	<start>2224.0</start>
+	<end>2284.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Abdul Mumin</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>125</ID>
+	<start>2224.0</start>
+	<end>2284.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Abdul Mumin</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>126</ID>
+	<start>320.0</start>
+	<end>500.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Abdul Mumin</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>127</ID>
+	<start>1273.0</start>
+	<end>1453.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Abdul Mumin</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>128</ID>
+	<start>2104.0</start>
+	<end>2284.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Abdul Mumin</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>129</ID>
+	<start>143.0</start>
+	<end>443.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Abdul Mumin</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>130</ID>
+	<start>1153.0</start>
+	<end>1453.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Abdul Mumin</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>131</ID>
+	<start>1152.0</start>
+	<end>1452.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Abdul Mumin</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>132</ID>
+	<start>321.0</start>
+	<end>381.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jorge de Frutos</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>133</ID>
+	<start>319.0</start>
+	<end>379.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jorge de Frutos</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>134</ID>
+	<start>2546.0</start>
+	<end>2606.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jorge de Frutos</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>135</ID>
+	<start>265.0</start>
+	<end>445.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jorge de Frutos</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>136</ID>
+	<start>260.0</start>
+	<end>440.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jorge de Frutos</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>137</ID>
+	<start>2125.0</start>
+	<end>2305.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jorge de Frutos</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>138</ID>
+	<start>162.0</start>
+	<end>462.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jorge de Frutos</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>139</ID>
+	<start>327.0</start>
+	<end>627.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jorge de Frutos</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>140</ID>
+	<start>2005.0</start>
+	<end>2305.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jorge de Frutos</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>141</ID>
+	<start>6361.0</start>
+	<end>6421.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Sergio Camello</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>142</ID>
+	<start>6109.0</start>
+	<end>6169.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Sergio Camello</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>143</ID>
+	<start>4887.0</start>
+	<end>4947.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Sergio Camello</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>144</ID>
+	<start>6242.0</start>
+	<end>6422.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Sergio Camello</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>145</ID>
+	<start>4912.0</start>
+	<end>5092.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Sergio Camello</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>146</ID>
+	<start>4849.0</start>
+	<end>5029.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Sergio Camello</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>147</ID>
+	<start>6242.0</start>
+	<end>6542.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Sergio Camello</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>148</ID>
+	<start>6108.0</start>
+	<end>6408.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Sergio Camello</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>149</ID>
+	<start>4835.0</start>
+	<end>5135.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Sergio Camello</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>150</ID>
+	<start>344.0</start>
+	<end>404.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Óscar Valentín</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>151</ID>
+	<start>2591.0</start>
+	<end>2651.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Óscar Valentín</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>152</ID>
+	<start>2221.0</start>
+	<end>2281.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Óscar Valentín</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>153</ID>
+	<start>323.0</start>
+	<end>503.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Óscar Valentín</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>154</ID>
+	<start>1273.0</start>
+	<end>1453.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Óscar Valentín</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>155</ID>
+	<start>1270.0</start>
+	<end>1450.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Óscar Valentín</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>156</ID>
+	<start>194.0</start>
+	<end>494.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Óscar Valentín</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>157</ID>
+	<start>1153.0</start>
+	<end>1453.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Óscar Valentín</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>158</ID>
+	<start>1150.0</start>
+	<end>1450.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Óscar Valentín</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>159</ID>
+	<start>320.0</start>
+	<end>380.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Isi Palazón</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>160</ID>
+	<start>5999.0</start>
+	<end>6059.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Isi Palazón</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>161</ID>
+	<start>5995.0</start>
+	<end>6055.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Isi Palazón</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>162</ID>
+	<start>1370.0</start>
+	<end>1550.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Isi Palazón</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>163</ID>
+	<start>1343.0</start>
+	<end>1523.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Isi Palazón</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>164</ID>
+	<start>5875.0</start>
+	<end>6055.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Isi Palazón</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>165</ID>
+	<start>1249.0</start>
+	<end>1549.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Isi Palazón</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>166</ID>
+	<start>1223.0</start>
+	<end>1523.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Isi Palazón</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>167</ID>
+	<start>5991.0</start>
+	<end>6291.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Isi Palazón</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>168</ID>
+	<start>5411.0</start>
+	<end>5471.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Sergio Gómez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>169</ID>
+	<start>5381.0</start>
+	<end>5441.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Sergio Gómez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>170</ID>
+	<start>5363.0</start>
+	<end>5423.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Sergio Gómez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>171</ID>
+	<start>5417.0</start>
+	<end>5597.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Sergio Gómez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>172</ID>
+	<start>5413.0</start>
+	<end>5593.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Sergio Gómez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>173</ID>
+	<start>5412.0</start>
+	<end>5592.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Sergio Gómez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>174</ID>
+	<start>5231.0</start>
+	<end>5531.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Sergio Gómez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>175</ID>
+	<start>5293.0</start>
+	<end>5593.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Sergio Gómez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>176</ID>
+	<start>5292.0</start>
+	<end>5592.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Sergio Gómez</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>177</ID>
+	<start>6362.0</start>
+	<end>6422.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Pathé Ciss</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>178</ID>
+	<start>6355.0</start>
+	<end>6415.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Pathé Ciss</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>179</ID>
+	<start>6355.0</start>
+	<end>6415.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Pathé Ciss</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>180</ID>
+	<start>6348.0</start>
+	<end>6528.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Pathé Ciss</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>181</ID>
+	<start>6295.0</start>
+	<end>6475.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Pathé Ciss</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>182</ID>
+	<start>6235.0</start>
+	<end>6415.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Pathé Ciss</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>183</ID>
+	<start>6227.0</start>
+	<end>6527.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Pathé Ciss</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>184</ID>
+	<start>6115.0</start>
+	<end>6415.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Pathé Ciss</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>185</ID>
+	<start>6115.0</start>
+	<end>6415.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Pathé Ciss</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>186</ID>
+	<start>340.0</start>
+	<end>400.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Randy Nteka</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>187</ID>
+	<start>319.0</start>
+	<end>379.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Randy Nteka</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>188</ID>
+	<start>319.0</start>
+	<end>379.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Randy Nteka</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>189</ID>
+	<start>290.0</start>
+	<end>470.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Randy Nteka</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>190</ID>
+	<start>199.0</start>
+	<end>379.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Randy Nteka</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>191</ID>
+	<start>199.0</start>
+	<end>379.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Randy Nteka</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>192</ID>
+	<start>167.0</start>
+	<end>467.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Randy Nteka</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>193</ID>
+	<start>275.0</start>
+	<end>575.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Randy Nteka</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>194</ID>
+	<start>274.0</start>
+	<end>574.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Randy Nteka</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>195</ID>
+	<start>338.0</start>
+	<end>398.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jon Pacheco</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>196</ID>
+	<start>1904.0</start>
+	<end>1964.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jon Pacheco</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>197</ID>
+	<start>1904.0</start>
+	<end>1964.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jon Pacheco</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>198</ID>
+	<start>1421.0</start>
+	<end>1601.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jon Pacheco</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>199</ID>
+	<start>1784.0</start>
+	<end>1964.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jon Pacheco</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>200</ID>
+	<start>1784.0</start>
+	<end>1964.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jon Pacheco</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>201</ID>
+	<start>1410.0</start>
+	<end>1710.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jon Pacheco</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>202</ID>
+	<start>1664.0</start>
+	<end>1964.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jon Pacheco</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>203</ID>
+	<start>1664.0</start>
+	<end>1964.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jon Pacheco</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>204</ID>
+	<start>6362.0</start>
+	<end>6422.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Luka Sucic</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>205</ID>
+	<start>6354.0</start>
+	<end>6414.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Luka Sucic</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>206</ID>
+	<start>6354.0</start>
+	<end>6414.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Luka Sucic</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>207</ID>
+	<start>6355.0</start>
+	<end>6535.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Luka Sucic</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>208</ID>
+	<start>6234.0</start>
+	<end>6414.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Luka Sucic</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>209</ID>
+	<start>6234.0</start>
+	<end>6414.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Luka Sucic</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>210</ID>
+	<start>6707.0</start>
+	<end>7007.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Luka Sucic</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>211</ID>
+	<start>6114.0</start>
+	<end>6414.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Luka Sucic</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>212</ID>
+	<start>6114.0</start>
+	<end>6414.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Luka Sucic</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>213</ID>
+	<start>1422.0</start>
+	<end>1482.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Andrei Ratiu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>214</ID>
+	<start>1394.0</start>
+	<end>1454.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Andrei Ratiu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>215</ID>
+	<start>1394.0</start>
+	<end>1454.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Andrei Ratiu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>216</ID>
+	<start>1386.0</start>
+	<end>1566.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Andrei Ratiu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>217</ID>
+	<start>1354.0</start>
+	<end>1534.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Andrei Ratiu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>218</ID>
+	<start>1354.0</start>
+	<end>1534.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Andrei Ratiu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>219</ID>
+	<start>1258.0</start>
+	<end>1558.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Andrei Ratiu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>220</ID>
+	<start>1234.0</start>
+	<end>1534.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Andrei Ratiu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>221</ID>
+	<start>1234.0</start>
+	<end>1534.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Andrei Ratiu</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>222</ID>
+	<start>6006.0</start>
+	<end>6066.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Ander Barrenetxea</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>223</ID>
+	<start>6344.0</start>
+	<end>6404.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Ander Barrenetxea</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>224</ID>
+	<start>5366.0</start>
+	<end>5426.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Ander Barrenetxea</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>225</ID>
+	<start>5418.0</start>
+	<end>5598.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Ander Barrenetxea</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>226</ID>
+	<start>5415.0</start>
+	<end>5595.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Ander Barrenetxea</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>227</ID>
+	<start>5398.0</start>
+	<end>5578.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Ander Barrenetxea</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>228</ID>
+	<start>6713.0</start>
+	<end>7013.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Ander Barrenetxea</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>229</ID>
+	<start>5279.0</start>
+	<end>5579.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Ander Barrenetxea</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>230</ID>
+	<start>5278.0</start>
+	<end>5578.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Ander Barrenetxea</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>231</ID>
+	<start>5995.0</start>
+	<end>6055.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Jon Aramburu</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>232</ID>
+	<start>6923.0</start>
+	<end>6983.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Jon Aramburu</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>233</ID>
+	<start>6923.0</start>
+	<end>6983.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Jon Aramburu</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>234</ID>
+	<start>6254.0</start>
+	<end>6434.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Jon Aramburu</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>235</ID>
+	<start>6279.0</start>
+	<end>6459.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Jon Aramburu</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>236</ID>
+	<start>6624.0</start>
+	<end>6804.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Jon Aramburu</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>237</ID>
+	<start>6705.0</start>
+	<end>7005.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Jon Aramburu</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>238</ID>
+	<start>6159.0</start>
+	<end>6459.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Jon Aramburu</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>239</ID>
+	<start>6683.0</start>
+	<end>6983.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Jon Aramburu</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>240</ID>
+	<start>6363.0</start>
+	<end>6423.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Martín Zubimendi</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>241</ID>
+	<start>4119.0</start>
+	<end>4179.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Martín Zubimendi</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>242</ID>
+	<start>4075.0</start>
+	<end>4135.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Martín Zubimendi</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>243</ID>
+	<start>4113.0</start>
+	<end>4293.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Martín Zubimendi</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>244</ID>
+	<start>4021.0</start>
+	<end>4201.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Martín Zubimendi</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>245</ID>
+	<start>3955.0</start>
+	<end>4135.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Martín Zubimendi</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>246</ID>
+	<start>6247.0</start>
+	<end>6547.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Martín Zubimendi</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>247</ID>
+	<start>3902.0</start>
+	<end>4202.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Martín Zubimendi</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>248</ID>
+	<start>3835.0</start>
+	<end>4135.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Martín Zubimendi</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>249</ID>
+	<start>6364.0</start>
+	<end>6424.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Javi López</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>250</ID>
+	<start>2547.0</start>
+	<end>2607.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Javi López</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>251</ID>
+	<start>2546.0</start>
+	<end>2606.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Javi López</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>252</ID>
+	<start>1372.0</start>
+	<end>1552.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Javi López</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>253</ID>
+	<start>2426.0</start>
+	<end>2606.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Javi López</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>254</ID>
+	<start>2426.0</start>
+	<end>2606.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Javi López</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>255</ID>
+	<start>1251.0</start>
+	<end>1551.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Javi López</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>256</ID>
+	<start>3965.0</start>
+	<end>4265.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Javi López</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>257</ID>
+	<start>2410.0</start>
+	<end>2710.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Javi López</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>258</ID>
+	<start>343.0</start>
+	<end>403.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Beñat Turrientes</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>259</ID>
+	<start>2245.0</start>
+	<end>2305.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Beñat Turrientes</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>260</ID>
+	<start>2245.0</start>
+	<end>2305.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Beñat Turrientes</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>261</ID>
+	<start>1394.0</start>
+	<end>1574.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Beñat Turrientes</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>262</ID>
+	<start>2125.0</start>
+	<end>2305.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Beñat Turrientes</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>263</ID>
+	<start>2125.0</start>
+	<end>2305.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Beñat Turrientes</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>264</ID>
+	<start>194.0</start>
+	<end>494.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Beñat Turrientes</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>265</ID>
+	<start>2151.0</start>
+	<end>2451.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Beñat Turrientes</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>266</ID>
+	<start>2005.0</start>
+	<end>2305.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Beñat Turrientes</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>267</ID>
+	<start>5125.0</start>
+	<end>5185.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Dani Cárdenas</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>268</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Dani Cárdenas</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>269</ID>
+	<start>-60.0</start>
+	<end>0.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Dani Cárdenas</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>270</ID>
+	<start>5015.0</start>
+	<end>5195.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Dani Cárdenas</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>271</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Dani Cárdenas</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>272</ID>
+	<start>-180.0</start>
+	<end>0.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Dani Cárdenas</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>273</ID>
+	<start>4903.0</start>
+	<end>5203.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Dani Cárdenas</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>274</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Dani Cárdenas</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>275</ID>
+	<start>-300.0</start>
+	<end>0.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Dani Cárdenas</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>276</ID>
+	<start>6361.0</start>
+	<end>6421.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Pep Chavarría</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>277</ID>
+	<start>6864.0</start>
+	<end>6924.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Pep Chavarría</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>278</ID>
+	<start>6308.0</start>
+	<end>6368.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Pep Chavarría</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>279</ID>
+	<start>6250.0</start>
+	<end>6430.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Pep Chavarría</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>280</ID>
+	<start>6220.0</start>
+	<end>6400.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Pep Chavarría</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>281</ID>
+	<start>6220.0</start>
+	<end>6400.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Pep Chavarría</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>282</ID>
+	<start>6228.0</start>
+	<end>6528.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Pep Chavarría</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>283</ID>
+	<start>6158.0</start>
+	<end>6458.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Pep Chavarría</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>284</ID>
+	<start>6100.0</start>
+	<end>6400.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Pep Chavarría</text></label>
+	<label><group>Equipo</group><text>Rayo Vallecano</text></label>
+</instance>
+<instance>
+	<ID>285</ID>
+	<start>344.0</start>
+	<end>404.0</end>
+	<code>Ventana 1min y >0km/h</code>
+	<label><text>Urko González</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>286</ID>
+	<start>337.0</start>
+	<end>397.0</end>
+	<code>Ventana 1min y >21km/h</code>
+	<label><text>Urko González</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>287</ID>
+	<start>855.0</start>
+	<end>915.0</end>
+	<code>Ventana 1min y >24km/h</code>
+	<label><text>Urko González</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>288</ID>
+	<start>218.0</start>
+	<end>398.0</end>
+	<code>Ventana 3min y >0km/h</code>
+	<label><text>Urko González</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>289</ID>
+	<start>1412.0</start>
+	<end>1592.0</end>
+	<code>Ventana 3min y >21km/h</code>
+	<label><text>Urko González</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>290</ID>
+	<start>1411.0</start>
+	<end>1591.0</end>
+	<code>Ventana 3min y >24km/h</code>
+	<label><text>Urko González</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>291</ID>
+	<start>182.0</start>
+	<end>482.0</end>
+	<code>Ventana 5min y >0km/h</code>
+	<label><text>Urko González</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>292</ID>
+	<start>1356.0</start>
+	<end>1656.0</end>
+	<code>Ventana 5min y >21km/h</code>
+	<label><text>Urko González</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+<instance>
+	<ID>293</ID>
+	<start>1291.0</start>
+	<end>1591.0</end>
+	<code>Ventana 5min y >24km/h</code>
+	<label><text>Urko González</text></label>
+	<label><group>Equipo</group><text>Real Sociedad</text></label>
+</instance>
+</ALL_INSTANCES>
+</file>
