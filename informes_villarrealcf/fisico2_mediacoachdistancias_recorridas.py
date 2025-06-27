@@ -283,11 +283,11 @@ class DistanciasRecorridasReport:
             except Exception as e:
                 print(f"Error al aplicar fondo: {e}")
         
-        # Configurar grid: header + gráfico principal + 3 gráficos verticales
-        gs = fig.add_gridspec(3, 4, 
-                             height_ratios=[0.1, 0.6, 0.3], 
+        # Configurar grid: header + 4 gráficos verticales con barras horizontales
+        gs = fig.add_gridspec(2, 4, 
+                             height_ratios=[0.08, 1], 
                              width_ratios=[1, 1, 1, 1], 
-                             hspace=0.15, wspace=0.08,
+                             hspace=0.12, wspace=0.05,
                              left=0.03, right=0.97, top=0.95, bottom=0.05)
         
         # Área del título (toda la fila superior)
@@ -325,29 +325,27 @@ class DistanciasRecorridasReport:
         # Procesar datos
         jugadores_data, normalized_jornadas = self.create_distances_data(filtered_df, jornadas)
         
-        # Gráfico principal de barras horizontales acumulativas (fila central, todas las columnas)
-        ax_main = fig.add_subplot(gs[1, :])
-        ax_main.set_facecolor('white')
-        ax_main.set_title('DISTANCIA TOTAL POR PARTIDO', fontsize=16, weight='bold', 
-                         color='#1e3d59', pad=15)
-        self.plot_main_stacked_bars(ax_main, jugadores_data, normalized_jornadas)
+        # 4 gráficos verticales con barras horizontales, uno al lado del otro
+        titles = ['DISTANCIA TOTAL POR PARTIDO', 'DIST. 14-21 km/h', 'DIST. 21-24 km/h', 'DIST. >24 km/h']
+        data_keys = ['total', '14_21', '21_24', 'mas_24']
+        chart_types = ['stacked', 'simple', 'simple', 'simple']  # El primero es acumulativo
         
-        # Tres gráficos verticales en la fila inferior
-        titles = ['DIST. 14-21 km/h', 'DIST. 21-24 km/h', 'DIST. >24 km/h']
-        colors = ['#2ecc71', '#f39c12', '#e74c3c']  # Verde, Naranja, Rojo
-        data_keys = ['14_21', '21_24', 'mas_24']
-        
-        for i, (title, color, data_key) in enumerate(zip(titles, colors, data_keys)):
-            ax_chart = fig.add_subplot(gs[2, i])
-            ax_chart.set_facecolor('white')
-            ax_chart.set_title(title, fontsize=12, weight='bold', 
+        for i, (title, data_key, chart_type) in enumerate(zip(titles, data_keys, chart_types)):
+            ax_chart = fig.add_subplot(gs[1, i])
+            ax_chart.set_facecolor('none')  # Sin fondo
+            ax_chart.set_title(title, fontsize=10, weight='bold', 
                               color='#1e3d59', pad=10)
-            self.plot_vertical_bar_chart(ax_chart, jugadores_data, data_key, color)
+            
+            if chart_type == 'stacked':
+                self.plot_horizontal_stacked_bars(ax_chart, jugadores_data, normalized_jornadas)
+            else:
+                color = '#2ecc71' if data_key == '14_21' else '#f39c12' if data_key == '21_24' else '#e74c3c'
+                self.plot_horizontal_simple_bars(ax_chart, jugadores_data, data_key, color)
         
         return fig
     
-    def plot_main_stacked_bars(self, ax, jugadores_data, jornadas):
-        """Dibuja el gráfico principal de barras horizontales acumulativas"""
+    def plot_horizontal_stacked_bars(self, ax, jugadores_data, jornadas):
+        """Dibuja barras horizontales acumulativas por jornadas"""
         jugadores = list(jugadores_data.keys())
         if not jugadores:
             ax.text(0.5, 0.5, 'No hay datos disponibles', ha='center', va='center')
@@ -377,15 +375,15 @@ class DistanciasRecorridasReport:
             
             bars = ax.barh(y_positions, distancias_jornada, bar_width, 
                           left=left_values, 
-                          label=f'{jornada}', 
+                          label=f'J{jornada}', 
                           color=colors[j_idx % len(colors)])
             
             # Añadir valores en segmentos grandes
             for i, (bar, distancia) in enumerate(zip(bars, distancias_jornada)):
-                if distancia > 1.5:
+                if distancia > 1.0:
                     ax.text(left_values[i] + distancia/2, bar.get_y() + bar.get_height()/2, 
                            f"{distancia:.1f}", ha='center', va='center', 
-                           fontsize=8, weight='bold', color='white')
+                           fontsize=6, weight='bold', color='white')
             
             left_values += distancias_jornada
         
@@ -393,35 +391,37 @@ class DistanciasRecorridasReport:
         for i, (total, jugador) in enumerate(zip(left_values, jugadores_ordenados)):
             if total > 0:
                 # Total al final
-                ax.text(total + 0.5, i, f"{total:.1f}", 
-                       va='center', fontsize=10, color='#1a237e', weight='bold')
+                ax.text(total + 0.2, i, f"{total:.1f}", 
+                       va='center', fontsize=7, color='#1a237e', weight='bold')
                 
                 # Nombre del jugador
-                ax.text(0.5, i, jugador,
-                       va='center', ha='left', fontsize=10, color='#1a237e', weight='bold',
+                ax.text(0.2, i, jugador,
+                       va='center', ha='left', fontsize=7, color='#1a237e', weight='bold',
                        bbox=dict(facecolor='#ffffff', alpha=0.9, edgecolor='#2c3e50',
-                                linewidth=1, pad=2, boxstyle='round,pad=0.1'))
+                                linewidth=0.5, pad=1, boxstyle='round,pad=0.05'))
         
         # Configurar ejes
         ax.set_yticks([])
-        ax.set_xlabel('Distancia (km)', fontsize=10, color='#2c3e50')
+        ax.set_xlabel('km', fontsize=8, color='#2c3e50')
         
         # Ajustar límites
         max_total = max(left_values) if len(left_values) > 0 else 20
-        ax.set_xlim(0, max_total * 1.1)
+        ax.set_xlim(0, max_total * 1.08)
         
-        # Leyenda
+        # Leyenda compacta
         ax.legend(loc='upper right', bbox_to_anchor=(0.98, 0.98), 
-                 title='Jornadas', fontsize=8, title_fontsize=9)
+                 fontsize=6, ncol=1, frameon=True, fancybox=True, shadow=True)
         
-        # Estilo
+        # Estilo sin fondo
+        ax.set_facecolor('none')
         ax.spines['top'].set_visible(False)
         ax.spines['right'].set_visible(False)
         ax.spines['left'].set_visible(False)
-        ax.grid(axis='x', alpha=0.3)
+        ax.grid(axis='x', alpha=0.2)
+        ax.tick_params(axis='both', labelsize=7)
     
-    def plot_vertical_bar_chart(self, ax, jugadores_data, data_key, color):
-        """Dibuja un gráfico de barras verticales para un tipo específico de distancia"""
+    def plot_horizontal_simple_bars(self, ax, jugadores_data, data_key, color):
+        """Dibuja barras horizontales simples para un tipo específico de distancia"""
         jugadores = list(jugadores_data.keys())
         if not jugadores:
             ax.text(0.5, 0.5, 'No hay datos', ha='center', va='center')
@@ -432,40 +432,50 @@ class DistanciasRecorridasReport:
         jugadores_ordenados = sorted(jugadores, 
                                    key=lambda x: jugadores_data[x]['totales'][data_key], 
                                    reverse=True)
-        
-        # Tomar solo los top 15 para que se vea bien
-        jugadores_top = jugadores_ordenados[:15]
+        jugadores_ordenados.reverse()  # Para mostrar de mayor a menor en el gráfico
         
         # Datos para el gráfico
-        valores = [jugadores_data[jugador]['totales'][data_key] for jugador in jugadores_top]
-        nombres = jugadores_top
+        valores = [jugadores_data[jugador]['totales'][data_key] for jugador in jugadores_ordenados]
         
-        # Crear gráfico de barras
-        x_positions = np.arange(len(nombres))
-        bars = ax.bar(x_positions, valores, color=color, alpha=0.8, edgecolor='white', linewidth=1)
+        # Crear gráfico de barras horizontales
+        y_positions = np.arange(len(jugadores_ordenados))
+        bars = ax.barh(y_positions, valores, color=color, alpha=0.8, 
+                      edgecolor='white', linewidth=0.5, height=0.8)
         
-        # Añadir valores encima de las barras
-        for bar, valor in zip(bars, valores):
+        # Añadir valores al final de las barras
+        for i, (bar, valor, jugador) in enumerate(zip(bars, valores, jugadores_ordenados)):
             if valor > 0:
-                ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.02, 
-                       f"{valor:.1f}", ha='center', va='bottom', 
-                       fontsize=8, weight='bold', color='#2c3e50')
+                ax.text(valor + 0.02, bar.get_y() + bar.get_height()/2, 
+                       f"{valor:.1f}", ha='left', va='center', 
+                       fontsize=6, weight='bold', color='#2c3e50')
+                
+                # Nombre del jugador
+                ax.text(0.05, i, jugador,
+                       va='center', ha='left', fontsize=7, color='#1a237e', weight='bold',
+                       bbox=dict(facecolor='#ffffff', alpha=0.9, edgecolor='#2c3e50',
+                                linewidth=0.5, pad=1, boxstyle='round,pad=0.05'))
         
         # Configurar ejes
-        ax.set_xticks(x_positions)
-        ax.set_xticklabels(nombres, rotation=45, ha='right', fontsize=8)
-        ax.set_ylabel('km', fontsize=9, color='#2c3e50')
+        ax.set_yticks([])
+        ax.set_xlabel('km', fontsize=8, color='#2c3e50')
         
         # Ajustar límites
         if valores:
             max_val = max(valores)
-            ax.set_ylim(0, max_val * 1.15)
+            ax.set_xlim(0, max_val * 1.08)
         
-        # Estilo
+        # Leyenda simple
+        ax.legend([f'Total: {sum(valores):.1f} km'], 
+                 loc='upper right', bbox_to_anchor=(0.98, 0.98),
+                 fontsize=6, frameon=True, fancybox=True, shadow=True)
+        
+        # Estilo sin fondo
+        ax.set_facecolor('none')
         ax.spines['top'].set_visible(False)
         ax.spines['right'].set_visible(False)
-        ax.grid(axis='y', alpha=0.3)
-        ax.tick_params(axis='both', labelsize=8)
+        ax.spines['left'].set_visible(False)
+        ax.grid(axis='x', alpha=0.2)
+        ax.tick_params(axis='both', labelsize=7)
 
 # Funciones auxiliares (mantener las mismas que antes)
 def seleccionar_equipo_interactivo():
