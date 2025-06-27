@@ -204,9 +204,6 @@ cat >> .gitignore << 'EOF'
 *.csv
 *.xlsx
 *.xls
-data/
-prueba_extraccion/data/
-informes_villarrealcf/prueba_extraccion/data/
 
 # PDFs generados (informes)
 *.pdf
