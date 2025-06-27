@@ -205,10 +205,6 @@ cat >> .gitignore << 'EOF'
 *.xlsx
 *.xls
 
-# PDFs generados (informes)
-*.pdf
-reporte_*.pdf
-informes_generados/
 
 # Assets grandes (imágenes)
 assets/fondo_informes.png
