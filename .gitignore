@@ -201,7 +201,6 @@ cat >> .gitignore << 'EOF'
 # =================================
 
 # Archivos de datos grandes
-*.parquet
 *.csv
 *.xlsx
 *.xls
