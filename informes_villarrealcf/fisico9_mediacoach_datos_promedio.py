@@ -43,6 +43,33 @@ class CampoFutbolAcumulado:
         self.load_data()
         self.clean_team_names()
         
+        # 🎨 COLORES ESPECÍFICOS POR EQUIPO
+        self.team_colors = {
+            'Athletic Club': {'primary': '#EE2E24', 'secondary': '#FFFFFF', 'text': 'white'},
+            'Atlético de Madrid': {'primary': '#CB3524', 'secondary': '#FFFFFF', 'text': 'white'},
+            'CA Osasuna': {'primary': '#D2001C', 'secondary': '#001A4B', 'text': 'white'},
+            'CD Leganés': {'primary': '#004C9F', 'secondary': '#FFFFFF', 'text': 'white'},
+            'Deportivo Alavés': {'primary': '#1F4788', 'secondary': '#FFFFFF', 'text': 'white'},
+            'FC Barcelona': {'primary': '#004D98', 'secondary': '#A50044', 'text': 'white'},
+            'Getafe CF': {'primary': '#005CA9', 'secondary': '#FFFFFF', 'text': 'white'},
+            'Girona FC': {'primary': '#CC0000', 'secondary': '#FFFFFF', 'text': 'white'},
+            'RC Celta': {'primary': '#87CEEB', 'secondary': '#FFFFFF', 'text': 'black'},
+            'RCD Espanyol': {'primary': '#004C9F', 'secondary': '#FFFFFF', 'text': 'white'},
+            'RCD Mallorca': {'primary': '#CC0000', 'secondary': '#FFFF00', 'text': 'white'},
+            'Rayo Vallecano': {'primary': '#CC0000', 'secondary': '#FFFFFF', 'text': 'white'},
+            'Real Betis': {'primary': '#00954C', 'secondary': '#FFFFFF', 'text': 'white'},
+            'Real Madrid': {'primary': '#FFFFFF', 'secondary': '#FFD700', 'text': 'black'},
+            'Real Sociedad': {'primary': '#004C9F', 'secondary': '#FFFFFF', 'text': 'white'},
+            'Real Valladolid CF': {'primary': '#663399', 'secondary': '#FFFFFF', 'text': 'white'},
+            'Sevilla FC': {'primary': '#D2001C', 'secondary': '#FFFFFF', 'text': 'white'},
+            'UD Las Palmas': {'primary': '#FFFF00', 'secondary': '#004C9F', 'text': 'black'},
+            'Valencia CF': {'primary': '#FF7F00', 'secondary': '#000000', 'text': 'white'},
+            'Villarreal CF': {'primary': '#FFD700', 'secondary': '#004C9F', 'text': 'black'},
+        }
+
+        # Colores por defecto para equipos no reconocidos
+        self.default_team_colors = {'primary': '#2c3e50', 'secondary': '#FFFFFF', 'text': 'white'}
+
         # Mapeo exacto basado en las demarcaciones encontradas
         self.demarcacion_to_position = {
             # Portero (queda igual)
@@ -65,39 +92,42 @@ class CampoFutbolAcumulado:
             # Delanteros - Dos posiciones diferenciadas
             'Delantero - Delantero Centro': 'DELANTERO_CENTRO',
             'Delantero - Segundo Delantero': 'DELANTERO_CENTRO',
+            
+            # Jugadores sin posición definida
+            'Sin Posición': 'MC_POSICIONAL',
         }
         
         # Coordenadas específicas para cada posición en el campo
         self.coordenadas_tablas = {
             # Villarreal (lado izquierdo)
             'villarreal': {
-                'PORTERO': (3, 40),              # Portería
-                'LATERAL_DERECHO': (25, 10),      # Lateral derecho (arriba)
+                'PORTERO': (10, 40),              # Portería
+                'LATERAL_DERECHO': (25, 12),      # Lateral derecho (arriba)
                 'CENTRAL_DERECHO': (20, 25),      # Central derecho (centro-arriba)
                 'CENTRAL_IZQUIERDO': (20, 53),    # Central izquierdo (centro-abajo)
                 'LATERAL_IZQUIERDO': (25, 68),    # Lateral izquierdo (abajo)
-                'MC_POSICIONAL': (50, 40),        # Mediocampo defensivo (centro)
-                'MC_BOX_TO_BOX': (55, 55),        # Box to box (centro-arriba)
-                'MC_ORGANIZADOR': (45, 40),       # Organizador (centro-abajo)
-                'BANDA_DERECHA': (70, 10),        # Banda derecha (extremo arriba)
+                'MC_POSICIONAL': (35, 40),        # Mediocampo defensivo (centro)
+                'MC_BOX_TO_BOX': (62, 55),        # Box to box (centro-arriba)
+                'MC_ORGANIZADOR': (50, 40),       # Organizador (centro-abajo)
+                'BANDA_DERECHA': (70, 12),        # Banda derecha (extremo arriba)
                 'BANDA_IZQUIERDA': (70, 68),      # Banda izquierda (extremo abajo)
                 'DELANTERO_CENTRO': (85, 55),     # Delantero centro (arriba)
                 'SEGUNDO_DELANTERO': (85, 25),    # Segundo delantero (abajo)
             },
             # Equipo rival (lado derecho - espejo)
             'rival': {
-                'PORTERO': (115, 40),             # Portería
+                'PORTERO': (110, 40),             # Portería
                 'LATERAL_DERECHO': (100, 68),      # Lateral derecho (abajo - espejo)
                 'CENTRAL_DERECHO': (105, 53),      # Central derecho (centro-abajo - espejo)
                 'CENTRAL_IZQUIERDO': (105, 25),    # Central izquierdo (centro-arriba - espejo)
-                'LATERAL_IZQUIERDO': (100, 10),    # Lateral izquierdo (arriba - espejo)
-                'MC_POSICIONAL': (70, 40),        # Mediocampo defensivo (centro)
+                'LATERAL_IZQUIERDO': (100, 12),    # Lateral izquierdo (arriba - espejo)
+                'MC_POSICIONAL': (90, 40),        # Mediocampo defensivo (centro)
                 'MC_BOX_TO_BOX': (60, 25),        # Box to box (centro-abajo - espejo)
-                'MC_ORGANIZADOR': (70, 40),       # Organizador (centro-arriba - espejo)
+                'MC_ORGANIZADOR': (65, 40),       # Organizador (centro-arriba - espejo)
                 'BANDA_DERECHA': (45, 68),        # Banda derecha (extremo abajo - espejo)
-                'BANDA_IZQUIERDA': (45, 10),      # Banda izquierda (extremo arriba - espejo)
-                'DELANTERO_CENTRO': (40, 25),     # Delantero centro (abajo - espejo)
-                'SEGUNDO_DELANTERO': (40, 53),    # Segundo delantero (arriba - espejo)
+                'BANDA_IZQUIERDA': (45, 12),      # Banda izquierda (extremo arriba - espejo)
+                'DELANTERO_CENTRO': (38, 25),     # Delantero centro (abajo - espejo)
+                'SEGUNDO_DELANTERO': (38, 53),    # Segundo delantero (arriba - espejo)
             }
         }
         
@@ -205,6 +235,7 @@ class CampoFutbolAcumulado:
             # Para cada jugador con demarcación vacía, buscar su demarcación más frecuente
             for idx in df_work[mask_empty].index:
                 jugador_id = df_work.loc[idx, 'Id Jugador']
+                jugador_alias = df_work.loc[idx, 'Alias']
                 
                 # Buscar todas las demarcaciones de este jugador (no vacías)
                 jugador_demarcaciones = self.df[
@@ -218,9 +249,11 @@ class CampoFutbolAcumulado:
                     # Usar la demarcación más frecuente
                     demarcacion_mas_frecuente = jugador_demarcaciones.value_counts().index[0]
                     df_work.loc[idx, 'Demarcacion'] = demarcacion_mas_frecuente
+                    print(f"   ✅ {jugador_alias}: {demarcacion_mas_frecuente} (histórico)")
                 else:
-                    # Si no hay datos históricos, asignar una demarcación por defecto
-                    df_work.loc[idx, 'Demarcacion'] = 'Centrocampista - MC Box to Box'
+                    # Si no hay datos históricos, asignar "Sin Posición"
+                    df_work.loc[idx, 'Demarcacion'] = 'Sin Posición'
+                    print(f"   ⚠️  {jugador_alias}: Sin posición histórica -> MC Posicional")
         
         return df_work
     
@@ -360,6 +393,22 @@ class CampoFutbolAcumulado:
         
         print(f"⚠️  No se encontró el escudo para: {equipo}")
         return None
+
+    def get_team_colors(self, equipo):
+        """Obtiene los colores del equipo o devuelve colores por defecto"""
+        # Buscar coincidencia exacta primero
+        if equipo in self.team_colors:
+            return self.team_colors[equipo]
+        
+        # Buscar coincidencia parcial (por si hay variaciones en el nombre)
+        for team_name in self.team_colors.keys():
+            if team_name.lower() in equipo.lower() or equipo.lower() in team_name.lower():
+                return self.team_colors[team_name]
+        
+        # Si no encuentra nada, devolver colores por defecto
+        print(f"⚠️  Equipo '{equipo}' no reconocido, usando colores por defecto")
+        return self.default_team_colors
+    
     
     def group_players_by_specific_position(self, filtered_df):
         """Agrupa jugadores por posiciones específicas con lógica mejorada"""
@@ -499,7 +548,7 @@ class CampoFutbolAcumulado:
         return fig, ax
     
 
-    def create_position_table(self, players_list, x, y, ax, team_color, position_name):
+    def create_position_table(self, players_list, x, y, ax, team_colors, position_name, team_logo=None):
         """Crea una tabla moderna con demarcación, nombres+dorsales y métricas en filas"""
         if not players_list:
             return
@@ -528,17 +577,33 @@ class CampoFutbolAcumulado:
         # Efecto de borde superior más claro (MÁS FINO)
         top_rect = plt.Rectangle((x - table_width/2, y + table_height/2 - 0.5), 
                                 table_width, 0.5,  # Reducido de 1 a 0.5
-                                facecolor=team_color, alpha=0.8, 
+                                facecolor=team_colors['primary'], alpha=0.8,
                                 edgecolor='none')
         ax.add_patch(top_rect)
         
-        # 📍 FILA 1: DEMARCACIÓN (TAMAÑO REDUCIDO)
-        clean_position_name = position_name.replace('_', ' ').replace('Mc ', 'MC ').replace('Delantero Centro', 'DEL. CENTRO').replace('Segundo Delantero', '2º DELANTERO')
-        ax.text(x, y + table_height/2 - header_height/2, clean_position_name, 
-                fontsize=8, weight='bold', color='white',  # Reducido de 11 a 8
-                ha='center', va='center',
-                bbox=dict(boxstyle="round,pad=0.3", facecolor=team_color, alpha=0.9,  # Reducido padding
-                        edgecolor='white', linewidth=1))
+        # 📍 FILA 1: DEMARCACIÓN CON ESCUDO
+        # Verificar si hay jugadores sin posición en esta tabla
+        has_sin_posicion = any(player.get('Demarcacion') == 'Sin Posición' for player in players_list)
+
+        if has_sin_posicion and position_name.replace('_', ' ').upper() == 'MC POSICIONAL':
+            clean_position_name = 'SIN POSICIÓN'
+        else:
+            clean_position_name = position_name.replace('_', ' ').replace('Mc ', 'MC ').replace('Delantero Centro', 'DEL. CENTRO').replace('Segundo Delantero', '2º DELANTERO')
+        
+        # Crear el rectángulo del header
+        header_rect = plt.Rectangle((x - table_width/2, y + table_height/2 - header_height), 
+                                table_width, header_height,
+                                facecolor=team_colors['primary'], alpha=0.8,
+                                edgecolor='white', linewidth=1)
+        ax.add_patch(header_rect)
+
+        # Añadir escudo si está disponible
+        text_x = x
+
+        # Texto de la demarcación
+        ax.text(text_x, y + table_height/2 - header_height/2, clean_position_name, 
+                fontsize=8, weight='bold', color=team_colors['text'],
+                ha='center', va='center')
         
         # 📍 FILA 2: NOMBRES + DORSALES
         names_y = y + table_height/2 - header_height - names_height/2
@@ -550,6 +615,39 @@ class CampoFutbolAcumulado:
                                 edgecolor='white', linewidth=0.5)  # Reducido de 1 a 0.5
         ax.add_patch(names_rect)
         
+        # 🏆 AÑADIR ESCUDO EN LA COLUMNA DE MÉTRICAS, FILA DE NOMBRES
+        if team_logo is not None:
+            try:
+                # Crear rectángulo para recortar el escudo (clip path)
+                logo_rect = plt.Rectangle((x - table_width/2, names_y - names_height/2), 
+                                        metric_col_width, names_height,
+                                        facecolor='none', edgecolor='none')
+                
+                # Calcular posición central de la celda
+                logo_x = x - table_width/2 + metric_col_width/2
+                logo_y = names_y
+                
+                # Calcular el zoom para que llene la celda (ampliado)
+                # Usar un zoom alto para que llene bien la celda
+                zoom_factor = min(metric_col_width / 100, names_height / 100) * 0.8
+                
+                # Crear imagen del escudo
+                imagebox = OffsetImage(team_logo, zoom=zoom_factor)
+                ab = AnnotationBbox(imagebox, (logo_x, logo_y), 
+                                frameon=False, 
+                                boxcoords='data',
+                                clip_on=True)
+                
+                # Añadir clip path para recortar el escudo a los límites de la celda
+                ab.set_clip_path(logo_rect)
+                ab.set_clip_on(True)
+                
+                ax.add_artist(ab)
+                
+                print(f"✅ Escudo añadido en celda de métricas")
+            except Exception as e:
+                print(f"⚠️  Error al añadir escudo en celda: {e}")
+
         # Agregar nombres y dorsales
         for i, player in enumerate(players_list):
             player_x = x - table_width/2 + metric_col_width + (i * player_col_width) + player_col_width/2
@@ -561,7 +659,7 @@ class CampoFutbolAcumulado:
             
             # Número del dorsal (MÁS GRANDE Y EN NEGRITA)
             ax.text(player_x, names_y + 0.6, str(dorsal), 
-                    fontsize=12, weight='bold', color=team_color,  # Aumentado a 12 y color del equipo
+                    fontsize=12, weight='bold', color=team_colors['primary'],  # Aumentado a 12 y color del equipo
                     ha='center', va='center')
             
             # Nombre del jugador debajo del dorsal
@@ -584,7 +682,7 @@ class CampoFutbolAcumulado:
             # Columna de métrica (nombre) con fondo destacado (BORDE MÁS FINO)
             metric_bg = plt.Rectangle((x - table_width/2, metric_y - metric_row_height/2), 
                                     metric_col_width, metric_row_height,
-                                    facecolor=team_color, alpha=0.6, 
+                                    facecolor=team_colors['primary'], alpha=0.6,
                                     edgecolor='white', linewidth=0.3)  # Reducido de 0.5 a 0.3
             ax.add_patch(metric_bg)
             
@@ -610,7 +708,7 @@ class CampoFutbolAcumulado:
                     formatted_value = "N/A"
                 
                 # Destacar valores altos con color diferente
-                text_color = '#FFD700' if j == 0 else 'white'  # Primer jugador en dorado
+                text_color = 'white'  # Todos los jugadores en blanco
                 
                 ax.text(player_x, metric_y, formatted_value, 
                         fontsize=6, weight='bold', color=text_color,  # Reducido de 8 a 6
@@ -621,14 +719,9 @@ class CampoFutbolAcumulado:
         ax.plot([x - table_width/2 + metric_col_width, x + table_width/2], 
                 [names_y - names_height/2, names_y - names_height/2], 
                 color='white', linewidth=1.5, alpha=0.8)  # Reducido de 2 a 1.5
-        
-        # Línea vertical separando métricas de valores
-        ax.plot([x - table_width/2 + metric_col_width, x - table_width/2 + metric_col_width], 
-                [y - table_height/2, y + table_height/2], 
-                color='white', linewidth=1.5, alpha=0.8)  # Reducido de 2 a 1.5
     
-    def create_team_summary_table(self, team_data, ax, x_pos, y_pos, team_name, team_color, team_logo=None):
-        """Crea una tabla de resumen del equipo con métricas y valores en línea horizontal"""
+    def create_team_summary_table(self, team_data, ax, x_pos, y_pos, team_name, team_colors, team_logo=None):
+        """Crea una tabla de resumen del equipo con métricas en fila 1 y valores en fila 2"""
         
         # Calcular estadísticas del equipo
         summary_stats = {}
@@ -640,14 +733,14 @@ class CampoFutbolAcumulado:
                 else:
                     summary_stats[metric] = team_data[metric].mean()
         
-        # Dimensiones de la tabla (TODO EN HORIZONTAL)
+        # Dimensiones de la tabla (2 FILAS)
         num_metrics = len(summary_stats)
-        metric_pair_width = 8  # Ancho por cada par métrica+valor
-        table_width = num_metrics * metric_pair_width
-        table_height = 6  # Altura fija más pequeña
-        header_height = 2  # Altura del header del equipo
+        metric_col_width = 8  # Ancho por cada métrica
+        table_width = num_metrics * metric_col_width
+        row_height = 1.5  # Altura de cada fila
+        table_height = row_height * 2  # 2 filas
         
-        # 🎨 FONDO MODERNO - Mismo estilo que las tablas de jugadores
+        # 🎨 FONDO MODERNO
         main_rect = plt.Rectangle((x_pos - table_width/2, y_pos - table_height/2), 
                                 table_width, table_height,
                                 facecolor='#2c3e50', alpha=0.95, 
@@ -655,61 +748,66 @@ class CampoFutbolAcumulado:
         ax.add_patch(main_rect)
         
         # Efecto de borde superior
-        top_rect = plt.Rectangle((x_pos - table_width/2, y_pos + table_height/2 - 0.5), 
-                                table_width, 0.5,
-                                facecolor=team_color, alpha=0.8, 
+        top_rect = plt.Rectangle((x_pos - table_width/2, y_pos + table_height/2 - 0.3), 
+                                table_width, 0.3,
+                                facecolor=team_colors['primary'], alpha=0.9,
                                 edgecolor='none')
         ax.add_patch(top_rect)
         
-        # 📍 HEADER: Nombre del equipo
-        ax.text(x_pos, y_pos + table_height/2 - header_height/2, team_name, 
-                fontsize=9, weight='bold', color='white',
-                ha='center', va='center',
-                bbox=dict(boxstyle="round,pad=0.3", facecolor=team_color, alpha=0.9,
-                        edgecolor='white', linewidth=1))
-        
-        # 📍 MÉTRICAS Y VALORES EN LÍNEA HORIZONTAL
-        start_x = x_pos - table_width/2 + metric_pair_width/2
-        metrics_y = y_pos - 0.5  # Posición vertical para toda la línea
+        # 📍 FILA 1: NOMBRES DE MÉTRICAS
+        metrics_y = y_pos + row_height/2  # Fila superior
         
         for i, (metric, value) in enumerate(summary_stats.items()):
-            metric_x = start_x + (i * metric_pair_width)
+            metric_x = x_pos - table_width/2 + (i * metric_col_width) + metric_col_width/2
             
-            # Fondo alternado para cada par métrica+valor
+            # Fondo para cada métrica en fila 1
+            metric_rect = plt.Rectangle((metric_x - metric_col_width/2, metrics_y - row_height/2), 
+                                    metric_col_width, row_height,
+                                    facecolor=team_colors['primary'], alpha=0.6, 
+                                    edgecolor='white', linewidth=0.5)
+            ax.add_patch(metric_rect)
+            
+            # Nombre de la métrica
+            metric_short = metric.replace('Distancia Total ', 'Dist. ').replace('Velocidad Máxima Total', 'V.Max').replace('Distancia Total', 'Distancia')
+            ax.text(metric_x, metrics_y, metric_short, 
+                    fontsize=6, weight='bold', color='white',
+                    ha='center', va='center')
+        
+        # 📍 FILA 2: VALORES DE MÉTRICAS
+        values_y = y_pos - row_height/2  # Fila inferior
+        
+        for i, (metric, value) in enumerate(summary_stats.items()):
+            metric_x = x_pos - table_width/2 + (i * metric_col_width) + metric_col_width/2
+            
+            # Fondo alternado para valores en fila 2
             if i % 2 == 0:
-                pair_rect = plt.Rectangle((metric_x - metric_pair_width/2, metrics_y - 1.5), 
-                                        metric_pair_width, 3,
+                value_rect = plt.Rectangle((metric_x - metric_col_width/2, values_y - row_height/2), 
+                                        metric_col_width, row_height,
                                         facecolor='#3c566e', alpha=0.3, 
                                         edgecolor='none')
-                ax.add_patch(pair_rect)
+                ax.add_patch(value_rect)
             
-            # Fondo destacado para la métrica
-            metric_bg = plt.Rectangle((metric_x - metric_pair_width/2, metrics_y - 1.5), 
-                                    metric_pair_width, 1.5,
-                                    facecolor=team_color, alpha=0.6, 
-                                    edgecolor='white', linewidth=0.3)
-            ax.add_patch(metric_bg)
-            
-            # Nombre de la métrica (parte superior)
-            metric_short = metric.replace('Distancia Total ', 'Dist. ').replace('Velocidad Máxima Total', 'V.Max').replace('Distancia Total', 'Distancia')
-            ax.text(metric_x, metrics_y - 0.75, metric_short, 
-                    fontsize=5, weight='bold', color='white',
-                    ha='center', va='center')
-            
-            # Valor de la métrica (parte inferior) 
+            # Valor de la métrica
             if 'Velocidad' in metric:
                 formatted_value = f"{value:.1f}"
             else:
                 formatted_value = f"{value:.0f}"
             
-            ax.text(metric_x, metrics_y + 0.75, formatted_value, 
-                    fontsize=8, weight='bold', color='#FFD700',  # Valores en dorado
+            ax.text(metric_x, values_y, formatted_value, 
+                    fontsize=9, weight='bold', color='#FFD700',  # Valores en dorado
                     ha='center', va='center')
         
-        # 🔹 LÍNEA SEPARADORA entre header y métricas
+        # 🔹 LÍNEA SEPARADORA entre filas
         ax.plot([x_pos - table_width/2, x_pos + table_width/2], 
-                [y_pos + header_height/2, y_pos + header_height/2], 
+                [y_pos, y_pos], 
                 color='white', linewidth=1.5, alpha=0.8)
+        
+        # Líneas verticales separando columnas
+        for i in range(1, num_metrics):
+            line_x = x_pos - table_width/2 + (i * metric_col_width)
+            ax.plot([line_x, line_x], 
+                    [y_pos - table_height/2, y_pos + table_height/2], 
+                    color='white', linewidth=0.5, alpha=0.6)
     
     def create_visualization(self, equipo_rival, jornadas, figsize=(24, 16)):
         """Crea la visualización completa con tablas por posición y datos acumulados"""
@@ -741,12 +839,12 @@ class CampoFutbolAcumulado:
         
         # Posicionar escudos dentro del campo
         if villarreal_logo is not None:
-            imagebox = OffsetImage(villarreal_logo, zoom=0.12)
+            imagebox = OffsetImage(villarreal_logo, zoom=0.08)
             ab = AnnotationBbox(imagebox, (5, 5), frameon=False)
             ax.add_artist(ab)
         
         if rival_logo is not None:
-            imagebox = OffsetImage(rival_logo, zoom=0.12)
+            imagebox = OffsetImage(rival_logo, zoom=0.08)
             ab = AnnotationBbox(imagebox, (115, 5), frameon=False)
             ax.add_artist(ab)
         
@@ -755,35 +853,45 @@ class CampoFutbolAcumulado:
         villarreal_grouped = self.group_players_by_specific_position(villarreal_data)
         rival_grouped = self.group_players_by_specific_position(rival_data)
 
+        # Obtener colores para cada equipo
+        villarreal_colors = self.get_team_colors('Villarreal CF')
+        rival_colors = self.get_team_colors(equipo_rival)
+
         # Crear tablas para Villarreal
         for position, players in villarreal_grouped.items():
             if players and position in self.coordenadas_tablas['villarreal']:
                 x, y = self.coordenadas_tablas['villarreal'][position]
                 position_name = position.replace('_', ' ').title()
-                self.create_position_table(players, x, y, ax, '#FFD700', position_name)
+                self.create_position_table(players, x, y, ax, villarreal_colors, 
+                        position_name, villarreal_logo)
+
 
         # ✅ MANEJAR SEGUNDO_DELANTERO SI EXISTE
         if 'SEGUNDO_DELANTERO' in villarreal_grouped and villarreal_grouped['SEGUNDO_DELANTERO']:
             x, y = self.coordenadas_tablas['villarreal']['SEGUNDO_DELANTERO']
-            self.create_position_table(villarreal_grouped['SEGUNDO_DELANTERO'], x, y, ax, '#FFD700', 'Segundo Delantero')
+            self.create_position_table(villarreal_grouped['SEGUNDO_DELANTERO'], x, y, ax, 
+                         villarreal_colors, 'Segundo Delantero', villarreal_logo)
 
         # Crear tablas para equipo rival
         for position, players in rival_grouped.items():
             if players and position in self.coordenadas_tablas['rival']:
                 x, y = self.coordenadas_tablas['rival'][position]
                 position_name = position.replace('_', ' ').title()
-                self.create_position_table(players, x, y, ax, '#cc3300', position_name)
+                self.create_position_table(players, x, y, ax, rival_colors, 
+                                        position_name, rival_logo)
+
 
         # ✅ MANEJAR SEGUNDO_DELANTERO SI EXISTE
         if 'SEGUNDO_DELANTERO' in rival_grouped and rival_grouped['SEGUNDO_DELANTERO']:
             x, y = self.coordenadas_tablas['rival']['SEGUNDO_DELANTERO']
-            self.create_position_table(rival_grouped['SEGUNDO_DELANTERO'], x, y, ax, '#cc3300', 'Segundo Delantero')
+            self.create_position_table(rival_grouped['SEGUNDO_DELANTERO'], x, y, ax, 
+                                     rival_colors, 'Segundo Delantero', rival_logo)
         
-        # Resúmenes de equipos con tablas modernas (SIN escudos pequeños)
+        # Resúmenes de equipos con colores personalizados
         self.create_team_summary_table(villarreal_data, ax, 30, 1, 'Villarreal CF', 
-                                     '#FFD700', villarreal_logo)
+                             villarreal_colors, villarreal_logo)
         self.create_team_summary_table(rival_data, ax, 90, 1, equipo_rival, 
-                                     '#cc3300', rival_logo)
+                             rival_colors, rival_logo)
         
         return fig
     
