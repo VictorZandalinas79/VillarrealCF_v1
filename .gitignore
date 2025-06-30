@@ -206,14 +206,6 @@ cat >> .gitignore << 'EOF'
 *.xls
 
 
-# Assets grandes (imágenes)
-assets/fondo_informes.png
-assets/fondo_login_estadio.jpg
-assets/fondo_login_estadio.jpeg
-assets/villarreal_logo.png
-assets/balon.png
-informes_villarrealcf/assets/
-
 # Archivos de configuración local
 config_local.py
 settings_local.py

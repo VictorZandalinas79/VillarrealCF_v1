@@ -123,7 +123,7 @@ class CampoFutbolAcumulado:
                 'LATERAL_IZQUIERDO': (100, 12),    # Lateral izquierdo (arriba - espejo)
                 'MC_POSICIONAL': (90, 40),        # Mediocampo defensivo (centro)
                 'MC_BOX_TO_BOX': (60, 25),        # Box to box (centro-abajo - espejo)
-                'MC_ORGANIZADOR': (65, 40),       # Organizador (centro-arriba - espejo)
+                'MC_ORGANIZADOR': (70, 40),       # Organizador (centro-arriba - espejo)
                 'BANDA_DERECHA': (45, 68),        # Banda derecha (extremo abajo - espejo)
                 'BANDA_IZQUIERDA': (45, 12),      # Banda izquierda (extremo arriba - espejo)
                 'DELANTERO_CENTRO': (38, 25),     # Delantero centro (abajo - espejo)
@@ -888,9 +888,9 @@ class CampoFutbolAcumulado:
                                      rival_colors, 'Segundo Delantero', rival_logo)
         
         # Resúmenes de equipos con colores personalizados
-        self.create_team_summary_table(villarreal_data, ax, 30, 1, 'Villarreal CF', 
+        self.create_team_summary_table(villarreal_data, ax, 30, 2, 'Villarreal CF', 
                              villarreal_colors, villarreal_logo)
-        self.create_team_summary_table(rival_data, ax, 90, 1, equipo_rival, 
+        self.create_team_summary_table(rival_data, ax, 90, 2, equipo_rival, 
                              rival_colors, rival_logo)
         
         return fig
