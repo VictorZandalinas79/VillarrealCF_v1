@@ -106,7 +106,7 @@ class CampoFutbolAcumulado:
                 'CENTRAL_DERECHO': (20, 25),      # Central derecho (centro-arriba)
                 'CENTRAL_IZQUIERDO': (20, 53),    # Central izquierdo (centro-abajo)
                 'LATERAL_IZQUIERDO': (25, 68),    # Lateral izquierdo (abajo)
-                'MC_POSICIONAL': (35, 40),        # Mediocampo defensivo (centro)
+                'MC_POSICIONAL': (30, 40),        # Mediocampo defensivo (centro)
                 'MC_BOX_TO_BOX': (62, 55),        # Box to box (centro-arriba)
                 'MC_ORGANIZADOR': (50, 40),       # Organizador (centro-abajo)
                 'BANDA_DERECHA': (70, 12),        # Banda derecha (extremo arriba)
@@ -324,10 +324,10 @@ class CampoFutbolAcumulado:
             jugador_data = filtered_df[filtered_df['Alias'] == jugador]
             
             # Calcular promedio de minutos
-            avg_minutes = jugador_data['Minutos jugados'].mean()
+            max_minutes = jugador_data['Minutos jugados'].max()
             
             # Solo incluir jugadores con promedio >= min_avg_minutes
-            if avg_minutes >= min_avg_minutes:
+            if max_minutes >= min_avg_minutes:
                 # Tomar datos básicos del jugador (usar el registro más reciente)
                 latest_record = jugador_data.iloc[-1]
                 
@@ -341,7 +341,7 @@ class CampoFutbolAcumulado:
                     'Equipo': latest_record['Equipo'],
                     
                     # Minutos: promedio
-                    'Minutos jugados': avg_minutes,
+                    'Minutos jugados': jugador_data['Minutos jugados'].mean(),
                     
                     # Distancias: suma total
                     'Distancia Total': jugador_data['Distancia Total'].sum(),
@@ -364,11 +364,11 @@ class CampoFutbolAcumulado:
         # Convertir a DataFrame
         if accumulated_data:
             result_df = pd.DataFrame(accumulated_data)
-            print(f"✅ {len(result_df)} jugadores con promedio {min_avg_minutes}+ minutos")
+            print(f"✅ {len(result_df)} jugadores con máximo {min_avg_minutes}+ minutos")
             print(f"📊 Datos acumulados para {equipo}: {len(result_df)} jugadores únicos")
             return result_df
         else:
-            print(f"❌ No hay jugadores con promedio {min_avg_minutes}+ minutos para {equipo}")
+            print(f"❌ No hay jugadores con máximo {min_avg_minutes}+ minutos para {equipo}")
             return None
     
     def load_team_logo(self, equipo):
