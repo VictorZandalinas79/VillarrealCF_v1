@@ -325,25 +325,26 @@ class CampoFutbolMaximos:
         
         for jugador in filtered_df['Alias'].unique():
             jugador_data = filtered_df[filtered_df['Alias'] == jugador]
-            
-            # Solo incluir jugadores que hayan jugado al menos min_minutes en alguna jornada
-            max_minutes = jugador_data['Minutos jugados'].max()
-            
-            if max_minutes >= min_minutes:
+    
+            # NUEVO: Filtrar solo partidos donde jugó 70+ minutos
+            jugador_data_filtered = jugador_data[jugador_data['Minutos jugados'] >= min_minutes]
+    
+            # Solo incluir jugadores que tengan al menos 1 partido con 70+ minutos
+            if len(jugador_data_filtered) > 0:
                 # Tomar datos básicos del jugador (usar el registro más reciente)
-                latest_record = jugador_data.iloc[-1]
-                
+                latest_record = jugador_data_filtered.iloc[-1]
+
                 # 🔥 CREAR REGISTRO CON VALORES MÁXIMOS
                 maximum_record = {
                     'Id Jugador': latest_record['Id Jugador'],
                     'Dorsal': latest_record['Dorsal'],
                     'Nombre': latest_record['Nombre'],
                     'Alias': latest_record['Alias'],
-                    'Demarcacion': jugador_data['Demarcacion'].mode().iloc[0] if len(jugador_data['Demarcacion'].mode()) > 0 else latest_record['Demarcacion'],
+                    'Demarcacion': jugador_data_filtered['Demarcacion'].mode().iloc[0] if len(jugador_data_filtered['Demarcacion'].mode()) > 0 else latest_record['Demarcacion'],
                     'Equipo': latest_record['Equipo'],
                     
-                    # Minutos: MÁXIMO jugado en una sola jornada
-                    'Minutos jugados': jugador_data['Minutos jugados'].max(),
+                    # Minutos: MÁXIMO jugado SOLO en partidos de 70+
+                    'Minutos jugados': jugador_data_filtered['Minutos jugados'].max(),
                 }
 
                 # 🔥 CALCULAR MÉTRICAS COMBINADAS CORRECTAMENTE

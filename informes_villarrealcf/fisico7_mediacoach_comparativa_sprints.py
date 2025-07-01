@@ -402,7 +402,7 @@ class ComparativaSprintsReport:
         ax_inf_izq.set_title('Nº SPRINTS 21-24km/h\nNº SPRINTS >24km/h', fontsize=10, weight='bold', 
                             color='#1e3d59', pad=4)
         if "Villarreal CF" in equipos_data:
-            self.plot_team_sprints_horizontal(ax_inf_izq, equipos_data["Villarreal CF"]['jugadores'])
+            self.plot_team_sprints_horizontal(ax_inf_izq, equipos_data["Villarreal CF"]['jugadores'], invertir=True)
         
         # Gráfico inferior derecha: Equipo rival (21-24 vs >24)
         ax_inf_der = fig.add_subplot(gs[2, 1])
@@ -410,7 +410,7 @@ class ComparativaSprintsReport:
         ax_inf_der.set_title('Nº SPRINTS 21-24km/h\nNº SPRINTS >24km/h', fontsize=10, weight='bold', 
                             color='#1e3d59', pad=4)
         if "Rival" in equipos_data:
-            self.plot_team_sprints_horizontal(ax_inf_der, equipos_data["Rival"]['jugadores'])
+            self.plot_team_sprints_horizontal(ax_inf_der, equipos_data["Rival"]['jugadores'], invertir=False)
         
         return fig
     
@@ -486,7 +486,7 @@ class ComparativaSprintsReport:
         ax.grid(axis='y', alpha=0.2)
         ax.tick_params(axis='both', labelsize=7)
 
-    def plot_team_sprints_horizontal(self, ax, jugadores_data):
+    def plot_team_sprints_horizontal(self, ax, jugadores_data, invertir=False):
         """Dibuja barras horizontales para sprints de un equipo"""
         if not jugadores_data:
             ax.text(0.5, 0.5, 'No hay datos', ha='center', va='center')
@@ -495,8 +495,8 @@ class ComparativaSprintsReport:
         
         # Ordenar por total de sprints (de mayor a menor)
         jugadores_ordenados = sorted(jugadores_data.keys(), 
-                                   key=lambda x: jugadores_data[x]['sprints_21_24'] + jugadores_data[x]['sprints_24'], 
-                                   reverse=False)
+                                key=lambda x: jugadores_data[x]['sprints_21_24'] + jugadores_data[x]['sprints_24'], 
+                                reverse=False)
         
         y_positions = np.arange(len(jugadores_ordenados))
         
@@ -504,10 +504,21 @@ class ComparativaSprintsReport:
         sprints_21_24 = [jugadores_data[j]['sprints_21_24'] for j in jugadores_ordenados]
         sprints_24 = [jugadores_data[j]['sprints_24'] for j in jugadores_ordenados]
         
+        if invertir:
+            # Para el gráfico invertido (izquierda), usar valores negativos
+            sprints_21_24_plot = [-x for x in sprints_21_24]
+            sprints_24_plot = [-x for x in sprints_24]
+            left_values = sprints_21_24_plot
+        else:
+            # Para el gráfico normal (derecha)
+            sprints_21_24_plot = sprints_21_24
+            sprints_24_plot = sprints_24
+            left_values = sprints_21_24
+        
         # Crear barras apiladas
-        bars_21_24 = ax.barh(y_positions, sprints_21_24, 
-                           label='Sprints 21-24 km/h', color='#f39c12', alpha=0.8)
-        bars_24 = ax.barh(y_positions, sprints_24, left=sprints_21_24,
+        bars_21_24 = ax.barh(y_positions, sprints_21_24_plot, 
+                        label='Sprints 21-24 km/h', color='#f39c12', alpha=0.8)
+        bars_24 = ax.barh(y_positions, sprints_24_plot, left=left_values,
                         label='Sprints >24 km/h', color='#e74c3c', alpha=0.8)
         
         # Calcular totales
@@ -515,23 +526,43 @@ class ComparativaSprintsReport:
         
         # Añadir valores
         for i, (s21_24, s24, total, jugador) in enumerate(zip(sprints_21_24, sprints_24, totales, jugadores_ordenados)):
-            # Total al final
-            if total > 0:
-                ax.text(total + total*0.02, i, f"{int(total)}", 
-                       ha='left', va='center', fontsize=8, weight='bold', color='#2c3e50')
-            
-            # Valores en segmentos
-            if s21_24 > 2:
-                ax.text(s21_24/2, i, f"{int(s21_24)}", 
-                       ha='center', va='center', fontsize=7, weight='bold', color='white')
-            
-            if s24 > 2:
-                ax.text(s21_24 + s24/2, i, f"{int(s24)}", 
-                       ha='center', va='center', fontsize=7, weight='bold', color='white')
-            
-            # Nombre del jugador
-            ax.text(-max(totales)*0.02 if totales else -2, i, jugador,
-                   va='center', ha='right', fontsize=8, color='#1a237e', weight='bold')
+            if invertir:
+                # Total al principio (lado izquierdo)
+                if total > 0:
+                    ax.text(-total - total*0.02, i, f"{int(total)}", 
+                        ha='right', va='center', fontsize=8, weight='bold', color='#2c3e50')
+                
+                # Valores en segmentos (posiciones invertidas)
+                if s21_24 > 2:
+                    ax.text(-s21_24/2, i, f"{int(s21_24)}", 
+                        ha='center', va='center', fontsize=7, weight='bold', color='white')
+                
+                if s24 > 2:
+                    ax.text(-s21_24 - s24/2, i, f"{int(s24)}", 
+                        ha='center', va='center', fontsize=7, weight='bold', color='white')
+                
+                # Nombre del jugador a la derecha
+                max_total = max(totales) if totales else 30
+                ax.text(max_total*0.02, i, jugador,
+                    va='center', ha='left', fontsize=8, color='#1a237e', weight='bold')
+            else:
+                # Total al final (lado derecho)
+                if total > 0:
+                    ax.text(total + total*0.02, i, f"{int(total)}", 
+                        ha='left', va='center', fontsize=8, weight='bold', color='#2c3e50')
+                
+                # Valores en segmentos
+                if s21_24 > 2:
+                    ax.text(s21_24/2, i, f"{int(s21_24)}", 
+                        ha='center', va='center', fontsize=7, weight='bold', color='white')
+                
+                if s24 > 2:
+                    ax.text(s21_24 + s24/2, i, f"{int(s24)}", 
+                        ha='center', va='center', fontsize=7, weight='bold', color='white')
+                
+                # Nombre del jugador a la izquierda
+                ax.text(-max(totales)*0.02 if totales else -2, i, jugador,
+                    va='center', ha='right', fontsize=8, color='#1a237e', weight='bold')
         
         # Configurar ejes
         ax.set_yticks([])
@@ -539,11 +570,15 @@ class ComparativaSprintsReport:
         
         # Ajustar límites
         max_total = max(totales) if totales else 30
-        ax.set_xlim(-max_total*0.15, max_total * 1.1)
+        if invertir:
+            ax.set_xlim(-max_total * 1.1, max_total*0.15)
+        else:
+            ax.set_xlim(-max_total*0.15, max_total * 1.1)
         
         # Leyenda
-        ax.legend(loc='lower right', bbox_to_anchor=(0.98, 0.02), 
-                 fontsize=8, frameon=True, fancybox=True, shadow=True)
+        ax.legend(loc='lower right' if not invertir else 'lower left', 
+                bbox_to_anchor=(0.98, 0.02) if not invertir else (0.02, 0.02), 
+                fontsize=8, frameon=True, fancybox=True, shadow=True)
         
         # Estilo
         ax.spines['top'].set_visible(False)

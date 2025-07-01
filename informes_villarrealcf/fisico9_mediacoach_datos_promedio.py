@@ -322,41 +322,41 @@ class CampoFutbolAcumulado:
         
         for jugador in filtered_df['Alias'].unique():
             jugador_data = filtered_df[filtered_df['Alias'] == jugador]
+    
+            # NUEVO: Filtrar solo partidos donde jugó 70+ minutos
+            jugador_data_filtered = jugador_data[jugador_data['Minutos jugados'] >= min_avg_minutes]
             
-            # Calcular promedio de minutos
-            max_minutes = jugador_data['Minutos jugados'].max()
-            
-            # Solo incluir jugadores con promedio >= min_avg_minutes
-            if max_minutes >= min_avg_minutes:
+            # Solo incluir jugadores que tengan al menos 1 partido con 70+ minutos
+            if len(jugador_data_filtered) > 0:
                 # Tomar datos básicos del jugador (usar el registro más reciente)
-                latest_record = jugador_data.iloc[-1]
-                
+                latest_record = jugador_data_filtered.iloc[-1]
+
                 # Crear registro acumulado
                 accumulated_record = {
                     'Id Jugador': latest_record['Id Jugador'],
                     'Dorsal': latest_record['Dorsal'],
                     'Nombre': latest_record['Nombre'],
                     'Alias': latest_record['Alias'],
-                    'Demarcacion': jugador_data['Demarcacion'].mode().iloc[0] if len(jugador_data['Demarcacion'].mode()) > 0 else latest_record['Demarcacion'],
+                    'Demarcacion': jugador_data_filtered['Demarcacion'].mode().iloc[0] if len(jugador_data_filtered['Demarcacion'].mode()) > 0 else latest_record['Demarcacion'],
                     'Equipo': latest_record['Equipo'],
                     
-                    # Minutos: promedio
-                    'Minutos jugados': jugador_data['Minutos jugados'].mean(),
+                    # Minutos: promedio SOLO de partidos 70+
+                    'Minutos jugados': jugador_data_filtered['Minutos jugados'].mean(),
                     
-                    # Distancias: suma total
-                    'Distancia Total': jugador_data['Distancia Total'].sum(),
-                    'Distancia Total 14-21 km / h': jugador_data['Distancia Total 14-21 km / h'].sum(),
-                    'Distancia Total >21 km / h': jugador_data['Distancia Total >21 km / h'].sum(),
+                    # Distancias: suma total SOLO de partidos 70+
+                    'Distancia Total': jugador_data_filtered['Distancia Total'].sum(),
+                    'Distancia Total 14-21 km / h': jugador_data_filtered['Distancia Total 14-21 km / h'].sum(),
+                    'Distancia Total >21 km / h': jugador_data_filtered['Distancia Total >21 km / h'].sum(),
                     
-                    # Distancias por minuto: promedio
-                    'Distancia Total / min': jugador_data['Distancia Total / min'].mean(),
-                    'Distancia Total 14-21 km / h / min': jugador_data.get('Distancia Total 14-21 km / h / min', pd.Series([0])).mean(),
-                    'Distancia Total >21 km / h / min': jugador_data.get('Distancia Total >21 km / h / min', pd.Series([0])).mean(),
+                    # Distancias por minuto: promedio SOLO de partidos 70+
+                    'Distancia Total / min': jugador_data_filtered['Distancia Total / min'].mean(),
+                    'Distancia Total 14-21 km / h / min': jugador_data_filtered.get('Distancia Total 14-21 km / h / min', pd.Series([0])).mean(),
+                    'Distancia Total >21 km / h / min': jugador_data_filtered.get('Distancia Total >21 km / h / min', pd.Series([0])).mean(),
                     
-                    # Velocidades: máximo
-                    'Velocidad Máxima Total': jugador_data['Velocidad Máxima Total'].max(),
-                    'Velocidad Máxima 1P': jugador_data.get('Velocidad Máxima 1P', pd.Series([0])).max(),
-                    'Velocidad Máxima 2P': jugador_data.get('Velocidad Máxima 2P', pd.Series([0])).max(),
+                    # Velocidades: máximo SOLO de partidos 70+
+                    'Velocidad Máxima Total': jugador_data_filtered['Velocidad Máxima Total'].max(),
+                    'Velocidad Máxima 1P': jugador_data_filtered.get('Velocidad Máxima 1P', pd.Series([0])).max(),
+                    'Velocidad Máxima 2P': jugador_data_filtered.get('Velocidad Máxima 2P', pd.Series([0])).max(),
                 }
                 
                 accumulated_data.append(accumulated_record)
@@ -364,11 +364,11 @@ class CampoFutbolAcumulado:
         # Convertir a DataFrame
         if accumulated_data:
             result_df = pd.DataFrame(accumulated_data)
-            print(f"✅ {len(result_df)} jugadores con máximo {min_avg_minutes}+ minutos")
+            print(f"✅ {len(result_df)} jugadores con al menos 1 partido de {min_avg_minutes}+ minutos")
             print(f"📊 Datos acumulados para {equipo}: {len(result_df)} jugadores únicos")
             return result_df
         else:
-            print(f"❌ No hay jugadores con máximo {min_avg_minutes}+ minutos para {equipo}")
+            print(f"❌ No hay jugadores con al menos 1 partido de {min_avg_minutes}+ minutos para {equipo}")
             return None
     
     def load_team_logo(self, equipo):
