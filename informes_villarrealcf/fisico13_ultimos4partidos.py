@@ -8,49 +8,75 @@ from difflib import SequenceMatcher
 import warnings
 warnings.filterwarnings('ignore')
 
+# CONFIGURACIÓN GLOBAL PARA OPTIMIZAR ESPACIOS
+plt.rcParams.update({
+    'figure.autolayout': False,
+    'figure.constrained_layout.use': False,
+    'axes.xmargin': 0,
+    'axes.ymargin': 0,
+    'savefig.bbox': 'tight',
+    'savefig.pad_inches': 0
+})
+
 try:
-    from mplsoccer import VerticalPitch
+    from mplsoccer import Pitch  # Cambio a Pitch horizontal
 except ImportError:
     print("Instalando mplsoccer...")
     import subprocess
     subprocess.check_call(["pip", "install", "mplsoccer"])
-    from mplsoccer import VerticalPitch
+    from mplsoccer import Pitch
 
-class ReporteTacticoJornada:
+class ReporteTactico4CamposHorizontales:
     def __init__(self, data_path="prueba_extraccion/data/rendimiento_fisico.parquet"):
         """
-        Inicializa la clase para generar reportes tácticos por jornada
+        Inicializa la clase para generar reportes tácticos con 4 campos horizontales
         """
         self.data_path = data_path
         self.df = None
         self.load_data()
         self.clean_team_names()
         
-        # 🏟️ FORMACIÓN TÁCTICA 1-4-4-2 (COORDENADAS PARA VERTICALPITCH)
-        # VerticalPitch tiene coordenadas 0-120 (largo) x 0-80 (ancho)
-        self.formacion_1442 = {
-            'PORTERO': [(40, 10)],  # 1 portero
-            'DEFENSAS': [(20, 25), (30, 30), (50, 30), (60, 25)],  # 4 defensas 
-            'MEDIOS': [(20, 50), (30, 55), (50, 55), (60, 50)],     # 4 medios
-            'DELANTEROS': [(35, 80), (45, 80)]  # 2 delanteros
+        # 🏟️ COORDENADAS PARA CAMPOS HORIZONTALES (Pitch 0-120 x 0-80)
+        # Coordenadas específicas para cada posición en el campo HORIZONTAL
+        self.coordenadas_posiciones = {
+            # Portero
+            'PORTERO': (10, 40),
+            
+            # Defensas - Línea defensiva
+            'LATERAL_DERECHO': (45, 68),      # Lateral derecho (arriba)
+            'CENTRAL_DERECHO': (20, 60),      # Central derecho 
+            'CENTRAL_IZQUIERDO': (20, 20),    # Central izquierdo
+            'LATERAL_IZQUIERDO': (45, 12),    # Lateral izquierdo (abajo)
+            
+            # Mediocampo - Distribuidos por el centro
+            'MC_POSICIONAL': (40, 45),        # Mediocampo defensivo (centro)
+            'MC_BOX_TO_BOX': (65, 20),        # Box to box 
+            'MC_ORGANIZADOR': (55, 55),       # Organizador
+            'BANDA_DERECHA': (85, 68),        # Banda derecha (abajo)
+            'BANDA_IZQUIERDA': (85, 12),      # Banda izquierda (arriba)
+            'MEDIAPUNTA': (75, 40),           # Mediapunta
+            
+            # Delanteros - Línea de ataque
+            'DELANTERO_CENTRO': (100, 45),     # Delantero centro
+            'SEGUNDO_DELANTERO': (90, 65),    # Segundo delantero
         }
         
-        # Mapeo de demarcaciones a posiciones tácticas
-        self.demarcacion_to_posicion_tactica = {
+        # Mapeo de demarcaciones a posiciones (adaptado del segundo script)
+        self.demarcacion_to_posicion = {
             'Portero': 'PORTERO',
-            'Defensa - Lateral Izquierdo': 'DEFENSAS',
-            'Defensa - Central Izquierdo': 'DEFENSAS',
-            'Defensa - Central Derecho': 'DEFENSAS', 
-            'Defensa - Lateral Derecho': 'DEFENSAS',
-            'Centrocampista - MC Posicional': 'MEDIOS',
-            'Centrocampista - MC Box to Box': 'MEDIOS',
-            'Centrocampista - MC Organizador': 'MEDIOS',
-            'Centrocampista de ataque - Banda Derecha': 'MEDIOS',
-            'Centrocampista de ataque - Banda Izquierda': 'MEDIOS',
-            'Centrocampista de ataque - Mediapunta': 'MEDIOS',
-            'Delantero - Delantero Centro': 'DELANTEROS',
-            'Delantero - Segundo Delantero': 'DELANTEROS',
-            'Sin Posición': 'MEDIOS'
+            'Defensa - Lateral Izquierdo': 'LATERAL_IZQUIERDO',
+            'Defensa - Central Izquierdo': 'CENTRAL_IZQUIERDO',
+            'Defensa - Central Derecho': 'CENTRAL_DERECHO', 
+            'Defensa - Lateral Derecho': 'LATERAL_DERECHO',
+            'Centrocampista - MC Posicional': 'MC_POSICIONAL',
+            'Centrocampista - MC Box to Box': 'MC_BOX_TO_BOX',
+            'Centrocampista - MC Organizador': 'MC_ORGANIZADOR',
+            'Centrocampista de ataque - Banda Derecha': 'BANDA_DERECHA',
+            'Centrocampista de ataque - Banda Izquierda': 'BANDA_IZQUIERDA',
+            'Centrocampista de ataque - Mediapunta': 'MEDIAPUNTA',
+            'Delantero - Delantero Centro': 'DELANTERO_CENTRO',
+            'Delantero - Segundo Delantero': 'SEGUNDO_DELANTERO',
+            'Sin Posición': 'MC_BOX_TO_BOX'
         }
         
         # ✅ MÉTRICAS COMPLETAS SOLICITADAS
@@ -200,45 +226,101 @@ class ReporteTacticoJornada:
         else:
             return equipo_local
     
-    def get_partidos_equipo_jornada(self, equipo, jornada):
-        """Obtiene partidos disponibles de un equipo en esa jornada Y las anteriores"""
-        if self.df is None:
-            return {'local': [], 'visitante': []}
+    def parsear_partido_completo(self, partido, equipo):
+        """
+        Parsea un partido completo manteniendo el orden original (Local - Visitante)
+        y determina si el equipo seleccionado juega como local o visitante
+        Ejemplo: 'athleticclub1-0valenciacf' → ('Athletic Club', 'Valencia CF', '1', '0', 'local')
+        """
+        if '-' not in partido:
+            return equipo, 'Rival', 'N', 'N', 'desconocido'
         
-        # Normalizar jornada
-        if isinstance(jornada, str) and jornada.startswith(('J', 'j')):
-            try:
-                jornada = int(jornada[1:])
-            except ValueError:
-                pass
+        # Dividir por el guión central
+        partes = partido.split('-')
+        if len(partes) != 2:
+            return equipo, 'Rival', 'N', 'N', 'desconocido'
         
-        # 🔥 BUSCAR EN LA JORNADA Y LAS ANTERIORES
-        jornadas_disponibles = sorted(self.get_available_jornadas())
-        jornadas_a_buscar = [j for j in jornadas_disponibles if j <= jornada]
+        parte_local = partes[0].strip()    # athleticclub1
+        parte_visitante = partes[1].strip() # 0valenciacf
         
-        print(f"🔍 Buscando partidos en jornadas: {jornadas_a_buscar}")
+        # Extraer resultado y equipos usando expresiones regulares
+        import re
         
-        # Filtrar por equipo y jornadas múltiples
-        filtrado = self.df[
-            (self.df['Equipo'] == equipo) & 
-            (self.df['Jornada'].isin(jornadas_a_buscar))
-        ].copy()
+        # Para la parte local: extraer nombre del equipo y último dígito
+        match_local = re.match(r'(.+?)(\d+)$', parte_local)
+        if match_local:
+            equipo_local_raw = match_local.group(1)
+            goles_local = match_local.group(2)
+        else:
+            equipo_local_raw = parte_local
+            goles_local = 'N'
         
-        if len(filtrado) == 0:
-            return {'local': [], 'visitante': []}
+        # Para la parte visitante: extraer primer dígito y nombre del equipo
+        match_visitante = re.match(r'(\d+)(.+)$', parte_visitante)
+        if match_visitante:
+            goles_visitante = match_visitante.group(1)
+            equipo_visitante_raw = match_visitante.group(2)
+        else:
+            goles_visitante = 'N'
+            equipo_visitante_raw = parte_visitante
         
-        # Clasificar partidos
-        partidos_clasificados = {'local': [], 'visitante': []}
+        # Limpiar nombres de equipos
+        equipo_local_limpio = self.limpiar_nombre_equipo(equipo_local_raw)
+        equipo_visitante_limpio = self.limpiar_nombre_equipo(equipo_visitante_raw)
         
-        for partido in filtrado['Partido'].unique():
-            tipo = self.determinar_local_visitante(partido, equipo)
-            if tipo in ['local', 'visitante']:
-                # Obtener la jornada de este partido
-                jornada_partido = filtrado[filtrado['Partido'] == partido]['Jornada'].iloc[0]
-                partidos_clasificados[tipo].append(f"{partido} (J{jornada_partido})")
+        # MANTENER SIEMPRE EL ORDEN ORIGINAL: Local - Visitante
+        # Solo determinar si el equipo seleccionado es local o visitante
+        sim_local = self.similarity(equipo, equipo_local_limpio)
+        sim_visitante = self.similarity(equipo, equipo_visitante_limpio)
         
-        return partidos_clasificados
+        if sim_local > sim_visitante:
+            # El equipo seleccionado es el LOCAL
+            return equipo_local_limpio, equipo_visitante_limpio, goles_local, goles_visitante, 'local'
+        else:
+            # El equipo seleccionado es el VISITANTE
+            return equipo_local_limpio, equipo_visitante_limpio, goles_local, goles_visitante, 'visitante'
 
+    def limpiar_nombre_equipo(self, nombre_raw):
+        """Limpia nombres de equipos eliminando caracteres no deseados"""
+        
+        # Diccionario de equipos conocidos para mapeo directo
+        equipos_conocidos = {
+            'sevillafc': 'Sevilla FC',
+            'getafecf': 'Getafe CF', 
+            'gironafc': 'Girona FC',
+            'villarrealcf': 'Villarreal CF',
+            'realmadrid': 'Real Madrid',
+            'fcbarcelona': 'FC Barcelona',
+            'athleticclub': 'Athletic Club',
+            'atleticodemadrid': 'Atlético de Madrid',
+            'realbetis': 'Real Betis',
+            'realsociedad': 'Real Sociedad',
+            'valenciacf': 'Valencia CF',
+            'rcelta': 'RC Celta',
+            'caosasuna': 'CA Osasuna',
+            'rayovallecano': 'Rayo Vallecano',
+            'udlaspalmas': 'UD Las Palmas',
+            'rcdespanyol': 'RCD Espanyol',
+            'deportivoalaves': 'Deportivo Alavés',
+            'cdleganes': 'CD Leganés',
+            'realvalladolidcf': 'Real Valladolid CF',
+            'rcdmallorca': 'RCD Mallorca'
+        }
+        
+        nombre_lower = nombre_raw.lower().strip()
+        
+        # Buscar coincidencia exacta
+        if nombre_lower in equipos_conocidos:
+            return equipos_conocidos[nombre_lower]  
+        
+        # Buscar coincidencia parcial
+        for key, value in equipos_conocidos.items():
+            if key in nombre_lower or nombre_lower in key:
+                return value
+        
+        # Si no encuentra coincidencia, formatear manualmente
+        return nombre_raw.replace('fc', ' FC').replace('cf', ' CF').title()
+    
     def get_ultimos_4_partidos(self, equipo, jornada_maxima, tipo_partido_filter=None, min_minutos=60):
         """Obtiene los últimos 4 partidos del equipo hasta la jornada especificada, filtrados por tipo"""
         if self.df is None:
@@ -329,66 +411,82 @@ class ReporteTacticoJornada:
         
         print(f"🎯 Total partidos {tipo_display} seleccionados: {len(resultados)}")
         return resultados
-    
-    def filtrar_partido_especifico(self, equipo, jornada, tipo_partido, nombre_partido=None, min_minutos=60):
-        """Filtra un partido específico buscando en la jornada Y las anteriores"""
-        if self.df is None:
-            return None
+
+    def detectar_y_resolver_colisiones(self, tablas_info, campo_width=120, campo_height=80):
+        """
+        Detecta colisiones entre tablas y ajusta posiciones automáticamente
+        tablas_info = [(x, y, width, height, posicion_name, jugadores), ...]
+        Retorna: [(x_ajustado, y_ajustado, width, height, posicion_name, jugadores), ...]
+        """
+        print("🔍 Detectando y resolviendo colisiones entre tablas...")
         
-        # Normalizar jornada
-        if isinstance(jornada, str) and jornada.startswith(('J', 'j')):
-            try:
-                jornada = int(jornada[1:])
-            except ValueError:
-                pass
+        ajustadas = []
+        margen_seguridad = 2  # Margen entre tablas
         
-        # 🔥 BUSCAR EN MÚLTIPLES JORNADAS (igual que get_partidos_equipo_jornada)
-        jornadas_disponibles = sorted(self.get_available_jornadas())
-        jornadas_a_buscar = [j for j in jornadas_disponibles if j <= jornada]
-        
-        # Filtrar por equipo y jornadas múltiples
-        filtrado = self.df[
-            (self.df['Equipo'] == equipo) & 
-            (self.df['Jornada'].isin(jornadas_a_buscar))
-        ].copy()
-        
-        if len(filtrado) == 0:
-            print(f"❌ No hay datos para {equipo} en jornadas hasta {jornada}")
-            return None
-        
-        # Si se especifica un partido concreto
-        if nombre_partido:
-            # Limpiar el nombre del partido (quitar el "(Jx)" si lo tiene)
-            nombre_limpio = nombre_partido.split(' (J')[0] if ' (J' in nombre_partido else nombre_partido
-            filtrado = filtrado[filtrado['Partido'] == nombre_limpio]
-        else:
-            # Buscar partidos del tipo especificado en TODAS las jornadas
-            partidos_del_tipo = []
-            for partido in filtrado['Partido'].unique():
-                if self.determinar_local_visitante(partido, equipo) == tipo_partido:
-                    partidos_del_tipo.append(partido)
+        for i, (x, y, width, height, name, jugadores) in enumerate(tablas_info):  # ← CAMBIADO: 6 elementos
+            x_ajustado, y_ajustado = x, y
+            colisiones_resueltas = 0
             
-            if not partidos_del_tipo:
-                print(f"❌ No hay partidos como {tipo_partido} para {equipo} en jornadas hasta {jornada}")
-                return None
+            # Verificar colisiones con tablas ya procesadas
+            for x2, y2, w2, h2, name2, _ in ajustadas:  # ← CAMBIADO: 6 elementos
+                # Detectar solapamiento
+                if (abs(x_ajustado - x2) < (width + w2)/2 + margen_seguridad and 
+                    abs(y_ajustado - y2) < (height + h2)/2 + margen_seguridad):
+                    
+                    print(f"⚠️  Colisión detectada: {name} vs {name2}")
+                    
+                    # Estrategia 1: Mover horizontalmente
+                    if x_ajustado < x2:
+                        x_ajustado = x2 - (width + w2)/2 - margen_seguridad
+                        print(f"   → {name} movido a la izquierda")
+                    else:
+                        x_ajustado = x2 + (width + w2)/2 + margen_seguridad
+                        print(f"   → {name} movido a la derecha")
+                    
+                    # Si sigue fuera de límites, probar movimiento vertical
+                    if x_ajustado < width/2 or x_ajustado > campo_width - width/2:
+                        x_ajustado = x  # Restaurar X original
+                        if y_ajustado < y2:
+                            y_ajustado = y2 - (height + h2)/2 - margen_seguridad
+                            print(f"   → {name} movido hacia abajo")
+                        else:
+                            y_ajustado = y2 + (height + h2)/2 + margen_seguridad
+                            print(f"   → {name} movido hacia arriba")
+                    
+                    colisiones_resueltas += 1
             
-            # Tomar el primer partido del tipo
-            filtrado = filtrado[filtrado['Partido'] == partidos_del_tipo[0]]
+            # Mantener dentro de los límites del campo
+            x_final = max(width/2 + 1, min(campo_width - width/2 - 1, x_ajustado))
+            y_final = max(height/2 + 1, min(campo_height - height/2 - 1, y_ajustado))
+            
+            if x_final != x or y_final != y:
+                print(f"   ✅ {name}: ({x:.1f},{y:.1f}) → ({x_final:.1f},{y_final:.1f})")
+            
+            ajustadas.append((x_final, y_final, width, height, name, jugadores))  # ← CAMBIADO: 6 elementos
         
-        # Verificar si Alias está vacío y usar Nombre
-        if 'Nombre' in filtrado.columns:
-            mask_empty_alias = filtrado['Alias'].isna() | (filtrado['Alias'] == '') | (filtrado['Alias'].str.strip() == '')
-            filtrado.loc[mask_empty_alias, 'Alias'] = filtrado.loc[mask_empty_alias, 'Nombre']
+        print(f"✅ Resolución de colisiones completada. {len(ajustadas)} tablas procesadas")
+        return ajustadas
+
+    def calcular_dimensiones_tabla(self, jugadores_list, scale=0.9):
+        """Calcula las dimensiones que tendrá una tabla antes de crearla"""
+        if not jugadores_list:
+            return 0, 0
         
-        # Filtrar jugadores con minutos suficientes
-        if 'Minutos jugados' in filtrado.columns:
-            filtrado = filtrado[filtrado['Minutos jugados'] >= min_minutos]
+        num_players = len(jugadores_list)
+        num_metrics = len(self.metricas_tabla)
         
-        # Mostrar en qué jornada se encontró el partido
-        jornada_encontrada = filtrado['Jornada'].iloc[0] if len(filtrado) > 0 else jornada
-        print(f"✅ {equipo} J{jornada_encontrada} ({tipo_partido}): {len(filtrado)} jugadores con {min_minutos}+ minutos")
-        return filtrado
-    
+        # Mismas fórmulas que en crear_tabla_posicion
+        metric_col_width = 10 * scale
+        player_col_width = 8 * scale
+        table_width = metric_col_width + (num_players * player_col_width)
+        
+        header_height = 2 * scale
+        names_height = 4.5 * scale
+        metric_row_height = 1.5 * scale
+        table_height = header_height + names_height + (num_metrics * metric_row_height)
+        
+        return table_width, table_height
+
     def get_team_colors(self, equipo):
         """Obtiene colores del equipo"""
         if equipo in self.team_colors:
@@ -435,66 +533,17 @@ class ReporteTacticoJornada:
             print(f"⚠️ No se encontró la imagen de fondo: {background_path}")
             return None
     
-    def crear_campo_vertical(self, figsize=(16, 24)):
-        """Crea campo vertical usando VerticalPitch"""
-        pitch = VerticalPitch(
-            half=False,
+    def crear_campo_horizontal(self, ax):
+        """Crea campo horizontal usando Pitch en el ax proporcionado"""
+        pitch = Pitch(
             pitch_color='grass', 
             line_color='white', 
             stripe=True,
-            linewidth=3
+            linewidth=2,
+            pad_left=0, pad_right=0, pad_bottom=0, pad_top=0
         )
-        fig, ax = pitch.draw(figsize=figsize)
-        return fig, ax
-    
-    def asignar_jugadores_a_formacion(self, jugadores_df):
-        """Asigna jugadores a posiciones de la formación 1-4-4-2"""
-        # Rellenar demarcaciones vacías usando histórico
-        jugadores_df = self.fill_missing_demarcaciones(jugadores_df)
-        
-        # Agrupar por posición táctica
-        jugadores_por_posicion = {
-            'PORTERO': [],
-            'DEFENSAS': [], 
-            'MEDIOS': [],
-            'DELANTEROS': []
-        }
-        
-        for _, jugador in jugadores_df.iterrows():
-            demarcacion = jugador.get('Demarcacion', 'Sin Posición')
-            posicion_tactica = self.demarcacion_to_posicion_tactica.get(demarcacion, 'MEDIOS')
-            jugadores_por_posicion[posicion_tactica].append(jugador.to_dict())
-        
-        # Ordenar por minutos jugados (descendente)
-        for posicion in jugadores_por_posicion:
-            jugadores_por_posicion[posicion].sort(
-                key=lambda x: x.get('Minutos jugados', 0), reverse=True
-            )
-        
-        # Asignar a coordenadas específicas
-        asignacion_final = {}
-        
-        # Portero (1)
-        if jugadores_por_posicion['PORTERO']:
-            coord = self.formacion_1442['PORTERO'][0]
-            asignacion_final[coord] = jugadores_por_posicion['PORTERO'][0]
-        
-        # Defensas (4)
-        for i, coord in enumerate(self.formacion_1442['DEFENSAS']):
-            if i < len(jugadores_por_posicion['DEFENSAS']):
-                asignacion_final[coord] = jugadores_por_posicion['DEFENSAS'][i]
-        
-        # Medios (4)  
-        for i, coord in enumerate(self.formacion_1442['MEDIOS']):
-            if i < len(jugadores_por_posicion['MEDIOS']):
-                asignacion_final[coord] = jugadores_por_posicion['MEDIOS'][i]
-        
-        # Delanteros (2)
-        for i, coord in enumerate(self.formacion_1442['DELANTEROS']):
-            if i < len(jugadores_por_posicion['DELANTEROS']):
-                asignacion_final[coord] = jugadores_por_posicion['DELANTEROS'][i]
-        
-        return asignacion_final
+        pitch.draw(ax=ax)
+        return pitch
     
     def fill_missing_demarcaciones(self, df):
         """Rellena demarcaciones vacías con histórico del jugador"""
@@ -521,131 +570,329 @@ class ReporteTacticoJornada:
         
         return df_work
     
-    def crear_tabla_jugador(self, jugador, x, y, ax, team_colors, scale=1.0):
-        """Crea una tabla moderna con las 9 métricas solicitadas"""
-        if not jugador:
+    def agrupar_jugadores_por_posicion(self, jugadores_df):
+        """Agrupa jugadores por posición específica con lógica de balanceo"""
+        # Rellenar demarcaciones vacías usando histórico
+        jugadores_df = self.fill_missing_demarcaciones(jugadores_df)
+        
+        # Verificar si Alias está vacío y usar Nombre
+        if 'Nombre' in jugadores_df.columns:
+            mask_empty_alias = jugadores_df['Alias'].isna() | (jugadores_df['Alias'] == '') | (jugadores_df['Alias'].str.strip() == '')
+            jugadores_df.loc[mask_empty_alias, 'Alias'] = jugadores_df.loc[mask_empty_alias, 'Nombre']
+        
+        # Ordenar por minutos jugados (descendente)
+        jugadores_df_sorted = jugadores_df.sort_values('Minutos jugados', ascending=False)
+        
+        # Inicializar grupos
+        jugadores_por_posicion = {pos: [] for pos in self.coordenadas_posiciones.keys()}
+        
+        # Agrupar jugadores por demarcación
+        for _, jugador in jugadores_df_sorted.iterrows():
+            demarcacion = jugador.get('Demarcacion', 'Sin Posición')
+            posicion = self.demarcacion_to_posicion.get(demarcacion, 'MC_BOX_TO_BOX')
+            
+            if posicion in jugadores_por_posicion:
+                jugadores_por_posicion[posicion].append(jugador.to_dict())
+        
+        # Lógica de balanceo (similar al segundo script)
+        self.balancear_centrales(jugadores_por_posicion)
+        self.balancear_delanteros(jugadores_por_posicion)
+        
+        return jugadores_por_posicion
+    
+    def balancear_centrales(self, jugadores_por_posicion):
+        """Balancea centrales entre derecho e izquierdo"""
+        centrales_derecho = jugadores_por_posicion['CENTRAL_DERECHO']
+        centrales_izquierdo = jugadores_por_posicion['CENTRAL_IZQUIERDO']
+        
+        if len(centrales_izquierdo) == 0 and len(centrales_derecho) > 1:
+            jugador_a_mover = centrales_derecho.pop()
+            jugadores_por_posicion['CENTRAL_IZQUIERDO'].append(jugador_a_mover)
+            print(f"   ✅ {jugador_a_mover['Alias']} movido a Central Izquierdo")
+        
+        elif len(centrales_derecho) == 0 and len(centrales_izquierdo) > 1:
+            jugador_a_mover = centrales_izquierdo.pop()
+            jugadores_por_posicion['CENTRAL_DERECHO'].append(jugador_a_mover)
+            print(f"   ✅ {jugador_a_mover['Alias']} movido a Central Derecho")
+    
+    def balancear_delanteros(self, jugadores_por_posicion):
+        """Balancea delanteros entre centro y segundo delantero"""
+        delanteros = jugadores_por_posicion['DELANTERO_CENTRO']
+        
+        if len(delanteros) > 1:
+            # Dividir en dos grupos
+            mitad = len(delanteros) // 2 + len(delanteros) % 2
+            
+            primer_grupo = delanteros[:mitad]
+            segundo_grupo = delanteros[mitad:]
+            
+            jugadores_por_posicion['DELANTERO_CENTRO'] = primer_grupo
+            jugadores_por_posicion['SEGUNDO_DELANTERO'] = segundo_grupo
+            
+            print(f"   ✅ Divididos: {len(primer_grupo)} en Delantero Centro, {len(segundo_grupo)} en Segundo Delantero")
+    
+    def crear_tabla_posicion(self, jugadores_list, x, y, ax, team_colors, posicion_name, scale=0.8, team_logo=None):
+        """Crea una tabla moderna por posición adaptada del segundo script"""
+        if not jugadores_list:
             return
         
-        # Dimensiones de la tabla (MÁS ALTA para 9 métricas) - Escalable
-        ancho_tabla = 14 * scale
-        alto_fila = 1.0 * scale
-        alto_header = 1.8 * scale
-        alto_total = alto_header + len(self.metricas_tabla) * alto_fila
+        num_players = len(jugadores_list)
+        num_metrics = len(self.metricas_tabla)
+        
+        # Dimensiones de la tabla
+        metric_col_width = 10 * scale
+        player_col_width = 8 * scale
+        table_width = metric_col_width + (num_players * player_col_width)
+        
+        header_height = 2 * scale
+        names_height = 4.5 * scale
+        metric_row_height = 1.5 * scale
+        table_height = header_height + names_height + (num_metrics * metric_row_height)
         
         # Fondo principal
-        main_rect = plt.Rectangle((x - ancho_tabla/2, y - alto_total/2), 
-                                ancho_tabla, alto_total,
+        main_rect = plt.Rectangle((x - table_width/2, y - table_height/2), 
+                                table_width, table_height,
                                 facecolor='#2c3e50', alpha=0.95, 
                                 edgecolor='white', linewidth=1.5)
         ax.add_patch(main_rect)
         
-        # Header con nombre y dorsal
-        header_rect = plt.Rectangle((x - ancho_tabla/2, y + alto_total/2 - alto_header), 
-                                  ancho_tabla, alto_header,
-                                  facecolor=team_colors['primary'], alpha=0.9,
+        # Header con nombre de posición
+        header_rect = plt.Rectangle((x - table_width/2, y + table_height/2 - header_height), 
+                                  table_width, header_height,
+                                  facecolor=team_colors['primary'], alpha=0.8,
                                   edgecolor='white', linewidth=1)
         ax.add_patch(header_rect)
         
-        # Nombre del jugador
-        nombre = jugador.get('Alias', 'N/A')
-        dorsal = jugador.get('Dorsal', 'N/A')
-        
-        ax.text(x, y + alto_total/2 - alto_header/2, f"{dorsal}. {nombre}", 
-                fontsize=9 * scale, weight='bold', color=team_colors['text'],
+        # Limpiar nombre de posición
+        clean_position_name = posicion_name.replace('_', ' ').title()
+        ax.text(x, y + table_height/2 - header_height/2, clean_position_name, 
+                fontsize=int(8 * scale), weight='bold', color=team_colors['text'],
                 ha='center', va='center')
         
-        # ✅ MÉTRICAS COMPLETAS
+        # Fila de nombres + dorsales
+        names_y = y + table_height/2 - header_height - names_height/2
+        
+        names_rect = plt.Rectangle((x - table_width/2 + metric_col_width, names_y - names_height/2), 
+                                num_players * player_col_width, names_height,
+                                facecolor='#34495e', alpha=0.7, 
+                                edgecolor='white', linewidth=0.5)
+        ax.add_patch(names_rect)
+
+        # 🏆 ESCUDO DEL EQUIPO en la celda de métricas (fila de nombres)
+        if team_logo is not None:
+            try:
+                logo_x = x - table_width/2 + metric_col_width/2
+                logo_y = names_y
+                zoom_factor = min(metric_col_width / 120, names_height / 120) * 0.7
+        
+                imagebox = OffsetImage(team_logo, zoom=zoom_factor)
+                ab = AnnotationBbox(imagebox, (logo_x, logo_y), frameon=False)
+                ax.add_artist(ab)
+                
+                print(f"✅ Escudo añadido en {posicion_name}")
+            except Exception as e:
+                print(f"⚠️ Error al añadir escudo: {e}")
+        
+        # Agregar nombres y dorsales
+        for i, jugador in enumerate(jugadores_list):
+            player_x = x - table_width/2 + metric_col_width + (i * player_col_width) + player_col_width/2
+            player_name = jugador['Alias'] if pd.notna(jugador['Alias']) else 'N/A'
+            dorsal = jugador.get('Dorsal', 'N/A')
+            
+            # Nombre del jugador (arriba o centro)
+            ax.text(player_x, names_y + 0.8 * scale, player_name, 
+                    fontsize=int(6 * scale), weight='bold', color='white',
+                    ha='center', va='center')
+            
+            # Dorsal (abajo o centro)
+            ax.text(player_x, names_y - 0.8 * scale, str(dorsal), 
+                    fontsize=int(10 * scale), weight='bold', color=team_colors['primary'],
+                    ha='center', va='center')
+        
+        # Filas de métricas
         for i, metrica in enumerate(self.metricas_tabla):
-            metrica_y = y + alto_total/2 - alto_header - (i + 0.5) * alto_fila
+            metric_y = names_y - names_height/2 - (i + 1) * metric_row_height + metric_row_height/2
             
             # Fondo alternado
             if i % 2 == 0:
-                row_rect = plt.Rectangle((x - ancho_tabla/2, metrica_y - alto_fila/2), 
-                                       ancho_tabla, alto_fila,
+                row_rect = plt.Rectangle((x - table_width/2, metric_y - metric_row_height/2), 
+                                       table_width, metric_row_height,
                                        facecolor='#3c566e', alpha=0.3)
                 ax.add_patch(row_rect)
             
-            # Nombre de métrica (ABREVIADO para que quepa)
-            metrica_corta = metrica.replace('Distancia Total', 'Dist').replace('Velocidad Máxima Total', 'V.Max').replace(' / min', '/min')
-            ax.text(x - ancho_tabla/2 + 1, metrica_y, metrica_corta, 
-                    fontsize=5.5 * scale, weight='bold', color='white',
-                    ha='left', va='center')
+            # Columna de métrica
+            metric_bg = plt.Rectangle((x - table_width/2, metric_y - metric_row_height/2), 
+                                    metric_col_width, metric_row_height,
+                                    facecolor=team_colors['primary'], alpha=0.6,
+                                    edgecolor='white', linewidth=0.3)
+            ax.add_patch(metric_bg)
             
-            # Valor
-            if metrica in jugador:
-                valor = jugador[metrica]
-                if 'Velocidad' in metrica:
-                    valor_format = f"{valor:.1f}"
-                elif '/min' in metrica or '/ min' in metrica:
-                    valor_format = f"{valor:.1f}"
+            # Nombre de métrica MÁS ABREVIADO
+            metrica_corta = (metrica
+                           .replace('Distancia Total 14-21 km / h / min', 'D14-21/m')
+                           .replace('Distancia Total >21 km / h / min', 'D21+/m') 
+                           .replace('Distancia Total >24 km / h / min', 'D24+/m')
+                           .replace('Distancia Total 14-21 km / h', 'D14-21')
+                           .replace('Distancia Total >21 km / h', 'D21+')
+                           .replace('Distancia Total >24 km / h', 'D24+')
+                           .replace('Distancia Total / min', 'Dist/m')
+                           .replace('Distancia Total', 'Dist')
+                           .replace('Velocidad Máxima Total', 'VMax'))
+            ax.text(x - table_width/2 + metric_col_width/2, metric_y, metrica_corta, 
+                    fontsize=int(6 * scale), weight='bold', color='white',
+                    ha='center', va='center')
+            
+            # Valores para cada jugador
+            for j, jugador in enumerate(jugadores_list):
+                player_x = x - table_width/2 + metric_col_width + (j * player_col_width) + player_col_width/2
+                
+                if metrica in jugador:
+                    valor = jugador[metrica]
+                    if 'Velocidad' in metrica:
+                        valor_format = f"{valor:.1f}"
+                    elif '/min' in metrica or '/ min' in metrica:
+                        valor_format = f"{valor:.1f}"
+                    else:
+                        valor_format = f"{valor:.0f}"
                 else:
-                    valor_format = f"{valor:.0f}"
-            else:
-                valor_format = "N/A"
-            
-            ax.text(x + ancho_tabla/2 - 1, metrica_y, valor_format, 
-                    fontsize=6.5 * scale, weight='bold', color='#FFD700',
-                    ha='right', va='center')
-    
-    def crear_visualization(self, equipo, jornada, tipo_partido, nombre_partido=None, figsize=(20, 28)):
-        """Crea UNA visualización específica (local o visitante)"""
-        
-        # Filtrar datos del partido específico
-        partido_data = self.filtrar_partido_especifico(equipo, jornada, tipo_partido, nombre_partido)
-        
-        if partido_data is None or len(partido_data) == 0:
-            print(f"❌ No hay datos para {equipo} en jornada {jornada} como {tipo_partido}")
-            return None
-        
-        # Crear campo vertical
-        fig, ax = self.crear_campo_vertical(figsize)
-        
-        # Obtener colores y logo del equipo
-        team_colors = self.get_team_colors(equipo)
-        team_logo = self.load_team_logo(equipo)
-        
-        # Asignar jugadores a formación
-        asignacion = self.asignar_jugadores_a_formacion(partido_data)
-        
-        # Crear tablas de jugadores en el campo
-        for coord, jugador in asignacion.items():
-            self.crear_tabla_jugador(jugador, coord[0], coord[1], ax, team_colors)
-        
-        # Obtener nombre del partido para el título
-        nombre_partido_real = partido_data['Partido'].iloc[0] if len(partido_data) > 0 else f"{equipo} J{jornada}"
-        
-        # Título del partido
-        tipo_display = "LOCAL" if tipo_partido == 'local' else "VISITANTE"
-        fig.suptitle(f'{equipo.upper()} - JORNADA {jornada} ({tipo_display})\n{nombre_partido_real}', 
-                    fontsize=16, color='black', weight='bold', y=0.95)
-        
-        # Añadir escudo en esquina
-        if team_logo is not None:
-            imagebox = OffsetImage(team_logo, zoom=0.08)
-            ab = AnnotationBbox(imagebox, (70, 10), frameon=False)
-            ax.add_artist(ab)
-        
-        return fig
+                    valor_format = "N/A"
+                
+                ax.text(player_x, metric_y, valor_format, 
+                        fontsize=int(6 * scale), weight='bold', color='#FFD700',
+                        ha='center', va='center')
 
-    def crear_4_partidos_visualization(self, equipo, jornada_maxima, tipo_partido_filter=None, figsize=(80, 60)):
-        """FUNCIÓN MODIFICADA: Crea 4 campos MÁS ANCHOS en layout 2x2 con DISTANCIA MÍNIMA"""
+    def crear_titulo_elegante_con_escudos(self, ax, titulo_texto, equipo_local, equipo_visitante, 
+                                  team_colors, y_position=0.95):
+        """
+        Crea un título elegante con fondo y escudos posicionados según local/visitante
+        """
+        # Obtener dimensiones del subplot
+        bbox = ax.get_position()
+        fig_width = ax.figure.get_figwidth()
+        fig_height = ax.figure.get_figheight()
+        
+        # Calcular posición en coordenadas de figura
+        fig_x = bbox.x0 + bbox.width/2  # Centro horizontal del subplot
+        fig_y = bbox.y1 + 0.02          # Justo arriba del subplot
+        
+        # 🎨 CREAR FONDO ELEGANTE DEL TÍTULO
+        # Rectángulo de fondo con gradiente simulado
+        titulo_width = bbox.width * 0.9  # 90% del ancho del subplot
+        titulo_height = 0.04             # Altura del fondo
+        
+        # Fondo principal
+        fondo_rect = plt.Rectangle(
+            (fig_x - titulo_width/2, fig_y - titulo_height/2), 
+            titulo_width, titulo_height,
+            facecolor=team_colors['primary'], 
+            alpha=0.9,
+            edgecolor='white', 
+            linewidth=2,
+            transform=ax.figure.transFigure,
+            zorder=10
+        )
+        ax.figure.patches.append(fondo_rect)
+        
+        # Borde superior más claro para efecto de profundidad
+        borde_top = plt.Rectangle(
+            (fig_x - titulo_width/2, fig_y + titulo_height/2 - 0.003), 
+            titulo_width, 0.003,
+            facecolor='white', 
+            alpha=0.4,
+            transform=ax.figure.transFigure,
+            zorder=11
+        )
+        ax.figure.patches.append(borde_top)
+        
+        # 📝 TEXTO DEL TÍTULO
+        ax.figure.text(
+            fig_x, fig_y, titulo_texto,
+            fontsize=11, weight='bold', color=team_colors['text'],
+            ha='center', va='center',
+            transform=ax.figure.transFigure,
+            zorder=12
+        )
+        
+        # 🏆 ESCUDOS POSICIONADOS SEGÚN LOCAL/VISITANTE
+        escudo_size = 0.025  # Tamaño de los escudos
+        escudo_offset = titulo_width/2 + 0.03  # Distancia del centro al escudo
+        
+        # Cargar escudos
+        escudo_local = self.load_team_logo(equipo_local)
+        escudo_visitante = self.load_team_logo(equipo_visitante)
+        
+        print(f"   🏠 {equipo_local} (Local) ← | → {equipo_visitante} (Visitante)")
+        
+        # Posicionar escudo LOCAL (siempre a la izquierda)
+        if escudo_local is not None:
+            try:
+                # Convertir coordenadas de figura a coordenadas del axes
+                escudo_izq_x = fig_x - escudo_offset
+                escudo_izq_y = fig_y
+                
+                # Convertir a coordenadas de datos del subplot
+                point_data = ax.transData.inverted().transform(
+                    ax.figure.transFigure.transform([escudo_izq_x, escudo_izq_y])
+                )
+                
+                imagebox_izq = OffsetImage(escudo_local, zoom=0.05)
+                ab_izq = AnnotationBbox(
+                    imagebox_izq, point_data, 
+                    frameon=False, xycoords='data'
+                )
+                ax.add_artist(ab_izq)
+            except Exception as e:
+                print(f"⚠️ Error al añadir escudo local: {e}")
+        
+        # Posicionar escudo VISITANTE (siempre a la derecha)
+        if escudo_visitante is not None:
+            try:
+                # Convertir coordenadas de figura a coordenadas del axes
+                escudo_der_x = fig_x + escudo_offset
+                escudo_der_y = fig_y
+                
+                # Convertir a coordenadas de datos del subplot
+                point_data = ax.transData.inverted().transform(
+                    ax.figure.transFigure.transform([escudo_der_x, escudo_der_y])
+                )
+                
+                imagebox_der = OffsetImage(escudo_visitante, zoom=0.05)
+                ab_der = AnnotationBbox(
+                    imagebox_der, point_data, 
+                    frameon=False, xycoords='data'
+                )
+                ax.add_artist(ab_der)
+            except Exception as e:
+                print(f"⚠️ Error al añadir escudo visitante: {e}")
+
+    def crear_4_partidos_campos_horizontales(self, equipo, jornada_maxima, tipo_partido_filter=None, figsize=(24, 18)):
+        """Crea 4 campos horizontales en layout 2x2 con tablas posicionadas por demarcación"""
         
         tipo_display = tipo_partido_filter.upper() if tipo_partido_filter else "TODOS"
-        print(f"\n🔄 Generando visualización 2x2 ANCHA de 4 partidos {tipo_display} para {equipo} hasta jornada {jornada_maxima}")
+        print(f"\n🔄 Generando visualización 2x2 de 4 campos HORIZONTALES {tipo_display} para {equipo}")
         
-        # Obtener últimos 4 partidos filtrados por tipo
+        # Obtener últimos 4 partidos
         partidos = self.get_ultimos_4_partidos(equipo, jornada_maxima, tipo_partido_filter)
         
         if len(partidos) == 0:
-            print(f"❌ No hay partidos {tipo_display} para {equipo} hasta jornada {jornada_maxima}")
+            print(f"❌ No hay partidos {tipo_display} para {equipo}")
             return None
         
-        print(f"📊 Se crearán {len(partidos)} campos de fútbol ANCHOS en layout 2x2")
-        if len(partidos) < 4:
-            print(f"⚠️ Solo {len(partidos)} partidos {tipo_display} disponibles. Las {4-len(partidos)} celdas restantes quedarán vacías")
+        print(f"📊 Se crearán {len(partidos)} campos horizontales en layout 2x2")
         
-        # 🔥 CREAR FIGURA MÁS ANCHA con subplots 2x2 y ESPACIO MÍNIMO
-        fig, axes = plt.subplots(2, 2, figsize=figsize)
+        # Crear figura SIN ESPACIOS con configuración agresiva
+        fig = plt.figure(figsize=figsize, constrained_layout=False)
+        fig.subplots_adjust(left=0, right=1, top=0.95, bottom=0, wspace=0, hspace=0)
+        
+        # Crear subplots manualmente con espaciado cero
+        axes = []
+        for i in range(2):
+            row_axes = []
+            for j in range(2):
+                ax = fig.add_subplot(2, 2, i*2 + j + 1)
+                row_axes.append(ax)
+            axes.append(row_axes)
+        axes = np.array(axes)
         
         # Cargar imagen de fondo
         background_img = self.load_background_image()
@@ -655,197 +902,108 @@ class ReporteTacticoJornada:
         # Aplanar axes para acceso fácil
         axes_flat = axes.flatten()
         
-        # Obtener colores del equipo principal
+        # Obtener colores del equipo
         team_colors = self.get_team_colors(equipo)
         team_logo = self.load_team_logo(equipo)
         
-        # Crear hasta 4 campos (una celda por partido)
+        # Crear hasta 4 campos
         for i in range(4):
             ax = axes_flat[i]
             
             if i < len(partidos):
-                # Hay partido para mostrar
+                # Crear campo horizontal
+                pitch = self.crear_campo_horizontal(ax)
+                
+                # Obtener datos del partido
                 partido_info = partidos[i]
-                print(f"🏟️ Celda {i+1}: J{partido_info['jornada']} - {partido_info['partido']} ({partido_info['tipo']})")
+                print(f"🏟️ Campo {i+1}: J{partido_info['jornada']} - {partido_info['partido']}")
                 
-                # Crear campo vertical
-                pitch = VerticalPitch(
-                    half=False,
-                    pitch_color='grass', 
-                    line_color='white', 
-                    stripe=True,
-                    linewidth=2
-                )
-                pitch.draw(ax=ax)
+                # Agrupar jugadores por posición
+                jugadores_agrupados = self.agrupar_jugadores_por_posicion(partido_info['datos'])
+                
+                # Escala para las tablas (AUMENTADA)
+                escala = 0.9  # ⬆️ AUMENTADO de 0.7 a 0.9 para tablas más grandes
+                
+                # 🔄 PASO 1: Calcular dimensiones de todas las tablas
+                tablas_info = []
+                for posicion, jugadores in jugadores_agrupados.items():
+                    if jugadores and posicion in self.coordenadas_posiciones:
+                        x, y = self.coordenadas_posiciones[posicion]
+                        width, height = self.calcular_dimensiones_tabla(jugadores, escala)
+                        tablas_info.append((x, y, width, height, posicion, jugadores))
 
-                # CORTAR CAMPO EN 3/4 - Mostrar solo desde portería hasta 3/4 del campo
-                ax.set_ylim(0, 90)  # En lugar de 0-120, mostrar solo 0-90 (3/4 del campo)
+                # 🔄 PASO 2: Resolver colisiones
+                if tablas_info:
+                    tablas_ajustadas = self.detectar_y_resolver_colisiones(tablas_info)
+                    
+                    # 🔄 PASO 3: Crear tablas en posiciones ajustadas
+                    for x_aj, y_aj, width, height, posicion, jugadores in tablas_ajustadas:
+                        self.crear_tabla_posicion(jugadores, x_aj, y_aj, ax, team_colors, posicion, escala, team_logo)
+                else:
+                    print("⚠️  No hay tablas para mostrar en este campo")
                 
-                # Asignar jugadores a formación
-                asignacion = self.asignar_jugadores_a_formacion(partido_info['datos'])
+                # Parsear partido completo
+                equipo_local, equipo_visitante, goles_local, goles_visitante, tipo_real = self.parsear_partido_completo(
+                    partido_info['partido'], equipo)
+
+                tipo_display_partido = "Local" if tipo_real == 'local' else "Visitante"
+
+                # Formato elegante del título
+                titulo_partido = f"J{partido_info['jornada']} - {equipo_local} {goles_local} - {goles_visitante} {equipo_visitante} ({tipo_display_partido})"
+
+                # 🎨 CREAR TÍTULO ELEGANTE CON ESCUDOS
+                self.crear_titulo_elegante_con_escudos(
+                    ax, titulo_partido, equipo_local, equipo_visitante, 
+                    team_colors
+                )
+
+                # Eliminar título por defecto de matplotlib
+                ax.set_title('', fontsize=1)
                 
-                # Escala para las tablas (ajustada para layout 2x2 ANCHO)
-                escala = 1.1  # ⬆️ AUMENTADO de 0.9 a 1.1 para tablas más grandes
-                
-                # Crear tablas de jugadores
-                for coord, jugador in asignacion.items():
-                    self.crear_tabla_jugador(jugador, coord[0], coord[1], ax, team_colors, escala)
-                
-                # Título del partido
-                tipo_display_partido = "LOCAL" if partido_info['tipo'] == 'local' else "VISITANTE"
-                ax.set_title(f"J{partido_info['jornada']} - {equipo} vs {partido_info['rival']} ({tipo_display_partido})", 
-                            fontsize=16, color='black', weight='bold', pad=20)  # ⬆️ Fuente más grande
-                
-                # Escudos del partido (más grandes para layout 2x2 ancho)
-                if team_logo is not None:
-                    # Escudo del equipo principal (izquierda)
-                    imagebox1 = OffsetImage(team_logo, zoom=0.065)  # ⬆️ AUMENTADO de 0.045 a 0.065
-                    ab1 = AnnotationBbox(imagebox1, (15, 10), frameon=False)
-                    ax.add_artist(ab1)
-                
-                # Escudo del rival (derecha)
-                rival_logo = self.load_team_logo(partido_info['rival'])
-                if rival_logo is not None:
-                    imagebox2 = OffsetImage(rival_logo, zoom=0.065)  # ⬆️ AUMENTADO de 0.045 a 0.065
-                    ab2 = AnnotationBbox(imagebox2, (65, 10), frameon=False)
-                    ax.add_artist(ab2)
+            
             else:
-                # Espacio vacío - mostrar mensaje
-                print(f"⬜ Celda {i+1}: Vacía (sin partido {tipo_display} disponible)")
-                ax.set_xlim(0, 80)
-                ax.set_ylim(0, 120)
-                ax.text(40, 60, f'Sin partido {tipo_display.lower()}\ndisponible', 
-                    ha='center', va='center', fontsize=14, color='gray', style='italic')  # ⬆️ Fuente más grande
+                # Campo vacío
+                ax.set_xlim(0, 120)
+                ax.set_ylim(0, 80)
+                ax.text(60, 40, f'Sin partido {tipo_display.lower()}\ndisponible', 
+                       ha='center', va='center', fontsize=12, color='gray', style='italic')
                 ax.set_facecolor('lightgray')
                 ax.set_alpha(0.3)
         
         # Título general
         fig.suptitle(f'{equipo.upper()} - ÚLTIMOS 4 PARTIDOS {tipo_display} (hasta J{jornada_maxima})', 
-                    fontsize=20, color='black', weight='bold', y=0.96)  # ⬆️ Fuente más grande
+                    fontsize=16, color='black', weight='bold', y=0.95)
         
-        # 🔥 AJUSTAR ESPACIADO MÍNIMO ENTRE SUBPLOTS - CAMPOS MÁS ANCHOS
-        plt.tight_layout()
-        plt.subplots_adjust(
-            top=0.93,      # ⬆️ Más espacio arriba para título
-            bottom=0.05,   # ⬇️ Menos margen abajo  
-            left=0.02,     # ⬅️ Menos margen izquierda
-            right=0.98,    # ➡️ Menos margen derecha
-            hspace=0.01,   # ⬇️ ESPACIO VERTICAL MÍNIMO entre filas (era 0.1)
-            wspace=0.001    # ⬅️➡️ ESPACIO HORIZONTAL MÍNIMO entre columnas (era 0.05)
+        # CONFIGURACIÓN AGRESIVA PARA ELIMINAR TODOS LOS ESPACIOS
+        fig.subplots_adjust(
+            top=0.95,        # Mínimo margen arriba para título
+            bottom=0.01,     # Mínimo margen abajo
+            left=0.01,       # Mínimo margen izquierda
+            right=0.99,      # Mínimo margen derecha
+            hspace=0,        # CERO separación vertical
+            wspace=0         # CERO separación horizontal
         )
         
-        # Información adicional
-        fig.text(0.5, 0.01, f'Layout 2x2 ANCHO: Partidos {tipo_display.lower()} con distancia mínima', 
-                ha='center', fontsize=12, style='italic')
+        # Eliminar márgenes de cada subplot individualmente
+        for i in range(4):
+            ax = axes_flat[i]
+            ax.set_position(ax.get_position())
+            ax.margins(0, 0)
         
-        print("✅ Visualización 2x2 ANCHA con distancia mínima creada correctamente")
+        print("✅ Visualización 2x2 de campos horizontales creada correctamente")
         return fig
-    
-    def get_partidos_disponibles(self, equipo, jornada):
-        """Lista partidos disponibles para selección"""
-        partidos = self.get_partidos_equipo_jornada(equipo, jornada)
-        return partidos
 
-def seleccionar_equipo_jornada_tipo():
-    """Selección interactiva de equipo, jornada y tipo (local/visitante)"""
+def main_4_campos_horizontales():
+    """Función principal para generar el reporte de 4 campos horizontales"""
     try:
-        report_gen = ReporteTacticoJornada()
+        report_gen = ReporteTactico4CamposHorizontales()
         equipos = report_gen.get_available_teams()
         
         if not equipos:
             print("❌ No hay equipos disponibles")
-            return None, None, None
+            return
         
-        print("\n🏟️ === REPORTE TÁCTICO POR JORNADA ===")
-        for i, equipo in enumerate(equipos, 1):
-            print(f"{i:2d}. {equipo}")
-        
-        while True:
-            try:
-                seleccion = input(f"\nSelecciona equipo (1-{len(equipos)}): ").strip()
-                indice = int(seleccion) - 1
-                if 0 <= indice < len(equipos):
-                    equipo_seleccionado = equipos[indice]
-                    break
-                else:
-                    print(f"❌ Número entre 1 y {len(equipos)}")
-            except ValueError:
-                print("❌ Ingresa un número válido")
-        
-        # Seleccionar jornada
-        jornadas = report_gen.get_available_jornadas()
-        print(f"\nJornadas disponibles: {jornadas}")
-        
-        while True:
-            try:
-                jornada_input = input("Selecciona jornada: ").strip()
-                if jornada_input.startswith(('J', 'j')):
-                    jornada = int(jornada_input[1:])
-                else:
-                    jornada = int(jornada_input)
-                
-                if jornada in jornadas:
-                    break
-                else:
-                    print(f"❌ Jornada no disponible")
-            except ValueError:
-                print("❌ Formato de jornada inválido")
-        
-        # Mostrar partidos disponibles y seleccionar tipo
-        partidos_disponibles = report_gen.get_partidos_disponibles(equipo_seleccionado, jornada)
-        
-        print(f"\n📋 Partidos disponibles para {equipo_seleccionado} en Jornada {jornada}:")
-        opciones = []
-        
-        if partidos_disponibles['local']:
-            for i, partido in enumerate(partidos_disponibles['local']):
-                print(f"  LOCAL {i+1}: {partido}")
-                opciones.append(('local', partido))
-                
-        if partidos_disponibles['visitante']:
-            for i, partido in enumerate(partidos_disponibles['visitante']):
-                print(f"  VISITANTE {i+1}: {partido}")
-                opciones.append(('visitante', partido))
-        
-        if not opciones:
-            print("❌ No hay partidos disponibles")
-            return None, None, None
-        
-        print(f"\n🎯 Selecciona tipo de partido:")
-        print("1. LOCAL")
-        print("2. VISITANTE")
-        
-        while True:
-            try:
-                tipo_seleccion = input("Selecciona tipo (1-2): ").strip()
-                if tipo_seleccion == "1":
-                    tipo_partido = "local"
-                    break
-                elif tipo_seleccion == "2":
-                    tipo_partido = "visitante"
-                    break
-                else:
-                    print("❌ Selecciona 1 o 2")
-            except ValueError:
-                print("❌ Ingresa 1 o 2")
-        
-        return equipo_seleccionado, jornada, tipo_partido
-        
-    except Exception as e:
-        print(f"❌ Error en selección: {e}")
-        return None, None, None
-
-def seleccionar_equipo_para_4_partidos():
-    """NUEVA FUNCIÓN: Selección interactiva para reporte de 4 partidos con filtro de tipo"""
-    try:
-        report_gen = ReporteTacticoJornada()
-        equipos = report_gen.get_available_teams()
-        
-        if not equipos:
-            print("❌ No hay equipos disponibles")
-            return None, None, None
-        
-        print("\n🏟️ === REPORTE 4 ÚLTIMOS PARTIDOS ===")
+        print("\n🏟️ === REPORTE 4 CAMPOS HORIZONTALES ===")
         for i, equipo in enumerate(equipos, 1):
             print(f"{i:2d}. {equipo}")
         
@@ -880,7 +1038,7 @@ def seleccionar_equipo_para_4_partidos():
             except ValueError:
                 print("❌ Formato de jornada inválido")
         
-        # NUEVA SELECCIÓN: Tipo de partido
+        # Seleccionar tipo de partido
         print(f"\n🎯 Selecciona tipo de partidos a mostrar:")
         print("1. SOLO LOCALES")
         print("2. SOLO VISITANTES") 
@@ -903,63 +1061,15 @@ def seleccionar_equipo_para_4_partidos():
             except ValueError:
                 print("❌ Ingresa 1, 2 o 3")
         
-        return equipo_seleccionado, jornada, tipo_partido_filter
-        
-    except Exception as e:
-        print(f"❌ Error en selección: {e}")
-        return None, None, None
-
-def main_reporte_tactico():
-    """Función principal"""
-    try:
-        equipo, jornada, tipo_partido = seleccionar_equipo_jornada_tipo()
-        
-        if not equipo or not jornada or not tipo_partido:
-            print("❌ Selección incompleta")
-            return
-        
-        print(f"\n🔄 Generando reporte táctico para {equipo} - Jornada {jornada} ({tipo_partido.upper()})")
-        
-        report_gen = ReporteTacticoJornada()
-        fig = report_gen.crear_visualization(equipo, jornada, tipo_partido)
-        
-        if fig:
-            plt.show()
-            
-            # Guardar
-            filename = f"reporte_tactico_{equipo.replace(' ', '_')}_J{jornada}_{tipo_partido}.pdf"
-            fig.savefig(filename, dpi=300, bbox_inches='tight', 
-                       facecolor='white', edgecolor='none')
-            print(f"✅ Guardado: {filename}")
-        else:
-            print("❌ No se pudo generar el reporte")
-            
-    except Exception as e:
-        print(f"❌ Error: {e}")
-        import traceback
-        traceback.print_exc()
-
-def main_reporte_4_partidos():
-    """NUEVA FUNCIÓN: Función principal para generar reporte de 4 partidos con filtro de tipo"""
-    try:
-        equipo, jornada, tipo_partido_filter = seleccionar_equipo_para_4_partidos()
-        
-        if not equipo or not jornada:
-            print("❌ Selección incompleta")
-            return
-        
-        tipo_display = tipo_partido_filter.upper() if tipo_partido_filter else "TODOS"
-        print(f"\n🔄 Generando reporte de 4 partidos {tipo_display} para {equipo} (hasta J{jornada})")
-        
-        report_gen = ReporteTacticoJornada()
-        fig = report_gen.crear_4_partidos_visualization(equipo, jornada, tipo_partido_filter)
+        # Generar visualización
+        fig = report_gen.crear_4_partidos_campos_horizontales(equipo_seleccionado, jornada, tipo_partido_filter)
         
         if fig:
             plt.show()
             
             # Guardar
             tipo_filename = f"_{tipo_partido_filter}" if tipo_partido_filter else "_todos"
-            filename = f"reporte_4_partidos_{equipo.replace(' ', '_')}_hasta_J{jornada}{tipo_filename}.pdf"
+            filename = f"reporte_4_campos_horizontales_{equipo_seleccionado.replace(' ', '_')}_hasta_J{jornada}{tipo_filename}.pdf"
             fig.savefig(filename, dpi=300, bbox_inches='tight', 
                        facecolor='white', edgecolor='none')
             print(f"✅ Guardado: {filename}")
@@ -971,38 +1081,18 @@ def main_reporte_4_partidos():
         import traceback
         traceback.print_exc()
 
-def generar_reporte_personalizado(equipo, jornada, tipo_partido, mostrar=True, guardar=True):
-    """Función para uso directo"""
+def generar_4_campos_horizontales_personalizado(equipo, jornada_maxima, tipo_partido_filter=None, mostrar=True, guardar=True):
+    """Función para uso directo de 4 campos horizontales"""
     try:
-        report_gen = ReporteTacticoJornada()
-        fig = report_gen.crear_visualization(equipo, jornada, tipo_partido)
-        
-        if fig:
-            if mostrar:
-                plt.show()
-            if guardar:
-                filename = f"reporte_tactico_{equipo.replace(' ', '_')}_J{jornada}_{tipo_partido}.pdf"
-                fig.savefig(filename, dpi=300, bbox_inches='tight', 
-                           facecolor='white', edgecolor='none')
-                print(f"✅ Guardado: {filename}")
-            return fig
-        return None
-    except Exception as e:
-        print(f"❌ Error: {e}")
-        return None
-
-def generar_4_partidos_personalizado(equipo, jornada_maxima, tipo_partido_filter=None, mostrar=True, guardar=True):
-    """NUEVA FUNCIÓN: Función para uso directo de 4 partidos con filtro de tipo"""
-    try:
-        report_gen = ReporteTacticoJornada()
-        fig = report_gen.crear_4_partidos_visualization(equipo, jornada_maxima, tipo_partido_filter)
+        report_gen = ReporteTactico4CamposHorizontales()
+        fig = report_gen.crear_4_partidos_campos_horizontales(equipo, jornada_maxima, tipo_partido_filter)
         
         if fig:
             if mostrar:
                 plt.show()
             if guardar:
                 tipo_filename = f"_{tipo_partido_filter}" if tipo_partido_filter else "_todos"
-                filename = f"reporte_4_partidos_{equipo.replace(' ', '_')}_hasta_J{jornada_maxima}{tipo_filename}.pdf"
+                filename = f"reporte_4_campos_horizontales_{equipo.replace(' ', '_')}_hasta_J{jornada_maxima}{tipo_filename}.pdf"
                 fig.savefig(filename, dpi=300, bbox_inches='tight', 
                            facecolor='white', edgecolor='none')
                 print(f"✅ Guardado: {filename}")
@@ -1012,89 +1102,49 @@ def generar_4_partidos_personalizado(equipo, jornada_maxima, tipo_partido_filter
         print(f"❌ Error: {e}")
         return None
 
-def rapido(equipo, jornada=35, tipo_partido=None):
-    """🚀 FUNCIÓN RÁPIDA: Genera 4 partidos con valores por defecto y filtro de tipo"""
+# Funciones rápidas
+def rapido_horizontal(equipo, jornada=35, tipo_partido=None):
+    """Genera 4 campos horizontales rápidamente"""
     tipo_display = tipo_partido.upper() if tipo_partido else "TODOS"
-    print(f"🚀 Generación rápida: {equipo} hasta jornada {jornada} - Partidos {tipo_display}")
-    return generar_4_partidos_personalizado(equipo, jornada, tipo_partido)
+    print(f"🚀 Generación rápida horizontal: {equipo} hasta jornada {jornada} - Partidos {tipo_display}")
+    return generar_4_campos_horizontales_personalizado(equipo, jornada, tipo_partido)
 
-def sevilla(tipo_partido=None):
-    """⚡ ACCESO ULTRA-RÁPIDO: Sevilla FC hasta jornada 35 con filtro opcional"""
-    return rapido("Sevilla FC", 35, tipo_partido)
+def sevilla_horizontal(tipo_partido=None):
+    """Sevilla FC con campos horizontales"""
+    return rapido_horizontal("Sevilla FC", 35, tipo_partido)
 
-def sevilla_local():
-    """⚡ SEVILLA SOLO LOCALES"""
-    return sevilla("local")
+def sevilla_horizontal_local():
+    """Sevilla FC solo locales horizontal"""
+    return sevilla_horizontal("local")
 
-def sevilla_visitante():
-    """⚡ SEVILLA SOLO VISITANTES"""
-    return sevilla("visitante")
-
-def madrid(tipo_partido=None):
-    """⚡ ACCESO ULTRA-RÁPIDO: Real Madrid hasta jornada 35 con filtro opcional"""
-    return rapido("Real Madrid", 35, tipo_partido)
-
-def madrid_local():
-    """⚡ MADRID SOLO LOCALES"""
-    return madrid("local")
-
-def madrid_visitante():
-    """⚡ MADRID SOLO VISITANTES"""
-    return madrid("visitante")
-
-def barcelona(tipo_partido=None):
-    """⚡ ACCESO ULTRA-RÁPIDO: FC Barcelona hasta jornada 35 con filtro opcional"""
-    return rapido("FC Barcelona", 35, tipo_partido)
+def sevilla_horizontal_visitante():
+    """Sevilla FC solo visitantes horizontal"""
+    return sevilla_horizontal("visitante")
 
 # Inicialización
-print("🏟️ === REPORTE TÁCTICO CON VERTICALPITCH INICIALIZADO ===")
+print("🏟️ === REPORTE TÁCTICO 4 CAMPOS HORIZONTALES INICIALIZADO ===")
 try:
-    report_gen = ReporteTacticoJornada()
+    report_gen = ReporteTactico4CamposHorizontales()
     equipos = report_gen.get_available_teams()
     jornadas = report_gen.get_available_jornadas()
     print(f"✅ Sistema listo: {len(equipos)} equipos, {len(jornadas)} jornadas")
     print("📝 PARA USAR:")
-    print("   → main_reporte_4_partidos() - REPORTE 2x2 CON FILTRO (RECOMENDADO)")
-    print("   → main_reporte_tactico() - REPORTE INDIVIDUAL") 
-    print("   → sevilla_local() - DIRECTO: Sevilla solo locales")
-    print("   → sevilla_visitante() - DIRECTO: Sevilla solo visitantes")
-    print("   → generar_4_partidos_personalizado('Sevilla FC', 35, 'local')")
-    print("   → generar_reporte_personalizado('Sevilla FC', 35, 'local') - INDIVIDUAL")
-    print("\n🎯 CARACTERÍSTICAS ACTUALIZADAS:")
-    print("   • Campo vertical con VerticalPitch de mplsoccer")
-    print("   • 9 métricas completas en cada tabla de jugador")
-    print("   • Selección específica: LOCAL o VISITANTE")
-    print("   • Filtro de 60+ minutos jugados")
-    print("   • ✨ NUEVO: Layout 2x2 (2 filas, 2 columnas)")
-    print("   • ✨ NUEVO: Filtro por tipo de partido (solo locales/solo visitantes)")
-    print("   • ✨ NUEVO: Espacios vacíos si hay menos de 4 partidos del tipo seleccionado")
-    print("   • ✨ NUEVO: Fondo personalizado con assets/fondo_informes.png")
-    print("   • ✨ NUEVO: Escudos de ambos equipos en cada celda")
-    # Ejemplo de uso inmediato al cargar el script:
-    print("\n" + "="*70)
-    print("🚀 EJEMPLOS DE USO RÁPIDO - LAYOUT 2x2:")
+    print("   → main_4_campos_horizontales() - INTERFAZ GUIADA")
+    print("   → sevilla_horizontal_local() - DIRECTO: Sevilla solo locales")
+    print("   → sevilla_horizontal_visitante() - DIRECTO: Sevilla solo visitantes")
+    print("   → rapido_horizontal('Athletic Club', 20, 'local')")
+    print("\n🎯 CARACTERÍSTICAS:")
+    print("   • 4 campos horizontales en layout 2x2")
+    print("   • Tablas posicionadas por demarcación en el campo")
+    print("   • 9 métricas completas por jugador")
+    print("   • Filtro por tipo de partido (local/visitante)")
+    print("   • Balanceo automático de centrales y delanteros")
+    print("   • Escudos de ambos equipos en cada campo")
     print("="*70)
-    print("⚡ ULTRA-RÁPIDO (comandos directos):")
-    print("   sevilla()           # Sevilla FC todos los partidos")
-    print("   sevilla_local()     # Sevilla FC solo locales")
-    print("   sevilla_visitante() # Sevilla FC solo visitantes")
-    print("   madrid_local()      # Real Madrid solo locales")
-    print("   madrid_visitante()  # Real Madrid solo visitantes")
-    print("\n🎯 PERSONALIZADO:")
-    print("   rapido('Athletic Club', 20, 'local')     # Solo locales")
-    print("   rapido('Valencia CF', 15, 'visitante')   # Solo visitantes")
-    print("   generar_4_partidos_personalizado('Sevilla FC', 35, 'local')")
-    print("\n🔧 INTERACTIVO (guiado paso a paso con selección de tipo):")
-    print("   main_reporte_4_partidos()")
-    print("\n📋 UN SOLO PARTIDO (función original):")
-    print("   generar_reporte_personalizado('Sevilla FC', 35, 'local')")
-    print("="*70)
-    print("💡 TIP: Para Sevilla solo locales, escribe: sevilla_local()")
-    print("🎯 NUEVO: Layout 2x2 (2 filas, 2 columnas) + Filtro local/visitante")
+    print("💡 TIP: Para Sevilla solo locales horizontal: sevilla_horizontal_local()")
     print("="*70)
 except Exception as e:
     print(f"❌ Error inicialización: {e}")
 
 if __name__ == "__main__":
-    # Por defecto ejecutar reporte de 4 partidos
-    main_reporte_4_partidos()
+    main_4_campos_horizontales()
