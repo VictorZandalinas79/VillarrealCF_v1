@@ -46,18 +46,18 @@ class ReporteTactico4CamposHorizontalesMejorado:
         # 🏟️ COORDENADAS PARA CAMPOS HORIZONTALES (Pitch 0-120 x 0-80)
         self.coordenadas_posiciones = {
             'PORTERO': (10, 40),
-            'LATERAL_DERECHO': (45, 68),
-            'CENTRAL_DERECHO': (20, 60),
-            'CENTRAL_IZQUIERDO': (20, 20),
-            'LATERAL_IZQUIERDO': (45, 12),
-            'MC_POSICIONAL': (40, 45),
+            'LATERAL_DERECHO': (45, 13),
+            'CENTRAL_DERECHO': (20, 18),
+            'CENTRAL_IZQUIERDO': (20, 62),
+            'LATERAL_IZQUIERDO': (45, 65),
+            'MC_POSICIONAL': (40, 42),
             'MC_BOX_TO_BOX': (65, 20),
-            'MC_ORGANIZADOR': (55, 55),
-            'BANDA_DERECHA': (85, 68),
-            'BANDA_IZQUIERDA': (85, 12),
+            'MC_ORGANIZADOR': (50, 45),
+            'BANDA_DERECHA': (85, 13),
+            'BANDA_IZQUIERDA': (85, 65),
             'MEDIAPUNTA': (75, 40),
-            'DELANTERO_CENTRO': (100, 45),
-            'SEGUNDO_DELANTERO': (90, 65),
+            'DELANTERO_CENTRO': (105, 45),
+            'SEGUNDO_DELANTERO': (105, 25),
         }
         
         # Mapeo de demarcaciones a posiciones
@@ -412,13 +412,14 @@ class ReporteTactico4CamposHorizontalesMejorado:
         num_players = len(jugadores_list)
         num_metrics = len(self.metricas_tabla)
         
-        metric_col_width = 10 * scale
-        player_col_width = 8 * scale
+        # 🔧 DIMENSIONES REDUCIDAS PARA TABLAS MÁS PEQUEÑAS
+        metric_col_width = 4 * scale       # ← ERA 10, ahora 7 (30% más pequeña)
+        player_col_width = 2 * scale       # ← ERA 8, ahora 6 (25% más pequeña)
         table_width = metric_col_width + (num_players * player_col_width)
         
-        header_height = 2 * scale
-        names_height = 4.5 * scale
-        metric_row_height = 1.5 * scale
+        header_height = 1.0 * scale        # ← ERA 2, ahora 1.5 (25% más pequeña)
+        names_height = 1.0 * scale         # ← ERA 4.5, ahora 3.5 (22% más pequeña)
+        metric_row_height = 1.0 * scale    # ← ERA 1.5, ahora 1.2 (20% más pequeña)
         table_height = header_height + names_height + (num_metrics * metric_row_height)
         
         return table_width, table_height
@@ -672,7 +673,7 @@ class ReporteTactico4CamposHorizontalesMejorado:
         
         clean_position_name = posicion_name.replace('_', ' ').title()
         ax.text(x, y + table_height/2 - header_height/2, clean_position_name, 
-                fontsize=int(2.5 * scale), weight='bold', color=team_colors['text'],
+                fontsize=int(7 * scale), weight='bold', color=team_colors['text'],
                 ha='center', va='center')
         
         # Fila de nombres
@@ -697,18 +698,29 @@ class ReporteTactico4CamposHorizontalesMejorado:
             except Exception as e:
                 print(f"⚠️ Error al añadir escudo: {e}")
         
-        # Nombres y dorsales
+        # Nombres y dorsales AJUSTADOS A COLUMNA
         for i, jugador in enumerate(jugadores_list):
             player_x = x - table_width/2 + metric_col_width + (i * player_col_width) + player_col_width/2
             player_name = jugador['Alias'] if pd.notna(jugador['Alias']) else 'N/A'
             dorsal = jugador.get('Dorsal', 'N/A')
             
-            ax.text(player_x, names_y + 0.8 * scale, player_name, 
-                    fontsize=int(2.8 * scale), weight='bold', color='white',
+            # 🔧 AJUSTAR NOMBRE A LA COLUMNA
+            nombre_ajustado = self.ajustar_texto_columna(player_name, player_col_width, scale)
+            
+            # 🔧 AJUSTAR TAMAÑO DE FUENTE SEGÚN LONGITUD
+            if len(player_name) <= 6:
+                font_size_name = int(4.5 * scale)
+            elif len(player_name) <= 10:
+                font_size_name = int(3.8 * scale)
+            else:
+                font_size_name = int(3.2 * scale)
+            
+            ax.text(player_x, names_y + 0.8 * scale, nombre_ajustado, 
+                    fontsize=font_size_name, weight='bold', color='white',
                     ha='center', va='center')
             
             ax.text(player_x, names_y - 0.8 * scale, str(dorsal), 
-                    fontsize=int(2.5 * scale), weight='bold', color=team_colors['primary'],
+                    fontsize=int(7 * scale), weight='bold', color=team_colors['primary'],
                     ha='center', va='center')
         
         # Filas de métricas
@@ -738,7 +750,7 @@ class ReporteTactico4CamposHorizontalesMejorado:
                            .replace('Distancia Total', 'Dist')
                            .replace('Velocidad Máxima Total', 'VMax'))
             ax.text(x - table_width/2 + metric_col_width/2, metric_y, metrica_corta, 
-                    fontsize=int(2.5 * scale), weight='bold', color='white',
+                    fontsize=int(7.5 * scale), weight='bold', color='white',
                     ha='center', va='center')
             
             # Valores
@@ -757,22 +769,68 @@ class ReporteTactico4CamposHorizontalesMejorado:
                     valor_format = "N/A"
                 
                 ax.text(player_x, metric_y, valor_format, 
-                        fontsize=int(2.8 * scale), weight='bold', color='#FFD700',
+                        fontsize=int(7.5 * scale), weight='bold', color='#FFD700',
                         ha='center', va='center')
+
+    def ajustar_texto_columna(self, texto, ancho_columna, scale):
+        """Ajusta el texto para que encaje en la columna"""
+        if len(texto) <= 6:
+            return texto
+        elif len(texto) <= 10:
+            return texto
+        elif len(texto) <= 12:
+            # Intentar abreviar nombres largos
+            partes = texto.split(' ')
+            if len(partes) > 1:
+                return f"{partes[0][:4]}.{partes[-1][:3]}"
+            else:
+                return texto[:8] + "."
+        else:
+            # Texto muy largo - truncar más agresivamente
+            partes = texto.split(' ')
+            if len(partes) > 1:
+                return f"{partes[0][:3]}.{partes[-1][:2]}"
+            else:
+                return texto[:6] + "."
 
     def crear_titulo_elegante_con_escudos(self, ax, titulo_texto, equipo_local, equipo_visitante, 
                               team_colors, y_position=0.95):
         """Método COMPLETO con título y escudos abajo con imshow"""
         
-        # 📍 TÍTULO EN LA PARTE DE ABAJO
+        # 📍 TÍTULO EN LA PARTE DE ABAJO CON FONDO AJUSTADO AL TEXTO
         bbox = ax.get_position()
         fig_x = bbox.x0 + bbox.width/2
         fig_y = bbox.y0 + 0.005  # ← Abajo del campo
-        
-        titulo_width = bbox.width * 0.6
-        titulo_height = 0.02
-        
-        # Fondo del título
+
+        # 🔧 CALCULAR ANCHO REAL DEL TEXTO
+        import matplotlib.pyplot as plt
+        temp_fig = plt.figure(figsize=(1, 1))
+        temp_ax = temp_fig.add_subplot(111)
+
+        # Crear texto temporal para medir dimensiones
+        temp_text = temp_ax.text(0, 0, titulo_texto, fontsize=10, weight='bold')
+        temp_fig.canvas.draw()
+
+        # Obtener dimensiones reales del texto
+        bbox_texto = temp_text.get_window_extent()
+        ancho_texto_pixels = bbox_texto.width
+        alto_texto_pixels = bbox_texto.height
+
+        # Convertir a coordenadas de figura
+        ancho_texto_fig = ancho_texto_pixels / ax.figure.dpi / ax.figure.get_size_inches()[0]
+        alto_texto_fig = alto_texto_pixels / ax.figure.dpi / ax.figure.get_size_inches()[1]
+
+        # Cerrar figura temporal
+        plt.close(temp_fig)
+
+        # 🔧 DIMENSIONES AJUSTADAS CON PADDING
+        padding_horizontal = ancho_texto_fig * 0.2  # 20% de padding horizontal
+        padding_vertical = alto_texto_fig * 0.3     # 30% de padding vertical
+
+        titulo_width = ancho_texto_fig + padding_horizontal
+        titulo_height = alto_texto_fig + padding_vertical
+
+        # Fondo del título AJUSTADO
         fondo_rect = plt.Rectangle(
             (fig_x - titulo_width/2, fig_y - titulo_height/2), 
             titulo_width, titulo_height,
@@ -784,11 +842,11 @@ class ReporteTactico4CamposHorizontalesMejorado:
             zorder=10
         )
         ax.figure.patches.append(fondo_rect)
-        
+
         # Texto del título
         ax.figure.text(
             fig_x, fig_y, titulo_texto,
-            fontsize=8, weight='bold', color=team_colors['text'],
+            fontsize=10, weight='bold', color=team_colors['text'],
             ha='center', va='center',
             transform=ax.figure.transFigure,
             zorder=12
@@ -798,28 +856,31 @@ class ReporteTactico4CamposHorizontalesMejorado:
         escudo_local = self.load_team_logo(equipo_local)
         escudo_visitante = self.load_team_logo(equipo_visitante)
         
-        # Escudo LOCAL (abajo izquierda)
+        # Escudo LOCAL (abajo izquierda) - MÁS ESQUINADO
         if escudo_local is not None:
             try:
                 ax.imshow(escudo_local, 
-                        extent=[5, 20, 2, 12],  # ← ABAJO del campo (y negativo)
+                        extent=[1, 20, 1, 14],  # ← MÁS ESQUINADO (era [1, 20, 2, 12])
                         aspect='auto', zorder=100)
                 print(f"✅ Escudo local añadido con imshow abajo")
             except Exception as e:
                 print(f"⚠️ Error escudo local: {e}")
-        
-        # Escudo VISITANTE (abajo derecha)
+
+        # Escudo VISITANTE (abajo derecha) - MÁS ESQUINADO E IGUAL DIMENSIÓN
         if escudo_visitante is not None:
             try:
                 ax.imshow(escudo_visitante, 
-                        extent=[100, 115, 2, 12],  # ← ABAJO del campo (y negativo)
+                        extent=[100, 119, 1, 14],  # ← MÁS ESQUINADO E IGUAL (era [104, 115, 2, 12])
                         aspect='auto', zorder=100)
                 print(f"✅ Escudo visitante añadido con imshow abajo")
             except Exception as e:
                 print(f"⚠️ Error escudo visitante: {e}")
 
     def guardar_sin_espacios(self, fig, filename):
-        """🔥 MÉTODO COPIADO DEL PRIMER SCRIPT: Guarda sin espacios"""
+        """🔥 MÉTODO ORIGINAL: Guarda sin espacios manteniendo landscape 16:9"""
+        # Ajustar tamaño para 16:9 antes de guardar
+        fig.set_size_inches(28.8, 16.2)
+        
         fig.savefig(
             filename,
             dpi=300,
@@ -828,11 +889,12 @@ class ReporteTactico4CamposHorizontalesMejorado:
             facecolor='white',
             edgecolor='none',
             format='pdf' if filename.endswith('.pdf') else 'png',
-            transparent=False
+            transparent=False,
+            orientation='landscape'
         )
-        print(f"✅ Archivo guardado SIN espacios: {filename}")
+        print(f"✅ Archivo guardado SIN espacios formato 16:9: {filename}")
 
-    def crear_4_partidos_campos_horizontales(self, equipo, jornada_maxima, tipo_partido_filter=None, figsize=(24, 16)):
+    def crear_4_partidos_campos_horizontales(self, equipo, jornada_maxima, tipo_partido_filter=None, figsize=(32, 18)):
         """🔥 MÉTODO MEJORADO: Crea 4 campos horizontales con mejor zoom y dimensiones"""
         
         tipo_display = tipo_partido_filter.upper() if tipo_partido_filter else "TODOS"
@@ -866,10 +928,20 @@ class ReporteTactico4CamposHorizontalesMejorado:
             ax.set_aspect('equal')
             axes.append(ax)
         
-        # Cargar fondo
+        # Cargar fondo CENTRADO Y OCUPANDO TODA LA FIGURA
         background_img = self.load_background_image()
         if background_img is not None:
-            fig.figimage(background_img, alpha=0.2, resize=True)
+            try:
+                ax_background = fig.add_axes([0, 0, 1, 1], zorder=-1)
+                ax_background.imshow(background_img, extent=[0, 1, 0, 1], aspect='auto', alpha=0.15, zorder=-1)
+                ax_background.axis('off')
+                ax_background.set_xticks([])
+                ax_background.set_yticks([])
+                for spine in ax_background.spines.values():
+                    spine.set_visible(False)
+                print("Fondo aplicado correctamente")
+            except Exception as e:
+                print(f"Error al aplicar fondo: {e}")
         
         # Obtener colores y escudo
         team_colors = self.get_team_colors(equipo)
@@ -890,7 +962,7 @@ class ReporteTactico4CamposHorizontalesMejorado:
                 jugadores_agrupados = self.agrupar_jugadores_por_posicion(partido_info['datos'])
                 
                 # Escala mejorada
-                escala = 1.0
+                escala = 1.4
                 
                 # Calcular dimensiones y resolver colisiones
                 tablas_info = []
