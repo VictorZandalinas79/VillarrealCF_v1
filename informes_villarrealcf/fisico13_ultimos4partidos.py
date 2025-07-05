@@ -36,25 +36,25 @@ class ReporteTactico4CamposHorizontalesMejorado:
     def __init__(self, data_path="prueba_extraccion/data/rendimiento_fisico.parquet"):
         """
         Inicializa la clase para generar reportes tácticos con 4 campos horizontales
-        CON ZOOM Y DIMENSIONES MEJORADAS
+        CON COORDENADAS FIJAS (SIN AUTO-MOVIMIENTO)
         """
         self.data_path = data_path
         self.df = None
         self.load_data()
         self.clean_team_names()
         
-        # 🏟️ COORDENADAS PARA CAMPOS HORIZONTALES (Pitch 0-120 x 0-80)
+        # 🏟️ COORDENADAS FIJAS PARA CAMPOS HORIZONTALES (Pitch 0-120 x 0-80)
         self.coordenadas_posiciones = {
             'PORTERO': (10, 40),
-            'LATERAL_DERECHO': (45, 13),
-            'CENTRAL_DERECHO': (20, 18),
-            'CENTRAL_IZQUIERDO': (20, 62),
-            'LATERAL_IZQUIERDO': (45, 65),
-            'MC_POSICIONAL': (40, 42),
-            'MC_BOX_TO_BOX': (65, 20),
-            'MC_ORGANIZADOR': (50, 45),
-            'BANDA_DERECHA': (85, 13),
-            'BANDA_IZQUIERDA': (85, 65),
+            'LATERAL_DERECHO': (50, 13),
+            'CENTRAL_DERECHO': (25, 20),
+            'CENTRAL_IZQUIERDO': (25, 60),
+            'LATERAL_IZQUIERDO': (50, 70),
+            'MC_POSICIONAL': (30, 50),
+            'MC_BOX_TO_BOX': (70, 20),
+            'MC_ORGANIZADOR': (65, 65),
+            'BANDA_DERECHA': (90, 13),
+            'BANDA_IZQUIERDA': (90, 70),
             'MEDIAPUNTA': (75, 40),
             'DELANTERO_CENTRO': (105, 45),
             'SEGUNDO_DELANTERO': (105, 25),
@@ -221,6 +221,267 @@ class ReporteTactico4CamposHorizontalesMejorado:
         else:
             return equipo_local
     
+    def get_last_5_jornadas(self, equipo, jornada_referencia):
+        """Obtiene las últimas 5 jornadas incluyendo la de referencia"""
+        jornadas_disponibles = self.get_available_jornadas()
+        
+        # Normalizar jornada de referencia
+        if isinstance(jornada_referencia, str) and jornada_referencia.startswith('J'):
+            try:
+                jornada_referencia = int(jornada_referencia[1:])
+            except ValueError:
+                pass
+        elif isinstance(jornada_referencia, str) and jornada_referencia.startswith('j'):
+            try:
+                jornada_referencia = int(jornada_referencia[1:])
+            except ValueError:
+                pass
+        
+        # Filtrar jornadas menores o iguales a la de referencia
+        jornadas_validas = [j for j in jornadas_disponibles if j <= jornada_referencia]
+        
+        # Tomar las últimas 5
+        if len(jornadas_validas) >= 5:
+            return sorted(jornadas_validas)[-5:]
+        else:
+            return sorted(jornadas_validas)
+
+    def get_posible_11(self, equipo, jornada):
+        """Obtiene el posible 11 inicial basado en minutos jugados en las últimas 5 jornadas"""
+        
+        # ✅ POSICIONES BÁSICAS OBLIGATORIAS (9 posiciones fijas)
+        posiciones_basicas = [
+            'PORTERO',
+            'LATERAL_DERECHO', 
+            'LATERAL_IZQUIERDO',
+            'MC_POSICIONAL',
+            'MC_BOX_TO_BOX',
+            'MC_ORGANIZADOR',
+            'BANDA_DERECHA',
+            'BANDA_IZQUIERDA'
+        ]
+        
+        # ✅ POSICIONES FLEXIBLES (pueden ser 1 o 2 jugadores)
+        posiciones_flexibles = {
+            'centrales': ['CENTRAL_DERECHO', 'CENTRAL_IZQUIERDO'],
+            'delanteros': ['DELANTERO_CENTRO', 'SEGUNDO_DELANTERO']
+        }
+
+        # Obtener las últimas 5 jornadas
+        jornadas_analizar = self.get_last_5_jornadas(equipo, jornada)
+        print(f"🔄 Analizando jornadas: {jornadas_analizar}")
+        
+        # Filtrar datos del equipo en esas jornadas
+        filtered_df = self.df[
+            (self.df['Equipo'] == equipo) & 
+            (self.df['Jornada'].isin(jornadas_analizar))
+        ].copy()
+        
+        if filtered_df.empty:
+            print(f"❌ No hay datos para {equipo} en las jornadas {jornadas_analizar}")
+            return None
+        
+        # Rellenar demarcaciones vacías
+        filtered_df = self.fill_missing_demarcaciones(filtered_df)
+        
+        # Verificar si Alias está vacío y usar Nombre en su lugar
+        if 'Nombre' in filtered_df.columns:
+            mask_empty_alias = filtered_df['Alias'].isna() | (filtered_df['Alias'] == '') | (filtered_df['Alias'].str.strip() == '')
+            filtered_df.loc[mask_empty_alias, 'Alias'] = filtered_df.loc[mask_empty_alias, 'Nombre']
+        
+        # Agrupar por jugador y calcular estadísticas
+        print(f"🔄 Calculando estadísticas acumuladas...")
+        
+        player_stats = {}
+        
+        for _, row in filtered_df.iterrows():
+            jugador_id = row['Id Jugador']
+            jugador_alias = row['Alias']
+            demarcacion = row.get('Demarcacion', 'Sin Posición')
+            
+            if jugador_id not in player_stats:
+                player_stats[jugador_id] = {
+                    'Alias': jugador_alias,
+                    'Dorsal': row.get('Dorsal', 'N/A'),
+                    'Demarcacion': demarcacion,
+                    'minutos_total': 0,
+                    'partidos': 0,
+                    'stats': {}
+                }
+            
+            # Acumular minutos
+            minutos = row.get('Minutos jugados', 0)
+            player_stats[jugador_id]['minutos_total'] += minutos
+            player_stats[jugador_id]['partidos'] += 1
+            
+            # Acumular estadísticas para todas las métricas disponibles
+            for metric in self.metricas_tabla:
+                if metric in row and pd.notna(row[metric]):
+                    if metric not in player_stats[jugador_id]['stats']:
+                        player_stats[jugador_id]['stats'][metric] = []
+                    player_stats[jugador_id]['stats'][metric].append(row[metric])
+        
+        # Calcular promedios/sumas/máximos según la métrica
+        for jugador_id in player_stats:
+            for metric in self.metricas_tabla:
+                if metric in player_stats[jugador_id]['stats']:
+                    values = player_stats[jugador_id]['stats'][metric]
+                    
+                    if 'Velocidad Máxima' in metric:  # Velocidad máxima: promedio
+                        player_stats[jugador_id]['stats'][metric] = np.mean(values)
+                    elif '/min' in metric or '/ min' in metric:  # Métricas por minuto: promedio
+                        player_stats[jugador_id]['stats'][metric] = np.mean(values)
+                    else:  # Distancias totales: suma
+                        player_stats[jugador_id]['stats'][metric] = np.sum(values)
+                else:
+                    player_stats[jugador_id]['stats'][metric] = 0
+        
+        # Agrupar jugadores por posición
+        jugadores_por_posicion = {}
+        for jugador_id, data in player_stats.items():
+            demarcacion = data['Demarcacion']
+            posicion = self.demarcacion_to_posicion.get(demarcacion, 'MC_BOX_TO_BOX')
+            
+            if posicion not in jugadores_por_posicion:
+                jugadores_por_posicion[posicion] = []
+            
+            jugadores_por_posicion[posicion].append({
+                'Id': jugador_id,
+                'Alias': data['Alias'],
+                'Dorsal': data['Dorsal'],
+                'Demarcacion': demarcacion,
+                'minutos_total': data['minutos_total'],
+                'stats': data['stats']
+            })
+        
+        # ✅ NUEVA LÓGICA: Seleccionar jugadores con flexibilidad para centrales y delanteros
+        posible_11 = {}
+        jugadores_seleccionados = set()  # Para evitar duplicados
+        
+        # 1. Llenar posiciones básicas obligatorias (8 jugadores)
+        for posicion in posiciones_basicas:
+            if posicion in jugadores_por_posicion:
+                # Filtrar jugadores no seleccionados
+                jugadores_disponibles = [j for j in jugadores_por_posicion[posicion] 
+                                    if j['Id'] not in jugadores_seleccionados]
+                
+                if jugadores_disponibles:
+                    # Ordenar por minutos y tomar el mejor
+                    mejor_jugador = max(jugadores_disponibles, key=lambda x: x['minutos_total'])
+                    posible_11[posicion] = mejor_jugador
+                    jugadores_seleccionados.add(mejor_jugador['Id'])
+                    print(f"✅ {posicion}: {mejor_jugador['Alias']} ({mejor_jugador['minutos_total']} min)")
+        
+        # 2. Manejar centrales (pueden ser 1 o 2)
+        centrales_incluidos = 0
+        for posicion_central in posiciones_flexibles['centrales']:
+            if posicion_central in jugadores_por_posicion and centrales_incluidos < 2:
+                # Filtrar jugadores no seleccionados
+                jugadores_disponibles = [j for j in jugadores_por_posicion[posicion_central] 
+                                    if j['Id'] not in jugadores_seleccionados]
+                
+                if jugadores_disponibles:
+                    mejor_jugador = max(jugadores_disponibles, key=lambda x: x['minutos_total'])
+                    posible_11[posicion_central] = mejor_jugador
+                    jugadores_seleccionados.add(mejor_jugador['Id'])
+                    centrales_incluidos += 1
+                    print(f"✅ {posicion_central}: {mejor_jugador['Alias']} ({mejor_jugador['minutos_total']} min)")
+        
+        # 3. Manejar delanteros (pueden ser 1 o 2)
+        delanteros_incluidos = 0
+        for posicion_delantero in posiciones_flexibles['delanteros']:
+            if posicion_delantero in jugadores_por_posicion and delanteros_incluidos < 2:
+                # Filtrar jugadores no seleccionados
+                jugadores_disponibles = [j for j in jugadores_por_posicion[posicion_delantero] 
+                                    if j['Id'] not in jugadores_seleccionados]
+                
+                if jugadores_disponibles:
+                    mejor_jugador = max(jugadores_disponibles, key=lambda x: x['minutos_total'])
+                    posible_11[posicion_delantero] = mejor_jugador
+                    jugadores_seleccionados.add(mejor_jugador['Id'])
+                    delanteros_incluidos += 1
+                    print(f"✅ {posicion_delantero}: {mejor_jugador['Alias']} ({mejor_jugador['minutos_total']} min)")
+        
+        # 4. Completar hasta 11 si faltan jugadores
+        total_jugadores = len(posible_11)
+        
+        if total_jugadores < 11:
+            # Buscar los mejores jugadores restantes
+            todos_los_jugadores = []
+            for posicion, jugadores_list in jugadores_por_posicion.items():
+                for jugador in jugadores_list:
+                    if jugador['Id'] not in jugadores_seleccionados:
+                        todos_los_jugadores.append((posicion, jugador))
+            
+            # Ordenar por minutos y completar
+            todos_los_jugadores.sort(key=lambda x: x[1]['minutos_total'], reverse=True)
+            
+            posiciones_faltantes = 11 - total_jugadores
+            for i in range(min(posiciones_faltantes, len(todos_los_jugadores))):
+                posicion, jugador = todos_los_jugadores[i]
+                
+                # Buscar un nombre único para la posición
+                posicion_nombre = posicion
+                contador = 2
+                while posicion_nombre in posible_11:
+                    posicion_nombre = f"{posicion}_{contador}"
+                    contador += 1
+                
+                posible_11[posicion_nombre] = jugador
+                jugadores_seleccionados.add(jugador['Id'])
+                print(f"✅ {posicion_nombre}: {jugador['Alias']} (completado - {jugador['minutos_total']} min)")
+        
+        # 5. Si tenemos más de 11, quitar los de menos minutos
+        elif total_jugadores > 11:
+            # Ordenar por minutos y mantener solo los 11 mejores
+            jugadores_ordenados = sorted(posible_11.items(), 
+                                    key=lambda x: x[1]['minutos_total'], 
+                                    reverse=True)
+            
+            posible_11 = dict(jugadores_ordenados[:11])
+            print(f"⚠️ Reducido a 11 jugadores (eliminados {total_jugadores - 11})")
+        
+        print(f"✅ Posible 11 generado con exactamente {len(posible_11)} jugadores")
+        print(f"   - Centrales: {sum(1 for pos in posible_11.keys() if 'CENTRAL' in pos)}")
+        print(f"   - Delanteros: {sum(1 for pos in posible_11.keys() if 'DELANTERO' in pos)}")
+        
+        return posible_11
+    
+    def get_available_jornadas(self, equipo=None):
+        """Retorna las jornadas disponibles para un equipo específico o todas"""
+        if self.df is None:
+            return []
+        
+        if equipo:
+            filtered_df = self.df[self.df['Equipo'] == equipo]
+            return sorted(filtered_df['Jornada'].unique())
+        else:
+            return sorted(self.df['Jornada'].unique())
+
+    def fill_missing_demarcaciones(self, df):
+        """Rellena demarcaciones vacías con histórico del jugador"""
+        df_work = df.copy()
+        
+        mask_empty = df_work['Demarcacion'].isna() | (df_work['Demarcacion'] == '') | (df_work['Demarcacion'].str.strip() == '')
+        
+        for idx in df_work[mask_empty].index:
+            jugador_id = df_work.loc[idx, 'Id Jugador']
+            
+            jugador_demarcaciones = self.df[
+                (self.df['Id Jugador'] == jugador_id) & 
+                (self.df['Demarcacion'].notna()) & 
+                (self.df['Demarcacion'] != '') &
+                (self.df['Demarcacion'].str.strip() != '')
+            ]['Demarcacion']
+            
+            if len(jugador_demarcaciones) > 0:
+                demarcacion_frecuente = jugador_demarcaciones.value_counts().index[0]
+                df_work.loc[idx, 'Demarcacion'] = demarcacion_frecuente
+            else:
+                df_work.loc[idx, 'Demarcacion'] = 'Sin Posición'
+        
+        return df_work
+    
     def parsear_partido_completo(self, partido, equipo):
         """Parsea un partido completo manteniendo el orden original"""
         if '-' not in partido:
@@ -371,56 +632,27 @@ class ReporteTactico4CamposHorizontalesMejorado:
         print(f"🎯 Total partidos {tipo_display} seleccionados: {len(resultados)}")
         return resultados
 
-    def detectar_y_resolver_colisiones(self, tablas_info, campo_width=120, campo_height=80):
-        """Detecta colisiones entre tablas y ajusta posiciones"""
-        print("🔍 Detectando y resolviendo colisiones entre tablas...")
-        
-        ajustadas = []
-        margen_seguridad = 2
-        
-        for i, (x, y, width, height, name, jugadores) in enumerate(tablas_info):
-            x_ajustado, y_ajustado = x, y
-            
-            for x2, y2, w2, h2, name2, _ in ajustadas:
-                if (abs(x_ajustado - x2) < (width + w2)/2 + margen_seguridad and 
-                    abs(y_ajustado - y2) < (height + h2)/2 + margen_seguridad):
-                    
-                    if x_ajustado < x2:
-                        x_ajustado = x2 - (width + w2)/2 - margen_seguridad
-                    else:
-                        x_ajustado = x2 + (width + w2)/2 + margen_seguridad
-                    
-                    if x_ajustado < width/2 or x_ajustado > campo_width - width/2:
-                        x_ajustado = x
-                        if y_ajustado < y2:
-                            y_ajustado = y2 - (height + h2)/2 - margen_seguridad
-                        else:
-                            y_ajustado = y2 + (height + h2)/2 + margen_seguridad
-            
-            x_final = max(width/2 + 1, min(campo_width - width/2 - 1, x_ajustado))
-            y_final = max(height/2 + 1, min(campo_height - height/2 - 1, y_ajustado))
-            
-            ajustadas.append((x_final, y_final, width, height, name, jugadores))
-        
-        return ajustadas
-
     def calcular_dimensiones_tabla(self, jugadores_list, scale=0.9):
-        """Calcula las dimensiones de una tabla"""
+        """Calcula dimensiones simples y compactas"""
         if not jugadores_list:
             return 0, 0
         
         num_players = len(jugadores_list)
         num_metrics = len(self.metricas_tabla)
         
-        # 🔧 DIMENSIONES REDUCIDAS PARA TABLAS MÁS PEQUEÑAS
-        metric_col_width = 4 * scale       # ← ERA 10, ahora 7 (30% más pequeña)
-        player_col_width = 2 * scale       # ← ERA 8, ahora 6 (25% más pequeña)
-        table_width = metric_col_width + (num_players * player_col_width)
+        # Dimensiones BASE más pequeñas
+        base_metric_width = 3.5 * scale
+        base_player_width = 2.0 * scale
+        base_row_height = 0.8 * scale
         
-        header_height = 1.0 * scale        # ← ERA 2, ahora 1.5 (25% más pequeña)
-        names_height = 1.0 * scale         # ← ERA 4.5, ahora 3.5 (22% más pequeña)
-        metric_row_height = 1.0 * scale    # ← ERA 1.5, ahora 1.2 (20% más pequeña)
-        table_height = header_height + names_height + (num_metrics * metric_row_height)
+        # 🔧 ANCHO MANUAL - USA EL MISMO VALOR QUE ARRIBA
+        player_col_width = 5.0 * scale     # ← EL MISMO VALOR que en crear_tabla_posicion
+        
+        if num_players > 3:
+            player_col_width *= 0.9
+        
+        table_width = base_metric_width + (num_players * player_col_width)
+        table_height = (base_row_height * 1.5) + (base_row_height * 1.8) + (num_metrics * base_row_height)
         
         return table_width, table_height
 
@@ -569,32 +801,8 @@ class ReporteTactico4CamposHorizontalesMejorado:
         
         return pitch
     
-    def fill_missing_demarcaciones(self, df):
-        """Rellena demarcaciones vacías con histórico del jugador"""
-        df_work = df.copy()
-        
-        mask_empty = df_work['Demarcacion'].isna() | (df_work['Demarcacion'] == '') | (df_work['Demarcacion'].str.strip() == '')
-        
-        for idx in df_work[mask_empty].index:
-            jugador_id = df_work.loc[idx, 'Id Jugador']
-            
-            jugador_demarcaciones = self.df[
-                (self.df['Id Jugador'] == jugador_id) & 
-                (self.df['Demarcacion'].notna()) & 
-                (self.df['Demarcacion'] != '') &
-                (self.df['Demarcacion'].str.strip() != '')
-            ]['Demarcacion']
-            
-            if len(jugador_demarcaciones) > 0:
-                demarcacion_frecuente = jugador_demarcaciones.value_counts().index[0]
-                df_work.loc[idx, 'Demarcacion'] = demarcacion_frecuente
-            else:
-                df_work.loc[idx, 'Demarcacion'] = 'Sin Posición'
-        
-        return df_work
-    
     def agrupar_jugadores_por_posicion(self, jugadores_df):
-        """Agrupa jugadores por posición específica"""
+        """Agrupa jugadores por posición específica SIN BALANCEO (coordenadas fijas)"""
         jugadores_df = self.fill_missing_demarcaciones(jugadores_df)
         
         if 'Nombre' in jugadores_df.columns:
@@ -612,50 +820,57 @@ class ReporteTactico4CamposHorizontalesMejorado:
             if posicion in jugadores_por_posicion:
                 jugadores_por_posicion[posicion].append(jugador.to_dict())
         
-        self.balancear_centrales(jugadores_por_posicion)
-        self.balancear_delanteros(jugadores_por_posicion)
+        # 🚫 BALANCEO ELIMINADO PARA COORDENADAS FIJAS
+        # NO se llama a balancear_centrales() ni balancear_delanteros()
+        print("📍 MODO COORDENADAS FIJAS: Sin balanceo de posiciones")
         
         return jugadores_por_posicion
     
-    def balancear_centrales(self, jugadores_por_posicion):
-        """Balancea centrales"""
-        centrales_derecho = jugadores_por_posicion['CENTRAL_DERECHO']
-        centrales_izquierdo = jugadores_por_posicion['CENTRAL_IZQUIERDO']
-        
-        if len(centrales_izquierdo) == 0 and len(centrales_derecho) > 1:
-            jugador_a_mover = centrales_derecho.pop()
-            jugadores_por_posicion['CENTRAL_IZQUIERDO'].append(jugador_a_mover)
-        elif len(centrales_derecho) == 0 and len(centrales_izquierdo) > 1:
-            jugador_a_mover = centrales_izquierdo.pop()
-            jugadores_por_posicion['CENTRAL_DERECHO'].append(jugador_a_mover)
-    
-    def balancear_delanteros(self, jugadores_por_posicion):
-        """Balancea delanteros"""
-        delanteros = jugadores_por_posicion['DELANTERO_CENTRO']
-        
-        if len(delanteros) > 1:
-            mitad = len(delanteros) // 2 + len(delanteros) % 2
-            primer_grupo = delanteros[:mitad]
-            segundo_grupo = delanteros[mitad:]
-            jugadores_por_posicion['DELANTERO_CENTRO'] = primer_grupo
-            jugadores_por_posicion['SEGUNDO_DELANTERO'] = segundo_grupo
+    # 🚫 MÉTODOS DE BALANCEO ELIMINADOS PARA COORDENADAS FIJAS
+    # Los jugadores permanecen exactamente en sus demarcaciones originales
     
     def crear_tabla_posicion(self, jugadores_list, x, y, ax, team_colors, posicion_name, scale=0.8, team_logo=None):
-        """Crea una tabla moderna por posición"""
+        """Crea una tabla moderna por posición CON DIMENSIONES COMPACTAS"""
         if not jugadores_list:
             return
         
         num_players = len(jugadores_list)
         num_metrics = len(self.metricas_tabla)
         
-        metric_col_width = 10 * scale
-        player_col_width = 8 * scale
-        table_width = metric_col_width + (num_players * player_col_width)
+        # DIMENSIONES DINÁMICAS - se adaptan al texto
+        # 🔧 ANCHO MANUAL - CAMBIA ESTOS VALORES A LO QUE QUIERAS
+        metric_col_width = 6.0 * scale     # ← Columna de métricas
+        player_col_width = 4.0 * scale     # ← Columnas de jugadores (¡AJUSTA AQUÍ!)
         
-        header_height = 2 * scale
-        names_height = 4.5 * scale
-        metric_row_height = 1.5 * scale
+        # Dimensiones de filas
+        header_height = 1.0 * scale
+        names_height = 2.0 * scale  
+        metric_row_height = 0.6 * scale
+        
+        # Dimensiones totales
+        table_width = metric_col_width + (num_players * player_col_width)
         table_height = header_height + names_height + (num_metrics * metric_row_height)
+        
+        # Tamaños de fuente proporcionales
+        fontsize_header = int(7 * scale)
+        fontsize_metricas = int(6 * scale)
+        fontsize_nombres = int(8 * scale)  
+        fontsize_valores = int(6 * scale)
+        
+        # Métricas abreviadas
+        metricas_cortas = []
+        for metrica in self.metricas_tabla:
+            metrica_corta = (metrica
+                        .replace('Distancia Total 14-21 km / h / min', 'D14-21/m')
+                        .replace('Distancia Total >21 km / h / min', 'D21+/m') 
+                        .replace('Distancia Total >24 km / h / min', 'D24+/m')
+                        .replace('Distancia Total 14-21 km / h', 'D14-21')
+                        .replace('Distancia Total >21 km / h', 'D21+')
+                        .replace('Distancia Total >24 km / h', 'D24+')
+                        .replace('Distancia Total / min', 'Dist/m')
+                        .replace('Distancia Total', 'Dist')
+                        .replace('Velocidad Máxima Total', 'VMax'))
+            metricas_cortas.append(metrica_corta)
         
         # Fondo principal
         main_rect = plt.Rectangle((x - table_width/2, y - table_height/2), 
@@ -666,14 +881,14 @@ class ReporteTactico4CamposHorizontalesMejorado:
         
         # Header
         header_rect = plt.Rectangle((x - table_width/2, y + table_height/2 - header_height), 
-                                  table_width, header_height,
-                                  facecolor=team_colors['primary'], alpha=0.8,
-                                  edgecolor='white', linewidth=1)
+                                table_width, header_height,
+                                facecolor=team_colors['primary'], alpha=0.8,
+                                edgecolor='white', linewidth=1)
         ax.add_patch(header_rect)
         
         clean_position_name = posicion_name.replace('_', ' ').title()
         ax.text(x, y + table_height/2 - header_height/2, clean_position_name, 
-                fontsize=int(7 * scale), weight='bold', color=team_colors['text'],
+                fontsize=fontsize_header, weight='bold', color=team_colors['text'],
                 ha='center', va='center')
         
         # Fila de nombres
@@ -690,7 +905,7 @@ class ReporteTactico4CamposHorizontalesMejorado:
             try:
                 logo_x = x - table_width/2 + metric_col_width/2
                 logo_y = names_y
-                zoom_factor = min(metric_col_width / 120, names_height / 120) * 0.25
+                zoom_factor = min(metric_col_width / 120, names_height / 120) * 1
         
                 imagebox = OffsetImage(team_logo, zoom=zoom_factor)
                 ab = AnnotationBbox(imagebox, (logo_x, logo_y), frameon=False)
@@ -709,11 +924,11 @@ class ReporteTactico4CamposHorizontalesMejorado:
             
             # 🔧 AJUSTAR TAMAÑO DE FUENTE SEGÚN LONGITUD
             if len(player_name) <= 6:
-                font_size_name = int(4.5 * scale)
+                font_size_name = fontsize_nombres
             elif len(player_name) <= 10:
-                font_size_name = int(3.8 * scale)
+                font_size_name = int(fontsize_nombres * 0.85)
             else:
-                font_size_name = int(3.2 * scale)
+                font_size_name = int(fontsize_nombres * 0.7)
             
             ax.text(player_x, names_y + 0.8 * scale, nombre_ajustado, 
                     fontsize=font_size_name, weight='bold', color='white',
@@ -729,8 +944,8 @@ class ReporteTactico4CamposHorizontalesMejorado:
             
             if i % 2 == 0:
                 row_rect = plt.Rectangle((x - table_width/2, metric_y - metric_row_height/2), 
-                                       table_width, metric_row_height,
-                                       facecolor='#3c566e', alpha=0.3)
+                                    table_width, metric_row_height,
+                                    facecolor='#3c566e', alpha=0.3)
                 ax.add_patch(row_rect)
             
             metric_bg = plt.Rectangle((x - table_width/2, metric_y - metric_row_height/2), 
@@ -739,18 +954,9 @@ class ReporteTactico4CamposHorizontalesMejorado:
                                     edgecolor='white', linewidth=0.3)
             ax.add_patch(metric_bg)
             
-            metrica_corta = (metrica
-                           .replace('Distancia Total 14-21 km / h / min', 'D14-21/m')
-                           .replace('Distancia Total >21 km / h / min', 'D21+/m') 
-                           .replace('Distancia Total >24 km / h / min', 'D24+/m')
-                           .replace('Distancia Total 14-21 km / h', 'D14-21')
-                           .replace('Distancia Total >21 km / h', 'D21+')
-                           .replace('Distancia Total >24 km / h', 'D24+')
-                           .replace('Distancia Total / min', 'Dist/m')
-                           .replace('Distancia Total', 'Dist')
-                           .replace('Velocidad Máxima Total', 'VMax'))
+            metrica_corta = metricas_cortas[i]
             ax.text(x - table_width/2 + metric_col_width/2, metric_y, metrica_corta, 
-                    fontsize=int(7.5 * scale), weight='bold', color='white',
+                    fontsize=fontsize_metricas, weight='bold', color='white',
                     ha='center', va='center')
             
             # Valores
@@ -769,30 +975,38 @@ class ReporteTactico4CamposHorizontalesMejorado:
                     valor_format = "N/A"
                 
                 ax.text(player_x, metric_y, valor_format, 
-                        fontsize=int(7.5 * scale), weight='bold', color='#FFD700',
+                        fontsize=fontsize_valores, weight='bold', color='#FFD700',
                         ha='center', va='center')
 
     def ajustar_texto_columna(self, texto, ancho_columna, scale):
-        """Ajusta el texto para que encaje en la columna"""
-        if len(texto) <= 6:
-            return texto
-        elif len(texto) <= 10:
-            return texto
-        elif len(texto) <= 12:
-            # Intentar abreviar nombres largos
-            partes = texto.split(' ')
-            if len(partes) > 1:
-                return f"{partes[0][:4]}.{partes[-1][:3]}"
+        """Ajusta el texto para que encaje perfectamente en la columna"""
+        if not texto or pd.isna(texto):
+            return "N/A"
+        
+        texto_str = str(texto).strip()
+        
+        # Cálculo más preciso del espacio disponible
+        chars_disponibles = int(ancho_columna / (0.25 * scale))
+        
+        if len(texto_str) <= chars_disponibles:
+            return texto_str
+        
+        # Si es muy largo, usar estrategias de truncado inteligente
+        partes = texto_str.split(' ')
+        
+        if len(partes) > 1:
+            # Para nombres con espacios: Primera letra + apellido
+            primer_nombre = partes[0]
+            ultimo_apellido = partes[-1]
+            
+            if len(primer_nombre) + len(ultimo_apellido) + 2 <= chars_disponibles:
+                return f"{primer_nombre[0]}.{ultimo_apellido}"
             else:
-                return texto[:8] + "."
+                return f"{primer_nombre[0]}.{ultimo_apellido[:chars_disponibles-3]}"
         else:
-            # Texto muy largo - truncar más agresivamente
-            partes = texto.split(' ')
-            if len(partes) > 1:
-                return f"{partes[0][:3]}.{partes[-1][:2]}"
-            else:
-                return texto[:6] + "."
-
+            # Para una sola palabra: truncar con puntos
+            return texto_str[:chars_disponibles-1] + "."
+    
     def crear_titulo_elegante_con_escudos(self, ax, titulo_texto, equipo_local, equipo_visitante, 
                               team_colors, y_position=0.95):
         """Método COMPLETO con título y escudos abajo con imshow"""
@@ -852,27 +1066,41 @@ class ReporteTactico4CamposHorizontalesMejorado:
             zorder=12
         )
         
-        # 🏆 ESCUDOS TAMBIÉN ABAJO CON IMSHOW
+        # 🏆 ESCUDOS CON SOMBRA
         escudo_local = self.load_team_logo(equipo_local)
         escudo_visitante = self.load_team_logo(equipo_visitante)
-        
-        # Escudo LOCAL (abajo izquierda) - MÁS ESQUINADO
+
+        # Escudo LOCAL CON SOMBRA
         if escudo_local is not None:
             try:
+                # 1. SOMBRA (desplazada hacia abajo-derecha)
                 ax.imshow(escudo_local, 
-                        extent=[1, 20, 1, 14],  # ← MÁS ESQUINADO (era [1, 20, 2, 12])
-                        aspect='auto', zorder=100)
-                print(f"✅ Escudo local añadido con imshow abajo")
+                        extent=[2.5, 21.5, -0.5, 12.5],  # ← SOMBRA desplazada
+                        aspect='auto', zorder=99, alpha=0.4)  # ← Semi-transparente y atrás
+                
+                # 2. ESCUDO PRINCIPAL (encima de la sombra)
+                ax.imshow(escudo_local, 
+                        extent=[1, 20, 1, 14],  # ← ESCUDO ORIGINAL
+                        aspect='auto', zorder=100)  # ← Adelante
+                
+                print(f"✅ Escudo local CON SOMBRA añadido")
             except Exception as e:
                 print(f"⚠️ Error escudo local: {e}")
 
-        # Escudo VISITANTE (abajo derecha) - MÁS ESQUINADO E IGUAL DIMENSIÓN
+        # Escudo VISITANTE CON SOMBRA
         if escudo_visitante is not None:
             try:
+                # 1. SOMBRA (desplazada hacia abajo-izquierda)
                 ax.imshow(escudo_visitante, 
-                        extent=[100, 119, 1, 14],  # ← MÁS ESQUINADO E IGUAL (era [104, 115, 2, 12])
-                        aspect='auto', zorder=100)
-                print(f"✅ Escudo visitante añadido con imshow abajo")
+                        extent=[98.5, 117.5, -0.5, 12.5],  # ← SOMBRA desplazada
+                        aspect='auto', zorder=99, alpha=0.4)  # ← Semi-transparente y atrás
+                
+                # 2. ESCUDO PRINCIPAL (encima de la sombra)
+                ax.imshow(escudo_visitante, 
+                        extent=[100, 119, 1, 14],  # ← ESCUDO ORIGINAL
+                        aspect='auto', zorder=100)  # ← Adelante
+                
+                print(f"✅ Escudo visitante CON SOMBRA añadido")
             except Exception as e:
                 print(f"⚠️ Error escudo visitante: {e}")
 
@@ -895,10 +1123,10 @@ class ReporteTactico4CamposHorizontalesMejorado:
         print(f"✅ Archivo guardado SIN espacios formato 16:9: {filename}")
 
     def crear_4_partidos_campos_horizontales(self, equipo, jornada_maxima, tipo_partido_filter=None, figsize=(32, 18)):
-        """🔥 MÉTODO MEJORADO: Crea 4 campos horizontales con mejor zoom y dimensiones"""
+        """🔥 MÉTODO CON COORDENADAS FIJAS: Crea 4 campos horizontales sin auto-movimiento"""
         
         tipo_display = tipo_partido_filter.upper() if tipo_partido_filter else "TODOS"
-        print(f"\n🔄 Generando visualización 2x2 MEJORADA para {equipo}")
+        print(f"\n🔄 Generando visualización 2x2 CON COORDENADAS FIJAS para {equipo}")
         
         # Obtener partidos
         partidos = self.get_ultimos_4_partidos(equipo, jornada_maxima, tipo_partido_filter)
@@ -964,19 +1192,18 @@ class ReporteTactico4CamposHorizontalesMejorado:
                 # Escala mejorada
                 escala = 1.4
                 
-                # Calcular dimensiones y resolver colisiones
-                tablas_info = []
+                # 🔥 USAR COORDENADAS FIJAS SIN AUTO-MOVIMIENTO
+                print("📍 Usando coordenadas FIJAS para las tablas (sin auto-movimiento)")
+                
                 for posicion, jugadores in jugadores_agrupados.items():
                     if jugadores and posicion in self.coordenadas_posiciones:
+                        # Usar coordenadas exactas definidas
                         x, y = self.coordenadas_posiciones[posicion]
-                        width, height = self.calcular_dimensiones_tabla(jugadores, escala)
-                        tablas_info.append((x, y, width, height, posicion, jugadores))
-
-                if tablas_info:
-                    tablas_ajustadas = self.detectar_y_resolver_colisiones(tablas_info)
-                    
-                    for x_aj, y_aj, width, height, posicion, jugadores in tablas_ajustadas:
-                        self.crear_tabla_posicion(jugadores, x_aj, y_aj, ax, team_colors, posicion, escala, team_logo)
+                        
+                        print(f"   {posicion}: ({x}, {y}) con {len(jugadores)} jugadores")
+                        
+                        # Crear tabla en las coordenadas exactas
+                        self.crear_tabla_posicion(jugadores, x, y, ax, team_colors, posicion, escala, team_logo)
                 
                 # Parsear partido
                 equipo_local, equipo_visitante, goles_local, goles_visitante, tipo_real = self.parsear_partido_completo(
@@ -1002,16 +1229,16 @@ class ReporteTactico4CamposHorizontalesMejorado:
         
         # Título general
         fig.suptitle(f'{equipo.upper()} - ÚLTIMOS 4 PARTIDOS {tipo_display} (hasta J{jornada_maxima})',
-             fontsize=14, weight='bold', color='white', ha='center', va='center',
+             fontsize=40, weight='bold', color='white', ha='center', va='center',
              y=1.0,  # ← MÁS ARRIBA (era 0.95 por defecto)
              bbox=dict(boxstyle="round,pad=0.03", facecolor='#1e3d59', alpha=0.95,
                       edgecolor='white', linewidth=1))
         
-        print("✅ Visualización 2x2 MEJORADA creada correctamente")
+        print("✅ Visualización 2x2 CON COORDENADAS FIJAS creada correctamente")
         return fig
 
-def main_4_campos_horizontales_mejorado():
-    """Función principal mejorada"""
+def main_4_campos_horizontales_coordenadas_fijas():
+    """Función principal con coordenadas fijas"""
     try:
         report_gen = ReporteTactico4CamposHorizontalesMejorado()
         equipos = report_gen.get_available_teams()
@@ -1020,7 +1247,7 @@ def main_4_campos_horizontales_mejorado():
             print("❌ No hay equipos disponibles")
             return
         
-        print("\n🏟️ === REPORTE 4 CAMPOS HORIZONTALES MEJORADO ===")
+        print("\n🏟️ === REPORTE 4 CAMPOS HORIZONTALES - COORDENADAS FIJAS ===")
         for i, equipo in enumerate(equipos, 1):
             print(f"{i:2d}. {equipo}")
         
@@ -1086,7 +1313,7 @@ def main_4_campos_horizontales_mejorado():
             
             # Guardar con método mejorado
             tipo_filename = f"_{tipo_partido_filter}" if tipo_partido_filter else "_todos"
-            filename = f"reporte_4_campos_MEJORADO_{equipo_seleccionado.replace(' ', '_')}_hasta_J{jornada}{tipo_filename}.pdf"
+            filename = f"reporte_4_campos_FIJAS_{equipo_seleccionado.replace(' ', '_')}_hasta_J{jornada}{tipo_filename}.pdf"
             report_gen.guardar_sin_espacios(fig, filename)
         else:
             print("❌ No se pudo generar el reporte")
@@ -1096,8 +1323,8 @@ def main_4_campos_horizontales_mejorado():
         import traceback
         traceback.print_exc()
 
-def generar_4_campos_mejorado_personalizado(equipo, jornada_maxima, tipo_partido_filter=None, mostrar=True, guardar=True):
-    """Función para uso directo mejorada"""
+def generar_4_campos_coordenadas_fijas(equipo, jornada_maxima, tipo_partido_filter=None, mostrar=True, guardar=True):
+    """Función para uso directo con coordenadas fijas"""
     try:
         report_gen = ReporteTactico4CamposHorizontalesMejorado()
         fig = report_gen.crear_4_partidos_campos_horizontales(equipo, jornada_maxima, tipo_partido_filter)
@@ -1107,7 +1334,7 @@ def generar_4_campos_mejorado_personalizado(equipo, jornada_maxima, tipo_partido
                 plt.show()
             if guardar:
                 tipo_filename = f"_{tipo_partido_filter}" if tipo_partido_filter else "_todos"
-                filename = f"reporte_4_campos_MEJORADO_{equipo.replace(' ', '_')}_hasta_J{jornada_maxima}{tipo_filename}.pdf"
+                filename = f"reporte_4_campos_FIJAS_{equipo.replace(' ', '_')}_hasta_J{jornada_maxima}{tipo_filename}.pdf"
                 report_gen.guardar_sin_espacios(fig, filename)
             return fig
         return None
@@ -1115,49 +1342,47 @@ def generar_4_campos_mejorado_personalizado(equipo, jornada_maxima, tipo_partido
         print(f"❌ Error: {e}")
         return None
 
-# Funciones rápidas mejoradas
-def rapido_horizontal_mejorado(equipo, jornada=35, tipo_partido=None):
-    """Genera 4 campos horizontales MEJORADOS rápidamente"""
+# Funciones rápidas con coordenadas fijas
+def rapido_horizontal_fijas(equipo, jornada=35, tipo_partido=None):
+    """Genera 4 campos horizontales CON COORDENADAS FIJAS rápidamente"""
     tipo_display = tipo_partido.upper() if tipo_partido else "TODOS"
-    print(f"🚀 Generación rápida horizontal MEJORADA: {equipo} hasta jornada {jornada} - Partidos {tipo_display}")
-    return generar_4_campos_mejorado_personalizado(equipo, jornada, tipo_partido)
+    print(f"🚀 Generación rápida horizontal COORDENADAS FIJAS: {equipo} hasta jornada {jornada} - Partidos {tipo_display}")
+    return generar_4_campos_coordenadas_fijas(equipo, jornada, tipo_partido)
 
-def sevilla_horizontal_mejorado(tipo_partido=None):
-    """Sevilla FC con campos horizontales MEJORADOS"""
-    return rapido_horizontal_mejorado("Sevilla FC", 35, tipo_partido)
+def sevilla_horizontal_fijas(tipo_partido=None):
+    """Sevilla FC con campos horizontales COORDENADAS FIJAS"""
+    return rapido_horizontal_fijas("Sevilla FC", 35, tipo_partido)
 
-def sevilla_horizontal_local_mejorado():
-    """Sevilla FC solo locales horizontal MEJORADO"""
-    return sevilla_horizontal_mejorado("local")
+def sevilla_horizontal_local_fijas():
+    """Sevilla FC solo locales horizontal COORDENADAS FIJAS"""
+    return sevilla_horizontal_fijas("local")
 
-def sevilla_horizontal_visitante_mejorado():
-    """Sevilla FC solo visitantes horizontal MEJORADO"""
-    return sevilla_horizontal_mejorado("visitante")
+def sevilla_horizontal_visitante_fijas():
+    """Sevilla FC solo visitantes horizontal COORDENADAS FIJAS"""
+    return sevilla_horizontal_fijas("visitante")
 
 # Inicialización
-print("🏟️ === REPORTE TÁCTICO 4 CAMPOS HORIZONTALES MEJORADO ===")
+print("🏟️ === REPORTE TÁCTICO 4 CAMPOS - COORDENADAS FIJAS ===")
 try:
     report_gen = ReporteTactico4CamposHorizontalesMejorado()
     equipos = report_gen.get_available_teams()
     jornadas = report_gen.get_available_jornadas()
-    print(f"✅ Sistema MEJORADO listo: {len(equipos)} equipos, {len(jornadas)} jornadas")
+    print(f"✅ Sistema CON COORDENADAS FIJAS listo: {len(equipos)} equipos, {len(jornadas)} jornadas")
     print("📝 PARA USAR:")
-    print("   → main_4_campos_horizontales_mejorado() - INTERFAZ GUIADA")
-    print("   → sevilla_horizontal_local_mejorado() - DIRECTO: Sevilla solo locales")
-    print("   → sevilla_horizontal_visitante_mejorado() - DIRECTO: Sevilla solo visitantes")
-    print("   → rapido_horizontal_mejorado('Athletic Club', 20, 'local')")
-    print("\n🔥 MEJORAS APLICADAS:")
-    print("   • Configuración global agresiva copiada del primer script")
-    print("   • Dimensiones optimizadas (24x16 como el primer script)")
-    print("   • Método guardar_sin_espacios() implementado")
-    print("   • Campos creados con crear_campo_sin_espacios()")
-    print("   • Subplots posicionados manualmente sin espacios")
-    print("   • Mejor zoom y calidad de PDF")
+    print("   → main_4_campos_horizontales_coordenadas_fijas() - INTERFAZ GUIADA")
+    print("   → sevilla_horizontal_local_fijas() - DIRECTO: Sevilla solo locales")
+    print("   → sevilla_horizontal_visitante_fijas() - DIRECTO: Sevilla solo visitantes")
+    print("   → rapido_horizontal_fijas('Athletic Club', 20, 'local')")
+    print("\n📍 COORDENADAS FIJAS IMPLEMENTADAS:")
+    print("   • Sin detección ni resolución de colisiones")
+    print("   • Tablas posicionadas exactamente en coordenadas definidas")
+    print("   • Mayor control sobre el diseño del campo")
+    print("   • Resultados más predecibles y consistentes")
     print("="*70)
-    print("💡 TIP: Para Sevilla solo locales MEJORADO: sevilla_horizontal_local_mejorado()")
+    print("💡 TIP: Para Sevilla solo locales FIJAS: sevilla_horizontal_local_fijas()")
     print("="*70)
 except Exception as e:
     print(f"❌ Error inicialización: {e}")
 
 if __name__ == "__main__":
-    main_4_campos_horizontales_mejorado()
+    main_4_campos_horizontales_coordenadas_fijas()
